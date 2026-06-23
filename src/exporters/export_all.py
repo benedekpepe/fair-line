@@ -76,7 +76,7 @@ if api:
             if a not in idx: skipped.add(m["awayTeam"]["name"])
             continue
         lam, mu = fpred(h, a, True); d = pd.to_datetime(m["utcDate"])
-        foci.append({"home": h, "away": a, "league": "VB 2026", "date": f"{HD[d.weekday()]} {d.month}.{d.day:02d}", "kickoff": m["utcDate"],
+        foci.append({"home": h, "away": a, "league": "World Cup 2026", "date": f"{HD[d.weekday()]} {d.month}.{d.day:02d}", "kickoff": m["utcDate"],
                      "lam": round(lam, 2), "mu": round(mu, 2), "insight": f"Group stage. Expected goals: {lam:.2f}–{mu:.2f}."})
     if skipped: print(f"  Missing aliases (add to NAT_ALIAS): {sorted(skipped)}")
     print(f"Football/WC (API, fresh): {len(foci)} matches")
@@ -86,7 +86,7 @@ else:
         h, a = x["home_team"], x["away_team"]
         if h in idx and a in idx:
             lam, mu = fpred(h, a, bool(x["neutral"])); d = x["date"]
-            foci.append({"home": h, "away": a, "league": "VB 2026", "date": f"{HD[d.weekday()]} {d.month}.{d.day:02d}",
+            foci.append({"home": h, "away": a, "league": "World Cup 2026", "date": f"{HD[d.weekday()]} {d.month}.{d.day:02d}",
                          "lam": round(lam, 2), "mu": round(mu, 2), "insight": f"Group stage. Expected goals: {lam:.2f}–{mu:.2f}."})
     print(f"Football/WC (martj42 fallback): {len(foci)} matches")
 

@@ -24,7 +24,7 @@ API = "https://api.the-odds-api.com/v4"
 # our league label -> The Odds API sport key
 SPORT_KEYS = {
     "Brasileirao": "soccer_brazil_campeonato",
-    "VB 2026": "soccer_fifa_world_cup",
+    "World Cup 2026": "soccer_fifa_world_cup",
     # European mains (auto-activate in August; harmless while inactive):
     "Premier League": "soccer_epl", "Championship": "soccer_efl_champ",
     "La Liga": "soccer_spain_la_liga", "Serie A": "soccer_italy_serie_a",
