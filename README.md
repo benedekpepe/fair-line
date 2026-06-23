@@ -16,8 +16,10 @@ bookmaker links, no "guaranteed picks". 18+.
 > advice, and no guarantee of any result. Payments run in **test mode** (no real
 > charges). See the in-app disclaimer and the Terms / Privacy pages.
 
-**Live demo:** <https://YOUR-SITE.netlify.app> — runs in demo mode, so every Pro
-feature is unlocked with no sign-up and no payment. Just open it and explore.
+**Live demo:** <https://YOUR-SITE.netlify.app> — the free tier is open to browse
+with no sign-up. To see the Pro features, register and subscribe with the
+LemonSqueezy **test card** `4242 4242 4242 4242` (any future expiry, any CVC) —
+it runs in test mode, so there is **no real charge**.
 
 ## Why it exists
 
@@ -49,6 +51,29 @@ not a promise of profit.
 - **Bilingual** — full Hungarian / English UI.
 - **Full stack** — static frontend, Supabase auth + database, LemonSqueezy
   subscriptions.
+
+## Screenshots
+
+**Overview — the match board and the model's most confident reads**
+
+The home view: upcoming matches across the selected sport / league, plus the
+model's most confident calls in the current selection.
+
+![Multi-sport match board and the model's most confident reads](docs/screenshot-overview.png)
+
+**Match detail — the model's reasoning and every market**
+
+Each match opens to a plain-language "why", the 1X2 / moneyline read and the
+goals/total market, with the model's probability and fair odds per outcome.
+
+![Expanded match detail with the model's reasoning and markets](docs/screenshot-match.png)
+
+**Target-odds combo finder — mixed across all sports**
+
+Enter a target total odds and the finder returns the highest-probability
+combination (one leg per match), with the real chance of hitting spelled out.
+
+![Target-odds combo finder results across multiple sports](docs/screenshot-combo.png)
 
 ## How the models work
 
@@ -97,8 +122,9 @@ All historical pulls are cached locally (and excluded from the repo / package).
 2. **Publish** (`sync_supabase.py`) — the same cards are pushed to Supabase: the
    free part to the `matches` table, the paid extras + model internals to
    `match_details`.
-3. **Serve** — the static frontend (`web/index.html`) reads from Supabase
-   (falling back to the bundled `data.js`), localises it (HU / EN) and renders.
+3. **Serve** — the static frontend (`web/index.html`) reads its data, localises
+   it (HU / EN) and renders. Match data is served from a dedicated `data` branch
+   over the jsDelivr CDN, so daily refreshes never trigger a redeploy.
 
 ## Accounts, subscriptions & demo mode
 
@@ -115,15 +141,17 @@ All historical pulls are cached locally (and excluded from the repo / package).
   (`supabase/functions/lemonsqueezy-webhook`) updates `subscription_status` when
   a subscription starts, renews or is cancelled. **Currently test mode — no real
   charges.**
-- **Demo mode (this deployment)** — the public demo runs in **demo mode**: the
-  Supabase keys in `web/index.html` are left as placeholders, so there is **no
-  sign-up and no payment** — every Pro feature is unlocked and a "DEMO" badge is
-  shown. This lets reviewers explore the whole app in a single click.
-- **Trying the full flow** — with real Supabase keys the app switches to the
-  complete auth + subscription flow (register → subscribe → server-side unlock).
-  Because LemonSqueezy runs in **test mode**, the checkout accepts a **test
-  card** — `4242 4242 4242 4242`, any future expiry, any 3-digit CVC — so the
-  entire paywall can be exercised end to end with **no real charge**.
+- **This deployment (live mode)** — the public site runs the **full auth +
+  subscription flow** so the whole stack is visible end to end. Browse the free
+  tier with no account; to unlock Pro, register and subscribe. Because
+  LemonSqueezy is in **test mode**, the checkout accepts the **test card**
+  `4242 4242 4242 4242` (any future expiry, any 3-digit CVC) — so the entire
+  paywall can be exercised with **no real charge**, and the server-side unlock
+  (RLS) can be seen working.
+- **Demo mode (optional)** — alternatively, leaving the Supabase keys in
+  `web/index.html` as placeholders runs the app in a keyless **demo** mode: no
+  sign-up, every Pro feature unlocked, a "DEMO" badge shown — a zero-friction
+  preview that skips auth entirely.
 
 ## Project structure
 
@@ -150,12 +178,15 @@ fair-line/
 ├─ web/
 │  ├─ index.html            # the entire app (HTML/CSS/JS, i18n)
 │  ├─ terms.html  privacy.html
-│  └─ logo-icon.png
+│  └─ favicon.svg
 ├─ supabase/
 │  ├─ schema.sql  seed.sql
 │  └─ functions/lemonsqueezy-webhook/index.ts
+├─ docs/                    # screenshots used in this README
+├─ .github/workflows/       # CI + scheduled data refresh
 ├─ data/raw/                # cached historical CSVs (regenerated; not shipped)
 ├─ .env.example             # required environment variables (no secrets)
+├─ netlify.toml             # static-site publish config
 ├─ package_project.py       # clean-zip helper for sharing
 ├─ requirements.txt
 └─ README.md
@@ -187,16 +218,22 @@ fair-line/
 
 ## Deployment
 
-The frontend is a static bundle: the `web/` folder is deployed to **Netlify**
-(any static host works) — drag-and-drop the folder, or connect the repo. The
-public demo keeps the placeholder Supabase keys, so it runs in demo mode with no
-backend cost.
+The frontend is a static bundle — the `web/` folder — hosted on **Netlify**
+(production branch: `main`). The public site runs the full auth + subscription
+flow (Supabase + LemonSqueezy in **test mode**): the free tier is open to all,
+and Pro can be unlocked with the test card above.
 
-The data pipeline runs separately (locally, or on a schedule via Windows Task
-Scheduler / cron / GitHub Actions) and pushes fresh fixtures to Supabase. The
-frontend shows **upcoming** matches only and drops each one off the board the
-moment it starts, so a periodic pipeline run keeps the demo populated. Even with
-the odds quota used up, the free **ESPN fallback** keeps the board full.
+Continuous integration / delivery runs on **GitHub Actions**:
+
+- **CI** (`.github/workflows/ci.yml`) — on every push: syntax check, lint
+  (pyflakes), and an import smoke test.
+- **Daily data refresh** (`.github/workflows/refresh.yml`) — runs the pipeline in
+  the cloud and publishes the regenerated `data.js` to a dedicated **`data`
+  branch**. The frontend loads that file over the **jsDelivr** CDN, so data
+  updates never touch `main` and never trigger a Netlify deploy — the demo stays
+  fresh at zero hosting cost. The board shows **upcoming** matches only and drops
+  each one the moment it starts; even with the odds quota used up, the free
+  **ESPN fallback** keeps it populated.
 
 ## Responsible use
 
