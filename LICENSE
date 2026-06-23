@@ -1,0 +1,33 @@
+Copyright (c) 2026 Péter Benedek (B.P. Studio). All rights reserved.
+
+This repository is published for PORTFOLIO and EVALUATION purposes only.
+
+YOU MAY:
+  - View and read the source code to evaluate the author's work (for example
+    for hiring, collaboration, or educational reference).
+
+YOU MAY NOT, without the author's prior written permission:
+  - Use, copy, modify, merge, publish, distribute, sublicense, or sell any part
+    of this software or substantial portions of it;
+  - Deploy it as a service, or use it to operate a competing product.
+
+THIRD-PARTY DATA & SERVICES
+  This project integrates third-party data sources and APIs (including, but not
+  limited to, The Odds API, football-data.org, football-data.co.uk, Jeff
+  Sackmann's tennis datasets, and ESPN). That data is NOT included in this
+  repository and remains subject to the respective providers' own licenses and
+  terms of use. Nothing in this license grants any rights to that data.
+
+NO WARRANTY
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT
+  OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+This software is an informational/analytical tool only; it is not betting or
+financial advice and does not guarantee any result. 18+.
+
+For licensing or commercial inquiries, contact the author:
+https://www.linkedin.com/in/benedek-d-peter/

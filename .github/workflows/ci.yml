@@ -1,0 +1,37 @@
+name: CI
+
+# Runs on every push and pull request to main: syntax check, lint, import smoke test.
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyflakes
+
+      - name: Compile (syntax check)
+        run: python -m compileall -q src
+
+      - name: Lint (pyflakes must be clean)
+        working-directory: src
+        run: python -m pyflakes .
+
+      - name: Import smoke test
+        working-directory: src
+        run: |
+          python -c "import config; from models import dixon_coles, margin_model, tennis_elo, fighter_elo; from sources import espn_loader, odds; import sync_supabase; print('imports OK')"

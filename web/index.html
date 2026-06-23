@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fair Line — Betting AI Analyst</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0f1211;--panel:#181c1a;--panel2:#20251f;--line:#323833;
+    --ink:#f2f4f0;--muted:#b6bcb4;--faint:#9aa097;
+    --accent:#e3ad52;--accent2:#f2c87f;--pos:#74d6a0;--neg:#e88a8a;
+    --mono:'IBM Plex Mono',monospace;--sans:'Libre Franklin',sans-serif;--disp:'Fraunces',serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;
+    background-image:radial-gradient(circle at 15% 0%,rgba(227,173,82,.06),transparent 42%);
+    -webkit-font-smoothing:antialiased;padding-bottom:60px}
+  .wrap{max-width:920px;margin:0 auto;padding:0 22px}
+  header{padding:34px 0 14px}
+  .brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .by{font-size:12.5px;color:var(--faint);margin-top:7px}
+  .by a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(227,173,82,.4)}
+  .byline{font-size:13.5px;color:var(--faint);font-style:italic}
+  .byline a{color:var(--muted);text-decoration:none;border-bottom:1px solid rgba(182,188,180,.35)}
+  .byline a:hover{color:var(--accent)}
+  .brand h1{font-family:var(--disp);font-weight:600;font-size:30px;letter-spacing:-.5px}
+  .brand .tag{font-family:var(--mono);font-size:11px;color:var(--accent);border:1px solid var(--accent);padding:3px 8px;border-radius:4px;letter-spacing:.5px}
+  .sub{color:var(--muted);margin-top:7px;font-size:14.5px;max-width:600px}
+  .tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-top:16px;flex-wrap:wrap}
+  .tab{font-family:var(--mono);font-size:13px;color:var(--muted);background:transparent;border:none;border-bottom:2px solid transparent;padding:10px 14px;cursor:pointer;transition:.15s}
+  .tab:hover{color:var(--ink)} .tab.on{color:var(--accent);border-bottom-color:var(--accent)}
+  .leagues{display:flex;gap:6px;flex-wrap:wrap;margin-top:13px;min-height:1px}
+  .lchip{font-family:var(--mono);font-size:11.5px;color:var(--muted);background:var(--panel2);border:1px solid var(--line);border-radius:20px;padding:5px 12px;cursor:pointer;transition:.15s}
+  .lchip:hover{border-color:var(--accent);color:var(--ink)} .lchip.on{background:var(--accent);color:#1a1300;border-color:var(--accent);font-weight:600}
+
+  .banner{margin:18px 0 20px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:13px 16px;display:flex;gap:22px;flex-wrap:wrap;align-items:center}
+  .banner .stat b{font-family:var(--mono);font-size:19px;display:block;color:var(--ink)}
+  .banner .stat span{font-size:11px;color:var(--faint);text-transform:uppercase;letter-spacing:.6px}
+  .banner .note{font-size:13px;color:var(--muted);flex:1;min-width:220px;border-left:1px solid var(--line);padding-left:18px}
+  .explain{font-size:12.5px;color:var(--faint);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-bottom:18px;line-height:1.55}
+  .explain b.g{color:var(--pos)} .explain b.r{color:var(--neg)}
+
+  .watch{background:var(--panel);border:1px solid var(--accent);border-radius:11px;padding:14px 16px;margin-bottom:20px}
+  .watch h3{font-family:var(--mono);font-size:12px;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:3px}
+  .watch .wsub{font-size:12px;color:var(--faint);margin-bottom:10px}
+  .witem{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-top:1px solid var(--line);font-size:13.5px}
+  .witem:first-of-type{border-top:none}
+  .witem .wl small{color:var(--faint);font-family:var(--mono);font-size:11px}
+  .witem .wr{font-family:var(--mono);color:var(--muted);white-space:nowrap}.witem .wr b{color:var(--ink)}
+
+  .grouphd{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.6px;text-transform:uppercase;margin:20px 0 9px;display:flex;align-items:center;gap:8px}
+  .grouphd .cnt{color:var(--faint)} .grouphd::after{content:'';flex:1;height:1px;background:var(--line)}
+
+  .mitem{margin-bottom:7px}
+  .mrow{display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:10px 14px;cursor:pointer;transition:.12s}
+  .mrow:hover{border-color:#3f463f}
+  .mitem.open .mrow{border-color:var(--accent);border-bottom-left-radius:0;border-bottom-right-radius:0}
+  .info{flex:1;min-width:0}
+  .tt{font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .tt .sport{font-family:var(--mono);font-size:10px;color:var(--accent);border:1px solid var(--line);border-radius:4px;padding:1px 5px;margin-right:7px;vertical-align:middle}
+  .mt{font-family:var(--mono);font-size:11px;color:var(--faint);margin-top:1px}
+  .odds{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+  .opill{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:4px 8px;white-space:nowrap}
+  .opill .k{color:var(--faint);font-size:10px;margin-right:4px} .opill b{color:var(--ink)}
+  .chev{color:var(--faint);font-family:var(--mono);font-size:13px;transition:.15s;flex-shrink:0}
+  .mitem.open .chev{transform:rotate(180deg);color:var(--accent)}
+  .detail{display:none;background:var(--panel);border:1px solid var(--accent);border-top:none;border-radius:0 0 9px 9px;padding:4px 16px 16px}
+  .mitem.open .detail{display:block}
+  .xg{display:flex;gap:16px;margin:10px 0 4px;flex-wrap:wrap}
+  .xg .x{font-family:var(--mono);font-size:12px;color:var(--muted)} .xg .x b{color:var(--ink)}
+  .mkt{margin-top:13px} .mkt .mlab{font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.6px;text-transform:uppercase;margin-bottom:7px}
+  .mkt .mlab .tag{font-family:var(--mono);font-size:9px;padding:1px 6px;border-radius:4px;margin-left:8px;letter-spacing:.4px;vertical-align:middle}
+  .mkt .mlab .tag.live{background:rgba(116,214,160,0.16);color:var(--pos)}
+  .mkt .mlab .tag.model{background:var(--panel2);color:var(--faint);border:1px solid var(--line)}
+  .cells{display:grid;gap:7px}.cells.c3{grid-template-columns:repeat(3,1fr)}.cells.c2{grid-template-columns:repeat(2,1fr)}
+  .pcell{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:9px 11px}
+  .pcell.best{border-color:var(--pos);box-shadow:0 0 0 1px var(--pos);background:rgba(116,214,160,0.08)}
+  .why{background:rgba(227,173,82,0.06);border:1px solid var(--line);border-left:2px solid var(--accent);border-radius:8px;padding:10px 13px;margin:4px 0 12px}
+  .why .whyhd{font-family:var(--mono);font-size:11px;letter-spacing:.5px;color:var(--accent);text-transform:uppercase;margin-bottom:6px}
+  .why .whyl{margin:0;padding-left:18px;font-size:13px;line-height:1.6;color:var(--muted)} .why .whyl b{color:var(--ink)}
+  .why .whynote{font-size:11.5px;color:var(--faint);margin-top:8px;font-style:italic}
+  .pcell .lab{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+  .pcell .o{font-family:var(--mono);font-size:18px;font-weight:600;margin:2px 0 6px;color:var(--ink)}
+  .bar{height:4px;background:#0a0c0b;border-radius:2px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .cmp{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:7px;gap:8px}
+  .cmp .v{font-weight:600}.cmp .v.pos{color:var(--pos)}.cmp .v.neg{color:var(--neg)}
+  .insight{font-size:13.5px;color:var(--muted);margin-top:13px;font-style:italic;border-top:1px dashed var(--line);padding-top:10px}
+  .pending{font-size:12px;color:#d8a657;margin-top:8px;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:6px 9px}
+  .pending.ok{color:#a9b665}
+
+  .sectitle{font-family:var(--mono);font-size:12.5px;color:var(--faint);text-transform:uppercase;letter-spacing:1.2px;margin:26px 0 13px;display:flex;align-items:center;gap:10px}
+  .sectitle::after{content:'';flex:1;height:1px;background:var(--line)}
+  .finder{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .finder p.lead{font-size:13.5px;color:var(--muted);margin-bottom:15px}
+  .ctrls{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;margin-bottom:16px}
+  .ctrl label{display:block;font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.6px;text-transform:uppercase;margin-bottom:5px}
+  .ctrl input,.ctrl select{font-family:var(--mono);font-size:15px;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:9px 11px;width:120px}
+  .go{font-family:var(--mono);font-size:13px;font-weight:600;background:var(--accent);color:#1a1300;border:none;border-radius:7px;padding:11px 20px;cursor:pointer}.go:hover{background:#eebb69}
+  .res{display:flex;flex-direction:column;gap:9px}
+  .combo{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:12px 14px}
+  .combo .top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .combo .codds{font-family:var(--mono);font-size:20px;font-weight:600;color:var(--accent)}
+  .combo .cstat{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .combo .cstat .ev.neg{color:var(--neg)}.combo .cstat .ev.pos{color:var(--pos);font-weight:600}
+  .combo .leglist{margin-top:8px;display:flex;flex-direction:column;gap:4px}
+  .combo .leg{font-size:13.5px;display:flex;justify-content:space-between;gap:10px}
+  .combo .leg .sp{color:var(--accent);font-family:var(--mono);font-size:11px;margin-right:6px}
+  .combo .leg span.oo{font-family:var(--mono);color:var(--muted)}
+  .best{border-color:var(--accent)}.best .badge{font-family:var(--mono);font-size:9.5px;background:var(--accent);color:#1a1300;padding:2px 6px;border-radius:4px;letter-spacing:.5px}
+  .hint{font-size:12.5px;color:var(--muted);margin-top:13px;line-height:1.6;border-top:1px solid var(--line);padding-top:11px}
+  footer{margin-top:38px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--faint);line-height:1.65}
+  footer b{color:var(--muted)}
+  .pill{display:inline-block;font-family:var(--mono);font-size:10.5px;border:1px solid var(--line);border-radius:4px;padding:2px 7px;margin-right:6px;color:var(--muted)}
+  #loader{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;z-index:9999;transition:opacity .4s ease}
+  #loader img{display:block;filter:drop-shadow(0 6px 22px rgba(0,0,0,.4))}
+  #loader .spin{width:24px;height:24px;border:3px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:ldspin .8s linear infinite}
+  #loader.hide{opacity:0;pointer-events:none}
+  @keyframes ldspin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div id="loader">
+  <div style="text-align:center">
+    <div style="font-family:var(--disp);font-weight:600;font-size:42px;letter-spacing:-.5px;color:var(--ink)">Fair&nbsp;Line</div>
+    <div style="font-family:var(--mono);font-size:12px;letter-spacing:2px;color:var(--accent);margin-top:7px">BETTING AI ANALYST</div>
+  </div>
+  <div class="spin"></div>
+</div>
+<div class="wrap">
+  <header>
+    <div class="brand"><h1>Fair&nbsp;Line</h1><span class="byline" data-s="byline">by <a href="https://benedekpeter.netlify.app/" target="_blank" rel="noopener">Péter Benedek</a></span><span class="tag">BETTING AI ANALYST</span><span class="tag" id="dataSrc"></span><span class="tag" id="langTog" style="user-select:none"></span><span class="tag" id="authBox" style="user-select:none"></span></div>
+    <p class="sub" data-s="sub">Data-driven match analysis across multiple sports. Model probabilities, odds, decision support.</p>
+    <div class="tabs" id="tabs"></div>
+    <div class="leagues" id="leagues"></div>
+  </header>
+
+  <div class="banner">
+    <div class="stat"><b>100%</b><span data-s="bannerRoi">transparent</span></div>
+    <div class="stat"><b>10</b><span data-s="bannerSeasons">seasons backtested</span></div>
+    <div class="note" data-s="bannerNote">Transparency: historically the model is <b>break-even</b> against the market — we don't hide this number. Decision-support analysis, not a betting operator.</div>
+  </div>
+
+  <div class="explain" data-s="explain">These are the <b>model's own probabilities</b> and the <b>fair odds</b> derived from them — with no bookmaker margin,
+    so they are <b>not</b> real market odds. How to use them: check the real odds at your bookmaker, and if they are <b class="g">higher</b>
+    than the fair odds shown here, the model considers it potential value; if <b class="r">lower</b>, avoid it. Where we can
+    fetch real market odds (in-season leagues), the value is flagged automatically (model vs market); elsewhere, compare manually.</div>
+
+  <div class="watch" id="watch"></div>
+
+  <div class="sectitle" data-s="secMatches">Matches</div>
+  <div id="matches"></div>
+
+  <div class="sectitle" data-s="secFinder">Target-odds combo finder · all sports</div>
+  <div class="finder">
+    <p class="lead" data-s="finderLead">Enter your desired total odds and we'll find the combination with the <b>highest model probability</b> of
+      hitting — <b>mixed across all sports</b>, with at most one outcome per match.</p>
+    <div class="ctrls">
+      <div class="ctrl"><label data-s="lblTarget">Target odds</label><input id="target" type="number" value="3.0" step="0.5" min="1.5"></div>
+      <div class="ctrl"><label data-s="lblMaxLegs">Max legs</label><select id="maxLegs"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></div>
+      <button class="go" id="findBtn" data-s="btnSearch">Search</button>
+    </div>
+    <div class="res" id="results"></div>
+    <p class="hint" id="finderHint"></p>
+  </div>
+
+  <footer>
+    <p><span class="pill">18+</span><span class="pill" data-s="pillAddict">GAMBLING CAN BE ADDICTIVE</span></p>
+    <p style="margin-top:10px" data-s="disclaimer">The probabilities and analyses shown are for information only, not advice,
+      and <b>do not guarantee profit</b> or any result. Betting risk is borne by the user; every
+      decision is made at your own responsibility. Prototype, with sample data. If gambling takes control of your life, please seek help.</p>
+    <p style="margin-top:16px"><a href="https://benedekpeter.netlify.app/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)" data-s="footerCredit">Created by B.P. Studio (Péter Benedek)</a></p>
+  </footer>
+</div>
+
+<div id="authModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:50;align-items:center;justify-content:center">
+  <div style="background:#15171c;border:1px solid var(--line,#2a2d36);border-radius:12px;padding:22px;max-width:360px;width:90%;max-height:90vh;overflow:auto">
+    <div id="authTitle" style="font-weight:700;margin-bottom:12px"></div>
+    <input id="authName" type="text" style="display:none;width:100%;box-sizing:border-box;padding:9px;margin-bottom:8px;background:#0d0f13;border:1px solid var(--line,#2a2d36);border-radius:7px;color:#fff">
+    <input id="authEmail" type="email" style="width:100%;box-sizing:border-box;padding:9px;margin-bottom:8px;background:#0d0f13;border:1px solid var(--line,#2a2d36);border-radius:7px;color:#fff">
+    <input id="authPass" type="password" style="width:100%;box-sizing:border-box;padding:9px;margin-bottom:8px;background:#0d0f13;border:1px solid var(--line,#2a2d36);border-radius:7px;color:#fff">
+    <input id="authPass2" type="password" style="display:none;width:100%;box-sizing:border-box;padding:9px;margin-bottom:8px;background:#0d0f13;border:1px solid var(--line,#2a2d36);border-radius:7px;color:#fff">
+    <label id="authAgeRow" style="display:none;align-items:flex-start;gap:8px;font-size:12.5px;color:var(--muted);margin-bottom:8px;cursor:pointer"><input id="authAge" type="checkbox" style="margin-top:2px"><span id="authAgeLbl"></span></label>
+    <label id="authTermsRow" style="display:none;align-items:flex-start;gap:8px;font-size:12.5px;color:var(--muted);margin-bottom:8px;cursor:pointer"><input id="authTerms" type="checkbox" style="margin-top:2px"><span id="authTermsLbl"></span></label>
+    <div id="authErr" style="color:#e36;font-size:12px;min-height:16px;margin-bottom:8px"></div>
+    <button id="authPrimary" onclick="authSubmit()" style="width:100%;padding:10px;border:0;border-radius:7px;background:var(--accent,#e3ad52);color:#000;font-weight:700;cursor:pointer;margin-bottom:8px"></button>
+    <div id="authForgot" onclick="forgotPw()" style="text-align:center;font-size:12px;color:var(--accent);cursor:pointer;margin-bottom:10px"></div>
+    <div style="text-align:center;font-size:12.5px;color:var(--muted)"><span id="authToggleTxt"></span> <span id="authToggle" onclick="toggleAuthMode()" style="color:var(--accent);cursor:pointer"></span></div>
+    <div onclick="closeAuth()" style="text-align:center;margin-top:12px;opacity:.5;cursor:pointer;font-size:12px" data-s="close">Close</div>
+  </div>
+</div>
+<div id="planModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:50;align-items:center;justify-content:center">
+  <div style="background:#15171c;border:1px solid var(--line,#2a2d36);border-radius:12px;padding:22px;width:340px;max-width:92vw">
+    <div style="font-weight:700;margin-bottom:4px" data-s="planTitle">Choose your plan</div>
+    <div id="planSub" style="font-size:12.5px;color:var(--muted);margin-bottom:16px" data-s="planSub">Full markets, the model's reasoning and the combo finder.</div>
+    <div id="planBtns"></div>
+    <div onclick="closePlan()" style="text-align:center;font-size:12.5px;color:var(--muted);cursor:pointer;margin-top:6px" data-s="close">Close</div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="data.js" onerror="window.__noData=true"></script>
+<script>
+var LANG=(function(){try{return localStorage.getItem('lang')||'en';}catch(e){return 'en';}})();
+var I18N={"sub": {"en": "Data-driven match analysis across multiple sports. Model probabilities, odds, decision support.", "hu": "Adatalapú meccselemzés több sportágra. Modell-valószínűségek, oddsok, döntéstámogatás."}, "bannerRoi": {"en": "transparent", "hu": "átlátható"}, "bannerSeasons": {"en": "seasons backtested", "hu": "visszatesztelt szezon"}, "bannerNote": {"en": "We show the model's real track record against the market — <b>break-even</b>, with no inflated promises. Decision-support analysis, not a betting operator.", "hu": "Megmutatjuk a modell valódi mérlegét a piac ellen — <b>nullszaldós</b>, üres ígéretek nélkül. Döntéstámogató elemzés, nem fogadásszervezés."}, "explain": {"en": "These are the <b>model's own probabilities</b> and the <b>fair odds</b> derived from them — with no bookmaker margin, so they are <b>not</b> real market odds. How to use them: check the real odds at your bookmaker, and if they are <b class=\"g\">higher</b> than the fair odds shown here, the model considers it potential value; if <b class=\"r\">lower</b>, avoid it. Where we can fetch real market odds (in-season leagues), the value is flagged automatically (model vs market); elsewhere, compare manually as above.", "hu": "Ezek a <b>modell saját valószínűségei</b> és az ezekből számolt <b>fair oddsok</b> — bukméker árrés nélkül, vagyis <b>nem</b> valódi piaci oddsok. Így használd: nézd meg a fogadóirodánál a valódi oddsot, és ha az <b class=\"g\">magasabb</b>, mint az itteni fair odds, az a modell szerint értékes lehet; ha <b class=\"r\">alacsonyabb</b>, kerüld. Ahol elérünk valódi piaci oddst (idényben lévő ligák), ott automatikusan jelezzük a value-t (modell vs piac); máshol hasonlítsd össze kézzel a fentiek szerint."}, "secMatches": {"en": "Matches", "hu": "Meccslista"}, "secFinder": {"en": "Target-odds combo finder · all sports", "hu": "Cél-odds kombó-kereső · minden sportág"}, "finderLead": {"en": "Enter your desired total odds and we'll find the combination with the <b>highest model probability</b> of hitting — <b>mixed across all sports</b>, with at most one outcome per match.", "hu": "Add meg a kívánt össz-oddsot, és megkeressük a <b>legnagyobb modell-eséllyel</b> bejövő kombinációt — <b>az összes sportág meccseiből vegyesen</b>, meccsenként legfeljebb egy kimenetellel."}, "lblTarget": {"en": "Target odds", "hu": "Cél-odds"}, "lblMaxLegs": {"en": "Max legs", "hu": "Max. meccs"}, "btnSearch": {"en": "Search", "hu": "Keresés"}, "pillAddict": {"en": "GAMBLING CAN BE ADDICTIVE", "hu": "A SZERENCSEJÁTÉK FÜGGŐSÉGET OKOZHAT"}, "explainNoMkt": {"en": "Right now there are <b>no live market odds</b> (the odds quota is used up), so every market shows the <b>model's own fair odds</b> (1 ÷ probability, with no bookmaker margin) — labelled <b>model est.</b> To judge value, compare these to the real odds at your bookmaker: if theirs are <b class=\"g\">higher</b> than the fair odds here, it may be value; if <b class=\"r\">lower</b>, skip it. When the odds quota resets, in-season leagues switch to real market odds and the value is flagged automatically.", "hu": "Jelenleg <b>nincs élő piaci odds</b> (elfogyott az odds-kvóta), ezért minden piac a <b>modell saját fair oddsát</b> mutatja (1 ÷ valószínűség, bukméker árrés nélkül) — <b>modell-becslés</b> címkével. Az érték megítéléséhez vesd össze a fogadóirodánál a valódi oddssal: ha az ottani <b class=\"g\">magasabb</b>, mint az itteni fair odds, az value lehet; ha <b class=\"r\">alacsonyabb</b>, hagyd ki. Amint visszaáll az odds-kvóta, az idényben lévő ligák valódi piaci oddsra váltanak, és a value-t automatikusan jelezzük."}, "disclaimer": {"en": "The probabilities and analyses shown are for information only, not advice, and <b>do not guarantee profit</b> or any result. Betting risk is borne by the user; every decision is made at your own responsibility. The figures are model-based estimates. If gambling takes control of your life, please seek help.", "hu": "A megjelenő valószínűségek és elemzések tájékoztató jellegűek, nem tanács, és <b>nem garantálnak nyereséget</b> vagy eredményt. A fogadás kockázatát a felhasználó viseli; minden döntést saját felelősségére hoz. A számok modellalapú becslések. Ha a játék kontrollt vesz az életed felett, kérj segítséget."}, "allTab": {"en": "All", "hu": "Összes"}, "allLeague": {"en": "All", "hu": "Mind"}, "live": {"en": "LIVE DATA", "hu": "MODELL-ADAT"}, "sample": {"en": "SAMPLE DATA", "hu": "PÉLDAADAT"}, "tagLive": {"en": "live odds", "hu": "\u00e9l\u0151 piac"}, "tagModel": {"en": "model est.", "hu": "modell-becsl\u00e9s"}, "cellReal": {"en": "fair {fair} · prob {p}", "hu": "fair {fair} · esély {p}"}, "cellBase": {"en": "model {p} · fair odds", "hu": "modell {p} · fair odds"}, "watchRight": {"en": "model <b>{p}</b> · fair odds {o}", "hu": "modell <b>{p}</b> · fair odds {o}"}, "whyHd": {"en": "Why does the model say this?", "hu": "Miért ezt mondja a modell?"}, "whyExp": {"en": "Expected goals: <b>{home} {lam}</b> – <b>{mu} {away}</b> (difference {sign}{diff}).", "hu": "Várható gól: <b>{home} {lam}</b> – <b>{mu} {away}</b> (különbség {sign}{diff})."}, "whyFrom": {"en": "From this: home {hw} · draw {dr} · away {aw} → the model sees <b>{fav}</b> as the stronger side ({favp}).", "hu": "Ebből: hazai {hw} · döntetlen {dr} · vendég {aw} → a modell <b>{fav}</b> oldalát látja erősebbnek ({favp})."}, "whyTotal": {"en": "Expected total goals {tot} → {lean}.", "hu": "Várható összgól {tot} → {lean}."}, "leanOver": {"en": "leans toward over (Over 2.5)", "hu": "a több gól (Több 2.5) felé hajlik"}, "leanUnder": {"en": "leans toward under (Under 2.5)", "hu": "a kevés gól (Kev. 2.5) felé hajlik"}, "leanNeutral": {"en": "the goal total is neutral", "hu": "semleges a gólszám"}, "whyNoteFootball": {"en": "The model computes from team strength and form (past results) — a transparent estimate, not a market-beating prediction.", "hu": "A modell csapaterősségből és formából (korábbi eredmények) számol — átlátható becslés, nem piacverő jóslat."}, "whyProbs": {"en": "Model probabilities: {list}.", "hu": "A modell esélyei: {list}."}, "whyStronger": {"en": "The model sees <b>{k}</b> as the stronger side ({p}).", "hu": "A modell <b>{k}</b> oldalát tartja erősebbnek ({p})."}, "whyNoteTennis": {"en": "Player strength and form from past matches (surface Elo) — a transparent estimate, not a market-beating prediction.", "hu": "A játékos ereje és formája a korábbi meccsekből (salak-Elo) — átlátható becslés, nem piacverő jóslat."}, "whyTotalGeneric": {"en": "Expected total around {line} → {lean}.", "hu": "Várható összpont kb. {line} → {lean}."}, "leanOverG": {"en": "leans over", "hu": "a több (Több) felé hajlik"}, "leanUnderG": {"en": "leans under", "hu": "a kevés (Kev.) felé hajlik"}, "watchHd": {"en": "The model's most confident reads", "hu": "A modell legmagabiztosabb olvasatai"}, "watchSub": {"en": "The model's most likely outcomes — a value signal appears where real market odds are available.", "hu": "A modell szerinti legvalószínűbb kimenetelek — value-jelzés ott jelenik meg, ahol van valódi piaci odds."}, "finderNone": {"en": "No combination close to the target (≈{t}).", "hu": "Nincs a célhoz (≈{t}) közeli kombináció."}, "badge": {"en": "MOST LIKELY", "hu": "LEGVALÓSZÍNŰBB"}, "comboStat": {"en": "real chance of hitting: <b style=\"color:var(--ink)\">{prob}</b> · {legs} legs · fair odds", "hu": "valós esély a bejövésre: <b style=\"color:var(--ink)\">{prob}</b> · {legs} láb · fair odds"}, "hintBoth": {"en": "Watch the <b>real chance</b>: the 1-leg hits {sp} of the time, the {ml}-leg only {mp} — for the same ≈{t} fair odds. More legs = a much lower chance. And these are fair odds: a bookmaker pays less because of the margin.", "hu": "Figyeld a <b>valós esélyt</b>: az 1 lábas {sp}-kal jön be, a {ml} lábas csak {mp}-kal — ugyanazért a ≈{t} fair oddsért. Több láb = jóval kisebb esély. És ezek fair oddsok: a fogadóirodánál az árrés miatt ennél kevesebbet fizetnek."}, "hintGeneric": {"en": "These are fair odds (no bookmaker margin): the real chance of hitting is about 1/odds, and every leg must come in. At a real bookmaker the payout — and the value — is lower.", "hu": "Ezek fair oddsok (bukméker árrés nélkül): a bejövés valós esélye nagyjából 1/odds, és minden lábnak be kell jönnie. Valódi fogadóirodánál a kifizetés — és az érték — ennél kevesebb."}};
+var CHU={"Match result (1X2)": "Meccs kimenetele (1X2)", "Double chance": "Dupla esély", "Goals (over / under)": "Gólszám (több / kevesebb)", "Goals over/under 2.5": "Gólszám (több/kev. 2.5)", "Goals over/under 1.5 / 3.5": "Gólszám (több/kev. 1.5 / 3.5)", "Handicap": "Hendikep", "Both teams to score": "Mindkét csapat szerez", "Correct score (top 3)": "Pontos eredmény (top 3)", "Match winner": "Meccs győztes", "Total games (over/under 22.5)": "Összes game (több/kev. 22.5)", "Total points (over/under 218.5)": "Összpont (több/kev. 218.5)", "Total goals (over/under 56.5)": "Összgól (több/kev. 56.5)", "Home (1)": "Hazai (1)", "Draw (X)": "Döntetlen (X)", "Away (2)": "Vendég (2)", "Home or draw (1X)": "Hazai vagy X (1X)", "Home or away (12)": "Hazai vagy vendég (12)", "Draw or away (X2)": "X vagy vendég (X2)", "Yes": "Igen", "No": "Nem", "Football": "Foci", "Tennis": "Tenisz", "Basketball": "Kosárlabda", "Handball": "Kézilabda", "Boxing": "Boksz", "Am. football": "Amerikai foci", "Ice hockey": "Jégkorong", "Strong home xG form, leaky away defence.": "Erős hazai xG-forma, szivárgó vendégvédelem.", "Strong favourite; model and market agree.": "Erős favorit, modell és piac egyetért.", "Balanced, low stakes.": "Kiegyensúlyozott, alacsony tét.", "Solid home form, but the market has priced it in.": "Stabil hazai forma, de a piac beárazta.", "Home dominance; the model is confident.": "Hazai fölény, a modell magabiztos.", "A high-scoring match is expected.": "Gólgazdag meccs várható.", "Two top players; slight Alcaraz edge.": "Két topjátékos; enyhe Alcaraz-fölény.", "Experienced favourite.": "Tapasztalt favorit.", "Top clash, tight match.": "Toprangadó, szoros meccs.", "Home favourite.": "Hazai favorit.", "Slight home advantage.": "Enyhe hazai előny.", "Home dominance in the EuroLeague.": "Hazai fölény az Euroligában.", "Derby, slight home advantage.": "Rangadó, enyhe hazai előny.", "Top match, home favourite.": "Topmeccs, hazai favorit."};
+var WD={"Mon": "Hét", "Tue": "Kedd", "Wed": "Sze", "Thu": "Csüt", "Fri": "Pén", "Sat": "Szo", "Sun": "Vas"};
+function S(id,vars){var o=I18N[id];var s=o?((o[LANG]!=null)?o[LANG]:o.en):id;if(vars){for(var k in vars){s=s.split('{'+k+'}').join(vars[k]);}}return s;}
+function C(s){if(LANG!=='hu')return s;if(CHU[s]!=null)return CHU[s];return s.replace(/^Over /,'Több ').replace(/^Under /,'Kev. ').replace(/^Home /,'Hazai ').replace(/^Away /,'Vendég ');}
+function Cdate(d){if(LANG!=='hu'||!d)return d;return d.replace(/^(\S+)/,function(m){return WD[m]||m;});}
+function fmtKick(m){
+  if(m.kickoff){ const d=new Date(m.kickoff);
+    if(!isNaN(d.getTime())) return d.toLocaleString(LANG==='hu'?'hu-HU':'en-GB',
+      {weekday:'short',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});
+  }
+  return Cdate(m.date);
+}
+function applyStatic(){var ns=document.querySelectorAll('[data-s]');for(var i=0;i<ns.length;i++){ns[i].innerHTML=S(ns[i].getAttribute('data-s'));}}
+function renderLangTog(){var e=document.getElementById('langTog');if(!e)return;e.innerHTML=['en','hu'].map(function(l){return '<span onclick="setLang(\''+l+'\')" style="cursor:pointer;'+(l===LANG?'color:var(--ink);font-weight:700':'opacity:.5')+'">'+l.toUpperCase()+'</span>';}).join('<span style="opacity:.4"> · </span>');}
+window.setLang=function(l){LANG=l;try{localStorage.setItem('lang',l);}catch(e){}renderAll();};
+/* ---- Auth + gating (Supabase) ---- */
+const SUPABASE_URL = "https://fzafslcibrkdqvmvvwsm.supabase.co";            // Project URL
+const SUPABASE_ANON_KEY = "sb_publishable_oWiNDXmnsnbt_ozrSYF9lQ_kJxP16W-";  // publishable key
+const LS_CHECKOUT_URL = "https://fairline.lemonsqueezy.com/checkout/buy/647ec9d3-79a6-4105-bdc8-7e3491de5213";  // Lemon Squeezy MONTHLY checkout
+const LS_CHECKOUT_URL_YEARLY = "YOUR_YEARLY_CHECKOUT_URL";  // Lemon Squeezy YEARLY checkout (fill after adding the annual variant)
+const SUPA_ENABLED = (typeof supabase !== "undefined") && SUPABASE_URL.indexOf("YOUR_")!==0 && SUPABASE_ANON_KEY.indexOf("YOUR_")!==0;
+const sb = SUPA_ENABLED ? supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession:true, autoRefreshToken:true, lock: async function(_n,_t,fn){ return await fn(); } } }) : null;
+let session = null, profile = null;
+Object.assign(I18N, {
+  byline:{en:'by <a href="https://benedekpeter.netlify.app/" target="_blank" rel="noopener">Péter Benedek</a>',hu:'készítette: <a href="https://benedekpeter.netlify.app/" target="_blank" rel="noopener">Benedek Péter</a>'},
+  footerCredit:{en:"Created by B.P. Studio (Péter Benedek)",hu:"Készítette: B.P. Studio (Benedek Péter)"},
+  signin:{en:"Sign in",hu:"Belépés"}, signout:{en:"Sign out",hu:"Kilépés"},
+  createAcc:{en:"Create account",hu:"Regisztráció"}, authTitle:{en:"Sign in or create an account",hu:"Belépés vagy regisztráció"},
+  demoBadge:{en:"DEMO",hu:"DEMO"}, tierFree:{en:"Free",hu:"Ingyenes"}, tierPro:{en:"Pro",hu:"Pro"},
+  email:{en:"Email",hu:"E-mail"}, password:{en:"Password",hu:"Jelszó"}, close:{en:"Close",hu:"Bezárás"},
+  signupOk:{en:"Check your email to confirm, then sign in.",hu:"Erősítsd meg e-mailben, majd lépj be."},
+  lockMatch:{en:"🔒 Subscribe to unlock all markets and the model's reasoning.",hu:"🔒 Fizess elő az összes piacért és a modell indoklásáért."},
+  lockFinder:{en:"🔒 The combo finder is a subscriber feature.",hu:"🔒 A kombó-kereső előfizetői funkció."},
+  watchLock:{en:"🔒 Sign in and subscribe to see the model's reads and all markets.",hu:"🔒 Jelentkezz be és fizess elő a modell olvasataiért és az összes piacért."},
+  subscribe:{en:"Subscribe (Pro)",hu:"Előfizetés (Pro)"},
+  manageSub:{en:"Manage subscription",hu:"Előfizetés kezelése"},
+  planTitle:{en:"Choose your plan",hu:"Válassz csomagot"},
+  planSub:{en:"Full markets, the model's reasoning and the combo finder.",hu:"Az összes piac, a modell indoklása és a kombó-kereső."},
+  planMonthly:{en:"Monthly",hu:"Havi"}, planYearly:{en:"Yearly",hu:"Éves"},
+  perMonth:{en:"month",hu:"hó"}, perYear:{en:"year",hu:"év"},
+  planYearlySave:{en:"2 months free (~17% off)",hu:"2 hónap ingyen (~17% kedvezmény)"},
+  signinTitle:{en:"Sign in",hu:"Belépés"}, signupTitle:{en:"Create account",hu:"Fiók létrehozása"},
+  name:{en:"Name",hu:"Név"}, errName:{en:"Please enter your name.",hu:"Add meg a neved."}, passwordConfirm:{en:"Confirm password",hu:"Jelszó megerősítése"},
+  age18:{en:"I confirm I am 18 or older",hu:"Megerősítem, hogy elmúltam 18 éves"},
+  terms:{en:"I accept the <a href='terms.html' target='_blank' onclick='event.stopPropagation()'>Terms</a> and <a href='privacy.html' target='_blank' onclick='event.stopPropagation()'>Privacy Policy</a>",hu:"Elfogadom az <a href='terms.html' target='_blank' onclick='event.stopPropagation()'>ÁSZF</a>-et és az <a href='privacy.html' target='_blank' onclick='event.stopPropagation()'>adatkezelési tájékoztatót</a>"},
+  forgot:{en:"Forgot password?",hu:"Elfelejtett jelszó?"},
+  noAccount:{en:"Need an account?",hu:"Nincs még fiókod?"}, haveAccount:{en:"Have an account?",hu:"Van már fiókod?"},
+  errPwMatch:{en:"The passwords don't match.",hu:"A jelszavak nem egyeznek."},
+  errAge:{en:"You must confirm you are 18 or older.",hu:"Meg kell erősítened, hogy elmúltál 18 éves."},
+  errTerms:{en:"You must accept the terms.",hu:"El kell fogadnod a feltételeket."},
+  errEmailReq:{en:"Enter your email first.",hu:"Add meg előbb az e-mail-címed."},
+  resetSent:{en:"If that email exists, a reset link has been sent.",hu:"Ha létezik a cím, küldtünk egy visszaállító linket."}
+});
+function userTier(){ if(!SUPA_ENABLED) return 'demo'; if(!session) return 'anon'; return (profile && profile.subscription_status==='active') ? 'paid' : 'free'; }
+function isPaid(){ var t=userTier(); return t==='paid' || t==='demo'; }
+function renderAuth(){ var e=document.getElementById('authBox'); if(!e) return;
+  if(!SUPA_ENABLED){ e.innerHTML='<span style="opacity:.55">'+S('demoBadge')+'</span>'; return; }
+  if(!session){ e.innerHTML='<span onclick="openAuth()" style="cursor:pointer;color:var(--accent)">'+S('signin')+'</span>'; return; }
+  var active=(profile&&profile.subscription_status==='active');
+  var tier=active?S('tierPro'):S('tierFree');
+  var subL=active?'':'<span style="opacity:.4"> · </span><span onclick="goSubscribe()" style="cursor:pointer;color:var(--accent);font-weight:700">'+S('subscribe')+'</span>';
+  var manageL=(active&&profile&&profile.portal_url)?'<span style="opacity:.4"> · </span><span onclick="goManage()" style="cursor:pointer;color:var(--accent)">'+S('manageSub')+'</span>':'';
+  e.innerHTML='<span style="opacity:.7">'+((session.user&&session.user.email)||'')+'</span><span style="opacity:.4"> · </span><span style="opacity:.6">'+tier+'</span>'+subL+manageL+'<span style="opacity:.4"> · </span><span onclick="signOut()" style="cursor:pointer;color:var(--accent)">'+S('signout')+'</span>';
+}
+var authMode='signin';
+function openAuth(){ var m=document.getElementById('authModal'); if(!m) return; var er=document.getElementById('authErr'); if(er){er.textContent='';er.style.color='#e36';} setAuthMode('signin'); m.style.display='flex'; }
+function setAuthMode(mode){ authMode=mode; var sg=(mode==='signup');
+  var show=function(id,on){var e=document.getElementById(id); if(e) e.style.display=on?(e.tagName==='LABEL'?'flex':'block'):'none';};
+  show('authName',sg); show('authPass2',sg); show('authAgeRow',sg); show('authTermsRow',sg);
+  var fg=document.getElementById('authForgot'); if(fg) fg.style.display=sg?'none':'block';
+  var txt=function(id,t){var e=document.getElementById(id); if(e) e.textContent=t;};
+  var ph=function(id,t){var e=document.getElementById(id); if(e) e.placeholder=t;};
+  txt('authTitle',S(sg?'signupTitle':'signinTitle'));
+  ph('authName',S('name')); ph('authEmail',S('email')); ph('authPass',S('password')); ph('authPass2',S('passwordConfirm'));
+  txt('authAgeLbl',S('age18')); var _tl=document.getElementById('authTermsLbl'); if(_tl) _tl.innerHTML=S('terms');
+  txt('authPrimary',S(sg?'createAcc':'signin')); txt('authForgot',S('forgot'));
+  txt('authToggleTxt',S(sg?'haveAccount':'noAccount')); txt('authToggle',S(sg?'signin':'createAcc'));
+}
+function toggleAuthMode(){ var er=document.getElementById('authErr'); if(er){er.textContent='';er.style.color='#e36';} setAuthMode(authMode==='signin'?'signup':'signin'); }
+function authSubmit(){ return authMode==='signup'?doSignUp():doSignIn(); }
+async function doSignIn(){ var er=document.getElementById('authErr'); try{ var r=await sb.auth.signInWithPassword({email:document.getElementById('authEmail').value,password:document.getElementById('authPass').value}); if(r.error){er.style.color='#e36';er.textContent=r.error.message;return;} closeAuth(); }catch(e){ er.textContent=String(e); } }
+async function doSignUp(){ var er=document.getElementById('authErr'); er.style.color='#e36';
+  var email=document.getElementById('authEmail').value, pw=document.getElementById('authPass').value, pw2=document.getElementById('authPass2').value, name=document.getElementById('authName').value;
+  if(!name||!name.trim()){ er.textContent=S('errName'); return; }
+  if(pw!==pw2){ er.textContent=S('errPwMatch'); return; }
+  if(!document.getElementById('authAge').checked){ er.textContent=S('errAge'); return; }
+  if(!document.getElementById('authTerms').checked){ er.textContent=S('errTerms'); return; }
+  try{ var r=await sb.auth.signUp({email:email,password:pw,options:{data:{full_name:name,age_confirmed:true,terms_accepted:true}}}); if(r.error){er.textContent=r.error.message;return;} er.style.color='#7ad6a0'; er.textContent=S('signupOk'); }catch(e){ er.textContent=String(e); } }
+async function forgotPw(){ var er=document.getElementById('authErr'); var email=document.getElementById('authEmail').value; if(!email){ er.style.color='#e36'; er.textContent=S('errEmailReq'); return; } try{ await sb.auth.resetPasswordForEmail(email); er.style.color='#7ad6a0'; er.textContent=S('resetSent'); }catch(e){ er.style.color='#e36'; er.textContent=String(e); } }
+function closeAuth(){ var m=document.getElementById('authModal'); if(m) m.style.display='none'; }
+async function loadProfile(){ if(!SUPA_ENABLED||!session){ profile=null; return; } try{ var r=await withTimeout(sb.from('profiles').select('*').eq('id',session.user.id).single(), 6000); profile=r.data||null; }catch(e){ profile=null; } }
+async function signOut(){ try{ await sb.auth.signOut(); }catch(e){} session=null; profile=null; renderAll(); }
+function goSubscribe(){ if(!SUPA_ENABLED) return; if(!session){ openAuth(); return; } openPlan(); }
+function renderPlans(){
+  var e=document.getElementById('planBtns'); if(!e) return;
+  var card=function(plan,label,price,per,note){
+    return '<div onclick="goCheckout(\''+plan+'\')" style="border:1px solid var(--line,#2a2d36);border-radius:9px;padding:12px 14px;margin-bottom:10px;cursor:pointer;display:flex;justify-content:space-between;align-items:center">'
+      +'<div><div style="font-weight:700">'+label+'</div>'+(note?'<div style="font-size:11.5px;color:var(--accent)">'+note+'</div>':'')+'</div>'
+      +'<div style="font-weight:700;white-space:nowrap">'+price+' Ft<span style="opacity:.6;font-weight:400">/'+per+'</span></div></div>';
+  };
+  var html=card('month',S('planMonthly'),'4 990',S('perMonth'),'');
+  if(LS_CHECKOUT_URL_YEARLY.indexOf('YOUR_')!==0) html+=card('year',S('planYearly'),'49 900',S('perYear'),S('planYearlySave'));
+  e.innerHTML=html;
+}
+function openPlan(){ renderPlans(); var m=document.getElementById('planModal'); if(m)m.style.display='flex'; }
+function closePlan(){ var m=document.getElementById('planModal'); if(m)m.style.display='none'; }
+function goCheckout(plan){
+  if(!session) return;
+  var url=(plan==='year')?LS_CHECKOUT_URL_YEARLY:LS_CHECKOUT_URL;
+  if(!url || url.indexOf('YOUR_')===0){ console.warn('Checkout URL not set for plan:',plan); return; }
+  var sep = url.indexOf('?')>=0 ? '&' : '?';
+  window.location.href = url + sep + 'checkout[email]=' + encodeURIComponent((session.user&&session.user.email)||'') + '&checkout[custom][user_id]=' + encodeURIComponent(session.user.id);
+}
+window.openAuth=openAuth; window.closeAuth=closeAuth; window.toggleAuthMode=toggleAuthMode; window.authSubmit=authSubmit; window.forgotPw=forgotPw; window.signOut=signOut; window.goSubscribe=goSubscribe;
+function goManage(){ if(profile && profile.portal_url){ window.open(profile.portal_url,'_blank'); } }
+window.goManage=goManage; window.openPlan=openPlan; window.closePlan=closePlan; window.goCheckout=goCheckout;
+function fact(n){let f=1;for(let i=2;i<=n;i++)f*=i;return f;}
+function pois(k,l){return Math.exp(-l)*Math.pow(l,k)/fact(k);}
+function matrix(lam,mu,mg=10){const hp=[],ap=[];for(let i=0;i<=mg;i++){hp.push(pois(i,lam));ap.push(pois(i,mu));}
+  let m=[],s=0;for(let i=0;i<=mg;i++){m[i]=[];for(let j=0;j<=mg;j++){m[i][j]=hp[i]*ap[j];s+=m[i][j];}}
+  for(let i=0;i<=mg;i++)for(let j=0;j<=mg;j++)m[i][j]/=s;return m;}
+function mkOdds(p){return 1/p;}   // fair odds = inverse of the model probability, with NO bookmaker margin
+function footballGroups(m){const M=matrix(m.lam,m.mu);
+  let hw=0,dr=0,aw=0,btts=0,even=0;const ou={1.5:[0,0],2.5:[0,0],3.5:[0,0]};const cs=[];
+  for(let i=0;i<=10;i++)for(let j=0;j<=10;j++){const p=M[i][j];
+    if(i>j)hw+=p;else if(i===j)dr+=p;else aw+=p;if(i>=1&&j>=1)btts+=p;if((i+j)%2===0)even+=p;
+    for(const L of [1.5,2.5,3.5]){if(i+j>L)ou[L][0]+=p;else ou[L][1]+=p;}if(i<6&&j<6)cs.push([i,j,p]);}
+  cs.sort((a,b)=>b[2]-a[2]);const tag=m.home+m.away,mk=(k,p)=>({k,p,o:mkOdds(p,tag+k)});
+  const x12=[mk("Home (1)",hw),mk("Draw (X)",dr),mk("Away (2)",aw)];
+  if(m.mkt){ if(m.mkt["1"])x12[0].mkt=+m.mkt["1"]; if(m.mkt["X"])x12[1].mkt=+m.mkt["X"]; if(m.mkt["2"])x12[2].mkt=+m.mkt["2"]; }
+  const ou25=[mk("Over 2.5",ou[2.5][0]),mk("Under 2.5",ou[2.5][1])];
+  if(m.mkt_ou){ if(m.mkt_ou.over)ou25[0].mkt=+m.mkt_ou.over; if(m.mkt_ou.under)ou25[1].mkt=+m.mkt_ou.under; }
+  const extra=[{name:"Goals over/under 2.5",grid:"c2",outs:ou25}];
+  if(m.mkt_ah){
+    const ln=+m.mkt_ah.line; let hc=0,ac=0;
+    for(let i=0;i<=10;i++)for(let j=0;j<=10;j++){const d=(i-j)+ln; if(d>1e-9)hc+=M[i][j]; else if(d<-1e-9)ac+=M[i][j];}
+    const den=hc+ac||1, sgn=x=>x>0?`+${x}`:`${x}`;
+    const oh=mk(`Home ${sgn(ln)}`,hc/den), oa=mk(`Away ${sgn(-ln)}`,ac/den);
+    if(m.mkt_ah.home)oh.mkt=+m.mkt_ah.home; if(m.mkt_ah.away)oa.mkt=+m.mkt_ah.away;
+    extra.push({name:"Handicap",grid:"c2",outs:[oh,oa]});
+  }
+  return {base:[{name:"Match result (1X2)",grid:"c3",outs:x12}], extra:extra};
+}
+function fillOdds(groups,tag){groups.forEach(g=>g.outs.forEach(o=>{if(o.o==null)o.o=mkOdds(o.p,tag+g.name+o.k);}));return groups;}
+
+const SAMPLE_SPORTS={
+  foci:{label:"Football",matches:[
+    {home:"Arsenal",away:"Tottenham",league:"Premier League",date:"Sun 16:30",lam:1.70,mu:1.25,xg:{home:[1.82,0.94],away:[1.51,1.33]},insight:"Strong home xG form, leaky away defence."},
+    {home:"Man City",away:"Brighton",league:"Premier League",date:"Sun 15:00",lam:2.10,mu:0.85,xg:{home:[2.15,0.71],away:[1.34,1.42]},insight:"Strong favourite; model and market agree."},
+    {home:"Everton",away:"Fulham",league:"Premier League",date:"Sat 16:00",lam:1.15,mu:1.20,xg:{home:[1.12,1.28],away:[1.30,1.18]},insight:"Balanced, low stakes."},
+    {home:"Liverpool",away:"Newcastle",league:"Premier League",date:"Sat 18:30",lam:1.85,mu:1.10,xg:{home:[1.95,0.96],away:[1.48,1.21]},insight:"Solid home form, but the market has priced it in."},
+    {home:"Real Madrid",away:"Sevilla",league:"La Liga",date:"Sun 21:00",lam:2.00,mu:0.80,xg:{home:[2.05,0.78],away:[1.05,1.45]},insight:"Home dominance; the model is confident."},
+    {home:"Barcelona",away:"Girona",league:"La Liga",date:"Sat 18:30",lam:2.20,mu:1.00,xg:{home:[2.30,0.90],away:[1.32,1.40]},insight:"A high-scoring match is expected."}
+  ]},
+  tenisz:{label:"Tennis",matches:[
+    {home:"Alcaraz",away:"Sinner",league:"ATP",date:"Sun 14:00",insight:"Two top players; slight Alcaraz edge.",
+     base:[{name:"Match winner",grid:"c2",outs:[{k:"Alcaraz",p:0.54},{k:"Sinner",p:0.46}]}],
+     extra:[{name:"Total games (over/under 22.5)",grid:"c2",outs:[{k:"Over 22.5",p:0.53},{k:"Under 22.5",p:0.47}]}]},
+    {home:"Djokovic",away:"Zverev",league:"ATP",date:"Sun 16:30",insight:"Experienced favourite.",
+     base:[{name:"Match winner",grid:"c2",outs:[{k:"Djokovic",p:0.61},{k:"Zverev",p:0.39}]}]},
+    {home:"Swiatek",away:"Sabalenka",league:"WTA",date:"Sat 13:00",insight:"Top clash, tight match.",
+     base:[{name:"Match winner",grid:"c2",outs:[{k:"Swiatek",p:0.55},{k:"Sabalenka",p:0.45}]}]}
+  ]},
+  kosar:{label:"Basketball",matches:[
+    {home:"Celtics",away:"Knicks",league:"NBA",date:"Sun 02:00",insight:"Home favourite.",
+     base:[{name:"Match winner",grid:"c2",outs:[{k:"Celtics",p:0.66},{k:"Knicks",p:0.34}]}],
+     extra:[{name:"Total points (over/under 218.5)",grid:"c2",outs:[{k:"Over 218.5",p:0.51},{k:"Under 218.5",p:0.49}]}]},
+    {home:"Nuggets",away:"Lakers",league:"NBA",date:"Sun 04:00",insight:"Slight home advantage.",
+     base:[{name:"Match winner",grid:"c2",outs:[{k:"Nuggets",p:0.58},{k:"Lakers",p:0.42}]}]},
+    {home:"Real Madrid",away:"Panathinaikos",league:"EuroLeague",date:"Sat 20:00",insight:"Home dominance in the EuroLeague.",
+     base:[{name:"Match winner",grid:"c2",outs:[{k:"Real Madrid",p:0.60},{k:"Panathinaikos",p:0.40}]}]}
+  ]},
+  kezi:{label:"Handball",matches:[
+    {home:"Veszprém",away:"Szeged",league:"K&H Liga",date:"Sun 18:00",insight:"Derby, slight home advantage.",
+     base:[{name:"Match result (1X2)",grid:"c3",outs:[{k:"Home (1)",p:0.50},{k:"Draw (X)",p:0.14},{k:"Away (2)",p:0.36}]}],
+     extra:[{name:"Total goals (over/under 56.5)",grid:"c2",outs:[{k:"Over 56.5",p:0.52},{k:"Under 56.5",p:0.48}]}]},
+    {home:"Barcelona",away:"Kiel",league:"EHF BL",date:"Sat 18:00",insight:"Top match, home favourite.",
+     base:[{name:"Match result (1X2)",grid:"c3",outs:[{k:"Home (1)",p:0.55},{k:"Draw (X)",p:0.12},{k:"Away (2)",p:0.33}]}]}
+  ]}
+};
+
+let SPORTS={}, LIVE=false, ALL=[], HAS_MKT=false;
+function buildALL(src, live){
+  SPORTS=src; LIVE=!!live; ALL=[]; HAS_MKT=false;
+  Object.entries(SPORTS).forEach(([key,sp])=>sp.matches.forEach(m=>{
+    m.sport=sp.label;m.sportKey=key;
+    if(m.lam!=null){const g=footballGroups(m);m.base=g.base;m.extra=g.extra;}else{m.extra=m.extra||[];}
+    fillOdds(m.base,m.home+m.away);fillOdds(m.extra,m.home+m.away);m.all=m.base.concat(m.extra);
+    if(!HAS_MKT && m.all.some(g=>g.outs.some(o=>o.mkt!=null))) HAS_MKT=true;
+    ALL.push(m);
+  }));
+}
+Object.assign(I18N, {
+  ins_group_stage:{en:"Group stage. Expected goals: {lam}\u2013{mu}.",hu:"Csoportk\u00f6r. V\u00e1rhat\u00f3 g\u00f3l: {lam}\u2013{mu}."},
+  ins_round:{en:"Round {md}. Expected goals: {lam}\u2013{mu}.",hu:"{md}. fordul\u00f3. V\u00e1rhat\u00f3 g\u00f3l: {lam}\u2013{mu}."},
+  ins_tennis:{en:"Surface-Elo based read.",hu:"Salak-Elo alap\u00fa olvasat."},
+  pendingNote:{en:"\u26a0 This sport's model is not yet backtested \u2014 no verified track record yet (unlike football and tennis).",hu:"\u26a0 Ennek a sportnak a modellje m\u00e9g nincs visszatesztelve \u2014 egyel\u0151re nincs igazolt m\u00e9rlege (a focival \u00e9s a tenisszel ellent\u00e9tben)."},
+  btOk:{en:"\u2713 Model-accuracy backtested: {acc}% hit vs {base}% baseline, Brier {brier} (.25 = coin flip). No betting-ROI track record yet \u2014 that needs paid historical odds.",hu:"\u2713 Modell-pontoss\u00e1g visszatesztelve: {acc}% tal\u00e1lat a(z) {base}%-os alap ellen, Brier {brier} (0,25 = \u00e9rmedob\u00e1s). Fogad\u00e1si ROI-m\u00e9rleg m\u00e9g nincs \u2014 ahhoz fizet\u0151s t\u00f6rt\u00e9nelmi odds kell."},
+  btWeak:{en:"\u26a0 Experimental: the backtest shows the model's probabilities here barely beat chance ({acc}% hit vs {base}% baseline, Brier {brier}). Treat the value flags with caution.",hu:"\u26a0 K\u00eds\u00e9rleti: a visszateszt szerint a modell val\u00f3sz\u00edn\u0171s\u00e9gei itt alig jobbak a v\u00e9letlenn\u00e9l ({acc}% tal\u00e1lat, {base}% alap, Brier {brier}). A value-jelz\u00e9st fenntart\u00e1ssal kezeld."}
+});
+function insightText(m){ if(m.insight_key) return S('ins_'+m.insight_key, m.insight_vars||{}); return C(m.insight||''); }
+const VALIDATED=new Set(['foci','tenisz']);
+const BACKTEST={
+  "NBA":{acc:73,base:59,brier:"0.19",ok:true},
+  "AFL":{acc:68,base:66,brier:"0.20",ok:true},
+  "WNBA":{acc:61,base:51,brier:"0.24",ok:true},
+  "NFL":{acc:60,base:51,brier:"0.25",ok:false},
+  "NHL":{acc:57,base:51,brier:"0.25",ok:false},
+  "UFC":{acc:56,base:50,brier:"0.25",ok:false},
+  "MLB":{acc:54,base:52,brier:"0.25",ok:false},
+  "NRL":{acc:53,base:54,brier:"0.26",ok:false}
+};
+function pendingNote(m){ return ''; }
+function buildFromSupabase(matches, details){
+  const sports={};
+  matches.forEach(r=>{
+    if(!sports[r.sport]) sports[r.sport]={label:r.sport_label, matches:[]};
+    const m={home:r.home, away:r.away, league:r.league, date:r.match_date, kickoff:r.kickoff, mkt:r.mkt, mkt_ou:r.mkt_ou, mkt_ah:r.mkt_ah, base:r.base};
+    const d=details[r.id];
+    if(d){ if(d.lam!=null)m.lam=Number(d.lam); if(d.mu!=null)m.mu=Number(d.mu); if(d.extra)m.extra=d.extra; if(d.insight_key){m.insight_key=d.insight_key;m.insight_vars=d.insight_vars||{};} }
+    sports[r.sport].matches.push(m);
+  });
+  return sports;
+}
+function withTimeout(p,ms){ return Promise.race([p, new Promise(function(_,rej){ setTimeout(function(){ rej(new Error('timeout')); }, ms); })]); }
+async function loadData(){
+  if(SUPA_ENABLED){
+    try{
+      const mres=await withTimeout(sb.from('matches').select('*'), 10000);
+      const matches=mres.data||[];
+      if(matches.length){
+        let details={};
+        if(isPaid()){ const dres=await withTimeout(sb.from('match_details').select('*'), 10000); (dres.data||[]).forEach(r=>details[r.match_id]=r); }
+        return {src:buildFromSupabase(matches,details), live:true};
+      }
+    }catch(e){ console.warn('Supabase fetch failed; using sample.', e); }
+  }
+  const fb=(window.SPORTS_DATA && Object.keys(window.SPORTS_DATA).length) ? window.SPORTS_DATA : SAMPLE_SPORTS;
+  return {src:fb, live:(fb===window.SPORTS_DATA)};
+}
+
+let active="mind",activeLeague="mind";
+const pct=x=>(x*100).toFixed(0)+"%",fairOdds=p=>(1/p).toFixed(2);
+const isUpcoming=m=>{ if(!m.kickoff) return true; const d=new Date(m.kickoff); return isNaN(d.getTime())||d.getTime()>Date.now(); };
+const matchesFor=a=>(a==="mind"?ALL:(SPORTS[a]?SPORTS[a].matches:[])).filter(isUpcoming);
+const shortKey=k=>{const m=k.match(/\(([^)]+)\)/);return m?m[1]:k;};
+
+// tabs
+function renderTabs(){
+  const TABS=[["mind",S('allTab')],...Object.entries(SPORTS).map(([k,sp])=>[k,C(sp.label)])];
+  document.getElementById("tabs").innerHTML=TABS.map(([k,l])=>`<button class="tab${k===active?' on':''}" data-k="${k}">${l}</button>`).join("");
+}
+document.getElementById("tabs").addEventListener("click",e=>{if(e.target.classList.contains("tab")){
+  active=e.target.dataset.k;activeLeague="mind";
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t.dataset.k===active));
+  renderLeagues();renderWatch();renderMatches();
+}});
+
+function leaguesOf(a){const set=[];matchesFor(a).forEach(m=>{if(!set.includes(m.league))set.push(m.league);});return set;}
+function renderLeagues(){
+  const el=document.getElementById("leagues");
+  if(active==="mind"){el.innerHTML="";return;}
+  const ls=leaguesOf(active);
+  el.innerHTML=[["mind",S('allLeague')],...ls.map(l=>[l,l])].map(([k,l])=>
+    `<span class="lchip${k===activeLeague?' on':''}" data-l="${k}">${l}</span>`).join("");
+  el.querySelectorAll(".lchip").forEach(c=>c.onclick=()=>{activeLeague=c.dataset.l;renderLeagues();renderMatches();});
+}
+
+function cellHtml(o){
+  const fair=(1/o.p).toFixed(2);
+  if(o.mkt!=null){                                   // real market odds -> real value can be computed
+    const ev=o.p*o.mkt-1;
+    const plausible=Math.abs(ev)<=0.30;              // efficient-market sanity: a 30%+ "edge" is almost always model error, not value
+    const cls=plausible?(ev>0.005?'pos':(ev<-0.02?'neg':'')):'';
+    const chip=cls?`<span class="v ${cls}">${ev>0?'+':''}${(ev*100).toFixed(1)}%</span>`:`<span></span>`;
+    return `<div class="pcell${o._best?' best':''}"><div class="lab">${C(o.k)}</div><div class="o">${o.mkt.toFixed(2)}</div>
+      <div class="bar"><i style="width:${Math.min(o.p*100,100)}%"></i></div>
+      <div class="cmp"><span>${S('cellReal',{fair:fair,p:pct(o.p)})}</span>${chip}</div></div>`;
+  }
+  return `<div class="pcell"><div class="lab">${C(o.k)}</div><div class="o">${fair}</div>
+    <div class="bar"><i style="width:${Math.min(o.p*100,100)}%"></i></div>
+    <div class="cmp"><span>${S('cellBase',{p:pct(o.p)})}</span></div></div>`;}
+function groupsHtml(groups){return groups.map(g=>{
+  const live=g.outs.some(o=>o.mkt!=null);
+  const tag=live?'':`<span class="tag model">${S('tagModel')}</span>`;
+  return `<div class="mkt"><div class="mlab">${C(g.name)}${tag}</div>
+  <div class="cells ${g.grid}">${g.outs.map(cellHtml).join("")}</div></div>`;}).join("");}
+
+function whyHtml(m){
+  if(m.lam!=null){
+    const lam=m.lam,mu=m.mu,diff=lam-mu,tot=lam+mu,b=m.base[0].outs;
+    const hw=b[0].p,dr=b[1].p,aw=b[2].p,fav=hw>=aw?m.home:m.away,favp=Math.max(hw,aw);
+    const lean=tot>2.6?S('leanOver'):(tot<2.2?S('leanUnder'):S('leanNeutral'));
+    return `<div class="why"><div class="whyhd">${S('whyHd')}</div><ul class="whyl">
+      <li>${S('whyExp',{home:m.home,lam:lam.toFixed(2),mu:mu.toFixed(2),away:m.away,sign:diff>=0?'+':'',diff:diff.toFixed(2)})}</li>
+      <li>${S('whyFrom',{hw:pct(hw),dr:pct(dr),aw:pct(aw),fav:fav,favp:pct(favp)})}</li>
+      <li>${S('whyTotal',{tot:tot.toFixed(2),lean:lean})}</li></ul>
+      <div class="whynote">${S('whyNoteFootball')}</div></div>`;
+  }
+  const o=m.base[0].outs,top=[...o].sort((a,b)=>b.p-a.p)[0];
+  const list=o.map(x=>`${C(x.k)} <b>${pct(x.p)}</b>`).join(" · ");
+  let totalLi='';
+  const tg=(m.extra||[]).find(g=>g.name==='Total');
+  if(tg){ const ov=(tg.outs||[]).find(x=>/Over/i.test(x.k)); if(ov){ const line=ov.k.replace(/Over\s*/i,'').trim();
+    totalLi=`<li>${S('whyTotalGeneric',{line:line,lean: ov.p>=0.5?S('leanOverG'):S('leanUnderG')})}</li>`; } }
+  return `<div class="why"><div class="whyhd">${S('whyHd')}</div><ul class="whyl">
+    <li>${S('whyProbs',{list:list})}</li>
+    <li>${S('whyStronger',{k:C(top.k),p:pct(top.p)})}</li>${totalLi}</ul></div>`;
+}
+
+function matchRow(m,showSport){
+  const pills=m.base[0].outs.map(o=>`<span class="opill"><span class="k">${shortKey(o.k)}</span><b>${(o.mkt!=null?o.mkt:o.o).toFixed(2)}</b></span>`).join("");
+  const sportTag=showSport?`<span class="sport">${C(m.sport)}</span>`:'';
+  const xg=m.xg?`<div class="xg"><span class="x">${m.home} xG: <b>${m.xg.home[0]}</b>↑/<b>${m.xg.home[1]}</b>↓</span>
+    <span class="x">${m.away} xG: <b>${m.xg.away[0]}</b>↑/<b>${m.xg.away[1]}</b>↓</span></div>`:'';
+  return `<div class="mitem">
+    <div class="mrow" onclick="this.parentElement.classList.toggle('open')">
+      <div class="info"><div class="tt">${sportTag}${m.home} – ${m.away}</div>
+        <div class="mt">${m.league} · ${fmtKick(m)}</div></div>
+      <div class="odds">${pills}</div><span class="chev">▾</span></div>
+    <div class="detail">${isPaid() ? `${xg}${whyHtml(m)}${groupsHtml(m.all)}${insightText(m)?`<div class="insight">${insightText(m)}</div>`:''}${pendingNote(m)}` : `<div class="lock" style="padding:10px 12px;border:1px dashed var(--line);border-radius:8px;color:var(--faint);font-size:13px">${S('lockMatch')}</div>`}</div>
+  </div>`;
+}
+function renderMatches(){
+  const showSport=false;
+  const list=matchesFor(active).filter(m=>active==="mind"||activeLeague==="mind"||m.league===activeLeague);
+  const groups={},order=[];
+  list.forEach(m=>{const key=active==="mind"?(C(m.sport)+" · "+m.league):m.league;if(!groups[key]){groups[key]=[];order.push(key);}groups[key].push(m);});
+  document.getElementById("matches").innerHTML=order.map(key=>
+    `<div class="grouphd">${key} <span class="cnt">${groups[key].length}</span></div>`+
+    groups[key].map(m=>matchRow(m,showSport)).join("")).join("");
+}
+
+function renderWatch(){
+  if(!isPaid()){var w=document.getElementById("watch");if(w)w.innerHTML=`<h3>${S('watchHd')}</h3><div class="wsub">${S('watchLock')}</div>`;return;}
+  const all=[];
+  matchesFor(active).forEach(m=>m.all.forEach(g=>g.outs.forEach(o=>
+    all.push({sport:m.sport,match:`${m.home}–${m.away}`,market:g.name,k:o.k,p:o.p}))));
+  all.sort((a,b)=>b.p-a.p);const top=all.slice(0,3);
+  document.getElementById("watch").innerHTML=`<h3>${S('watchHd')}</h3>
+    <div class="wsub">${S('watchSub')}</div>
+    ${top.map(t=>`<div class="witem"><span class="wl">${active==="mind"?`<span style="color:var(--accent)">${C(t.sport)}</span> · `:''}${t.match} · ${C(t.k)}
+      <small>${C(t.market)}</small></span>
+      <span class="wr">${S('watchRight',{p:pct(t.p),o:(1/t.p).toFixed(2)})}</span></div>`).join("")}`;
+}
+
+function buildCombos(maxLegs,hi){const ms=ALL,combos=[];
+  function rec(mi,legs,odds){if(combos.length>200000)return;
+    if(mi===ms.length){if(legs.length)combos.push(legs.slice());return;}
+    rec(mi+1,legs,odds);
+    if(legs.length<maxLegs){const m=ms[mi];m.all.forEach(g=>g.outs.forEach(o=>{const no=odds*o.o;
+      if(no<=hi){legs.push({sport:m.sport,match:`${m.home}–${m.away}`,market:g.name,sel:o.k,p:o.p,o:o.o});rec(mi+1,legs,no);legs.pop();}}));}}
+  rec(0,[],1);return combos;}
+function findCombos(){
+  if(!isPaid()){var r0=document.getElementById("results");if(r0)r0.innerHTML='<div class="combo" style="border:1px dashed var(--line);color:var(--faint)">'+S('lockFinder')+'</div>';var h0=document.getElementById("finderHint");if(h0)h0.textContent='';return;}
+  const target=parseFloat(document.getElementById("target").value),maxLegs=parseInt(document.getElementById("maxLegs").value),lo=target*0.85,hi=target*1.15;
+  const all=buildCombos(maxLegs,hi).map(legs=>{const odds=legs.reduce((a,l)=>a*l.o,1),prob=legs.reduce((a,l)=>a*l.p,1);return {legs,odds,prob,ev:prob*odds-1};}).filter(c=>c.odds>=lo);
+  all.sort((a,b)=>Math.abs(a.odds-target)-Math.abs(b.odds-target)||b.prob-a.prob);const top=all.slice(0,5),res=document.getElementById("results"),hint=document.getElementById("finderHint");
+  if(!top.length){res.innerHTML=`<div class="combo">${S('finderNone',{t:target.toFixed(2)})}</div>`;hint.textContent="";return;}
+  res.innerHTML=top.map((c,i)=>{
+    const legs=c.legs.map(l=>`<div class="leg"><span><span class="sp">${C(l.sport)}</span>${l.match} · ${C(l.sel)}
+      <span style="color:var(--faint);font-size:11px">(${C(l.market)})</span></span><span class="oo">${l.o.toFixed(2)}</span></div>`).join("");
+    return `<div class="combo${i===0?' best':''}"><div class="top">
+      <div><span class="codds">${c.odds.toFixed(2)}</span>${i===0?'<span class="badge">'+S('badge')+'</span>':''}</div>
+      <div class="cstat">${S('comboStat',{prob:pct(c.prob),legs:c.legs.length})}</div>
+      </div><div class="leglist">${legs}</div></div>`;}).join("");
+  hint.innerHTML=S('hintGeneric');
+}
+
+function renderAll(){
+  applyStatic();
+  var ex=document.querySelector('.explain'); if(ex) ex.innerHTML = S(HAS_MKT?'explain':'explainNoMkt');
+  document.getElementById("dataSrc").textContent = LIVE ? S('live') : S('sample');
+  renderAuth();renderLangTog();renderTabs();renderLeagues();renderWatch();renderMatches();findCombos();
+}
+function hideLoader(){var l=document.getElementById('loader'); if(!l) return; l.classList.add('hide'); setTimeout(function(){ if(l) l.style.display='none'; }, 450);}
+async function init(){ const r=await loadData(); buildALL(r.src, r.live); renderAll(); hideLoader(); }
+document.getElementById("findBtn").addEventListener("click",findCombos);
+// safety: never let the loader stick if the network hangs
+setTimeout(hideLoader, 12000);
+// drop matches off the board as their kickoff passes (no refetch needed)
+setInterval(function(){ try{ renderAll(); }catch(e){} }, 60000);
+let __lastUid=undefined;
+async function boot(s){ var uid=(s&&s.user)?s.user.id:null; if(uid===__lastUid) return; __lastUid=uid; session=s; await loadProfile(); await init(); }
+if(SUPA_ENABLED){
+  sb.auth.getSession().then(function(r){ boot(r.data.session); });
+  sb.auth.onAuthStateChange(function(_e,sx){ boot(sx); });
+} else { init(); }
+</script>
+</body>
+</html>

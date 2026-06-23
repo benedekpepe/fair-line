@@ -1,0 +1,1 @@
+"""Fair Line — models package."""
