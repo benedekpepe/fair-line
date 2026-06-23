@@ -1,5 +1,7 @@
 # Fair Line — Betting AI Analyst
 
+[![CI](https://github.com/benedekpepe/fair-line/actions/workflows/ci.yml/badge.svg)](https://github.com/benedekpepe/fair-line/actions/workflows/ci.yml)
+
 A multi-sport, data-driven **match-analysis** tool. Fair Line fits statistical
 models to historical results, turns them into **fair odds** (probabilities with
 no bookmaker margin), and — where live market odds are available — flags where
