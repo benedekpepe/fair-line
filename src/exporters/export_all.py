@@ -92,11 +92,15 @@ else:
 
 # ============ 2) TENNIS – Roland Garros (men + women) ============
 def tennis_block(repo, csv, matchups, league):
+    if not matchups:   # no fixtures wired in -> nothing to predict; skip (also avoids a needless download)
+        return []
     if not (RAW / csv).exists():
         fr = []
         for yr in [2023, 2024, 2025, 2026]:
             try: fr.append(pd.read_csv(io.StringIO(urllib.request.urlopen(f"https://raw.githubusercontent.com/JeffSackmann/{repo}/master/{repo.split('_')[1]}_matches_{yr}.csv", timeout=30).read().decode("utf-8", "ignore"))))
             except: pass
+        if not fr:     # data source unreachable and no local cache -> skip gracefully instead of crashing
+            print(f"  tennis data unavailable ({repo}) — skipping"); return []
         pd.concat(fr, ignore_index=True).to_csv(RAW / csv, index=False)
     m = tennis_elo.build_elo(pd.read_csv(RAW / csv))
     out = []

@@ -16,7 +16,7 @@ bookmaker links, no "guaranteed picks". 18+.
 > advice, and no guarantee of any result. Payments run in **test mode** (no real
 > charges). See the in-app disclaimer and the Terms / Privacy pages.
 
-**Live demo:** <https://YOUR-SITE.netlify.app> — the free tier is open to browse
+**Live demo:** <https://fair-line.netlify.app/> — the free tier is open to browse
 with no sign-up. To see the Pro features, register and subscribe with the
 LemonSqueezy **test card** `4242 4242 4242 4242` (any future expiry, any CVC) —
 it runs in test mode, so there is **no real charge**.
