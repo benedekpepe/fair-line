@@ -4,7 +4,7 @@ name: Refresh data
 # and commits the refreshed web/data.js back so the static demo redeploys.
 on:
   schedule:
-    - cron: "0 6 * * *"   # every day at 06:00 UTC
+    - cron: "0 6 * * *"     # every day at 06:00 UTC (data refresh is free — see netlify.toml)
   workflow_dispatch: {}     # manual run from the Actions tab
 
 permissions:
@@ -35,14 +35,32 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python run_all.py
 
-      - name: Commit refreshed data.js (if changed)
+      - name: Publish data.js to the 'data' branch
+        # Netlify only watches the production branch (main), so committing data to a
+        # separate 'data' branch never triggers a deploy -> zero Netlify credits.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          cp web/data.js /tmp/data.js
+          rm -rf /tmp/databranch && mkdir /tmp/databranch && cd /tmp/databranch
+          git init -q
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/benedekpepe/fair-line.git"
+          if git fetch origin data -q 2>/dev/null; then
+            git checkout -b data FETCH_HEAD -q
+          else
+            git checkout --orphan data -q
+          fi
+          mkdir -p web
+          cp /tmp/data.js web/data.js
           git add web/data.js
           if git diff --staged --quiet; then
-            echo "No data changes to commit."
+            echo "No data changes."
           else
-            git commit -m "chore: refresh match data [skip ci]"
-            git push
+            git commit -m "chore: refresh match data" -q
+            git push origin HEAD:data -q
           fi
+
+      - name: Purge jsDelivr cache (so the live demo serves the fresh data.js)
+        run: curl -s "https://purge.jsdelivr.net/gh/benedekpepe/fair-line@data/web/data.js" > /dev/null || true

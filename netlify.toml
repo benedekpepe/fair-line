@@ -1,0 +1,5 @@
+# Static site — publish the web/ folder. No build step.
+# Live match data is served from the 'data' branch via jsDelivr (see web/index.html),
+# so routine data refreshes never touch the production branch and never trigger a deploy.
+[build]
+  publish = "web"
