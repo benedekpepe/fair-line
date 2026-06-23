@@ -17,12 +17,11 @@ are honest "model live, track record pending" additions.
 
 Env: ODDS_API_KEY
 """
-import os, sys, io, json, time, re, unicodedata, urllib.request, urllib.parse, difflib
+import os, sys, json, time, re, unicodedata, urllib.request, urllib.parse, difflib
 from datetime import datetime, date, timedelta
-from pathlib import Path
 import pandas as pd
 
-from config import PROJECT, RAW, DATA_JS, SRC
+from config import RAW, DATA_JS, SRC
 
 RAW.mkdir(parents=True, exist_ok=True)
 sys.path.insert(0, str(SRC))
