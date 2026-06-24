@@ -98,7 +98,10 @@ Two cross-cutting touches:
 - **The Odds API** — live bookmaker odds (1X2, totals, spreads, h2h).
 - **football-data.org** — World Cup fixtures (free tier).
 - **football-data.co.uk** — historical club results for the league models.
-- **Jeff Sackmann's tennis_atp / tennis_wta** datasets — tennis match history.
+- **Jeff Sackmann's tennis_atp / tennis_wta** datasets — tennis match history
+  (CC BY-NC-SA, non-commercial). Fetched on demand into a local cache and not
+  bundled with the repo; the tennis Elo is optional and is skipped when the
+  history is unavailable.
 - **ESPN public scoreboard API** — free upcoming fixtures, historical results,
   and the postseason flag. Used as the resilient fallback when paid odds are
   unavailable.

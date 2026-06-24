@@ -26,6 +26,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Weekly cache stamp
+        id: weekstamp
+        run: echo "week=$(date -u +%G-W%V)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache historical data (refreshes weekly)
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          # A new key each ISO week re-fetches provider history weekly so the
+          # models stay current; within the same week data/raw is restored for
+          # fast, light runs (no re-downloading 1500+ ESPN games every day).
+          key: data-raw-${{ steps.weekstamp.outputs.week }}
+
       - name: Run the pipeline
         working-directory: src
         env:

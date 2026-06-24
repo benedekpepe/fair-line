@@ -46,21 +46,36 @@ def _get(url):
 
 
 def load_history(repo, cache):
-    """Download (and cache) a few seasons of Sackmann ATP/WTA match results."""
+    """Tennis match history for the Elo model.
+
+    Source: Jeff Sackmann's public tennis_atp / tennis_wta datasets, licensed
+    CC BY-NC-SA (non-commercial). The data is NOT bundled with this repo; it is
+    fetched on demand into a local cache under data/raw. The tennis history is
+    optional — when it is unavailable the tennis cards are simply skipped.
+
+    NOTE: for any commercial use, replace this with a source you are licensed to
+    use commercially; Sackmann's data is non-commercial only.
+
+    Resolution order:
+      1) a local cache under data/raw (written by an earlier run),
+      2) a live download from Sackmann's GitHub (non-commercial use only).
+    """
     p = RAW / cache
-    if not p.exists():
-        tour = repo.split("_")[1]
-        frames = []
-        for yr in [2022, 2023, 2024, 2025, 2026]:
-            try:
-                url = f"https://raw.githubusercontent.com/JeffSackmann/{repo}/master/{tour}_matches_{yr}.csv"
-                frames.append(pd.read_csv(io.StringIO(urllib.request.urlopen(url, timeout=30).read().decode("utf-8", "ignore"))))
-            except Exception:
-                pass
-        if not frames:
-            return None
-        pd.concat(frames, ignore_index=True).to_csv(p, index=False)
-    return pd.read_csv(p)
+    if p.exists():
+        return pd.read_csv(p)
+    tour = repo.split("_")[1]
+    frames = []
+    for yr in [2022, 2023, 2024, 2025, 2026]:
+        try:
+            url = f"https://raw.githubusercontent.com/JeffSackmann/{repo}/master/{tour}_matches_{yr}.csv"
+            frames.append(pd.read_csv(io.StringIO(urllib.request.urlopen(url, timeout=30).read().decode("utf-8", "ignore"))))
+        except Exception:
+            pass
+    if not frames:
+        return None
+    df = pd.concat(frames, ignore_index=True)
+    df.to_csv(p, index=False)
+    return df
 
 
 def predict_gen(model, p1, p2):
