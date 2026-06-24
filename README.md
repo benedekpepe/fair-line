@@ -80,7 +80,7 @@ combination (one leg per match), with the real chance of hitting spelled out.
 | Sport group | Model | Outputs |
 |---|---|---|
 | Football | **Dixon–Coles** bivariate Poisson, time-weighted, with a low-score correlation term | 1X2, Over/Under 2.5, Asian handicap |
-| Tennis | **Surface-aware Elo** (general + clay) from match history | Match winner |
+| Tennis | **Player Elo** from recent match history | Match winner |
 | NBA / WNBA / MLB / NHL / NFL / AFL / NRL / EuroLeague | **Margin model**: per-team offensive / defensive ratings + home advantage; normal approximation for margin and total | Moneyline, spread, total |
 | UFC / boxing | **Fighter Elo** with shrinkage toward 50% for low-sample fighters (avoids fake edges) | Match winner |
 
@@ -163,7 +163,7 @@ fair-line/
 │  ├─ models/               # statistical models
 │  │  ├─ dixon_coles.py     # football: bivariate Poisson (Dixon–Coles)
 │  │  ├─ margin_model.py    # team-score sports: offence/defence + home edge
-│  │  ├─ tennis_elo.py      # tennis: surface-aware Elo
+│  │  ├─ tennis_elo.py      # tennis: player Elo from match history
 │  │  └─ fighter_elo.py     # combat sports: fighter Elo with shrinkage
 │  ├─ sources/              # data sources
 │  │  ├─ espn_loader.py     # free ESPN data (fixtures / history / postseason)

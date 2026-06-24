@@ -252,7 +252,7 @@ def fetch_tennis_results(start, end, tours=("tennis/atp", "tennis/wta"), throttl
     loser_name) plus a `wta` flag for tour splitting. ESPN does not reliably expose
     the court surface, so it defaults to 'Hard' — only the clay sub-Elo would use
     it, and that path is taken for clay events only."""
-    rows, n_days, n_err = [], 0, 0
+    rows, seen, n_days, n_err = [], set(), 0, 0
     for slug in tours:
         wta = (slug == "tennis/wta")
         d = start
@@ -266,6 +266,9 @@ def fetch_tennis_results(start, end, tours=("tennis/atp", "tennis/wta"), throttl
                         if gslug not in ("mens-singles", "womens-singles"):
                             continue
                         for c in g.get("competitions", []):
+                            cid = c.get("id")
+                            if cid in seen:   # ESPN repeats a tournament's matches on every day it is live
+                                continue
                             st = c.get("status", {}).get("type", {})
                             if not (st.get("completed") or st.get("state") == "post"):
                                 continue
@@ -280,8 +283,10 @@ def fetch_tennis_results(start, end, tours=("tennis/atp", "tennis/wta"), throttl
                             ln = (los.get("athlete") or {}).get("displayName")
                             if not wn or not ln:
                                 continue
-                            rows.append({"tourney_date": int(ds), "surface": "Hard",
-                                         "winner_name": wn, "loser_name": ln, "wta": wta})
+                            md = (c.get("date") or "")[:10].replace("-", "")   # the real match date, not the query day
+                            seen.add(cid)
+                            rows.append({"tourney_date": int(md) if md.isdigit() else int(ds),
+                                         "surface": "Hard", "winner_name": wn, "loser_name": ln, "wta": wta})
             except Exception:
                 n_err += 1
             d += timedelta(days=1); n_days += 1; time.sleep(throttle)
