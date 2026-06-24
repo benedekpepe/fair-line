@@ -920,56 +920,6 @@ window.SPORTS_DATA = {
     "label": "Tennis",
     "matches": [
       {
-        "home": "Giles Hussey",
-        "away": "Quentin Halys",
-        "league": "Lexus Eastbourne Open",
-        "date": "Wed 6.24",
-        "kickoff": "2026-06-24T11:00Z",
-        "insight": "Elo: 55% / 45%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Giles Hussey",
-                "p": 0.548
-              },
-              {
-                "k": "Quentin Halys",
-                "p": 0.452
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Arthur Fery",
-        "away": "Juan Manuel Cerundolo",
-        "league": "Lexus Eastbourne Open",
-        "date": "Wed 6.24",
-        "kickoff": "2026-06-24T11:00Z",
-        "insight": "Elo: 49% / 51%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Arthur Fery",
-                "p": 0.489
-              },
-              {
-                "k": "Juan Manuel Cerundolo",
-                "p": 0.511
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
         "home": "Daniel Altmaier",
         "away": "Zizou Bergs",
         "league": "Lexus Eastbourne Open",
@@ -1020,24 +970,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Taylor Fritz",
+        "home": "Felix Gill",
         "away": "Jan Choinski",
         "league": "Lexus Eastbourne Open",
         "date": "Wed 6.24",
         "kickoff": "2026-06-24T13:30Z",
-        "insight": "Elo: 81% / 19%.",
+        "insight": "Elo: 53% / 47%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Taylor Fritz",
-                "p": 0.813
+                "k": "Felix Gill",
+                "p": 0.534
               },
               {
                 "k": "Jan Choinski",
-                "p": 0.187
+                "p": 0.466
               }
             ]
           }
@@ -1095,86 +1045,11 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Jelena Ostapenko",
-        "away": "Panna Udvardy",
-        "league": "Lexus Eastbourne Open",
-        "date": "Wed 6.24",
-        "kickoff": "2026-06-24T11:30Z",
-        "insight": "Elo: 57% / 43%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Jelena Ostapenko",
-                "p": 0.574
-              },
-              {
-                "k": "Panna Udvardy",
-                "p": 0.426
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Tereza Valentova",
-        "away": "Ajla Tomljanovic",
-        "league": "Lexus Eastbourne Open",
-        "date": "Wed 6.24",
-        "kickoff": "2026-06-24T11:30Z",
-        "insight": "Elo: 58% / 42%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Tereza Valentova",
-                "p": 0.58
-              },
-              {
-                "k": "Ajla Tomljanovic",
-                "p": 0.42
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "McCartney Kessler",
-        "away": "Anhelina Kalinina",
-        "league": "Lexus Eastbourne Open",
-        "date": "Wed 6.24",
-        "kickoff": "2026-06-24T11:30Z",
-        "insight": "Elo: 35% / 65%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "McCartney Kessler",
-                "p": 0.348
-              },
-              {
-                "k": "Anhelina Kalinina",
-                "p": 0.652
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
         "home": "Catherine McNally",
         "away": "Emiliana Arango",
         "league": "Lexus Eastbourne Open",
         "date": "Wed 6.24",
-        "kickoff": "2026-06-24T13:00Z",
+        "kickoff": "2026-06-24T13:30Z",
         "insight": "Elo: 69% / 31%.",
         "base": [
           {
@@ -1188,31 +1063,6 @@ window.SPORTS_DATA = {
               {
                 "k": "Emiliana Arango",
                 "p": 0.305
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Zeynep Sonmez",
-        "away": "Sara Bejlek",
-        "league": "Lexus Eastbourne Open",
-        "date": "Wed 6.24",
-        "kickoff": "2026-06-24T13:30Z",
-        "insight": "Elo: 57% / 43%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Zeynep Sonmez",
-                "p": 0.57
-              },
-              {
-                "k": "Sara Bejlek",
-                "p": 0.43
               }
             ]
           }
