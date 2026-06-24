@@ -34,6 +34,7 @@ from sources import espn_loader
 
 KEY = os.environ.get("ODDS_API_KEY")
 API = "https://api.the-odds-api.com/v4"
+NO_ODDS = bool(os.environ.get("FAIRLINE_NO_ODDS"))   # --no-odds: skip paid /odds calls, use free ESPN fixtures
 HD = {0: "Mon", 1: "Tue", 2: "Wed", 3: "Thu", 4: "Fri", 5: "Sat", 6: "Sun"}
 
 # Each league: Odds API key, ESPN path, league label, the sport block + its tab label.
@@ -68,6 +69,8 @@ def _norm(s):
 
 
 def _get(url):
+    if NO_ODDS and "/odds?" in url:  # --no-odds: skip the paid call -> the existing ESPN fixtures fallback runs
+        raise RuntimeError("no-odds mode: paid /odds skipped")
     with urllib.request.urlopen(url, timeout=30) as r:
         return json.loads(r.read().decode("utf-8"))
 
@@ -271,8 +274,8 @@ def build_league(lg, sports_state):
 
 
 def main():
-    if os.environ.get("FAIRLINE_NO_ODDS"):
-        print("  Margin sports: skipped (--no-odds, 0 credits; existing data kept)."); return
+    if NO_ODDS:
+        print("  Margin sports: no-odds mode — free ESPN fixtures, no paid odds.")
     if not KEY:
         print("  Margin sports: ODDS_API_KEY not set — skipped."); return
     active = _active({lg["key"] for lg in LEAGUES})

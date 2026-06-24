@@ -5,7 +5,12 @@ name: Refresh data
 on:
   schedule:
     - cron: "17 6 * * *"    # every day at 06:17 UTC (off the hour -> GitHub drops it less often)
-  workflow_dispatch: {}     # manual run from the Actions tab
+  workflow_dispatch:
+    inputs:
+      force_odds:
+        description: "Fetch paid odds on this manual run (otherwise only Mondays use odds)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write           # allow committing the refreshed data.js back
@@ -46,7 +51,16 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: python run_all.py
+        run: |
+          # Odds-quota throttle: only Mondays (or a forced manual run) fetch real
+          # market odds; the other days refresh fixtures from free ESPN (0 credits).
+          if [ "${{ github.event.inputs.force_odds }}" = "true" ] || [ "$(date -u +%u)" = "1" ]; then
+            echo "Full run WITH paid odds"
+            python run_all.py
+          else
+            echo "Free run (ESPN fixtures, no paid odds)"
+            python run_all.py --no-odds
+          fi
 
       - name: Publish data.js to the 'data' branch
         # Netlify only watches the production branch (main), so committing data to a
