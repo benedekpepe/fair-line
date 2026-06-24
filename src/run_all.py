@@ -2,7 +2,7 @@
 run_all.py — ONE command to refresh every source and push to Supabase once.
 
 Order:
-  1) export_all.py        -> World Cup (martj42/API) + tennis (Sackmann)  -> web/data.js
+  1) export_all.py        -> World Cup (martj42/API)  -> web/data.js
   2) export_club_auto.py  -> 11 club/continental leagues (football-data.org) merged into web/data.js
   3) read the complete web/data.js and push it to Supabase ONCE (full refresh)
 

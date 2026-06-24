@@ -3,11 +3,11 @@ export_tennis_odds.py — re-enables TENNIS with a real value signal.
 
 The long-standing blocker was the lack of a free upcoming-draw source. The Odds
 API solves it: it lists upcoming ATP/WTA matches (Grand Slams, ATP/WTA 1000/500)
-with match-winner (h2h) odds. We already have a surface Elo (tennis_elo.py) trained
-on Jeff Sackmann's free match history, so:
+with match-winner (h2h) odds. The surface Elo (tennis_elo.py) is built from free
+ESPN match results — the same public scoreboard the other sports use — so:
 
   * fixtures + market odds -> The Odds API   (tennis_atp_* / tennis_wta_* keys)
-  * fair line              -> general Elo on Sackmann history
+  * fair line              -> Elo on ESPN match history
 
 For each upcoming match we predict the win probability, attach the market odds to
 the two players, and the frontend shows the value chip (EV = model_p * odds - 1).
@@ -15,8 +15,8 @@ Player names are reconciled (normalise + fuzzy + skip/log).
 
 Env:  ODDS_API_KEY
 """
-import os, sys, io, json, time, re, unicodedata, urllib.request, urllib.parse, difflib
-from datetime import datetime
+import os, sys, json, time, re, unicodedata, urllib.request, urllib.parse, difflib
+from datetime import datetime, date, timedelta
 import pandas as pd
 
 from config import RAW, DATA_JS, SRC
@@ -28,6 +28,7 @@ try:
 except Exception:
     pass
 from models import tennis_elo
+from sources import espn_loader
 
 KEY = os.environ.get("ODDS_API_KEY")
 API = "https://api.the-odds-api.com/v4"
@@ -45,35 +46,24 @@ def _get(url):
         return json.loads(r.read().decode("utf-8"))
 
 
+TENNIS_HIST_DAYS = 540   # ~1.5 seasons of ESPN results -> stable Elo for active players
+
+
 def load_history(repo, cache):
-    """Tennis match history for the Elo model.
-
-    Source: Jeff Sackmann's public tennis_atp / tennis_wta datasets, licensed
-    CC BY-NC-SA (non-commercial). The data is NOT bundled with this repo; it is
-    fetched on demand into a local cache under data/raw. The tennis history is
-    optional — when it is unavailable the tennis cards are simply skipped.
-
-    NOTE: for any commercial use, replace this with a source you are licensed to
-    use commercially; Sackmann's data is non-commercial only.
-
-    Resolution order:
-      1) a local cache under data/raw (written by an earlier run),
-      2) a live download from Sackmann's GitHub (non-commercial use only).
+    """Tennis match history for the Elo model, built from ESPN's public
+    scoreboard — the same free source the other sports use. The result is cached
+    under data/raw and refreshed by the scheduled job; no third-party dataset is
+    bundled. When ESPN returns nothing, the tennis cards are simply skipped.
     """
     p = RAW / cache
     if p.exists():
         return pd.read_csv(p)
-    tour = repo.split("_")[1]
-    frames = []
-    for yr in [2022, 2023, 2024, 2025, 2026]:
-        try:
-            url = f"https://raw.githubusercontent.com/JeffSackmann/{repo}/master/{tour}_matches_{yr}.csv"
-            frames.append(pd.read_csv(io.StringIO(urllib.request.urlopen(url, timeout=30).read().decode("utf-8", "ignore"))))
-        except Exception:
-            pass
-    if not frames:
+    slug = "tennis/wta" if repo.endswith("wta") else "tennis/atp"
+    end = date.today(); start = end - timedelta(days=TENNIS_HIST_DAYS)
+    df = espn_loader.fetch_tennis_results(start, end, tours=(slug,))
+    if df is None or not len(df):
         return None
-    df = pd.concat(frames, ignore_index=True)
+    df = df.drop(columns=[c for c in ("wta",) if c in df.columns])
     df.to_csv(p, index=False)
     return df
 
@@ -129,7 +119,7 @@ def build():
     def model_for(tour):
         if tour in models:
             return models[tour]
-        repo, cache = ("tennis_atp", "atp_full.csv") if tour == "atp" else ("tennis_wta", "wta_full.csv")
+        repo, cache = ("tennis_atp", "atp_hist.csv") if tour == "atp" else ("tennis_wta", "wta_hist.csv")
         df = load_history(repo, cache)
         models[tour] = tennis_elo.build_elo(df) if df is not None and len(df) else None
         return models[tour]

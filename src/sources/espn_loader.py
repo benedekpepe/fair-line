@@ -242,3 +242,52 @@ def fetch_tennis_upcoming(days_ahead=10, max_matches=60, throttle=0.12, verbose=
     if verbose:
         print(f"  ESPN tennis: {len(out)} upcoming singles matches (free, no odds)")
     return out[:max_matches]
+
+
+def fetch_tennis_results(start, end, tours=("tennis/atp", "tennis/wta"), throttle=0.12, verbose=True):
+    """Completed ATP/WTA singles matches from ESPN's public scoreboard, day by
+    day, for the Elo history. Mirrors fetch_tennis_upcoming but keeps finished
+    matches and records the winner and loser. Returns a DataFrame with the columns
+    tennis_elo expects (tourney_date as a YYYYMMDD int, surface, winner_name,
+    loser_name) plus a `wta` flag for tour splitting. ESPN does not reliably expose
+    the court surface, so it defaults to 'Hard' — only the clay sub-Elo would use
+    it, and that path is taken for clay events only."""
+    rows, n_days, n_err = [], 0, 0
+    for slug in tours:
+        wta = (slug == "tennis/wta")
+        d = start
+        while d <= end:
+            ds = d.strftime("%Y%m%d")
+            try:
+                data = _get(f"{ESPN}/{slug}/scoreboard?dates={ds}")
+                for ev in data.get("events", []):
+                    for g in ev.get("groupings", []):
+                        gslug = (g.get("grouping") or {}).get("slug", "")
+                        if gslug not in ("mens-singles", "womens-singles"):
+                            continue
+                        for c in g.get("competitions", []):
+                            st = c.get("status", {}).get("type", {})
+                            if not (st.get("completed") or st.get("state") == "post"):
+                                continue
+                            cs = c.get("competitors", [])
+                            if len(cs) != 2:
+                                continue
+                            win = next((x for x in cs if x.get("winner")), None)
+                            los = next((x for x in cs if not x.get("winner")), None)
+                            if not win or not los:
+                                continue
+                            wn = (win.get("athlete") or {}).get("displayName")
+                            ln = (los.get("athlete") or {}).get("displayName")
+                            if not wn or not ln:
+                                continue
+                            rows.append({"tourney_date": int(ds), "surface": "Hard",
+                                         "winner_name": wn, "loser_name": ln, "wta": wta})
+            except Exception:
+                n_err += 1
+            d += timedelta(days=1); n_days += 1; time.sleep(throttle)
+    df = pd.DataFrame(rows)
+    if len(df):
+        df = df.drop_duplicates(subset=["tourney_date", "winner_name", "loser_name"]).reset_index(drop=True)
+    if verbose:
+        print(f"  ESPN tennis: {len(df)} completed singles matches over {n_days} days ({n_err} day-errors)")
+    return df

@@ -8,11 +8,10 @@ Structure:  sport (top level)  ->  competition (league)  ->  matches
 NOTE: the user-facing strings (league names, insight texts) are kept in
 Hungarian on purpose, because the interface is localised for Hungarian users.
 """
-import json, urllib.request, io, os
+import json, urllib.request, os
 from pathlib import Path
 import numpy as np, pandas as pd
 from scipy.optimize import minimize
-from models import tennis_elo
 
 from config import RAW, DATA_JS
 
@@ -90,37 +89,13 @@ else:
                          "lam": round(lam, 2), "mu": round(mu, 2), "insight": f"Group stage. Expected goals: {lam:.2f}–{mu:.2f}."})
     print(f"Football/WC (martj42 fallback): {len(foci)} matches")
 
-# ============ 2) TENNIS – Roland Garros (men + women) ============
-def tennis_block(repo, csv, matchups, league):
-    if not matchups:   # no fixtures wired in -> nothing to predict; skip (also avoids a needless download)
-        return []
-    if not (RAW / csv).exists():
-        fr = []
-        for yr in [2023, 2024, 2025, 2026]:
-            try: fr.append(pd.read_csv(io.StringIO(urllib.request.urlopen(f"https://raw.githubusercontent.com/JeffSackmann/{repo}/master/{repo.split('_')[1]}_matches_{yr}.csv", timeout=30).read().decode("utf-8", "ignore"))))
-            except: pass
-        if not fr:     # data source unreachable and no local cache -> skip gracefully instead of crashing
-            print(f"  tennis data unavailable ({repo}) — skipping"); return []
-        pd.concat(fr, ignore_index=True).to_csv(RAW / csv, index=False)
-    m = tennis_elo.build_elo(pd.read_csv(RAW / csv))
-    out = []
-    for p1, p2, dt in matchups:
-        if p1 in m["gen"] and p2 in m["gen"]:
-            pr = tennis_elo.predict_clay(m, p1, p2)
-            out.append({"home": p1, "away": p2, "league": league, "date": dt,
-                "insight": f"Salak-Elo: {pr*100:.0f}% / {(1-pr)*100:.0f}%.",
-                "base": [{"name": "Match winner", "grid": "c2", "outs": [{"k": p1, "p": round(pr, 3)}, {"k": p2, "p": round(1 - pr, 3)}]}], "extra": []})
-    return out
-
-# Tennis fixtures are DISABLED for now: there is no free tennis draw API, so the
-# round had to be hand-entered, which goes stale within a day (a played match
-# would still show). Re-enable by wiring a live source (e.g. The Odds API, which
-# lists upcoming ATP/WTA matches with odds), or paste the current draw below.
-ATP = []
-WTA = []
-tennis = tennis_block("tennis_atp", "atp_full.csv", ATP, "Roland Garros – Men") \
-       + tennis_block("tennis_wta", "wta_full.csv", WTA, "Roland Garros – Women")
-print(f"Tennis: {len(tennis)} matches (men+women)")
+# ============ 2) TENNIS ============
+# Tennis is built by export_tennis_odds.py: upcoming draws + match-winner odds
+# from The Odds API, with the fair line coming from an Elo trained on free ESPN
+# match results. export_all no longer produces tennis itself — it leaves the
+# tenisz block untouched so that exporter can fill it.
+tennis = []
+print(f"Tennis: {len(tennis)} matches (handled by export_tennis_odds)")
 
 # ============ output: sport -> competition -> match ============
 # Preserve any other sport blocks already in data.js (margin/combat/etc. from later exports);
@@ -135,7 +110,7 @@ if out.exists():
 data["foci"] = {"label": "Football",
                 "matches": [m for m in data.get("foci", {}).get("matches", [])
                             if m.get("league") not in {x["league"] for x in foci}] + foci}
-if tennis:   # export_all's own tennis is the legacy Sackmann path; keep the live tenisz block if empty
+if tennis:   # always empty now; tennis is written by export_tennis_odds
     data["tenisz"] = {"label": "Tennis", "matches": tennis}
 out.write_text("window.SPORTS_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
 print(f"data.js ready: Football(WC) {len(foci)} + Tennis(RG men+women) {len(tennis)}")
