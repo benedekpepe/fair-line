@@ -129,6 +129,39 @@ window.SPORTS_DATA = {
         "insight": "Round None. Expected goals: 1.82-1.32."
       },
       {
+        "home": "OGC Nice",
+        "away": "FC Lorient",
+        "league": "Ligue 1",
+        "date": "Sat 8.22",
+        "kickoff": "2026-08-22T15:00:00Z",
+        "lam": 1.57,
+        "mu": 1.24,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 1.57-1.24."
+      },
+      {
+        "home": "Toulouse FC",
+        "away": "Olympique Lyonnais",
+        "league": "Ligue 1",
+        "date": "Sat 8.22",
+        "kickoff": "2026-08-22T15:00:00Z",
+        "lam": 1.36,
+        "mu": 1.44,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 1.36-1.44."
+      },
+      {
+        "home": "Le Havre AC",
+        "away": "AS Monaco FC",
+        "league": "Ligue 1",
+        "date": "Sat 8.22",
+        "kickoff": "2026-08-22T15:00:00Z",
+        "lam": 1.17,
+        "mu": 1.75,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 1.17-1.75."
+      },
+      {
         "home": "Nottingham Forest FC",
         "away": "Leeds United FC",
         "league": "Premier League",
@@ -206,6 +239,61 @@ window.SPORTS_DATA = {
         "insight": "Round 1. Expected goals: 1.34-1.38."
       },
       {
+        "home": "FC Internazionale Milano",
+        "away": "AC Monza",
+        "league": "Serie A",
+        "date": "Sun 8.23",
+        "kickoff": "2026-08-23T16:30:00Z",
+        "lam": 3.05,
+        "mu": 0.62,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 3.05-0.62."
+      },
+      {
+        "home": "Atalanta BC",
+        "away": "US Sassuolo Calcio",
+        "league": "Serie A",
+        "date": "Sun 8.23",
+        "kickoff": "2026-08-23T16:30:00Z",
+        "lam": 2.02,
+        "mu": 0.93,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 2.02-0.93."
+      },
+      {
+        "home": "Torino FC",
+        "away": "AC Milan",
+        "league": "Serie A",
+        "date": "Sun 8.23",
+        "kickoff": "2026-08-23T16:30:00Z",
+        "lam": 1.0,
+        "mu": 1.58,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 1.00-1.58."
+      },
+      {
+        "home": "Frosinone Calcio",
+        "away": "Juventus FC",
+        "league": "Serie A",
+        "date": "Sun 8.23",
+        "kickoff": "2026-08-23T16:30:00Z",
+        "lam": 0.86,
+        "mu": 2.06,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 0.86-2.06."
+      },
+      {
+        "home": "AS Roma",
+        "away": "ACF Fiorentina",
+        "league": "Serie A",
+        "date": "Sun 8.23",
+        "kickoff": "2026-08-23T16:30:00Z",
+        "lam": 1.6,
+        "mu": 0.92,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 1.60-0.92."
+      },
+      {
         "home": "Switzerland",
         "away": "Canada",
         "league": "World Cup 2026",
@@ -251,9 +339,9 @@ window.SPORTS_DATA = {
         "league": "World Cup 2026",
         "date": "Thu 6.25",
         "kickoff": "2026-06-25T01:00:00Z",
-        "lam": 1.1,
+        "lam": 1.11,
         "mu": 1.22,
-        "insight": "Group stage. Expected goals: 1.10–1.22."
+        "insight": "Group stage. Expected goals: 1.11–1.22."
       },
       {
         "home": "South Africa",
@@ -291,9 +379,9 @@ window.SPORTS_DATA = {
         "league": "World Cup 2026",
         "date": "Thu 6.25",
         "kickoff": "2026-06-25T23:00:00Z",
-        "lam": 0.61,
+        "lam": 0.62,
         "mu": 1.83,
-        "insight": "Group stage. Expected goals: 0.61–1.83."
+        "insight": "Group stage. Expected goals: 0.62–1.83."
       },
       {
         "home": "Japan",
@@ -362,8 +450,8 @@ window.SPORTS_DATA = {
         "date": "Sat 6.27",
         "kickoff": "2026-06-27T00:00:00Z",
         "lam": 0.85,
-        "mu": 0.89,
-        "insight": "Group stage. Expected goals: 0.85–0.89."
+        "mu": 0.88,
+        "insight": "Group stage. Expected goals: 0.85–0.88."
       },
       {
         "home": "New Zealand",
@@ -554,94 +642,6 @@ window.SPORTS_DATA = {
         "mu": 1.58,
         "md": 19,
         "insight": "Round 19. Expected goals: 0.99-1.58."
-      },
-      {
-        "home": "FC Internazionale Milano",
-        "away": "AC Monza",
-        "league": "Serie A",
-        "date": "Sun 8.23",
-        "kickoff": "2026-08-23T16:30:00Z",
-        "lam": 3.05,
-        "mu": 0.62,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 3.05-0.62."
-      },
-      {
-        "home": "Atalanta BC",
-        "away": "US Sassuolo Calcio",
-        "league": "Serie A",
-        "date": "Sun 8.23",
-        "kickoff": "2026-08-23T16:30:00Z",
-        "lam": 2.02,
-        "mu": 0.93,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 2.02-0.93."
-      },
-      {
-        "home": "Torino FC",
-        "away": "AC Milan",
-        "league": "Serie A",
-        "date": "Sun 8.23",
-        "kickoff": "2026-08-23T16:30:00Z",
-        "lam": 1.0,
-        "mu": 1.58,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.00-1.58."
-      },
-      {
-        "home": "Frosinone Calcio",
-        "away": "Juventus FC",
-        "league": "Serie A",
-        "date": "Sun 8.23",
-        "kickoff": "2026-08-23T16:30:00Z",
-        "lam": 0.86,
-        "mu": 2.06,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 0.86-2.06."
-      },
-      {
-        "home": "AS Roma",
-        "away": "ACF Fiorentina",
-        "league": "Serie A",
-        "date": "Sun 8.23",
-        "kickoff": "2026-08-23T16:30:00Z",
-        "lam": 1.6,
-        "mu": 0.92,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.60-0.92."
-      },
-      {
-        "home": "OGC Nice",
-        "away": "FC Lorient",
-        "league": "Ligue 1",
-        "date": "Sat 8.22",
-        "kickoff": "2026-08-22T15:00:00Z",
-        "lam": 1.57,
-        "mu": 1.24,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.57-1.24."
-      },
-      {
-        "home": "Toulouse FC",
-        "away": "Olympique Lyonnais",
-        "league": "Ligue 1",
-        "date": "Sat 8.22",
-        "kickoff": "2026-08-22T15:00:00Z",
-        "lam": 1.36,
-        "mu": 1.44,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.36-1.44."
-      },
-      {
-        "home": "Le Havre AC",
-        "away": "AS Monaco FC",
-        "league": "Ligue 1",
-        "date": "Sat 8.22",
-        "kickoff": "2026-08-22T15:00:00Z",
-        "lam": 1.17,
-        "mu": 1.75,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.17-1.75."
       },
       {
         "home": "FC Groningen",
@@ -918,7 +918,333 @@ window.SPORTS_DATA = {
   },
   "tenisz": {
     "label": "Tennis",
-    "matches": []
+    "matches": [
+      {
+        "home": "Giles Hussey",
+        "away": "Quentin Halys",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T11:00Z",
+        "insight": "Elo: 41% / 59%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Giles Hussey",
+                "p": 0.414
+              },
+              {
+                "k": "Quentin Halys",
+                "p": 0.586
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Arthur Fery",
+        "away": "Juan Manuel Cerundolo",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T11:00Z",
+        "insight": "Elo: 9% / 91%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Arthur Fery",
+                "p": 0.087
+              },
+              {
+                "k": "Juan Manuel Cerundolo",
+                "p": 0.913
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Daniel Altmaier",
+        "away": "Zizou Bergs",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T13:00Z",
+        "insight": "Elo: 95% / 5%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Daniel Altmaier",
+                "p": 0.952
+              },
+              {
+                "k": "Zizou Bergs",
+                "p": 0.048
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Ugo Humbert",
+        "away": "Jenson Brooksby",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T13:00Z",
+        "insight": "Elo: 96% / 4%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ugo Humbert",
+                "p": 0.957
+              },
+              {
+                "k": "Jenson Brooksby",
+                "p": 0.043
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Taylor Fritz",
+        "away": "Jan Choinski",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T13:30Z",
+        "insight": "Elo: 97% / 3%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Taylor Fritz",
+                "p": 0.973
+              },
+              {
+                "k": "Jan Choinski",
+                "p": 0.027
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Gabriel Diallo",
+        "away": "Tomas Martin Etcheverry",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T14:30Z",
+        "insight": "Elo: 16% / 84%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Gabriel Diallo",
+                "p": 0.16
+              },
+              {
+                "k": "Tomas Martin Etcheverry",
+                "p": 0.84
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Jack Draper",
+        "away": "Jack Pinnington Jones",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T15:00Z",
+        "insight": "Elo: 98% / 2%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jack Draper",
+                "p": 0.978
+              },
+              {
+                "k": "Jack Pinnington Jones",
+                "p": 0.022
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Jelena Ostapenko",
+        "away": "Panna Udvardy",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T11:30Z",
+        "insight": "Elo: 80% / 20%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jelena Ostapenko",
+                "p": 0.797
+              },
+              {
+                "k": "Panna Udvardy",
+                "p": 0.203
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Tereza Valentova",
+        "away": "Ajla Tomljanovic",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T11:30Z",
+        "insight": "Elo: 30% / 70%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tereza Valentova",
+                "p": 0.296
+              },
+              {
+                "k": "Ajla Tomljanovic",
+                "p": 0.704
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "McCartney Kessler",
+        "away": "Anhelina Kalinina",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T11:30Z",
+        "insight": "Elo: 30% / 70%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "McCartney Kessler",
+                "p": 0.301
+              },
+              {
+                "k": "Anhelina Kalinina",
+                "p": 0.699
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Catherine McNally",
+        "away": "Emiliana Arango",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T13:00Z",
+        "insight": "Elo: 87% / 13%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Catherine McNally",
+                "p": 0.872
+              },
+              {
+                "k": "Emiliana Arango",
+                "p": 0.128
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Zeynep Sonmez",
+        "away": "Sara Bejlek",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T13:30Z",
+        "insight": "Elo: 76% / 24%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Zeynep Sonmez",
+                "p": 0.756
+              },
+              {
+                "k": "Sara Bejlek",
+                "p": 0.244
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Petra Marcinko",
+        "away": "Kimberly Birrell",
+        "league": "Lexus Eastbourne Open",
+        "date": "Wed 6.24",
+        "kickoff": "2026-06-24T15:00Z",
+        "insight": "Elo: 20% / 80%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Petra Marcinko",
+                "p": 0.198
+              },
+              {
+                "k": "Kimberly Birrell",
+                "p": 0.802
+              }
+            ]
+          }
+        ],
+        "extra": []
+      }
+    ]
   },
   "kosar": {
     "label": "Basketball",
