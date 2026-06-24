@@ -3,7 +3,7 @@ export_tennis_odds.py — re-enables TENNIS with a real value signal.
 
 The long-standing blocker was the lack of a free upcoming-draw source. The Odds
 API solves it: it lists upcoming ATP/WTA matches (Grand Slams, ATP/WTA 1000/500)
-with match-winner (h2h) odds. The surface Elo (tennis_elo.py) is built from free
+with match-winner (h2h) odds. The Elo model (tennis_elo.py) is built from free
 ESPN match results — the same public scoreboard the other sports use — so:
 
   * fixtures + market odds -> The Odds API   (tennis_atp_* / tennis_wta_* keys)

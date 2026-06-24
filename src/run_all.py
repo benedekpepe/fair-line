@@ -8,7 +8,7 @@ Order:
 
 Because the Supabase push is a full refresh (delete + insert), every sport must
 be pushed together — that is exactly what this runner does, so the club leagues
-are never wiped by the World-Cup/tennis push.
+are never wiped by a partial, single-sport push.
 
 Environment variables required:
   FOOTBALL_DATA_KEY     football-data.org free key
@@ -45,7 +45,7 @@ def main():
     if NO_ODDS:
         print("### --no-odds mode: skipping all The Odds API calls (0 credits). "
               "Existing odds data is preserved. ###")
-    run("export_all")        # WC + tennis -> web/data.js  (push skipped here)
+    run("export_all")        # World Cup (football) -> web/data.js  (push skipped here)
     run("export_club_auto")  # + club leagues (football-data.org fixtures) merged in
     run("export_odds_leagues")  # + summer leagues (The Odds API fixtures+odds) merged in
     run("export_tennis_odds")   # + tennis (The Odds API fixtures+odds, Elo fair line)

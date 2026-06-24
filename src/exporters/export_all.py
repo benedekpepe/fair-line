@@ -3,7 +3,6 @@ export_all.py — all sports into one data.js, from real models.
 Structure:  sport (top level)  ->  competition (league)  ->  matches
   Football: World Cup 2026 (fixtures from the API when available, with the
             national-team strengths estimated from the martj42 history)
-  Tennis:   Roland Garros - men (ATP) AND Roland Garros - women (WTA)
 
 NOTE: the user-facing strings (league names, insight texts) are kept in
 Hungarian on purpose, because the interface is localised for Hungarian users.
@@ -89,17 +88,13 @@ else:
                          "lam": round(lam, 2), "mu": round(mu, 2), "insight": f"Group stage. Expected goals: {lam:.2f}–{mu:.2f}."})
     print(f"Football/WC (martj42 fallback): {len(foci)} matches")
 
-# ============ 2) TENNIS ============
-# Tennis is built by export_tennis_odds.py: upcoming draws + match-winner odds
-# from The Odds API, with the fair line coming from an Elo trained on free ESPN
-# match results. export_all no longer produces tennis itself — it leaves the
-# tenisz block untouched so that exporter can fill it.
-tennis = []
-print(f"Tennis: {len(tennis)} matches (handled by export_tennis_odds)")
+# Tennis is produced separately by export_tennis_odds.py (ESPN history + The Odds
+# API draws). export_all only writes the football block here and leaves every
+# other sport's block in data.js untouched.
 
 # ============ output: sport -> competition -> match ============
-# Preserve any other sport blocks already in data.js (margin/combat/etc. from later exports);
-# only (re)write the foci and tenisz blocks here.
+# Preserve any other sport blocks already in data.js (tennis/margin/combat/etc. from later exports);
+# only (re)write the foci (football) block here.
 out = DATA_JS; out.parent.mkdir(parents=True, exist_ok=True)
 data = {}
 if out.exists():
@@ -110,10 +105,8 @@ if out.exists():
 data["foci"] = {"label": "Football",
                 "matches": [m for m in data.get("foci", {}).get("matches", [])
                             if m.get("league") not in {x["league"] for x in foci}] + foci}
-if tennis:   # always empty now; tennis is written by export_tennis_odds
-    data["tenisz"] = {"label": "Tennis", "matches": tennis}
 out.write_text("window.SPORTS_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
-print(f"data.js ready: Football(WC) {len(foci)} + Tennis(RG men+women) {len(tennis)}")
+print(f"data.js ready: Football(WC) {len(foci)} matches")
 
 # push to Supabase only when explicitly requested; the combined runner
 # (run_all.py) pushes the FULL set (club + WC + tennis) once at the end.
