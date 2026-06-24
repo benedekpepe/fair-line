@@ -108,13 +108,5 @@ data["foci"] = {"label": "Football",
 out.write_text("window.SPORTS_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
 print(f"data.js ready: Football(WC) {len(foci)} matches")
 
-# push to Supabase only when explicitly requested; the combined runner
-# (run_all.py) pushes the FULL set (club + WC + tennis) once at the end.
-if os.environ.get("EXPORT_PUSH") == "1":
-    try:
-        import sync_supabase
-        sync_supabase.push(data)
-    except Exception as e:
-        print(f"  Supabase push skipped/failed: {e}")
-else:
-    print("  (Supabase push skipped here — run run_all.py to push the full combined set.)")
+# This exporter only writes web/data.js. The Supabase push is done once, for the
+# full combined set, by run_all.py at the end of the pipeline.
