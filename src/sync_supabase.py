@@ -98,6 +98,21 @@ def push(data):
                        "insight_key": ikey, "insight_vars": {}}
             meta.append(det)
 
+    # De-duplicate on the same key the database enforces: (sport, league, home, away, kickoff).
+    # Two games of a doubleheader share teams + day but have different kickoff times, so BOTH
+    # survive. When kickoff is missing we fall back to match_date so genuine repeats are still
+    # collapsed. match_rows/meta stay in lockstep so details stay aligned.
+    seen, dedup_rows, dedup_meta = set(), [], []
+    for row, det in zip(match_rows, meta):
+        k = (row["sport"], row["league"], row["home"], row["away"], row.get("kickoff") or row.get("match_date"))
+        if k in seen:
+            continue
+        seen.add(k)
+        dedup_rows.append(row); dedup_meta.append(det)
+    if len(dedup_rows) != len(match_rows):
+        print(f"  Supabase: collapsed {len(match_rows) - len(dedup_rows)} exact-duplicate match(es).")
+    match_rows, meta = dedup_rows, dedup_meta
+
     if not match_rows:
         print("  nothing to push."); return
 
@@ -113,18 +128,23 @@ def push(data):
               f"current ({cur_n}); kept existing data (likely an odds/quota failure).")
         return
 
-    # full refresh (match_details first because it references matches)
-    _req("DELETE", f"{base}/match_details?match_id=neq.-1", key)
-    _req("DELETE", f"{base}/matches?id=neq.-1", key)
+    # Full refresh (match_details first because it references matches). Wrapped so that a
+    # Supabase failure never aborts the pipeline: the fresh web/data.js still gets published
+    # to the data branch (the public demo) even if the database write has a problem.
+    try:
+        _req("DELETE", f"{base}/match_details?match_id=neq.-1", key)
+        _req("DELETE", f"{base}/matches?id=neq.-1", key)
 
-    inserted = _req("POST", f"{base}/matches", key, body=match_rows, prefer="return=representation")
-    ids = [row["id"] for row in inserted]                     # same order as inserted
-    detail_rows = []
-    for mid, det in zip(ids, meta):
-        if det:
-            row = {"match_id": mid}
-            row.update(det)
-            detail_rows.append(row)
-    if detail_rows:
-        _req("POST", f"{base}/match_details", key, body=detail_rows, prefer="return=minimal")
-    print(f"  Supabase: pushed {len(match_rows)} matches, {len(detail_rows)} details.")
+        inserted = _req("POST", f"{base}/matches", key, body=match_rows, prefer="return=representation")
+        ids = [row["id"] for row in inserted]                 # same order as inserted
+        detail_rows = []
+        for mid, det in zip(ids, meta):
+            if det:
+                row = {"match_id": mid}
+                row.update(det)
+                detail_rows.append(row)
+        if detail_rows:
+            _req("POST", f"{base}/match_details", key, body=detail_rows, prefer="return=minimal")
+        print(f"  Supabase: pushed {len(match_rows)} matches, {len(detail_rows)} details.")
+    except Exception as e:
+        print(f"  Supabase: push failed ({str(e)[:150]}) — web/data.js still updated for the demo.")
