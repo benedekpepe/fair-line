@@ -123,19 +123,8 @@ window.SPORTS_DATA = {
         "date": "Sun 7.19",
         "kickoff": "2026-07-19T19:00:00Z",
         "lam": 1.27,
-        "mu": 0.94,
-        "insight": "Group stage. Expected goals: 1.27–0.94."
-      },
-      {
-        "home": "EC Bahia",
-        "away": "Chapecoense AF",
-        "league": "Brasileirao",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T22:30:00Z",
-        "lam": 2.4,
-        "mu": 0.8,
-        "md": 4,
-        "insight": "Round 4. Expected goals: 2.40-0.80."
+        "mu": 0.93,
+        "insight": "Group stage. Expected goals: 1.27–0.93."
       },
       {
         "home": "Botafogo FR",
@@ -477,19 +466,6 @@ window.SPORTS_DATA = {
         "mu": 0.51,
         "md": 1,
         "insight": "Round 1. Expected goals: 2.30-0.51."
-      },
-      {
-        "home": "Nashville SC",
-        "away": "Atlanta United FC",
-        "league": "MLS",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T00:10Z",
-        "lam": 1.95,
-        "mu": 0.85,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.95-0.85."
       },
       {
         "home": "Columbus Crew",
@@ -960,17 +936,17 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.17-0.99."
       },
       {
-        "home": "Bodo/Glimt",
-        "away": "Fredrikstad",
-        "league": "Norway",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T17:15Z",
-        "lam": 2.71,
-        "mu": 0.72,
+        "home": "Barracas Central",
+        "away": "Aldosivi",
+        "league": "Argentina",
+        "date": "Wed 7.29",
+        "kickoff": "2026-07-29T17:30Z",
+        "lam": 1.43,
+        "mu": 0.69,
         "mkt": null,
         "mkt_ou": null,
         "mkt_ah": null,
-        "insight": "Expected goals: 2.71-0.72."
+        "insight": "Expected goals: 1.43-0.69."
       },
       {
         "home": "Lillestrom",
@@ -1090,19 +1066,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.56-0.98."
       },
       {
-        "home": "IFK Göteborg",
-        "away": "IF Brommapojkarna",
-        "league": "Sweden",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T17:00Z",
-        "lam": 1.54,
-        "mu": 1.29,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.54-1.29."
-      },
-      {
         "home": "AIK",
         "away": "GAIS",
         "league": "Sweden",
@@ -1205,58 +1168,6 @@ window.SPORTS_DATA = {
         "mkt_ou": null,
         "mkt_ah": null,
         "insight": "Expected goals: 1.69-1.43."
-      },
-      {
-        "home": "Qingdao West Coast",
-        "away": "Chengdu Rongcheng",
-        "league": "China",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T11:00Z",
-        "lam": 0.95,
-        "mu": 1.65,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 0.95-1.65."
-      },
-      {
-        "home": "Beijing Guoan",
-        "away": "Liaoning Tieren",
-        "league": "China",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T11:35Z",
-        "lam": 2.43,
-        "mu": 1.22,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 2.43-1.22."
-      },
-      {
-        "home": "Henan",
-        "away": "Qingdao Hainiu",
-        "league": "China",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T11:35Z",
-        "lam": 1.62,
-        "mu": 1.0,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.62-1.00."
-      },
-      {
-        "home": "Yunnan Yukun",
-        "away": "Shanghai Port",
-        "league": "China",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T12:00Z",
-        "lam": 1.76,
-        "mu": 2.09,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.76-2.09."
       },
       {
         "home": "Chongqing Tonglianglong",
@@ -1415,32 +1326,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 2.11-1.20."
       },
       {
-        "home": "León",
-        "away": "Atlas",
-        "league": "Mexico",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T01:00Z",
-        "lam": 1.51,
-        "mu": 1.13,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.51-1.13."
-      },
-      {
-        "home": "FC Juarez",
-        "away": "Puebla",
-        "league": "Mexico",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T03:00Z",
-        "lam": 1.95,
-        "mu": 1.03,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.95-1.03."
-      },
-      {
         "home": "Querétaro",
         "away": "América",
         "league": "Mexico",
@@ -1514,222 +1399,6 @@ window.SPORTS_DATA = {
   "kosar": {
     "label": "Basketball",
     "matches": [
-      {
-        "home": "Indiana Fever",
-        "away": "Seattle Storm",
-        "league": "WNBA",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:30Z",
-        "insight": "Expected 87-80 (margin +6.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Indiana Fever",
-                "p": 0.696
-              },
-              {
-                "k": "Seattle Storm",
-                "p": 0.304
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Indiana Fever -7.0",
-                "p": 0.495
-              },
-              {
-                "k": "Seattle Storm +7.0",
-                "p": 0.505
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 167.5",
-                "p": 0.505
-              },
-              {
-                "k": "Under 167.5",
-                "p": 0.495
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Toronto Tempo",
-        "away": "Atlanta Dream",
-        "league": "WNBA",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:30Z",
-        "insight": "Expected 85-91 (margin -5.9).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Toronto Tempo",
-                "p": 0.33
-              },
-              {
-                "k": "Atlanta Dream",
-                "p": 0.67
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Toronto Tempo +6.0",
-                "p": 0.504
-              },
-              {
-                "k": "Atlanta Dream -6.0",
-                "p": 0.496
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 175.5",
-                "p": 0.5
-              },
-              {
-                "k": "Under 175.5",
-                "p": 0.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Chicago Sky",
-        "away": "Los Angeles Sparks",
-        "league": "WNBA",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:30Z",
-        "insight": "Expected 87-89 (margin -1.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Sky",
-                "p": 0.446
-              },
-              {
-                "k": "Los Angeles Sparks",
-                "p": 0.554
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Sky +2.0",
-                "p": 0.506
-              },
-              {
-                "k": "Los Angeles Sparks -2.0",
-                "p": 0.494
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 176.5",
-                "p": 0.499
-              },
-              {
-                "k": "Under 176.5",
-                "p": 0.501
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Phoenix Mercury",
-        "away": "Connecticut Sun",
-        "league": "WNBA",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T02:00Z",
-        "insight": "Expected 87-75 (margin +11.4).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Phoenix Mercury",
-                "p": 0.805
-              },
-              {
-                "k": "Connecticut Sun",
-                "p": 0.195
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Phoenix Mercury -11.5",
-                "p": 0.498
-              },
-              {
-                "k": "Connecticut Sun +11.5",
-                "p": 0.502
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 161.5",
-                "p": 0.503
-              },
-              {
-                "k": "Under 161.5",
-                "p": 0.497
-              }
-            ]
-          }
-        ]
-      },
       {
         "home": "Indiana Fever",
         "away": "New York Liberty",
@@ -2600,114 +2269,6 @@ window.SPORTS_DATA = {
     "label": "AFL",
     "matches": [
       {
-        "home": "Sydney Swans",
-        "away": "Adelaide Crows",
-        "league": "AFL",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T09:40Z",
-        "insight": "Expected 85-84 (margin +1.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sydney Swans",
-                "p": 0.514
-              },
-              {
-                "k": "Adelaide Crows",
-                "p": 0.486
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sydney Swans -1.0",
-                "p": 0.501
-              },
-              {
-                "k": "Adelaide Crows +1.0",
-                "p": 0.499
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 168.5",
-                "p": 0.498
-              },
-              {
-                "k": "Under 168.5",
-                "p": 0.502
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Port Adelaide",
-        "away": "Fremantle",
-        "league": "AFL",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T03:15Z",
-        "insight": "Expected 69-88 (margin -19.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Port Adelaide",
-                "p": 0.268
-              },
-              {
-                "k": "Fremantle",
-                "p": 0.732
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Port Adelaide +19.0",
-                "p": 0.498
-              },
-              {
-                "k": "Fremantle -19.0",
-                "p": 0.502
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 157.0",
-                "p": 0.502
-              },
-              {
-                "k": "Under 157.0",
-                "p": 0.498
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "North Melbourne",
         "away": "Melbourne",
         "league": "AFL",
@@ -3523,168 +3084,6 @@ window.SPORTS_DATA = {
     "label": "NRL",
     "matches": [
       {
-        "home": "Sharks",
-        "away": "Knights",
-        "league": "NRL",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T08:00Z",
-        "insight": "Expected 31-17 (margin +14.5).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sharks",
-                "p": 0.784
-              },
-              {
-                "k": "Knights",
-                "p": 0.216
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sharks -14.5",
-                "p": 0.499
-              },
-              {
-                "k": "Knights +14.5",
-                "p": 0.501
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 48.5",
-                "p": 0.494
-              },
-              {
-                "k": "Under 48.5",
-                "p": 0.506
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Roosters",
-        "away": "Storm",
-        "league": "NRL",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T10:00Z",
-        "insight": "Expected 26-20 (margin +6.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Roosters",
-                "p": 0.63
-              },
-              {
-                "k": "Storm",
-                "p": 0.37
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Roosters -6.0",
-                "p": 0.502
-              },
-              {
-                "k": "Storm +6.0",
-                "p": 0.498
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 46.0",
-                "p": 0.504
-              },
-              {
-                "k": "Under 46.0",
-                "p": 0.496
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Raiders",
-        "away": "Rabbitohs",
-        "league": "NRL",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T05:00Z",
-        "insight": "Expected 25-23 (margin +1.7).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Raiders",
-                "p": 0.536
-              },
-              {
-                "k": "Rabbitohs",
-                "p": 0.464
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Raiders -1.5",
-                "p": 0.503
-              },
-              {
-                "k": "Rabbitohs +1.5",
-                "p": 0.497
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 48.5",
-                "p": 0.502
-              },
-              {
-                "k": "Under 48.5",
-                "p": 0.498
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Warriors",
         "away": "Dragons",
         "league": "NRL",
@@ -4338,119 +3737,11 @@ window.SPORTS_DATA = {
     "label": "Baseball",
     "matches": [
       {
-        "home": "Boston Red Sox",
-        "away": "Tampa Bay Rays",
-        "league": "MLB",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T17:35Z",
-        "insight": "Expected 4-4 (margin -0.0).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Boston Red Sox",
-                "p": 0.5
-              },
-              {
-                "k": "Tampa Bay Rays",
-                "p": 0.5
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Boston Red Sox -0.0",
-                "p": 0.5
-              },
-              {
-                "k": "Tampa Bay Rays 0.0",
-                "p": 0.5
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 8.0",
-                "p": 0.509
-              },
-              {
-                "k": "Under 8.0",
-                "p": 0.491
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "New York Yankees",
-        "away": "Los Angeles Dodgers",
-        "league": "MLB",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:05Z",
-        "insight": "Expected 4-5 (margin -0.6).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New York Yankees",
-                "p": 0.446
-              },
-              {
-                "k": "Los Angeles Dodgers",
-                "p": 0.554
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New York Yankees +0.5",
-                "p": 0.49
-              },
-              {
-                "k": "Los Angeles Dodgers -0.5",
-                "p": 0.51
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.0",
-                "p": 0.518
-              },
-              {
-                "k": "Under 9.0",
-                "p": 0.482
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Cleveland Guardians",
         "away": "Pittsburgh Pirates",
         "league": "MLB",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:10Z",
+        "date": "Sat 7.18",
+        "kickoff": "2026-07-18T17:10Z",
         "insight": "Expected 5-5 (margin -0.3).",
         "base": [
           {
@@ -4500,173 +3791,11 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "Toronto Blue Jays",
-        "away": "Chicago White Sox",
-        "league": "MLB",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:15Z",
-        "insight": "Expected 4-5 (margin -0.4).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Toronto Blue Jays",
-                "p": 0.463
-              },
-              {
-                "k": "Chicago White Sox",
-                "p": 0.537
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Toronto Blue Jays +0.5",
-                "p": 0.506
-              },
-              {
-                "k": "Chicago White Sox -0.5",
-                "p": 0.494
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.0",
-                "p": 0.479
-              },
-              {
-                "k": "Under 9.0",
-                "p": 0.521
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Atlanta Braves",
-        "away": "Texas Rangers",
-        "league": "MLB",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:15Z",
-        "insight": "Expected 5-4 (margin +1.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Atlanta Braves",
-                "p": 0.597
-              },
-              {
-                "k": "Texas Rangers",
-                "p": 0.403
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Atlanta Braves -1.0",
-                "p": 0.51
-              },
-              {
-                "k": "Texas Rangers +1.0",
-                "p": 0.49
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 8.5",
-                "p": 0.512
-              },
-              {
-                "k": "Under 8.5",
-                "p": 0.488
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Milwaukee Brewers",
-        "away": "Miami Marlins",
-        "league": "MLB",
-        "date": "Fri 7.17",
-        "kickoff": "2026-07-17T23:40Z",
-        "insight": "Expected 5-4 (margin +1.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Milwaukee Brewers",
-                "p": 0.604
-              },
-              {
-                "k": "Miami Marlins",
-                "p": 0.396
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Milwaukee Brewers -1.0",
-                "p": 0.517
-              },
-              {
-                "k": "Miami Marlins +1.0",
-                "p": 0.483
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 8.5",
-                "p": 0.506
-              },
-              {
-                "k": "Under 8.5",
-                "p": 0.494
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Chicago Cubs",
         "away": "Minnesota Twins",
         "league": "MLB",
         "date": "Sat 7.18",
-        "kickoff": "2026-07-18T00:05Z",
+        "kickoff": "2026-07-18T18:20Z",
         "insight": "Expected 5-5 (margin +0.4).",
         "base": [
           {
@@ -4710,384 +3839,6 @@ window.SPORTS_DATA = {
               {
                 "k": "Under 10.5",
                 "p": 0.501
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Houston Astros",
-        "away": "Baltimore Orioles",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T00:10Z",
-        "insight": "Expected 4-5 (margin -0.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Houston Astros",
-                "p": 0.481
-              },
-              {
-                "k": "Baltimore Orioles",
-                "p": 0.519
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Houston Astros -0.0",
-                "p": 0.481
-              },
-              {
-                "k": "Baltimore Orioles 0.0",
-                "p": 0.519
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.0",
-                "p": 0.483
-              },
-              {
-                "k": "Under 9.0",
-                "p": 0.517
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Kansas City Royals",
-        "away": "San Diego Padres",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T00:10Z",
-        "insight": "Expected 5-5 (margin -0.6).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Kansas City Royals",
-                "p": 0.448
-              },
-              {
-                "k": "San Diego Padres",
-                "p": 0.552
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Kansas City Royals +0.5",
-                "p": 0.492
-              },
-              {
-                "k": "San Diego Padres -0.5",
-                "p": 0.508
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 10.0",
-                "p": 0.482
-              },
-              {
-                "k": "Under 10.0",
-                "p": 0.518
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Colorado Rockies",
-        "away": "Cincinnati Reds",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T00:40Z",
-        "insight": "Expected 6-6 (margin +0.0).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Colorado Rockies",
-                "p": 0.5
-              },
-              {
-                "k": "Cincinnati Reds",
-                "p": 0.5
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Colorado Rockies -0.0",
-                "p": 0.5
-              },
-              {
-                "k": "Cincinnati Reds 0.0",
-                "p": 0.5
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 11.0",
-                "p": 0.506
-              },
-              {
-                "k": "Under 11.0",
-                "p": 0.494
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Los Angeles Angels",
-        "away": "Detroit Tigers",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T01:38Z",
-        "insight": "Expected 4-5 (margin -0.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Los Angeles Angels",
-                "p": 0.427
-              },
-              {
-                "k": "Detroit Tigers",
-                "p": 0.573
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Los Angeles Angels +1.0",
-                "p": 0.514
-              },
-              {
-                "k": "Detroit Tigers -1.0",
-                "p": 0.486
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.0",
-                "p": 0.492
-              },
-              {
-                "k": "Under 9.0",
-                "p": 0.508
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Arizona Diamondbacks",
-        "away": "St. Louis Cardinals",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T01:40Z",
-        "insight": "Expected 4-5 (margin -0.5).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Arizona Diamondbacks",
-                "p": 0.458
-              },
-              {
-                "k": "St. Louis Cardinals",
-                "p": 0.542
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Arizona Diamondbacks +0.5",
-                "p": 0.501
-              },
-              {
-                "k": "St. Louis Cardinals -0.5",
-                "p": 0.499
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.5",
-                "p": 0.485
-              },
-              {
-                "k": "Under 9.5",
-                "p": 0.515
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Athletics",
-        "away": "Washington Nationals",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T01:40Z",
-        "insight": "Expected 5-5 (margin -0.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Athletics",
-                "p": 0.481
-              },
-              {
-                "k": "Washington Nationals",
-                "p": 0.519
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Athletics -0.0",
-                "p": 0.481
-              },
-              {
-                "k": "Washington Nationals 0.0",
-                "p": 0.519
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 10.5",
-                "p": 0.518
-              },
-              {
-                "k": "Under 10.5",
-                "p": 0.482
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Seattle Mariners",
-        "away": "San Francisco Giants",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T02:10Z",
-        "insight": "Expected 4-5 (margin -0.4).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Seattle Mariners",
-                "p": 0.468
-              },
-              {
-                "k": "San Francisco Giants",
-                "p": 0.532
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Seattle Mariners +0.5",
-                "p": 0.512
-              },
-              {
-                "k": "San Francisco Giants -0.5",
-                "p": 0.488
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.0",
-                "p": 0.481
-              },
-              {
-                "k": "Under 9.0",
-                "p": 0.519
               }
             ]
           }
@@ -5148,6 +3899,60 @@ window.SPORTS_DATA = {
         ]
       },
       {
+        "home": "Colorado Rockies",
+        "away": "Cincinnati Reds",
+        "league": "MLB",
+        "date": "Sat 7.18",
+        "kickoff": "2026-07-18T19:10Z",
+        "insight": "Expected 6-6 (margin +0.0).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Colorado Rockies",
+                "p": 0.5
+              },
+              {
+                "k": "Cincinnati Reds",
+                "p": 0.5
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Colorado Rockies -0.0",
+                "p": 0.5
+              },
+              {
+                "k": "Cincinnati Reds 0.0",
+                "p": 0.5
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 11.0",
+                "p": 0.506
+              },
+              {
+                "k": "Under 11.0",
+                "p": 0.494
+              }
+            ]
+          }
+        ]
+      },
+      {
         "home": "Philadelphia Phillies",
         "away": "New York Mets",
         "league": "MLB",
@@ -5196,60 +4001,6 @@ window.SPORTS_DATA = {
               {
                 "k": "Under 8.5",
                 "p": 0.489
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Cleveland Guardians",
-        "away": "Pittsburgh Pirates",
-        "league": "MLB",
-        "date": "Sat 7.18",
-        "kickoff": "2026-07-18T20:10Z",
-        "insight": "Expected 5-5 (margin -0.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Cleveland Guardians",
-                "p": 0.472
-              },
-              {
-                "k": "Pittsburgh Pirates",
-                "p": 0.528
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Cleveland Guardians +0.5",
-                "p": 0.516
-              },
-              {
-                "k": "Pittsburgh Pirates -0.5",
-                "p": 0.484
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.5",
-                "p": 0.492
-              },
-              {
-                "k": "Under 9.5",
-                "p": 0.508
               }
             ]
           }
@@ -5364,6 +4115,60 @@ window.SPORTS_DATA = {
         ]
       },
       {
+        "home": "Houston Astros",
+        "away": "Baltimore Orioles",
+        "league": "MLB",
+        "date": "Sat 7.18",
+        "kickoff": "2026-07-18T20:10Z",
+        "insight": "Expected 4-5 (margin -0.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Houston Astros",
+                "p": 0.481
+              },
+              {
+                "k": "Baltimore Orioles",
+                "p": 0.519
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Houston Astros -0.0",
+                "p": 0.481
+              },
+              {
+                "k": "Baltimore Orioles 0.0",
+                "p": 0.519
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.483
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.517
+              }
+            ]
+          }
+        ]
+      },
+      {
         "home": "Milwaukee Brewers",
         "away": "Miami Marlins",
         "league": "MLB",
@@ -5412,6 +4217,114 @@ window.SPORTS_DATA = {
               {
                 "k": "Under 8.5",
                 "p": 0.494
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Kansas City Royals",
+        "away": "San Diego Padres",
+        "league": "MLB",
+        "date": "Sat 7.18",
+        "kickoff": "2026-07-18T20:10Z",
+        "insight": "Expected 5-5 (margin -0.6).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Kansas City Royals",
+                "p": 0.448
+              },
+              {
+                "k": "San Diego Padres",
+                "p": 0.552
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Kansas City Royals +0.5",
+                "p": 0.492
+              },
+              {
+                "k": "San Diego Padres -0.5",
+                "p": 0.508
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 10.0",
+                "p": 0.482
+              },
+              {
+                "k": "Under 10.0",
+                "p": 0.518
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Arizona Diamondbacks",
+        "away": "St. Louis Cardinals",
+        "league": "MLB",
+        "date": "Sat 7.18",
+        "kickoff": "2026-07-18T20:10Z",
+        "insight": "Expected 4-5 (margin -0.5).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Arizona Diamondbacks",
+                "p": 0.458
+              },
+              {
+                "k": "St. Louis Cardinals",
+                "p": 0.542
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Arizona Diamondbacks +0.5",
+                "p": 0.501
+              },
+              {
+                "k": "St. Louis Cardinals -0.5",
+                "p": 0.499
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.5",
+                "p": 0.485
+              },
+              {
+                "k": "Under 9.5",
+                "p": 0.515
               }
             ]
           }
@@ -10920,6 +9833,654 @@ window.SPORTS_DATA = {
               {
                 "k": "Under 9.0",
                 "p": 0.514
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Texas Rangers",
+        "away": "Seattle Mariners",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T18:35Z",
+        "insight": "Expected 5-4 (margin +0.8).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Texas Rangers",
+                "p": 0.572
+              },
+              {
+                "k": "Seattle Mariners",
+                "p": 0.428
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Texas Rangers -1.0",
+                "p": 0.485
+              },
+              {
+                "k": "Seattle Mariners +1.0",
+                "p": 0.515
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.492
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.508
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Pittsburgh Pirates",
+        "away": "Arizona Diamondbacks",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T22:40Z",
+        "insight": "Expected 6-5 (margin +0.7).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Pittsburgh Pirates",
+                "p": 0.564
+              },
+              {
+                "k": "Arizona Diamondbacks",
+                "p": 0.436
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Pittsburgh Pirates -0.5",
+                "p": 0.521
+              },
+              {
+                "k": "Arizona Diamondbacks +0.5",
+                "p": 0.479
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 10.5",
+                "p": 0.517
+              },
+              {
+                "k": "Under 10.5",
+                "p": 0.483
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Detroit Tigers",
+        "away": "Baltimore Orioles",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T22:40Z",
+        "insight": "Expected 5-4 (margin +0.5).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Detroit Tigers",
+                "p": 0.547
+              },
+              {
+                "k": "Baltimore Orioles",
+                "p": 0.453
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Detroit Tigers -0.5",
+                "p": 0.503
+              },
+              {
+                "k": "Baltimore Orioles +0.5",
+                "p": 0.497
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.482
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.518
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Miami Marlins",
+        "away": "Philadelphia Phillies",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T22:40Z",
+        "insight": "Expected 4-4 (margin +0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Miami Marlins",
+                "p": 0.513
+              },
+              {
+                "k": "Philadelphia Phillies",
+                "p": 0.487
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Miami Marlins -0.0",
+                "p": 0.513
+              },
+              {
+                "k": "Philadelphia Phillies 0.0",
+                "p": 0.487
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 8.5",
+                "p": 0.499
+              },
+              {
+                "k": "Under 8.5",
+                "p": 0.501
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Washington Nationals",
+        "away": "Toronto Blue Jays",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T22:45Z",
+        "insight": "Expected 5-5 (margin +0.3).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Washington Nationals",
+                "p": 0.526
+              },
+              {
+                "k": "Toronto Blue Jays",
+                "p": 0.474
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Washington Nationals -0.5",
+                "p": 0.482
+              },
+              {
+                "k": "Toronto Blue Jays +0.5",
+                "p": 0.518
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.5",
+                "p": 0.486
+              },
+              {
+                "k": "Under 9.5",
+                "p": 0.514
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "New York Mets",
+        "away": "Atlanta Braves",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T23:10Z",
+        "insight": "Expected 3-5 (margin -1.4).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New York Mets",
+                "p": 0.38
+              },
+              {
+                "k": "Atlanta Braves",
+                "p": 0.62
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New York Mets +1.5",
+                "p": 0.509
+              },
+              {
+                "k": "Atlanta Braves -1.5",
+                "p": 0.491
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 8.5",
+                "p": 0.484
+              },
+              {
+                "k": "Under 8.5",
+                "p": 0.516
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Cincinnati Reds",
+        "away": "Cleveland Guardians",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T23:10Z",
+        "insight": "Expected 4-5 (margin -0.6).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Cincinnati Reds",
+                "p": 0.451
+              },
+              {
+                "k": "Cleveland Guardians",
+                "p": 0.549
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Cincinnati Reds +0.5",
+                "p": 0.495
+              },
+              {
+                "k": "Cleveland Guardians -0.5",
+                "p": 0.505
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.511
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.489
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Chicago White Sox",
+        "away": "New York Yankees",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T23:40Z",
+        "insight": "Expected 4-5 (margin -0.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Chicago White Sox",
+                "p": 0.48
+              },
+              {
+                "k": "New York Yankees",
+                "p": 0.52
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Chicago White Sox -0.0",
+                "p": 0.48
+              },
+              {
+                "k": "New York Yankees 0.0",
+                "p": 0.52
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.503
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.497
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "St. Louis Cardinals",
+        "away": "Chicago Cubs",
+        "league": "MLB",
+        "date": "Mon 7.27",
+        "kickoff": "2026-07-27T23:45Z",
+        "insight": "Expected 5-4 (margin +0.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "St. Louis Cardinals",
+                "p": 0.521
+              },
+              {
+                "k": "Chicago Cubs",
+                "p": 0.479
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "St. Louis Cardinals -0.0",
+                "p": 0.521
+              },
+              {
+                "k": "Chicago Cubs 0.0",
+                "p": 0.479
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.507
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.493
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Los Angeles Angels",
+        "away": "Houston Astros",
+        "league": "MLB",
+        "date": "Tue 7.28",
+        "kickoff": "2026-07-28T01:38Z",
+        "insight": "Expected 4-5 (margin -0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Angels",
+                "p": 0.492
+              },
+              {
+                "k": "Houston Astros",
+                "p": 0.508
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Angels -0.0",
+                "p": 0.492
+              },
+              {
+                "k": "Houston Astros 0.0",
+                "p": 0.508
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.493
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.507
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Athletics",
+        "away": "Boston Red Sox",
+        "league": "MLB",
+        "date": "Tue 7.28",
+        "kickoff": "2026-07-28T01:40Z",
+        "insight": "Expected 5-5 (margin -0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Athletics",
+                "p": 0.489
+              },
+              {
+                "k": "Boston Red Sox",
+                "p": 0.511
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Athletics -0.0",
+                "p": 0.489
+              },
+              {
+                "k": "Boston Red Sox 0.0",
+                "p": 0.511
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.5",
+                "p": 0.502
+              },
+              {
+                "k": "Under 9.5",
+                "p": 0.498
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "San Francisco Giants",
+        "away": "Milwaukee Brewers",
+        "league": "MLB",
+        "date": "Tue 7.28",
+        "kickoff": "2026-07-28T01:45Z",
+        "insight": "Expected 4-5 (margin -1.3).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "San Francisco Giants",
+                "p": 0.39
+              },
+              {
+                "k": "Milwaukee Brewers",
+                "p": 0.61
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "San Francisco Giants +1.5",
+                "p": 0.52
+              },
+              {
+                "k": "Milwaukee Brewers -1.5",
+                "p": 0.48
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.491
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.509
               }
             ]
           }
