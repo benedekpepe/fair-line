@@ -3,3 +3,7 @@
 # so routine data refreshes never touch the production branch and never trigger a deploy.
 [build]
   publish = "web"
+  # Skip the deploy unless the published site actually changed: build only when
+  # web/ (or this config) differs from the previous commit. Backend-only pushes
+  # (src/, workflows, README) then cost zero Netlify build minutes.
+  ignore = "git diff --quiet HEAD^ HEAD -- web/ netlify.toml"
