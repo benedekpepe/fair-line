@@ -44,6 +44,17 @@ jobs:
           # fast, light runs (no re-downloading 1500+ ESPN games every day).
           key: data-raw-${{ steps.weekstamp.outputs.week }}
 
+      - name: Fetch last published data.js (for weekly-odds carry-over)
+        # The paid odds are fetched once a week; on the free days we copy them
+        # forward from the last published data.js so they stay visible all week.
+        run: |
+          if git fetch origin data --depth=1 -q 2>/dev/null && \
+             git show origin/data:web/data.js > /tmp/prev_data.js 2>/dev/null; then
+            echo "Got previous data.js ($(wc -c < /tmp/prev_data.js) bytes)."
+          else
+            echo "No previous data.js yet (first run?) — carry-over will be skipped."
+          fi
+
       - name: Run the pipeline
         working-directory: src
         env:
@@ -53,13 +64,18 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
           # Odds-quota throttle: only Mondays (or a forced manual run) fetch real
-          # market odds; the other days refresh fixtures from free ESPN (0 credits).
+          # market odds; the other days refresh fixtures from free ESPN (0 credits)
+          # and carry last week's odds forward so they stay visible all week.
           if [ "${{ github.event.inputs.force_odds }}" = "true" ] || [ "$(date -u +%u)" = "1" ]; then
             echo "Full run WITH paid odds"
             python run_all.py
           else
             echo "Free run (ESPN fixtures, no paid odds)"
             python run_all.py --no-odds
+            if [ -f /tmp/prev_data.js ]; then
+              echo "Carrying last week's odds onto today's fixtures"
+              python carry_odds.py /tmp/prev_data.js
+            fi
           fi
 
       - name: Publish data.js to the 'data' branch

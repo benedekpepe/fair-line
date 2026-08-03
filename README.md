@@ -40,9 +40,11 @@ not a promise of profit.
   app computes value automatically (model vs market) with a ±30% sanity cap.
 - **"Why does the model say this?"** — each match shows a plain-language
   breakdown: expected goals / points, the stronger side, and the over/under lean.
-- **Credit-resilient data layer** — when the paid odds quota runs out, the app
-  falls back to **free ESPN fixtures** and shows the model's read across
-  moneyline, spread and total. The app never goes empty.
+- **Credit-resilient data layer** — paid odds are refreshed **weekly** to respect
+  the provider's free tier; on the other days the app rebuilds fixtures from
+  **free ESPN data** and carries the latest odds forward. If the quota is ever
+  exhausted it still shows the model's read across moneyline, spread and total —
+  the app never goes empty.
 - **Backtested model accuracy** — per-sport accuracy / Brier / log-loss vs a
   naive baseline, so claims are grounded, not hand-waved.
 - **Combo finder** — given a target total odds, finds the highest-probability
@@ -160,6 +162,7 @@ fair-line/
 │  ├─ run_all.py            # orchestrator: runs the exporters, then pushes to Supabase
 │  ├─ config.py             # project paths + .env loader (single source of truth)
 │  ├─ sync_supabase.py      # push the built cards to Supabase (REST)
+│  ├─ carry_odds.py         # on free days, carry the weekly odds onto fresh fixtures
 │  ├─ models/               # statistical models
 │  │  ├─ dixon_coles.py     # football: bivariate Poisson (Dixon–Coles)
 │  │  ├─ margin_model.py    # team-score sports: offence/defence + home edge
@@ -230,9 +233,11 @@ Continuous integration / delivery runs on **GitHub Actions**:
   the cloud and publishes the regenerated `data.js` to a dedicated **`data`
   branch**. The frontend loads that file over the **jsDelivr** CDN, so data
   updates never touch `main` and never trigger a Netlify deploy — the demo stays
-  fresh at zero hosting cost. The board shows **upcoming** matches only and drops
-  each one the moment it starts; even with the odds quota used up, the free
-  **ESPN fallback** keeps it populated.
+  fresh at zero hosting cost. To stay inside the odds provider's free tier,
+  **paid odds are fetched once a week**; on the other days the fixtures are
+  rebuilt from free **ESPN** data and the latest odds are carried forward, so the
+  board stays current at no quota cost. It shows **upcoming** matches only and
+  drops each one the moment it starts.
 
 ## Responsible use
 
