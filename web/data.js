@@ -243,50 +243,6 @@ window.SPORTS_DATA = {
         "insight": "Group stage. Expected goals: 0.76–0.91."
       },
       {
-        "home": "Grêmio FBPA",
-        "away": "São Paulo FC",
-        "league": "Brasileirao",
-        "date": "Sat 8.08",
-        "kickoff": "2026-08-08T19:00:00Z",
-        "lam": 1.35,
-        "mu": 1.07,
-        "md": 22,
-        "insight": "Round 22. Expected goals: 1.35-1.07."
-      },
-      {
-        "home": "Clube do Remo",
-        "away": "CA Mineiro",
-        "league": "Brasileirao",
-        "date": "Sat 8.08",
-        "kickoff": "2026-08-08T21:30:00Z",
-        "lam": 1.28,
-        "mu": 1.28,
-        "md": 22,
-        "insight": "Round 22. Expected goals: 1.28-1.28."
-      },
-      {
-        "home": "Coritiba FBC",
-        "away": "Chapecoense AF",
-        "league": "Brasileirao",
-        "date": "Sat 8.08",
-        "kickoff": "2026-08-08T23:30:00Z",
-        "lam": 2.15,
-        "mu": 0.88,
-        "md": 22,
-        "insight": "Round 22. Expected goals: 2.15-0.88."
-      },
-      {
-        "home": "Botafogo FR",
-        "away": "Fluminense FC",
-        "league": "Brasileirao",
-        "date": "Sun 8.09",
-        "kickoff": "2026-08-09T00:00:00Z",
-        "lam": 1.57,
-        "mu": 0.97,
-        "md": 22,
-        "insight": "Round 22. Expected goals: 1.57-0.97."
-      },
-      {
         "home": "Cruzeiro EC",
         "away": "Mirassol FC",
         "league": "Brasileirao",
@@ -637,17 +593,6 @@ window.SPORTS_DATA = {
         "mu": 1.33,
         "md": 1,
         "insight": "Round 1. Expected goals: 1.24-1.33."
-      },
-      {
-        "home": "CS Marítimo",
-        "away": "Casa Pia AC",
-        "league": "Primeira Liga",
-        "date": "Sat 8.08",
-        "kickoff": "2026-08-08T14:30:00Z",
-        "lam": 1.19,
-        "mu": 1.21,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.19-1.21."
       },
       {
         "home": "FC Porto",
