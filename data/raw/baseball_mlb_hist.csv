@@ -1,0 +1,1394 @@
+date,home,away,home_score,away_score
+2025-10-04,Milwaukee Brewers,Chicago Cubs,9,3
+2025-10-04,Toronto Blue Jays,New York Yankees,10,1
+2025-10-04,Philadelphia Phillies,Los Angeles Dodgers,3,5
+2025-10-05,Seattle Mariners,Detroit Tigers,2,3
+2025-10-05,Toronto Blue Jays,New York Yankees,13,7
+2025-10-06,Seattle Mariners,Detroit Tigers,3,2
+2025-10-06,Philadelphia Phillies,Los Angeles Dodgers,3,4
+2025-10-07,Milwaukee Brewers,Chicago Cubs,7,3
+2025-10-07,Detroit Tigers,Seattle Mariners,4,8
+2025-10-08,New York Yankees,Toronto Blue Jays,9,6
+2025-10-08,Detroit Tigers,Seattle Mariners,9,3
+2025-10-08,Chicago Cubs,Milwaukee Brewers,4,3
+2025-10-09,Los Angeles Dodgers,Philadelphia Phillies,2,8
+2025-10-10,Chicago Cubs,Milwaukee Brewers,6,0
+2025-10-11,Seattle Mariners,Detroit Tigers,3,2
+2025-10-12,Milwaukee Brewers,Chicago Cubs,3,1
+2025-10-13,Toronto Blue Jays,Seattle Mariners,1,3
+2025-10-14,Milwaukee Brewers,Los Angeles Dodgers,1,2
+2025-10-15,Milwaukee Brewers,Los Angeles Dodgers,1,5
+2025-10-16,Seattle Mariners,Toronto Blue Jays,4,13
+2025-10-16,Los Angeles Dodgers,Milwaukee Brewers,3,1
+2025-10-17,Seattle Mariners,Toronto Blue Jays,2,8
+2025-10-18,Los Angeles Dodgers,Milwaukee Brewers,5,1
+2025-10-20,Toronto Blue Jays,Seattle Mariners,6,2
+2025-10-21,Toronto Blue Jays,Seattle Mariners,4,3
+2025-10-25,Toronto Blue Jays,Los Angeles Dodgers,11,4
+2025-10-26,Toronto Blue Jays,Los Angeles Dodgers,1,5
+2025-10-28,Los Angeles Dodgers,Toronto Blue Jays,6,5
+2025-10-29,Los Angeles Dodgers,Toronto Blue Jays,2,6
+2025-10-30,Los Angeles Dodgers,Toronto Blue Jays,1,6
+2025-11-01,Toronto Blue Jays,Los Angeles Dodgers,1,3
+2025-11-02,Toronto Blue Jays,Los Angeles Dodgers,4,5
+2026-02-20,Baltimore Orioles,New York Yankees,2,0
+2026-02-20,Chicago Cubs,Chicago White Sox,1,8
+2026-02-20,Texas Rangers,Kansas City Royals,3,7
+2026-02-20,Colorado Rockies,Arizona Diamondbacks,2,3
+2026-02-20,Seattle Mariners,San Diego Padres,7,4
+2026-02-21,Baltimore Orioles,Pittsburgh Pirates,2,8
+2026-02-21,Minnesota Twins,Boston Red Sox,2,7
+2026-02-21,New York Yankees,Detroit Tigers,20,3
+2026-02-21,St. Louis Cardinals,Washington Nationals,2,6
+2026-02-21,Tampa Bay Rays,Atlanta Braves,1,5
+2026-02-21,Washington Nationals,Houston Astros,2,1
+2026-02-21,Toronto Blue Jays,Philadelphia Phillies,3,0
+2026-02-21,New York Mets,Miami Marlins,1,2
+2026-02-21,Chicago Cubs,Texas Rangers,2,3
+2026-02-21,Chicago White Sox,Athletics,11,2
+2026-02-21,Cleveland Guardians,Cincinnati Reds,4,2
+2026-02-21,Kansas City Royals,San Diego Padres,3,10
+2026-02-21,Arizona Diamondbacks,Colorado Rockies,6,11
+2026-02-21,Milwaukee Brewers,Cleveland Guardians,6,9
+2026-02-21,Seattle Mariners,San Francisco Giants,5,10
+2026-02-21,Los Angeles Angels,Los Angeles Dodgers,2,15
+2026-02-22,Atlanta Braves,Minnesota Twins,1,8
+2026-02-22,Boston Red Sox,Toronto Blue Jays,11,10
+2026-02-22,Detroit Tigers,Baltimore Orioles,4,4
+2026-02-22,Houston Astros,St. Louis Cardinals,5,6
+2026-02-22,New York Yankees,New York Mets,4,6
+2026-02-22,Philadelphia Phillies,Pittsburgh Pirates,3,4
+2026-02-22,Pittsburgh Pirates,Tampa Bay Rays,7,4
+2026-02-22,Miami Marlins,Washington Nationals,8,16
+2026-02-22,Athletics,Cleveland Guardians,0,6
+2026-02-22,Chicago White Sox,Milwaukee Brewers,5,2
+2026-02-22,Cincinnati Reds,Seattle Mariners,8,14
+2026-02-22,San Francisco Giants,Chicago Cubs,4,2
+2026-02-22,Texas Rangers,Colorado Rockies,9,5
+2026-02-22,Arizona Diamondbacks,Los Angeles Angels,9,10
+2026-02-22,Milwaukee Brewers,Kansas City Royals,3,7
+2026-02-22,San Diego Padres,Los Angeles Dodgers,1,5
+2026-02-23,Baltimore Orioles,Atlanta Braves,7,10
+2026-02-23,Detroit Tigers,Minnesota Twins,0,3
+2026-02-23,Pittsburgh Pirates,New York Yankees,2,6
+2026-02-23,St. Louis Cardinals,Miami Marlins,5,4
+2026-02-23,Tampa Bay Rays,Boston Red Sox,2,1
+2026-02-23,Toronto Blue Jays,New York Mets,3,4
+2026-02-23,Cleveland Guardians,Arizona Diamondbacks,9,5
+2026-02-23,Kansas City Royals,Chicago Cubs,2,3
+2026-02-23,Los Angeles Dodgers,Seattle Mariners,3,0
+2026-02-23,San Francisco Giants,Athletics,6,2
+2026-02-23,Colorado Rockies,Chicago White Sox,5,4
+2026-02-23,Los Angeles Angels,Texas Rangers,0,6
+2026-02-23,San Diego Padres,Milwaukee Brewers,7,5
+2026-02-23,Washington Nationals,Philadelphia Phillies,5,5
+2026-02-24,Atlanta Braves,Detroit Tigers,8,1
+2026-02-24,Boston Red Sox,Pittsburgh Pirates,7,16
+2026-02-24,Minnesota Twins,Baltimore Orioles,5,10
+2026-02-24,Tampa Bay Rays,Minnesota Twins,12,1
+2026-02-24,Toronto Blue Jays,New York Yankees,7,8
+2026-02-24,Miami Marlins,Philadelphia Phillies,6,1
+2026-02-24,New York Mets,Houston Astros,6,6
+2026-02-24,Athletics,Milwaukee Brewers,0,10
+2026-02-24,Chicago Cubs,San Diego Padres,6,5
+2026-02-24,Cincinnati Reds,Kansas City Royals,5,4
+2026-02-24,Los Angeles Dodgers,Cleveland Guardians,11,3
+2026-02-24,Texas Rangers,Arizona Diamondbacks,4,6
+2026-02-24,Colorado Rockies,Los Angeles Angels,7,5
+2026-02-24,Los Angeles Angels,San Francisco Giants,1,4
+2026-02-24,Seattle Mariners,Chicago White Sox,10,12
+2026-02-24,Washington Nationals,St. Louis Cardinals,6,1
+2026-02-25,Atlanta Braves,Pittsburgh Pirates,3,1
+2026-02-25,Baltimore Orioles,Tampa Bay Rays,4,3
+2026-02-25,Detroit Tigers,Toronto Blue Jays,4,4
+2026-02-25,Minnesota Twins,Boston Red Sox,3,5
+2026-02-25,Philadelphia Phillies,Detroit Tigers,5,3
+2026-02-25,Miami Marlins,Houston Astros,1,4
+2026-02-25,New York Mets,St. Louis Cardinals,0,6
+2026-02-25,Chicago Cubs,Colorado Rockies,7,14
+2026-02-25,Chicago White Sox,Cincinnati Reds,2,3
+2026-02-25,Cleveland Guardians,Texas Rangers,4,11
+2026-02-25,Kansas City Royals,Seattle Mariners,8,8
+2026-02-25,Arizona Diamondbacks,Los Angeles Dodgers,7,10
+2026-02-25,Milwaukee Brewers,San Francisco Giants,13,12
+2026-02-25,San Diego Padres,Los Angeles Angels,7,3
+2026-02-25,New York Yankees,Washington Nationals,7,0
+2026-02-26,Baltimore Orioles,Detroit Tigers,6,5
+2026-02-26,Boston Red Sox,Tampa Bay Rays,7,5
+2026-02-26,Houston Astros,New York Mets,0,5
+2026-02-26,New York Yankees,Atlanta Braves,7,3
+2026-02-26,Philadelphia Phillies,Washington Nationals,7,3
+2026-02-26,Pittsburgh Pirates,Minnesota Twins,6,4
+2026-02-26,St. Louis Cardinals,Houston Astros,9,4
+2026-02-26,Toronto Blue Jays,Miami Marlins,7,8
+2026-02-26,Athletics,Texas Rangers,7,3
+2026-02-26,Cincinnati Reds,San Diego Padres,11,10
+2026-02-26,Los Angeles Dodgers,Chicago White Sox,7,6
+2026-02-26,San Francisco Giants,Colorado Rockies,3,11
+2026-02-26,Texas Rangers,Milwaukee Brewers,1,5
+2026-02-26,Arizona Diamondbacks,Kansas City Royals,13,10
+2026-02-26,Los Angeles Angels,Chicago Cubs,5,4
+2026-02-26,Seattle Mariners,Cleveland Guardians,8,7
+2026-02-27,Atlanta Braves,Boston Red Sox,15,8
+2026-02-27,Detroit Tigers,Philadelphia Phillies,16,8
+2026-02-27,Minnesota Twins,New York Yankees,5,17
+2026-02-27,Philadelphia Phillies,Miami Marlins,10,2
+2026-02-27,Pittsburgh Pirates,Baltimore Orioles,6,1
+2026-02-27,St. Louis Cardinals,New York Mets,3,14
+2026-02-27,Tampa Bay Rays,Toronto Blue Jays,6,5
+2026-02-27,Chicago Cubs,Cleveland Guardians,8,6
+2026-02-27,Chicago White Sox,Texas Rangers,3,1
+2026-02-27,Cincinnati Reds,Los Angeles Angels,3,4
+2026-02-27,Kansas City Royals,Athletics,7,6
+2026-02-27,San Francisco Giants,Los Angeles Dodgers,12,4
+2026-02-27,Colorado Rockies,San Diego Padres,3,2
+2026-02-27,Milwaukee Brewers,Chicago White Sox,5,2
+2026-02-27,Washington Nationals,Houston Astros,4,4
+2026-02-28,Seattle Mariners,Arizona Diamondbacks,1,3
+2026-02-28,Baltimore Orioles,Atlanta Braves,5,7
+2026-02-28,Boston Red Sox,Minnesota Twins,13,8
+2026-02-28,Houston Astros,Pittsburgh Pirates,2,5
+2026-02-28,New York Yankees,Toronto Blue Jays,5,1
+2026-02-28,Tampa Bay Rays,Detroit Tigers,3,12
+2026-02-28,Toronto Blue Jays,Philadelphia Phillies,7,5
+2026-02-28,Miami Marlins,St. Louis Cardinals,2,10
+2026-02-28,New York Mets,Washington Nationals,2,3
+2026-02-28,Athletics,San Francisco Giants,2,8
+2026-02-28,Cleveland Guardians,Chicago White Sox,5,7
+2026-02-28,Los Angeles Dodgers,Chicago Cubs,2,6
+2026-02-28,Texas Rangers,Los Angeles Dodgers,7,6
+2026-02-28,Colorado Rockies,Kansas City Royals,3,16
+2026-02-28,Los Angeles Angels,Arizona Diamondbacks,5,8
+2026-02-28,Milwaukee Brewers,Cincinnati Reds,7,9
+2026-02-28,San Diego Padres,Seattle Mariners,7,1
+2026-03-01,Atlanta Braves,Tampa Bay Rays,5,3
+2026-03-01,Boston Red Sox,Baltimore Orioles,7,8
+2026-03-01,Detroit Tigers,Toronto Blue Jays,4,4
+2026-03-01,Minnesota Twins,Atlanta Braves,2,2
+2026-03-01,Philadelphia Phillies,New York Yankees,3,5
+2026-03-01,St. Louis Cardinals,Pittsburgh Pirates,1,6
+2026-03-01,Washington Nationals,Miami Marlins,0,3
+2026-03-01,New York Mets,Houston Astros,4,3
+2026-03-01,Chicago Cubs,Chicago White Sox,1,5
+2026-03-01,Cleveland Guardians,Colorado Rockies,8,3
+2026-03-01,Kansas City Royals,Milwaukee Brewers,3,1
+2026-03-01,Los Angeles Dodgers,Los Angeles Angels,4,3
+2026-03-01,San Francisco Giants,San Diego Padres,9,1
+2026-03-01,Athletics,Cincinnati Reds,12,4
+2026-03-01,Arizona Diamondbacks,Cleveland Guardians,9,6
+2026-03-01,Seattle Mariners,Texas Rangers,4,9
+2026-03-02,Detroit Tigers,Atlanta Braves,2,5
+2026-03-02,Houston Astros,Washington Nationals,3,3
+2026-03-02,Pittsburgh Pirates,Tampa Bay Rays,4,1
+2026-03-02,St. Louis Cardinals,Miami Marlins,3,2
+2026-03-02,Toronto Blue Jays,Boston Red Sox,6,7
+2026-03-02,Chicago White Sox,San Francisco Giants,5,6
+2026-03-02,Cincinnati Reds,Chicago Cubs,17,9
+2026-03-02,Texas Rangers,Cleveland Guardians,3,1
+2026-03-02,Colorado Rockies,Los Angeles Dodgers,5,7
+2026-03-02,Los Angeles Angels,Kansas City Royals,5,4
+2026-03-02,San Diego Padres,Athletics,2,7
+2026-03-03,Minnesota Twins,Tampa Bay Rays,3,5
+2026-03-03,Tampa Bay Rays,Philadelphia Phillies,3,1
+2026-03-03,Chicago White Sox,San Diego Padres,3,4
+2026-03-03,Cleveland Guardians,Los Angeles Dodgers,4,5
+2026-03-03,Seattle Mariners,Los Angeles Angels,6,7
+2026-03-04,Baltimore Orioles,Houston Astros,2,4
+2026-03-04,Boston Red Sox,New York Yankees,0,4
+2026-03-04,Athletics,Arizona Diamondbacks,1,3
+2026-03-04,Milwaukee Brewers,Chicago Cubs,1,4
+2026-03-05,San Francisco Giants,Seattle Mariners,9,4
+2026-03-05,Atlanta Braves,Toronto Blue Jays,9,5
+2026-03-05,New York Yankees,Minnesota Twins,0,15
+2026-03-05,Philadelphia Phillies,Boston Red Sox,6,2
+2026-03-05,Pittsburgh Pirates,St. Louis Cardinals,2,3
+2026-03-05,Tampa Bay Rays,Baltimore Orioles,3,4
+2026-03-05,Washington Nationals,New York Mets,7,4
+2026-03-05,Miami Marlins,Houston Astros,2,0
+2026-03-05,Cincinnati Reds,Los Angeles Dodgers,14,13
+2026-03-05,Chicago Cubs,Arizona Diamondbacks,8,1
+2026-03-05,Colorado Rockies,Milwaukee Brewers,8,10
+2026-03-05,Los Angeles Angels,Athletics,11,16
+2026-03-05,Seattle Mariners,San Diego Padres,6,27
+2026-03-06,Chicago White Sox,Cleveland Guardians,3,12
+2026-03-06,Kansas City Royals,Texas Rangers,9,15
+2026-03-06,Baltimore Orioles,St. Louis Cardinals,2,10
+2026-03-06,Detroit Tigers,Boston Red Sox,11,3
+2026-03-06,Houston Astros,Washington Nationals,7,1
+2026-03-06,Pittsburgh Pirates,Philadelphia Phillies,10,14
+2026-03-06,Toronto Blue Jays,Pittsburgh Pirates,9,2
+2026-03-06,Athletics,Colorado Rockies,6,11
+2026-03-06,Cleveland Guardians,Los Angeles Angels,5,3
+2026-03-06,San Francisco Giants,Cincinnati Reds,6,3
+2026-03-06,Texas Rangers,Seattle Mariners,1,5
+2026-03-06,Arizona Diamondbacks,Chicago White Sox,0,6
+2026-03-06,Milwaukee Brewers,Arizona Diamondbacks,6,2
+2026-03-06,Minnesota Twins,Atlanta Braves,1,4
+2026-03-06,New York Yankees,Tampa Bay Rays,3,0
+2026-03-07,Miami Marlins,New York Mets,2,0
+2026-03-07,Los Angeles Dodgers,Kansas City Royals,6,0
+2026-03-07,San Diego Padres,Chicago Cubs,3,0
+2026-03-07,Houston Astros,Miami Marlins,5,4
+2026-03-07,Atlanta Braves,Baltimore Orioles,2,2
+2026-03-07,Baltimore Orioles,Minnesota Twins,3,2
+2026-03-07,Boston Red Sox,Tampa Bay Rays,2,0
+2026-03-07,Detroit Tigers,Pittsburgh Pirates,3,5
+2026-03-07,Philadelphia Phillies,Toronto Blue Jays,0,1
+2026-03-07,St. Louis Cardinals,New York Mets,2,3
+2026-03-07,Chicago Cubs,Athletics,4,3
+2026-03-07,Cleveland Guardians,San Diego Padres,7,1
+2026-03-07,Kansas City Royals,Cincinnati Reds,6,2
+2026-03-07,San Francisco Giants,Texas Rangers,7,5
+2026-03-07,Los Angeles Angels,Milwaukee Brewers,1,7
+2026-03-07,Seattle Mariners,Chicago White Sox,1,5
+2026-03-07,Arizona Diamondbacks,San Francisco Giants,4,7
+2026-03-07,Athletics,Los Angeles Angels,0,3
+2026-03-07,Washington Nationals,New York Yankees,3,0
+2026-03-08,Los Angeles Dodgers,Colorado Rockies,4,6
+2026-03-08,Baltimore Orioles,Toronto Blue Jays,0,1
+2026-03-08,Minnesota Twins,Philadelphia Phillies,7,6
+2026-03-08,Pittsburgh Pirates,Boston Red Sox,9,7
+2026-03-08,Tampa Bay Rays,Atlanta Braves,9,8
+2026-03-08,Washington Nationals,Houston Astros,3,1
+2026-03-08,Toronto Blue Jays,Detroit Tigers,5,0
+2026-03-08,Miami Marlins,St. Louis Cardinals,2,2
+2026-03-08,New York Mets,New York Yankees,10,4
+2026-03-08,Athletics,Los Angeles Angels,7,4
+2026-03-08,Athletics,Los Angeles Dodgers,11,7
+2026-03-08,Chicago Cubs,San Francisco Giants,5,9
+2026-03-08,Chicago White Sox,Kansas City Royals,5,4
+2026-03-08,Cincinnati Reds,Arizona Diamondbacks,13,4
+2026-03-08,Texas Rangers,Los Angeles Angels,7,10
+2026-03-08,Colorado Rockies,Cleveland Guardians,4,4
+2026-03-08,Milwaukee Brewers,Seattle Mariners,6,3
+2026-03-08,San Diego Padres,Cincinnati Reds,14,3
+2026-03-09,Atlanta Braves,Minnesota Twins,9,8
+2026-03-09,Boston Red Sox,Philadelphia Phillies,5,3
+2026-03-09,Detroit Tigers,Tampa Bay Rays,4,4
+2026-03-09,Houston Astros,St. Louis Cardinals,10,3
+2026-03-09,St. Louis Cardinals,Baltimore Orioles,7,2
+2026-03-09,Chicago White Sox,Colorado Rockies,12,3
+2026-03-09,Cincinnati Reds,Athletics,7,9
+2026-03-09,Kansas City Royals,Cleveland Guardians,2,6
+2026-03-09,San Francisco Giants,Los Angeles Angels,0,2
+2026-03-09,Arizona Diamondbacks,Seattle Mariners,2,1
+2026-03-09,Milwaukee Brewers,Los Angeles Dodgers,3,4
+2026-03-09,San Diego Padres,Texas Rangers,1,4
+2026-03-09,New York Mets,Miami Marlins,9,0
+2026-03-09,New York Yankees,Pittsburgh Pirates,3,5
+2026-03-10,Boston Red Sox,Detroit Tigers,2,7
+2026-03-10,Houston Astros,Baltimore Orioles,7,6
+2026-03-10,Philadelphia Phillies,New York Yankees,2,4
+2026-03-10,Tampa Bay Rays,Minnesota Twins,5,6
+2026-03-10,Toronto Blue Jays,Atlanta Braves,7,0
+2026-03-10,Miami Marlins,Washington Nationals,5,7
+2026-03-10,New York Mets,St. Louis Cardinals,6,1
+2026-03-10,Athletics,Chicago White Sox,11,7
+2026-03-10,Cleveland Guardians,San Francisco Giants,4,5
+2026-03-10,Los Angeles Dodgers,Arizona Diamondbacks,4,1
+2026-03-10,Texas Rangers,Chicago Cubs,8,3
+2026-03-10,Colorado Rockies,Cincinnati Reds,1,8
+2026-03-10,Los Angeles Angels,San Diego Padres,2,10
+2026-03-10,Seattle Mariners,Kansas City Royals,4,3
+2026-03-11,Atlanta Braves,Tampa Bay Rays,5,3
+2026-03-11,Baltimore Orioles,Pittsburgh Pirates,7,2
+2026-03-11,Minnesota Twins,Detroit Tigers,2,1
+2026-03-11,Washington Nationals,St. Louis Cardinals,3,1
+2026-03-11,Miami Marlins,Houston Astros,1,4
+2026-03-11,Chicago Cubs,Kansas City Royals,9,8
+2026-03-11,Chicago White Sox,Los Angeles Angels,4,8
+2026-03-11,Cincinnati Reds,Milwaukee Brewers,6,3
+2026-03-11,Kansas City Royals,San Francisco Giants,2,5
+2026-03-11,Arizona Diamondbacks,Athletics,3,13
+2026-03-11,Seattle Mariners,Colorado Rockies,7,11
+2026-03-11,New York Yankees,Toronto Blue Jays,8,1
+2026-03-12,Detroit Tigers,New York Yankees,3,4
+2026-03-12,Minnesota Twins,Boston Red Sox,8,5
+2026-03-12,Philadelphia Phillies,Toronto Blue Jays,8,5
+2026-03-12,St. Louis Cardinals,New York Mets,3,1
+2026-03-12,Chicago Cubs,Seattle Mariners,7,4
+2026-03-12,Texas Rangers,Athletics,7,6
+2026-03-12,Arizona Diamondbacks,Colorado Rockies,2,13
+2026-03-12,Houston Astros,Washington Nationals,2,3
+2026-03-12,Pittsburgh Pirates,Atlanta Braves,5,2
+2026-03-13,Cleveland Guardians,Milwaukee Brewers,1,0
+2026-03-13,Los Angeles Dodgers,Cincinnati Reds,9,5
+2026-03-13,San Francisco Giants,Chicago White Sox,3,3
+2026-03-13,San Diego Padres,Kansas City Royals,1,10
+2026-03-13,Atlanta Braves,New York Yankees,7,6
+2026-03-13,Boston Red Sox,Tampa Bay Rays,7,6
+2026-03-13,Philadelphia Phillies,Baltimore Orioles,11,8
+2026-03-13,Toronto Blue Jays,Minnesota Twins,6,1
+2026-03-13,Athletics,San Diego Padres,9,13
+2026-03-13,Chicago White Sox,Chicago Cubs,4,2
+2026-03-13,Colorado Rockies,Texas Rangers,4,9
+2026-03-13,Los Angeles Angels,Cleveland Guardians,5,2
+2026-03-13,Milwaukee Brewers,Athletics,4,13
+2026-03-13,Detroit Tigers,Pittsburgh Pirates,5,7
+2026-03-13,St. Louis Cardinals,Houston Astros,5,4
+2026-03-13,Washington Nationals,New York Mets,3,8
+2026-03-13,New York Mets,Miami Marlins,0,1
+2026-03-13,San Francisco Giants,Cincinnati Reds,1,6
+2026-03-14,Cincinnati Reds,San Francisco Giants,1,0
+2026-03-14,Kansas City Royals,Arizona Diamondbacks,5,11
+2026-03-14,Seattle Mariners,Los Angeles Dodgers,7,10
+2026-03-14,Washington Nationals,Miami Marlins,1,4
+2026-03-14,Minnesota Twins,Tampa Bay Rays,6,9
+2026-03-14,New York Yankees,Philadelphia Phillies,4,6
+2026-03-14,Pittsburgh Pirates,Baltimore Orioles,8,6
+2026-03-14,Toronto Blue Jays,Detroit Tigers,1,6
+2026-03-14,Miami Marlins,St. Louis Cardinals,7,7
+2026-03-14,Athletics,Kansas City Royals,12,1
+2026-03-14,Chicago White Sox,Los Angeles Dodgers,7,2
+2026-03-14,Cincinnati Reds,Texas Rangers,4,3
+2026-03-14,San Francisco Giants,Arizona Diamondbacks,7,8
+2026-03-14,Texas Rangers,San Diego Padres,22,2
+2026-03-14,Colorado Rockies,Chicago Cubs,4,3
+2026-03-14,Los Angeles Angels,Seattle Mariners,6,2
+2026-03-14,Milwaukee Brewers,Colorado Rockies,8,4
+2026-03-14,San Diego Padres,Cleveland Guardians,8,5
+2026-03-14,Atlanta Braves,Boston Red Sox,10,1
+2026-03-14,Houston Astros,New York Mets,8,2
+2026-03-15,Boston Red Sox,Minnesota Twins,7,2
+2026-03-15,Houston Astros,Miami Marlins,1,0
+2026-03-15,New York Yankees,Detroit Tigers,1,12
+2026-03-15,Philadelphia Phillies,Atlanta Braves,0,1
+2026-03-15,St. Louis Cardinals,Washington Nationals,6,3
+2026-03-15,Tampa Bay Rays,Pittsburgh Pirates,6,1
+2026-03-15,New York Mets,Toronto Blue Jays,8,1
+2026-03-15,Chicago Cubs,Los Angeles Dodgers,8,14
+2026-03-15,Cleveland Guardians,Athletics,12,6
+2026-03-15,Kansas City Royals,Chicago White Sox,10,4
+2026-03-15,Los Angeles Dodgers,Texas Rangers,5,3
+2026-03-15,San Francisco Giants,Milwaukee Brewers,7,1
+2026-03-15,Arizona Diamondbacks,San Diego Padres,4,4
+2026-03-15,Los Angeles Angels,Colorado Rockies,6,5
+2026-03-15,Seattle Mariners,Cincinnati Reds,6,3
+2026-03-16,Atlanta Braves,Tampa Bay Rays,11,2
+2026-03-16,Detroit Tigers,Philadelphia Phillies,13,6
+2026-03-16,Minnesota Twins,Pittsburgh Pirates,5,1
+2026-03-16,Miami Marlins,Toronto Blue Jays,4,5
+2026-03-16,Athletics,Los Angeles Angels,3,0
+2026-03-16,Los Angeles Dodgers,Milwaukee Brewers,9,24
+2026-03-16,Arizona Diamondbacks,Cincinnati Reds,11,6
+2026-03-16,San Diego Padres,San Francisco Giants,3,1
+2026-03-16,New York Mets,Washington Nationals,6,12
+2026-03-17,Texas Rangers,Chicago White Sox,3,2
+2026-03-17,Cleveland Guardians,Chicago Cubs,2,5
+2026-03-17,Boston Red Sox,Atlanta Braves,4,3
+2026-03-17,Detroit Tigers,Baltimore Orioles,1,1
+2026-03-17,Philadelphia Phillies,Minnesota Twins,2,0
+2026-03-17,Pittsburgh Pirates,Houston Astros,2,10
+2026-03-17,Tampa Bay Rays,New York Yankees,2,3
+2026-03-17,Washington Nationals,St. Louis Cardinals,1,0
+2026-03-17,Miami Marlins,New York Mets,5,5
+2026-03-17,Chicago White Sox,Athletics,6,4
+2026-03-17,Colorado Rockies,Seattle Mariners,6,10
+2026-03-17,Seattle Mariners,San Diego Padres,6,9
+2026-03-18,Chicago Cubs,Los Angeles Angels,8,6
+2026-03-18,Cincinnati Reds,Cleveland Guardians,6,8
+2026-03-18,Kansas City Royals,Los Angeles Dodgers,4,10
+2026-03-18,Atlanta Braves,Philadelphia Phillies,3,2
+2026-03-18,New York Yankees,Boston Red Sox,1,0
+2026-03-18,St. Louis Cardinals,Houston Astros,4,1
+2026-03-18,Toronto Blue Jays,Baltimore Orioles,2,3
+2026-03-18,Cincinnati Reds,Colorado Rockies,6,8
+2026-03-18,Los Angeles Dodgers,San Francisco Giants,5,1
+2026-03-18,Arizona Diamondbacks,Chicago Cubs,16,8
+2026-03-18,Los Angeles Angels,Cincinnati Reds,7,4
+2026-03-18,Milwaukee Brewers,Los Angeles Angels,3,4
+2026-03-18,Seattle Mariners,Milwaukee Brewers,7,3
+2026-03-18,Pittsburgh Pirates,Detroit Tigers,3,1
+2026-03-19,Texas Rangers,Kansas City Royals,12,3
+2026-03-19,New York Yankees,Baltimore Orioles,5,4
+2026-03-19,Philadelphia Phillies,Tampa Bay Rays,8,2
+2026-03-19,St. Louis Cardinals,Washington Nationals,5,1
+2026-03-19,Toronto Blue Jays,New York Yankees,11,0
+2026-03-19,Baltimore Orioles,Pittsburgh Pirates,5,2
+2026-03-19,Boston Red Sox,Minnesota Twins,4,2
+2026-03-19,Houston Astros,New York Mets,2,6
+2026-03-20,Chicago White Sox,Arizona Diamondbacks,4,2
+2026-03-20,Cleveland Guardians,Kansas City Royals,6,5
+2026-03-20,Kansas City Royals,Los Angeles Angels,3,4
+2026-03-20,Athletics,Seattle Mariners,4,6
+2026-03-20,Colorado Rockies,San Francisco Giants,11,14
+2026-03-20,Milwaukee Brewers,Texas Rangers,11,4
+2026-03-20,San Diego Padres,Chicago White Sox,13,6
+2026-03-20,Minnesota Twins,Toronto Blue Jays,1,2
+2026-03-20,Philadelphia Phillies,Detroit Tigers,4,4
+2026-03-20,Tampa Bay Rays,Boston Red Sox,2,0
+2026-03-20,New York Mets,St. Louis Cardinals,3,4
+2026-03-20,Los Angeles Angels,Chicago White Sox,4,3
+2026-03-20,Atlanta Braves,Pittsburgh Pirates,8,1
+2026-03-20,Houston Astros,Miami Marlins,4,7
+2026-03-20,New York Yankees,Baltimore Orioles,3,1
+2026-03-20,Miami Marlins,Washington Nationals,3,2
+2026-03-21,San Francisco Giants,Kansas City Royals,5,2
+2026-03-21,Chicago Cubs,Cincinnati Reds,6,8
+2026-03-21,Cleveland Guardians,Seattle Mariners,8,20
+2026-03-21,Los Angeles Dodgers,San Diego Padres,4,3
+2026-03-21,Texas Rangers,San Francisco Giants,6,5
+2026-03-21,Arizona Diamondbacks,Milwaukee Brewers,8,7
+2026-03-21,Athletics,Chicago Cubs,6,2
+2026-03-21,San Diego Padres,Colorado Rockies,3,9
+2026-03-21,Baltimore Orioles,Philadelphia Phillies,10,8
+2026-03-21,Boston Red Sox,Atlanta Braves,1,6
+2026-03-21,Detroit Tigers,New York Yankees,3,1
+2026-03-21,Pittsburgh Pirates,Toronto Blue Jays,8,3
+2026-03-21,St. Louis Cardinals,Miami Marlins,7,4
+2026-03-21,Tampa Bay Rays,Minnesota Twins,3,2
+2026-03-21,Washington Nationals,New York Mets,3,1
+2026-03-21,New York Mets,Houston Astros,5,7
+2026-03-21,Los Angeles Dodgers,Athletics,5,5
+2026-03-21,Kansas City Royals,Colorado Rockies,6,5
+2026-03-21,San Francisco Giants,Cleveland Guardians,10,7
+2026-03-21,Arizona Diamondbacks,Texas Rangers,5,2
+2026-03-21,Milwaukee Brewers,San Diego Padres,6,1
+2026-03-22,Cincinnati Reds,Chicago White Sox,11,7
+2026-03-22,Seattle Mariners,Chicago Cubs,1,7
+2026-03-22,Houston Astros,St. Louis Cardinals,2,3
+2026-03-22,New York Yankees,Philadelphia Phillies,6,2
+2026-03-22,Pittsburgh Pirates,Boston Red Sox,3,6
+2026-03-22,Minnesota Twins,Atlanta Braves,7,3
+2026-03-22,Toronto Blue Jays,Tampa Bay Rays,14,1
+2026-03-22,Miami Marlins,New York Mets,4,3
+2026-03-22,Baltimore Orioles,Washington Nationals,8,1
+2026-03-22,Chicago Cubs,Milwaukee Brewers,12,0
+2026-03-22,Cleveland Guardians,Cincinnati Reds,8,2
+2026-03-22,Colorado Rockies,Athletics,6,5
+2026-03-23,Chicago White Sox,Seattle Mariners,2,4
+2026-03-23,Los Angeles Angels,Los Angeles Dodgers,5,13
+2026-03-23,San Diego Padres,Arizona Diamondbacks,1,11
+2026-03-23,Philadelphia Phillies,Tampa Bay Rays,0,7
+2026-03-23,Boston Red Sox,Minnesota Twins,6,9
+2026-03-23,Pittsburgh Pirates,Atlanta Braves,2,5
+2026-03-23,Washington Nationals,Baltimore Orioles,0,2
+2026-03-23,Athletics,Chicago White Sox,10,9
+2026-03-23,Chicago Cubs,New York Yankees,15,6
+2026-03-23,San Diego Padres,Seattle Mariners,10,3
+2026-03-23,Milwaukee Brewers,Cincinnati Reds,9,1
+2026-03-24,Texas Rangers,Kansas City Royals,3,2
+2026-03-24,Colorado Rockies,Detroit Tigers,6,5
+2026-03-24,Los Angeles Dodgers,Los Angeles Angels,7,7
+2026-03-24,Arizona Diamondbacks,Cleveland Guardians,0,7
+2026-03-24,Atlanta Braves,Tampa Bay Rays,3,2
+2026-03-24,Minnesota Twins,Boston Red Sox,15,6
+2026-03-24,Chicago Cubs,New York Yankees,3,8
+2026-03-24,Milwaukee Brewers,Cincinnati Reds,4,1
+2026-03-25,Los Angeles Dodgers,Los Angeles Angels,0,3
+2026-03-26,San Francisco Giants,New York Yankees,0,7
+2026-03-26,New York Mets,Pittsburgh Pirates,11,7
+2026-03-26,Milwaukee Brewers,Chicago White Sox,14,2
+2026-03-26,Chicago Cubs,Washington Nationals,4,10
+2026-03-26,Baltimore Orioles,Minnesota Twins,2,1
+2026-03-26,Cincinnati Reds,Boston Red Sox,0,3
+2026-03-26,Houston Astros,Los Angeles Angels,0,3
+2026-03-26,San Diego Padres,Detroit Tigers,2,8
+2026-03-26,Philadelphia Phillies,Texas Rangers,5,3
+2026-03-26,St. Louis Cardinals,Tampa Bay Rays,9,7
+2026-03-27,Los Angeles Dodgers,Arizona Diamondbacks,8,2
+2026-03-27,Seattle Mariners,Cleveland Guardians,4,6
+2026-03-27,San Francisco Giants,New York Yankees,0,3
+2026-03-27,Toronto Blue Jays,Athletics,3,2
+2026-03-27,Miami Marlins,Colorado Rockies,2,1
+2026-03-27,Atlanta Braves,Kansas City Royals,6,0
+2026-03-28,Houston Astros,Los Angeles Angels,2,6
+2026-03-28,Seattle Mariners,Cleveland Guardians,5,1
+2026-03-28,San Diego Padres,Detroit Tigers,2,5
+2026-03-28,Los Angeles Dodgers,Arizona Diamondbacks,5,4
+2026-03-28,St. Louis Cardinals,Tampa Bay Rays,6,5
+2026-03-28,Chicago Cubs,Washington Nationals,10,2
+2026-03-28,Toronto Blue Jays,Athletics,8,7
+2026-03-28,Baltimore Orioles,Minnesota Twins,1,4
+2026-03-28,Philadelphia Phillies,Texas Rangers,4,5
+2026-03-28,Cincinnati Reds,Boston Red Sox,6,5
+2026-03-28,Miami Marlins,Colorado Rockies,4,3
+2026-03-28,New York Mets,Pittsburgh Pirates,4,2
+2026-03-28,Milwaukee Brewers,Chicago White Sox,6,1
+2026-03-28,Atlanta Braves,Kansas City Royals,6,2
+2026-03-28,San Francisco Giants,New York Yankees,1,3
+2026-03-29,San Diego Padres,Detroit Tigers,3,0
+2026-03-29,Los Angeles Dodgers,Arizona Diamondbacks,3,2
+2026-03-29,Seattle Mariners,Cleveland Guardians,5,6
+2026-03-29,Atlanta Braves,Kansas City Royals,1,4
+2026-03-29,Baltimore Orioles,Minnesota Twins,8,6
+2026-03-29,Philadelphia Phillies,Texas Rangers,3,8
+2026-03-29,Toronto Blue Jays,Athletics,5,2
+2026-03-29,Cincinnati Reds,Boston Red Sox,3,2
+2026-03-29,Miami Marlins,Colorado Rockies,4,3
+2026-03-29,New York Mets,Pittsburgh Pirates,3,4
+2026-03-29,Houston Astros,Los Angeles Angels,9,7
+2026-03-29,Milwaukee Brewers,Chicago White Sox,9,7
+2026-03-29,St. Louis Cardinals,Tampa Bay Rays,7,11
+2026-03-29,Chicago Cubs,Washington Nationals,3,6
+2026-03-30,Kansas City Royals,Minnesota Twins,3,1
+2026-03-30,Baltimore Orioles,Texas Rangers,2,5
+2026-03-30,Miami Marlins,Chicago White Sox,4,9
+2026-03-30,Cincinnati Reds,Pittsburgh Pirates,2,0
+2026-03-30,Philadelphia Phillies,Washington Nationals,2,13
+2026-03-30,Toronto Blue Jays,Colorado Rockies,5,14
+2026-03-30,Atlanta Braves,Athletics,4,0
+2026-03-30,Chicago Cubs,Los Angeles Angels,7,2
+2026-03-30,Milwaukee Brewers,Tampa Bay Rays,2,3
+2026-03-30,St. Louis Cardinals,New York Mets,2,4
+2026-03-31,Houston Astros,Boston Red Sox,8,1
+2026-03-31,Seattle Mariners,New York Yankees,2,1
+2026-03-31,San Diego Padres,San Francisco Giants,2,3
+2026-03-31,Los Angeles Dodgers,Cleveland Guardians,2,4
+2026-03-31,Arizona Diamondbacks,Detroit Tigers,9,6
+2026-03-31,Baltimore Orioles,Texas Rangers,5,8
+2026-03-31,Miami Marlins,Chicago White Sox,9,2
+2026-03-31,Cincinnati Reds,Pittsburgh Pirates,3,8
+2026-03-31,Philadelphia Phillies,Washington Nationals,3,2
+2026-03-31,Toronto Blue Jays,Colorado Rockies,5,1
+2026-03-31,Atlanta Braves,Athletics,2,5
+2026-03-31,Chicago Cubs,Los Angeles Angels,0,2
+2026-03-31,Milwaukee Brewers,Tampa Bay Rays,6,2
+2026-03-31,St. Louis Cardinals,New York Mets,3,0
+2026-04-01,Houston Astros,Boston Red Sox,9,2
+2026-04-01,Arizona Diamondbacks,Detroit Tigers,7,5
+2026-04-01,Seattle Mariners,New York Yankees,0,5
+2026-04-01,San Diego Padres,San Francisco Giants,3,9
+2026-04-01,Los Angeles Dodgers,Cleveland Guardians,4,1
+2026-04-01,Atlanta Braves,Athletics,5,1
+2026-04-01,Baltimore Orioles,Texas Rangers,8,3
+2026-04-01,Cincinnati Reds,Pittsburgh Pirates,3,8
+2026-04-01,Philadelphia Phillies,Washington Nationals,6,5
+2026-04-01,Toronto Blue Jays,Colorado Rockies,1,2
+2026-04-01,Miami Marlins,Chicago White Sox,10,0
+2026-04-01,St. Louis Cardinals,New York Mets,2,1
+2026-04-01,Milwaukee Brewers,Tampa Bay Rays,8,2
+2026-04-01,Chicago Cubs,Los Angeles Angels,6,2
+2026-04-01,Kansas City Royals,Minnesota Twins,13,9
+2026-04-02,Los Angeles Dodgers,Cleveland Guardians,1,4
+2026-04-02,Kansas City Royals,Minnesota Twins,1,5
+2026-04-03,Arizona Diamondbacks,Atlanta Braves,2,17
+2026-04-03,San Francisco Giants,New York Mets,7,2
+2026-04-03,Washington Nationals,Los Angeles Dodgers,6,13
+2026-04-03,Detroit Tigers,St. Louis Cardinals,4,0
+2026-04-03,New York Yankees,Miami Marlins,8,2
+2026-04-03,Boston Red Sox,San Diego Padres,5,2
+2026-04-03,Chicago White Sox,Toronto Blue Jays,5,4
+2026-04-03,Texas Rangers,Cincinnati Reds,3,5
+2026-04-03,Cleveland Guardians,Chicago Cubs,4,1
+2026-04-03,Colorado Rockies,Philadelphia Phillies,1,10
+2026-04-03,Pittsburgh Pirates,Baltimore Orioles,5,4
+2026-04-03,Minnesota Twins,Tampa Bay Rays,10,4
+2026-04-04,Los Angeles Angels,Seattle Mariners,1,3
+2026-04-04,Arizona Diamondbacks,Atlanta Braves,0,2
+2026-04-04,Athletics,Houston Astros,11,4
+2026-04-04,San Francisco Giants,New York Mets,3,10
+2026-04-04,Detroit Tigers,St. Louis Cardinals,11,6
+2026-04-04,Kansas City Royals,Milwaukee Brewers,2,5
+2026-04-04,Chicago White Sox,Toronto Blue Jays,6,3
+2026-04-04,Pittsburgh Pirates,Baltimore Orioles,3,2
+2026-04-04,Washington Nationals,Los Angeles Dodgers,5,10
+2026-04-04,Boston Red Sox,San Diego Padres,2,3
+2026-04-04,New York Yankees,Miami Marlins,9,7
+2026-04-04,Texas Rangers,Cincinnati Reds,0,2
+2026-04-04,Minnesota Twins,Tampa Bay Rays,1,7
+2026-04-05,Colorado Rockies,Philadelphia Phillies,1,2
+2026-04-05,San Francisco Giants,New York Mets,0,9
+2026-04-05,Los Angeles Angels,Seattle Mariners,1,0
+2026-04-05,Cleveland Guardians,Chicago Cubs,0,1
+2026-04-05,Pittsburgh Pirates,Baltimore Orioles,8,2
+2026-04-05,Washington Nationals,Los Angeles Dodgers,6,8
+2026-04-05,New York Yankees,Miami Marlins,6,7
+2026-04-05,Boston Red Sox,San Diego Padres,6,8
+2026-04-05,Kansas City Royals,Milwaukee Brewers,5,8
+2026-04-05,Minnesota Twins,Tampa Bay Rays,1,4
+2026-04-05,Chicago White Sox,Toronto Blue Jays,3,0
+2026-04-05,Texas Rangers,Cincinnati Reds,1,2
+2026-04-05,Athletics,Houston Astros,12,10
+2026-04-05,Arizona Diamondbacks,Atlanta Braves,6,5
+2026-04-05,Detroit Tigers,St. Louis Cardinals,3,5
+2026-04-06,Tampa Bay Rays,Chicago Cubs,6,4
+2026-04-06,Cleveland Guardians,Kansas City Royals,2,4
+2026-04-06,Miami Marlins,Cincinnati Reds,0,2
+2026-04-06,Pittsburgh Pirates,San Diego Padres,0,5
+2026-04-06,Boston Red Sox,Milwaukee Brewers,6,8
+2026-04-06,Washington Nationals,St. Louis Cardinals,9,6
+2026-04-06,Toronto Blue Jays,Los Angeles Dodgers,2,14
+2026-04-06,Chicago White Sox,Baltimore Orioles,1,2
+2026-04-06,Minnesota Twins,Detroit Tigers,7,3
+2026-04-07,Texas Rangers,Seattle Mariners,2,1
+2026-04-07,Colorado Rockies,Houston Astros,9,7
+2026-04-07,Los Angeles Angels,Atlanta Braves,6,2
+2026-04-07,San Francisco Giants,Philadelphia Phillies,4,6
+2026-04-07,Cleveland Guardians,Kansas City Royals,2,1
+2026-04-07,Chicago White Sox,Baltimore Orioles,2,4
+2026-04-07,New York Mets,Arizona Diamondbacks,4,3
+2026-04-07,Tampa Bay Rays,Chicago Cubs,2,9
+2026-04-07,Miami Marlins,Cincinnati Reds,3,6
+2026-04-07,Pittsburgh Pirates,San Diego Padres,7,1
+2026-04-07,Boston Red Sox,Milwaukee Brewers,3,2
+2026-04-07,Washington Nationals,St. Louis Cardinals,6,7
+2026-04-07,New York Yankees,Athletics,5,3
+2026-04-07,Toronto Blue Jays,Los Angeles Dodgers,1,4
+2026-04-07,Minnesota Twins,Detroit Tigers,4,2
+2026-04-08,Texas Rangers,Seattle Mariners,3,2
+2026-04-08,Colorado Rockies,Houston Astros,5,1
+2026-04-08,Los Angeles Angels,Atlanta Braves,2,7
+2026-04-08,San Francisco Giants,Philadelphia Phillies,6,0
+2026-04-08,Pittsburgh Pirates,San Diego Padres,2,8
+2026-04-08,Cleveland Guardians,Kansas City Royals,10,2
+2026-04-08,Boston Red Sox,Milwaukee Brewers,5,0
+2026-04-08,Chicago White Sox,Baltimore Orioles,3,5
+2026-04-08,Toronto Blue Jays,Los Angeles Dodgers,4,3
+2026-04-08,Washington Nationals,St. Louis Cardinals,1,6
+2026-04-08,New York Mets,Arizona Diamondbacks,2,7
+2026-04-08,Tampa Bay Rays,Chicago Cubs,2,6
+2026-04-08,Miami Marlins,Cincinnati Reds,7,4
+2026-04-08,New York Yankees,Athletics,2,3
+2026-04-08,Minnesota Twins,Detroit Tigers,8,6
+2026-04-09,Miami Marlins,Cincinnati Reds,8,1
+2026-04-09,New York Yankees,Athletics,0,1
+2026-04-09,Minnesota Twins,Detroit Tigers,3,1
+2026-04-09,New York Mets,Arizona Diamondbacks,1,7
+2026-04-09,Kansas City Royals,Chicago White Sox,0,2
+2026-04-10,San Diego Padres,Colorado Rockies,7,3
+2026-04-10,Chicago Cubs,Pittsburgh Pirates,0,2
+2026-04-10,Philadelphia Phillies,Arizona Diamondbacks,4,5
+2026-04-10,Detroit Tigers,Miami Marlins,2,0
+2026-04-10,Cincinnati Reds,Los Angeles Angels,2,10
+2026-04-10,Toronto Blue Jays,Minnesota Twins,10,4
+2026-04-10,New York Mets,Athletics,0,4
+2026-04-10,Tampa Bay Rays,New York Yankees,5,3
+2026-04-10,Atlanta Braves,Cleveland Guardians,11,5
+2026-04-10,Baltimore Orioles,San Francisco Giants,3,6
+2026-04-10,Kansas City Royals,Chicago White Sox,2,0
+2026-04-10,Milwaukee Brewers,Washington Nationals,3,7
+2026-04-11,St. Louis Cardinals,Boston Red Sox,3,2
+2026-04-11,San Diego Padres,Colorado Rockies,5,2
+2026-04-11,Seattle Mariners,Houston Astros,9,6
+2026-04-11,Los Angeles Dodgers,Texas Rangers,8,7
+2026-04-11,Philadelphia Phillies,Arizona Diamondbacks,4,3
+2026-04-11,Detroit Tigers,Miami Marlins,6,1
+2026-04-11,Chicago Cubs,Pittsburgh Pirates,3,4
+2026-04-11,Toronto Blue Jays,Minnesota Twins,4,7
+2026-04-11,Cincinnati Reds,Los Angeles Angels,7,3
+2026-04-11,New York Mets,Athletics,6,11
+2026-04-11,Kansas City Royals,Chicago White Sox,2,0
+2026-04-11,Tampa Bay Rays,New York Yankees,5,4
+2026-04-11,Milwaukee Brewers,Washington Nationals,1,3
+2026-04-11,Atlanta Braves,Cleveland Guardians,0,6
+2026-04-11,Baltimore Orioles,San Francisco Giants,6,2
+2026-04-12,San Diego Padres,Colorado Rockies,9,5
+2026-04-12,Los Angeles Dodgers,Texas Rangers,6,3
+2026-04-12,Seattle Mariners,Houston Astros,8,7
+2026-04-12,Philadelphia Phillies,Arizona Diamondbacks,3,4
+2026-04-12,Baltimore Orioles,San Francisco Giants,6,2
+2026-04-12,Toronto Blue Jays,Minnesota Twins,2,8
+2026-04-12,Cincinnati Reds,Los Angeles Angels,6,9
+2026-04-12,New York Mets,Athletics,0,1
+2026-04-12,Detroit Tigers,Miami Marlins,8,2
+2026-04-12,Tampa Bay Rays,New York Yankees,5,4
+2026-04-12,Kansas City Royals,Chicago White Sox,5,6
+2026-04-12,Milwaukee Brewers,Washington Nationals,6,8
+2026-04-12,St. Louis Cardinals,Boston Red Sox,3,9
+2026-04-12,Chicago Cubs,Pittsburgh Pirates,7,6
+2026-04-12,Atlanta Braves,Cleveland Guardians,13,1
+2026-04-13,Seattle Mariners,Houston Astros,6,2
+2026-04-13,Baltimore Orioles,Arizona Diamondbacks,9,7
+2026-04-13,Philadelphia Phillies,Chicago Cubs,13,7
+2026-04-13,Pittsburgh Pirates,Washington Nationals,16,5
+2026-04-13,New York Yankees,Los Angeles Angels,11,10
+2026-04-13,Atlanta Braves,Miami Marlins,4,10
+2026-04-13,Minnesota Twins,Boston Red Sox,13,6
+2026-04-13,St. Louis Cardinals,Cleveland Guardians,3,9
+2026-04-14,Athletics,Texas Rangers,1,8
+2026-04-14,Los Angeles Dodgers,New York Mets,4,0
+2026-04-14,Baltimore Orioles,Arizona Diamondbacks,3,4
+2026-04-14,Philadelphia Phillies,Chicago Cubs,4,10
+2026-04-14,Detroit Tigers,Kansas City Royals,2,1
+2026-04-14,Cincinnati Reds,San Francisco Giants,2,1
+2026-04-14,Pittsburgh Pirates,Washington Nationals,4,5
+2026-04-14,New York Yankees,Los Angeles Angels,1,7
+2026-04-14,Atlanta Braves,Miami Marlins,6,5
+2026-04-14,Minnesota Twins,Boston Red Sox,6,0
+2026-04-14,Chicago White Sox,Tampa Bay Rays,5,8
+2026-04-14,Milwaukee Brewers,Toronto Blue Jays,7,9
+2026-04-14,St. Louis Cardinals,Cleveland Guardians,6,5
+2026-04-15,Houston Astros,Colorado Rockies,7,6
+2026-04-15,San Diego Padres,Seattle Mariners,4,1
+2026-04-15,Athletics,Texas Rangers,2,1
+2026-04-15,Los Angeles Dodgers,New York Mets,2,1
+2026-04-15,Baltimore Orioles,Arizona Diamondbacks,5,8
+2026-04-15,St. Louis Cardinals,Cleveland Guardians,5,3
+2026-04-15,Minnesota Twins,Boston Red Sox,5,9
+2026-04-15,Philadelphia Phillies,Chicago Cubs,2,11
+2026-04-15,Detroit Tigers,Kansas City Royals,2,1
+2026-04-15,Cincinnati Reds,San Francisco Giants,8,3
+2026-04-15,Pittsburgh Pirates,Washington Nationals,2,0
+2026-04-15,New York Yankees,Los Angeles Angels,5,4
+2026-04-15,Atlanta Braves,Miami Marlins,6,3
+2026-04-15,Chicago White Sox,Tampa Bay Rays,3,8
+2026-04-15,Milwaukee Brewers,Toronto Blue Jays,2,1
+2026-04-16,Houston Astros,Colorado Rockies,3,1
+2026-04-16,San Diego Padres,Seattle Mariners,7,6
+2026-04-16,Athletics,Texas Rangers,6,5
+2026-04-16,Los Angeles Dodgers,New York Mets,8,2
+2026-04-16,Pittsburgh Pirates,Washington Nationals,7,8
+2026-04-16,Cincinnati Reds,San Francisco Giants,0,3
+2026-04-16,Detroit Tigers,Kansas City Royals,10,9
+2026-04-16,New York Yankees,Los Angeles Angels,4,11
+2026-04-16,Milwaukee Brewers,Toronto Blue Jays,2,1
+2026-04-16,Chicago White Sox,Tampa Bay Rays,3,5
+2026-04-16,Cleveland Guardians,Baltimore Orioles,4,2
+2026-04-17,Houston Astros,Colorado Rockies,2,3
+2026-04-17,San Diego Padres,Seattle Mariners,5,2
+2026-04-17,Chicago Cubs,New York Mets,12,4
+2026-04-17,Cleveland Guardians,Baltimore Orioles,4,6
+2026-04-17,Philadelphia Phillies,Atlanta Braves,0,9
+2026-04-17,Pittsburgh Pirates,Tampa Bay Rays,5,1
+2026-04-17,Washington Nationals,San Francisco Giants,5,10
+2026-04-17,New York Yankees,Kansas City Royals,4,2
+2026-04-17,Miami Marlins,Milwaukee Brewers,5,7
+2026-04-17,Boston Red Sox,Detroit Tigers,1,0
+2026-04-18,Minnesota Twins,Cincinnati Reds,1,2
+2026-04-18,Houston Astros,St. Louis Cardinals,4,9
+2026-04-18,Colorado Rockies,Los Angeles Dodgers,1,7
+2026-04-18,Los Angeles Angels,San Diego Padres,8,0
+2026-04-18,Athletics,Chicago White Sox,2,9
+2026-04-18,Seattle Mariners,Texas Rangers,0,5
+2026-04-18,Arizona Diamondbacks,Toronto Blue Jays,6,3
+2026-04-18,New York Yankees,Kansas City Royals,13,4
+2026-04-18,Chicago Cubs,New York Mets,4,2
+2026-04-18,Pittsburgh Pirates,Tampa Bay Rays,7,8
+2026-04-18,Washington Nationals,San Francisco Giants,6,7
+2026-04-18,Boston Red Sox,Detroit Tigers,1,4
+2026-04-18,Miami Marlins,Milwaukee Brewers,2,5
+2026-04-18,Cleveland Guardians,Baltimore Orioles,4,2
+2026-04-18,Philadelphia Phillies,Atlanta Braves,1,3
+2026-04-19,Colorado Rockies,Los Angeles Dodgers,4,3
+2026-04-19,Arizona Diamondbacks,Toronto Blue Jays,6,2
+2026-04-19,Los Angeles Angels,San Diego Padres,1,4
+2026-04-19,New York Yankees,Kansas City Royals,7,0
+2026-04-19,Washington Nationals,San Francisco Giants,3,0
+2026-04-19,Pittsburgh Pirates,Tampa Bay Rays,6,3
+2026-04-19,Cleveland Guardians,Baltimore Orioles,8,4
+2026-04-19,Miami Marlins,Milwaukee Brewers,5,3
+2026-04-19,Minnesota Twins,Cincinnati Reds,4,7
+2026-04-19,Houston Astros,St. Louis Cardinals,5,7
+2026-04-19,Chicago Cubs,New York Mets,2,1
+2026-04-19,Athletics,Chicago White Sox,4,7
+2026-04-19,Seattle Mariners,Texas Rangers,5,2
+2026-04-19,Boston Red Sox,Detroit Tigers,2,6
+2026-04-19,Philadelphia Phillies,Atlanta Braves,2,4
+2026-04-20,Boston Red Sox,Detroit Tigers,8,6
+2026-04-20,Cleveland Guardians,Houston Astros,2,9
+2026-04-20,Tampa Bay Rays,Cincinnati Reds,1,6
+2026-04-20,Miami Marlins,St. Louis Cardinals,5,3
+2026-04-20,Washington Nationals,Atlanta Braves,4,9
+2026-04-20,Kansas City Royals,Baltimore Orioles,5,7
+2026-04-20,Chicago Cubs,Philadelphia Phillies,5,1
+2026-04-21,Colorado Rockies,Los Angeles Dodgers,3,12
+2026-04-21,Los Angeles Angels,Toronto Blue Jays,2,5
+2026-04-21,Seattle Mariners,Athletics,4,6
+2026-04-21,Cleveland Guardians,Houston Astros,8,5
+2026-04-21,Tampa Bay Rays,Cincinnati Reds,6,12
+2026-04-21,Detroit Tigers,Milwaukee Brewers,4,12
+2026-04-21,Miami Marlins,St. Louis Cardinals,3,5
+2026-04-21,Washington Nationals,Atlanta Braves,11,4
+2026-04-21,Boston Red Sox,New York Yankees,0,4
+2026-04-21,New York Mets,Minnesota Twins,3,5
+2026-04-21,Kansas City Royals,Baltimore Orioles,6,5
+2026-04-21,Chicago Cubs,Philadelphia Phillies,7,4
+2026-04-22,Texas Rangers,Pittsburgh Pirates,5,1
+2026-04-22,Colorado Rockies,San Diego Padres,0,1
+2026-04-22,Los Angeles Angels,Toronto Blue Jays,2,4
+2026-04-22,Seattle Mariners,Athletics,2,5
+2026-04-22,Arizona Diamondbacks,Chicago White Sox,5,11
+2026-04-22,San Francisco Giants,Los Angeles Dodgers,3,1
+2026-04-22,Miami Marlins,St. Louis Cardinals,4,1
+2026-04-22,Tampa Bay Rays,Cincinnati Reds,6,1
+2026-04-22,Cleveland Guardians,Houston Astros,0,2
+2026-04-22,Kansas City Royals,Baltimore Orioles,6,8
+2026-04-22,Detroit Tigers,Milwaukee Brewers,5,2
+2026-04-22,Washington Nationals,Atlanta Braves,6,8
+2026-04-22,Boston Red Sox,New York Yankees,1,4
+2026-04-22,New York Mets,Minnesota Twins,3,2
+2026-04-22,Chicago Cubs,Philadelphia Phillies,7,2
+2026-04-23,Texas Rangers,Pittsburgh Pirates,4,8
+2026-04-23,Colorado Rockies,San Diego Padres,8,3
+2026-04-23,Arizona Diamondbacks,Chicago White Sox,11,7
+2026-04-23,San Francisco Giants,Los Angeles Dodgers,3,0
+2026-04-23,Washington Nationals,Atlanta Braves,2,7
+2026-04-23,Detroit Tigers,Milwaukee Brewers,5,4
+2026-04-23,Chicago Cubs,Philadelphia Phillies,8,7
+2026-04-23,Boston Red Sox,New York Yankees,2,4
+2026-04-23,New York Mets,Minnesota Twins,10,8
+2026-04-24,Texas Rangers,Pittsburgh Pirates,6,1
+2026-04-24,Cincinnati Reds,Detroit Tigers,9,8
+2026-04-24,Baltimore Orioles,Boston Red Sox,10,3
+2026-04-24,Toronto Blue Jays,Cleveland Guardians,6,8
+2026-04-24,New York Mets,Colorado Rockies,3,4
+2026-04-24,Tampa Bay Rays,Minnesota Twins,6,2
+2026-04-24,Atlanta Braves,Philadelphia Phillies,5,3
+2026-04-24,Kansas City Royals,Los Angeles Angels,6,3
+2026-04-24,Milwaukee Brewers,Pittsburgh Pirates,0,6
+2026-04-24,Chicago White Sox,Washington Nationals,5,4
+2026-04-25,Texas Rangers,Athletics,1,8
+2026-04-25,Houston Astros,New York Yankees,4,12
+2026-04-25,St. Louis Cardinals,Seattle Mariners,2,3
+2026-04-25,Los Angeles Dodgers,Chicago Cubs,4,6
+2026-04-25,San Francisco Giants,Miami Marlins,4,9
+2026-04-25,Baltimore Orioles,Boston Red Sox,1,17
+2026-04-25,Toronto Blue Jays,Cleveland Guardians,5,3
+2026-04-25,Tampa Bay Rays,Minnesota Twins,6,1
+2026-04-25,Chicago White Sox,Washington Nationals,3,6
+2026-04-25,Arizona Diamondbacks,San Diego Padres,4,6
+2026-04-25,Kansas City Royals,Los Angeles Angels,12,1
+2026-04-25,Milwaukee Brewers,Pittsburgh Pirates,3,6
+2026-04-25,Cincinnati Reds,Detroit Tigers,9,2
+2026-04-25,Atlanta Braves,Philadelphia Phillies,5,8
+2026-04-26,Baltimore Orioles,Boston Red Sox,3,5
+2026-04-26,Atlanta Braves,Philadelphia Phillies,6,2
+2026-04-26,Toronto Blue Jays,Cleveland Guardians,4,2
+2026-04-26,New York Mets,Colorado Rockies,1,3
+2026-04-26,Cincinnati Reds,Detroit Tigers,3,8
+2026-04-26,Tampa Bay Rays,Minnesota Twins,4,2
+2026-04-26,Houston Astros,New York Yankees,7,4
+2026-04-26,Milwaukee Brewers,Pittsburgh Pirates,5,0
+2026-04-26,Chicago White Sox,Washington Nationals,1,2
+2026-04-26,St. Louis Cardinals,Seattle Mariners,2,3
+2026-04-26,Texas Rangers,Athletics,1,2
+2026-04-26,San Francisco Giants,Miami Marlins,6,3
+2026-04-26,Arizona Diamondbacks,San Diego Padres,12,7
+2026-04-26,Kansas City Royals,Los Angeles Angels,11,9
+2026-04-26,Los Angeles Dodgers,Chicago Cubs,6,0
+2026-04-27,Cleveland Guardians,Tampa Bay Rays,2,3
+2026-04-27,Pittsburgh Pirates,St. Louis Cardinals,2,4
+2026-04-27,Toronto Blue Jays,Boston Red Sox,0,5
+2026-04-27,Chicago White Sox,Los Angeles Angels,8,7
+2026-04-27,Minnesota Twins,Seattle Mariners,11,4
+2026-04-28,Texas Rangers,New York Yankees,2,4
+2026-04-28,San Diego Padres,Chicago Cubs,9,7
+2026-04-28,Los Angeles Dodgers,Miami Marlins,5,4
+2026-04-28,Cleveland Guardians,Tampa Bay Rays,0,1
+2026-04-28,Baltimore Orioles,Houston Astros,5,3
+2026-04-28,Cincinnati Reds,Colorado Rockies,7,2
+2026-04-28,Philadelphia Phillies,San Francisco Giants,7,0
+2026-04-28,Pittsburgh Pirates,St. Louis Cardinals,7,11
+2026-04-28,Toronto Blue Jays,Boston Red Sox,3,0
+2026-04-28,New York Mets,Washington Nationals,8,0
+2026-04-28,Atlanta Braves,Detroit Tigers,5,2
+2026-04-28,Chicago White Sox,Los Angeles Angels,5,2
+2026-04-28,Milwaukee Brewers,Arizona Diamondbacks,13,2
+2026-04-28,Minnesota Twins,Seattle Mariners,1,7
+2026-04-29,Texas Rangers,New York Yankees,2,3
+2026-04-29,San Diego Padres,Chicago Cubs,3,8
+2026-04-29,Athletics,Kansas City Royals,1,4
+2026-04-29,Los Angeles Dodgers,Miami Marlins,1,2
+2026-04-29,Cleveland Guardians,Tampa Bay Rays,3,1
+2026-04-29,Chicago White Sox,Los Angeles Angels,3,2
+2026-04-29,Minnesota Twins,Seattle Mariners,3,5
+2026-04-29,Toronto Blue Jays,Boston Red Sox,8,1
+2026-04-29,Cincinnati Reds,Colorado Rockies,2,13
+2026-04-29,Pittsburgh Pirates,St. Louis Cardinals,4,5
+2026-04-29,New York Mets,Washington Nationals,2,14
+2026-04-29,Atlanta Braves,Detroit Tigers,4,3
+2026-04-29,Milwaukee Brewers,Arizona Diamondbacks,2,6
+2026-04-30,Athletics,Kansas City Royals,5,2
+2026-04-30,Atlanta Braves,Detroit Tigers,2,5
+2026-04-30,Baltimore Orioles,Houston Astros,10,3
+2026-04-30,Philadelphia Phillies,San Francisco Giants,3,2
+2026-04-30,Pittsburgh Pirates,St. Louis Cardinals,5,10
+2026-04-30,Cincinnati Reds,Colorado Rockies,6,4
+2026-04-30,New York Mets,Washington Nationals,4,5
+2026-04-30,Milwaukee Brewers,Arizona Diamondbacks,13,1
+2026-04-30,Minnesota Twins,Toronto Blue Jays,7,1
+2026-05-01,Chicago Cubs,Arizona Diamondbacks,6,5
+2026-05-01,Detroit Tigers,Texas Rangers,4,5
+2026-05-01,Pittsburgh Pirates,Cincinnati Reds,9,1
+2026-05-01,Washington Nationals,Milwaukee Brewers,1,6
+2026-05-01,New York Yankees,Baltimore Orioles,7,2
+2026-05-01,Boston Red Sox,Houston Astros,3,1
+2026-05-01,Miami Marlins,Philadelphia Phillies,5,6
+2026-05-01,Tampa Bay Rays,San Francisco Giants,3,0
+2026-05-02,Minnesota Twins,Toronto Blue Jays,3,7
+2026-05-02,St. Louis Cardinals,Los Angeles Dodgers,7,2
+2026-05-02,Colorado Rockies,Atlanta Braves,6,8
+2026-05-02,Los Angeles Angels,New York Mets,3,4
+2026-05-02,San Diego Padres,Chicago White Sox,2,8
+2026-05-02,Athletics,Cleveland Guardians,5,8
+2026-05-02,Seattle Mariners,Kansas City Royals,6,7
+2026-05-02,New York Yankees,Baltimore Orioles,9,4
+2026-05-02,Chicago Cubs,Arizona Diamondbacks,2,0
+2026-05-02,Pittsburgh Pirates,Cincinnati Reds,17,7
+2026-05-02,Washington Nationals,Milwaukee Brewers,1,4
+2026-05-02,Boston Red Sox,Houston Astros,3,6
+2026-05-02,Miami Marlins,Philadelphia Phillies,4,0
+2026-05-02,Tampa Bay Rays,San Francisco Giants,5,1
+2026-05-02,Detroit Tigers,Texas Rangers,5,1
+2026-05-03,Colorado Rockies,Atlanta Braves,1,9
+2026-05-03,San Diego Padres,Chicago White Sox,0,4
+2026-05-03,Los Angeles Angels,New York Mets,4,3
+2026-05-03,Seattle Mariners,Kansas City Royals,2,3
+2026-05-03,Minnesota Twins,Toronto Blue Jays,4,3
+2026-05-03,New York Yankees,Baltimore Orioles,11,3
+2026-05-03,Pittsburgh Pirates,Cincinnati Reds,1,0
+2026-05-03,Boston Red Sox,Houston Astros,1,3
+2026-05-03,Washington Nationals,Milwaukee Brewers,3,2
+2026-05-03,Miami Marlins,Philadelphia Phillies,2,7
+2026-05-03,Tampa Bay Rays,San Francisco Giants,2,1
+2026-05-03,St. Louis Cardinals,Los Angeles Dodgers,1,4
+2026-05-03,Chicago Cubs,Arizona Diamondbacks,8,4
+2026-05-03,Athletics,Cleveland Guardians,7,1
+2026-05-03,Detroit Tigers,Texas Rangers,7,1
+2026-05-04,Colorado Rockies,New York Mets,2,4
+2026-05-04,Detroit Tigers,Boston Red Sox,4,5
+2026-05-04,Miami Marlins,Philadelphia Phillies,0,1
+2026-05-04,Tampa Bay Rays,Toronto Blue Jays,5,1
+2026-05-04,New York Yankees,Baltimore Orioles,12,1
+2026-05-04,Chicago Cubs,Cincinnati Reds,5,4
+2026-05-04,Kansas City Royals,Cleveland Guardians,6,2
+2026-05-04,St. Louis Cardinals,Milwaukee Brewers,6,3
+2026-05-05,Houston Astros,Los Angeles Dodgers,3,8
+2026-05-05,Los Angeles Angels,Chicago White Sox,0,6
+2026-05-05,Seattle Mariners,Atlanta Braves,5,4
+2026-05-05,San Francisco Giants,San Diego Padres,3,2
+2026-05-05,Philadelphia Phillies,Athletics,9,1
+2026-05-05,Miami Marlins,Baltimore Orioles,7,9
+2026-05-05,Detroit Tigers,Boston Red Sox,3,10
+2026-05-05,Tampa Bay Rays,Toronto Blue Jays,4,3
+2026-05-05,Washington Nationals,Minnesota Twins,3,11
+2026-05-05,New York Yankees,Texas Rangers,7,4
+2026-05-05,Chicago Cubs,Cincinnati Reds,3,2
+2026-05-05,Kansas City Royals,Cleveland Guardians,5,3
+2026-05-06,Houston Astros,Los Angeles Dodgers,2,1
+2026-05-06,Los Angeles Angels,Chicago White Sox,4,3
+2026-05-06,Seattle Mariners,Atlanta Braves,2,3
+2026-05-06,Arizona Diamondbacks,Pittsburgh Pirates,9,0
+2026-05-06,San Francisco Giants,San Diego Padres,5,10
+2026-05-06,Tampa Bay Rays,Toronto Blue Jays,3,0
+2026-05-06,St. Louis Cardinals,Milwaukee Brewers,2,6
+2026-05-06,Philadelphia Phillies,Athletics,6,3
+2026-05-06,Miami Marlins,Baltimore Orioles,4,7
+2026-05-06,Detroit Tigers,Boston Red Sox,0,4
+2026-05-06,Washington Nationals,Minnesota Twins,15,2
+2026-05-06,New York Yankees,Texas Rangers,1,6
+2026-05-06,Chicago Cubs,Cincinnati Reds,7,6
+2026-05-06,Kansas City Royals,Cleveland Guardians,1,3
+2026-05-07,Colorado Rockies,New York Mets,5,10
+2026-05-07,Arizona Diamondbacks,Pittsburgh Pirates,0,1
+2026-05-07,New York Yankees,Texas Rangers,9,2
+2026-05-07,Washington Nationals,Minnesota Twins,7,5
+2026-05-07,Kansas City Royals,Cleveland Guardians,5,8
+2026-05-07,Chicago Cubs,Cincinnati Reds,8,3
+2026-05-07,Philadelphia Phillies,Athletics,1,12
+2026-05-07,Miami Marlins,Baltimore Orioles,4,3
+2026-05-07,Boston Red Sox,Tampa Bay Rays,4,8
+2026-05-08,San Diego Padres,St. Louis Cardinals,1,2
+2026-05-08,Cincinnati Reds,Houston Astros,0,10
+2026-05-08,Philadelphia Phillies,Colorado Rockies,7,9
+2026-05-08,Baltimore Orioles,Athletics,3,4
+2026-05-08,Toronto Blue Jays,Los Angeles Angels,2,0
+2026-05-08,Boston Red Sox,Tampa Bay Rays,2,0
+2026-05-08,Miami Marlins,Washington Nationals,2,3
+2026-05-08,Cleveland Guardians,Minnesota Twins,6,4
+2026-05-08,Kansas City Royals,Detroit Tigers,4,3
+2026-05-08,Milwaukee Brewers,New York Yankees,6,0
+2026-05-08,Chicago White Sox,Seattle Mariners,8,12
+2026-05-09,Texas Rangers,Chicago Cubs,1,7
+2026-05-09,Arizona Diamondbacks,New York Mets,1,3
+2026-05-09,San Diego Padres,St. Louis Cardinals,0,6
+2026-05-09,Los Angeles Dodgers,Atlanta Braves,3,1
+2026-05-09,San Francisco Giants,Pittsburgh Pirates,5,2
+2026-05-09,Toronto Blue Jays,Los Angeles Angels,14,1
+2026-05-09,Baltimore Orioles,Athletics,2,6
+2026-05-09,Cincinnati Reds,Houston Astros,3,1
+2026-05-09,Miami Marlins,Washington Nationals,8,7
+2026-05-09,Philadelphia Phillies,Colorado Rockies,9,3
+2026-05-09,Cleveland Guardians,Minnesota Twins,1,2
+2026-05-09,Kansas City Royals,Detroit Tigers,5,1
+2026-05-09,Milwaukee Brewers,New York Yankees,4,3
+2026-05-09,Chicago White Sox,Seattle Mariners,6,1
+2026-05-10,San Francisco Giants,Pittsburgh Pirates,3,13
+2026-05-10,Los Angeles Dodgers,Atlanta Braves,2,7
+2026-05-10,Miami Marlins,Washington Nationals,5,2
+2026-05-10,Baltimore Orioles,Athletics,2,1
+2026-05-10,Philadelphia Phillies,Colorado Rockies,6,0
+2026-05-10,Boston Red Sox,Tampa Bay Rays,1,4
+2026-05-10,Toronto Blue Jays,Los Angeles Angels,1,6
+2026-05-10,Cincinnati Reds,Houston Astros,5,0
+2026-05-10,Cleveland Guardians,Minnesota Twins,4,5
+2026-05-10,Milwaukee Brewers,New York Yankees,4,3
+2026-05-10,Chicago White Sox,Seattle Mariners,2,1
+2026-05-10,Texas Rangers,Chicago Cubs,3,0
+2026-05-10,Arizona Diamondbacks,New York Mets,5,1
+2026-05-10,San Diego Padres,St. Louis Cardinals,3,2
+2026-05-10,Kansas City Royals,Detroit Tigers,3,6
+2026-05-11,Cleveland Guardians,Los Angeles Angels,7,2
+2026-05-11,Baltimore Orioles,New York Yankees,3,2
+2026-05-11,Toronto Blue Jays,Tampa Bay Rays,5,8
+2026-05-12,Texas Rangers,Arizona Diamondbacks,0,1
+2026-05-12,Houston Astros,Seattle Mariners,1,3
+2026-05-12,Los Angeles Dodgers,San Francisco Giants,3,9
+2026-05-12,Cleveland Guardians,Los Angeles Angels,3,2
+2026-05-12,Baltimore Orioles,New York Yankees,2,6
+2026-05-12,Pittsburgh Pirates,Colorado Rockies,3,1
+2026-05-12,Cincinnati Reds,Washington Nationals,4,10
+2026-05-12,Boston Red Sox,Philadelphia Phillies,1,2
+2026-05-12,Toronto Blue Jays,Tampa Bay Rays,6,7
+2026-05-12,New York Mets,Detroit Tigers,10,2
+2026-05-12,Atlanta Braves,Chicago Cubs,5,2
+2026-05-12,Chicago White Sox,Kansas City Royals,6,5
+2026-05-12,Minnesota Twins,Miami Marlins,3,0
+2026-05-12,Milwaukee Brewers,San Diego Padres,6,4
+2026-05-13,Texas Rangers,Arizona Diamondbacks,7,4
+2026-05-13,Houston Astros,Seattle Mariners,2,10
+2026-05-13,Athletics,St. Louis Cardinals,4,6
+2026-05-13,Los Angeles Dodgers,San Francisco Giants,2,6
+2026-05-13,Baltimore Orioles,New York Yankees,7,0
+2026-05-13,Cleveland Guardians,Los Angeles Angels,4,2
+2026-05-13,Pittsburgh Pirates,Colorado Rockies,4,10
+2026-05-13,Cincinnati Reds,Washington Nationals,7,8
+2026-05-13,Boston Red Sox,Philadelphia Phillies,3,1
+2026-05-13,Toronto Blue Jays,Tampa Bay Rays,5,3
+2026-05-13,New York Mets,Detroit Tigers,3,2
+2026-05-13,Atlanta Braves,Chicago Cubs,4,1
+2026-05-13,Chicago White Sox,Kansas City Royals,6,5
+2026-05-13,Minnesota Twins,Miami Marlins,5,9
+2026-05-13,Milwaukee Brewers,San Diego Padres,1,3
+2026-05-14,Texas Rangers,Arizona Diamondbacks,6,5
+2026-05-14,Houston Astros,Seattle Mariners,4,3
+2026-05-14,Athletics,St. Louis Cardinals,6,2
+2026-05-14,Los Angeles Dodgers,San Francisco Giants,4,0
+2026-05-14,Pittsburgh Pirates,Colorado Rockies,7,2
+2026-05-14,Cincinnati Reds,Washington Nationals,15,1
+2026-05-14,New York Mets,Detroit Tigers,9,4
+2026-05-14,Minnesota Twins,Miami Marlins,9,1
+2026-05-14,Milwaukee Brewers,San Diego Padres,7,1
+2026-05-14,Boston Red Sox,Philadelphia Phillies,1,3
+2026-05-14,Atlanta Braves,Chicago Cubs,0,2
+2026-05-14,Chicago White Sox,Kansas City Royals,6,2
+2026-05-15,Los Angeles Dodgers,San Francisco Giants,5,2
+2026-05-15,Pittsburgh Pirates,Philadelphia Phillies,9,11
+2026-05-15,Detroit Tigers,Toronto Blue Jays,3,2
+2026-05-15,Washington Nationals,Baltimore Orioles,3,2
+2026-05-15,Cleveland Guardians,Cincinnati Reds,6,7
+2026-05-15,Tampa Bay Rays,Miami Marlins,7,2
+2026-05-15,Minnesota Twins,Milwaukee Brewers,2,3
+2026-05-15,Atlanta Braves,Boston Red Sox,3,2
+2026-05-15,New York Mets,New York Yankees,2,5
+2026-05-15,Chicago White Sox,Chicago Cubs,5,10
+2026-05-16,Houston Astros,Texas Rangers,2,0
+2026-05-16,St. Louis Cardinals,Kansas City Royals,5,4
+2026-05-16,Colorado Rockies,Arizona Diamondbacks,1,9
+2026-05-16,Los Angeles Angels,Los Angeles Dodgers,0,6
+2026-05-16,Seattle Mariners,San Diego Padres,0,2
+2026-05-16,Athletics,San Francisco Giants,5,2
+2026-05-16,Detroit Tigers,Toronto Blue Jays,1,2
+2026-05-16,Washington Nationals,Baltimore Orioles,13,3
+2026-05-16,Pittsburgh Pirates,Philadelphia Phillies,0,6
+2026-05-16,Tampa Bay Rays,Miami Marlins,5,10
+2026-05-16,Cleveland Guardians,Cincinnati Reds,7,4
+2026-05-16,Chicago White Sox,Chicago Cubs,8,3
+2026-05-16,Minnesota Twins,Milwaukee Brewers,1,2
+2026-05-16,Atlanta Braves,Boston Red Sox,2,3
+2026-05-16,New York Mets,New York Yankees,6,3
+2026-05-17,Los Angeles Angels,Los Angeles Dodgers,2,15
+2026-05-17,Athletics,San Francisco Giants,4,6
+2026-05-17,Tampa Bay Rays,Miami Marlins,6,3
+2026-05-17,Washington Nationals,Baltimore Orioles,3,7
+2026-05-17,Atlanta Braves,Boston Red Sox,8,1
+2026-05-17,Pittsburgh Pirates,Philadelphia Phillies,0,6
+2026-05-17,Cleveland Guardians,Cincinnati Reds,10,3
+2026-05-17,New York Mets,New York Yankees,7,6
+2026-05-17,Detroit Tigers,Toronto Blue Jays,1,4
+2026-05-17,Chicago White Sox,Chicago Cubs,9,8
+2026-05-17,Minnesota Twins,Milwaukee Brewers,5,4
+2026-05-17,Houston Astros,Texas Rangers,0,8
+2026-05-17,St. Louis Cardinals,Kansas City Royals,0,2
+2026-05-17,Colorado Rockies,Arizona Diamondbacks,6,8
+2026-05-17,Seattle Mariners,San Diego Padres,3,8
+2026-05-18,Miami Marlins,Atlanta Braves,12,0
+2026-05-18,Tampa Bay Rays,Baltimore Orioles,16,6
+2026-05-18,Philadelphia Phillies,Cincinnati Reds,5,4
+2026-05-18,Detroit Tigers,Cleveland Guardians,2,8
+2026-05-18,Washington Nationals,New York Mets,7,16
+2026-05-18,New York Yankees,Toronto Blue Jays,7,6
+2026-05-18,Kansas City Royals,Boston Red Sox,1,3
+2026-05-18,Minnesota Twins,Houston Astros,6,3
+2026-05-18,Chicago Cubs,Milwaukee Brewers,3,9
+2026-05-19,Colorado Rockies,Texas Rangers,7,6
+2026-05-19,Los Angeles Angels,Athletics,2,1
+2026-05-19,Seattle Mariners,Chicago White Sox,6,1
+2026-05-19,San Diego Padres,Los Angeles Dodgers,1,0
+2026-05-19,Arizona Diamondbacks,San Francisco Giants,12,2
+2026-05-19,Miami Marlins,Atlanta Braves,4,8
+2026-05-19,Tampa Bay Rays,Baltimore Orioles,4,1
+2026-05-19,Philadelphia Phillies,Cincinnati Reds,1,4
+2026-05-19,Detroit Tigers,Cleveland Guardians,3,4
+2026-05-19,Washington Nationals,New York Mets,9,6
+2026-05-19,New York Yankees,Toronto Blue Jays,5,4
+2026-05-19,Kansas City Royals,Boston Red Sox,1,7
+2026-05-19,Minnesota Twins,Houston Astros,1,2
+2026-05-19,Chicago Cubs,Milwaukee Brewers,2,5
+2026-05-19,St. Louis Cardinals,Pittsburgh Pirates,9,6
+2026-05-20,Colorado Rockies,Texas Rangers,0,10
+2026-05-20,Los Angeles Angels,Athletics,6,14
+2026-05-20,Seattle Mariners,Chicago White Sox,1,2
+2026-05-20,San Diego Padres,Los Angeles Dodgers,4,5
+2026-05-20,Arizona Diamondbacks,San Francisco Giants,5,3
+2026-05-20,Philadelphia Phillies,Cincinnati Reds,4,9
+2026-05-20,Tampa Bay Rays,Baltimore Orioles,5,3
+2026-05-20,Minnesota Twins,Houston Astros,4,1
+2026-05-20,Miami Marlins,Atlanta Braves,1,9
+2026-05-20,Detroit Tigers,Cleveland Guardians,2,3
+2026-05-20,Washington Nationals,New York Mets,8,4
+2026-05-20,New York Yankees,Toronto Blue Jays,1,2
+2026-05-20,Kansas City Royals,Boston Red Sox,3,4
+2026-05-20,Chicago Cubs,Milwaukee Brewers,0,5
+2026-05-20,St. Louis Cardinals,Pittsburgh Pirates,0,7
+2026-05-21,San Diego Padres,Los Angeles Dodgers,0,4
+2026-05-21,Los Angeles Angels,Athletics,5,6
+2026-05-21,Detroit Tigers,Cleveland Guardians,1,3
+2026-05-21,St. Louis Cardinals,Pittsburgh Pirates,2,6
+2026-05-21,Washington Nationals,New York Mets,1,2
+2026-05-21,Miami Marlins,Atlanta Braves,3,9
+2026-05-21,New York Yankees,Toronto Blue Jays,0,2
+2026-05-22,Los Angeles Angels,Athletics,2,3
+2026-05-22,Arizona Diamondbacks,Colorado Rockies,2,1
+2026-05-22,Chicago Cubs,Houston Astros,2,4
+2026-05-22,Philadelphia Phillies,Cleveland Guardians,0,1
+2026-05-22,New York Yankees,Tampa Bay Rays,2,4
+2026-05-22,Toronto Blue Jays,Pittsburgh Pirates,6,2
+2026-05-22,Boston Red Sox,Minnesota Twins,6,8
+2026-05-22,Miami Marlins,New York Mets,2,1
+2026-05-22,Baltimore Orioles,Detroit Tigers,7,4
+2026-05-22,Atlanta Braves,Washington Nationals,5,4
+2026-05-22,Milwaukee Brewers,Los Angeles Dodgers,5,1
+2026-05-22,Kansas City Royals,Seattle Mariners,0,2
+2026-05-23,Los Angeles Angels,Texas Rangers,9,6
+2026-05-23,San Diego Padres,Athletics,7,3
+2026-05-23,Arizona Diamondbacks,Colorado Rockies,2,3
+2026-05-23,San Francisco Giants,Chicago White Sox,4,9
+2026-05-23,Cincinnati Reds,St. Louis Cardinals,1,8
+2026-05-23,Chicago Cubs,Houston Astros,0,3
+2026-05-23,Toronto Blue Jays,Pittsburgh Pirates,5,2
+2026-05-23,Philadelphia Phillies,Cleveland Guardians,3,0
+2026-05-23,Boston Red Sox,Minnesota Twins,2,4
+2026-05-23,Miami Marlins,New York Mets,4,1
+2026-05-23,Atlanta Braves,Washington Nationals,0,2
+2026-05-23,Kansas City Royals,Seattle Mariners,5,0
+2026-05-23,Milwaukee Brewers,Los Angeles Dodgers,3,11
+2026-05-24,San Diego Padres,Athletics,2,0
+2026-05-24,Los Angeles Angels,Texas Rangers,5,2
+2026-05-24,Arizona Diamondbacks,Colorado Rockies,5,4
+2026-05-24,Toronto Blue Jays,Pittsburgh Pirates,1,4
+2026-05-24,Baltimore Orioles,Detroit Tigers,5,3
+2026-05-24,Philadelphia Phillies,Cleveland Guardians,1,3
+2026-05-24,Boston Red Sox,Minnesota Twins,5,6
+2026-05-24,New York Yankees,Tampa Bay Rays,2,0
+2026-05-24,Miami Marlins,New York Mets,4,0
+2026-05-24,Milwaukee Brewers,Los Angeles Dodgers,1,5
+2026-05-24,Kansas City Royals,Seattle Mariners,8,6
+2026-05-24,Chicago Cubs,Houston Astros,5,8
+2026-05-24,San Francisco Giants,Chicago White Sox,8,5
+2026-05-24,Atlanta Braves,Washington Nationals,1,2
+2026-05-25,Pittsburgh Pirates,Chicago Cubs,2,1
+2026-05-25,Baltimore Orioles,Tampa Bay Rays,9,7
+2026-05-25,Chicago White Sox,Minnesota Twins,3,1
+2026-05-25,Milwaukee Brewers,St. Louis Cardinals,5,1
+2026-05-25,Kansas City Royals,New York Yankees,3,4
+2026-05-25,New York Mets,Cincinnati Reds,2,7
+2026-05-25,San Francisco Giants,Arizona Diamondbacks,2,6
+2026-05-25,Cleveland Guardians,Washington Nationals,2,10
+2026-05-25,San Diego Padres,Philadelphia Phillies,0,3
+2026-05-25,Texas Rangers,Houston Astros,0,9
+2026-05-25,Toronto Blue Jays,Miami Marlins,2,8
+2026-05-26,Los Angeles Dodgers,Colorado Rockies,5,3
+2026-05-26,Athletics,Seattle Mariners,2,9
+2026-05-26,Cleveland Guardians,Washington Nationals,3,6
+2026-05-26,Baltimore Orioles,Tampa Bay Rays,6,1
+2026-05-26,Detroit Tigers,Los Angeles Angels,6,10
+2026-05-26,Pittsburgh Pirates,Chicago Cubs,12,1
+2026-05-26,Boston Red Sox,Atlanta Braves,6,7
+2026-05-26,Toronto Blue Jays,Miami Marlins,8,1
+2026-05-26,New York Mets,Cincinnati Reds,2,7
+2026-05-26,Chicago White Sox,Minnesota Twins,3,5
+2026-05-26,Kansas City Royals,New York Yankees,1,15
+2026-05-26,Milwaukee Brewers,St. Louis Cardinals,6,0
+2026-05-27,Texas Rangers,Houston Astros,10,7
+2026-05-27,San Diego Padres,Philadelphia Phillies,3,4
+2026-05-27,Athletics,Seattle Mariners,1,4
+2026-05-27,San Francisco Giants,Arizona Diamondbacks,5,7
+2026-05-27,Los Angeles Dodgers,Colorado Rockies,15,6
+2026-05-27,Toronto Blue Jays,Miami Marlins,2,1
+2026-05-27,Cleveland Guardians,Washington Nationals,3,2
+2026-05-27,Milwaukee Brewers,St. Louis Cardinals,2,1
+2026-05-27,Baltimore Orioles,Tampa Bay Rays,11,2
+2026-05-27,Detroit Tigers,Los Angeles Angels,4,0
+2026-05-27,Pittsburgh Pirates,Chicago Cubs,4,10
+2026-05-27,Boston Red Sox,Atlanta Braves,8,0
+2026-05-27,New York Mets,Cincinnati Reds,4,2
+2026-05-27,Chicago White Sox,Minnesota Twins,15,2
+2026-05-27,Kansas City Royals,New York Yankees,0,7
+2026-05-28,Texas Rangers,Houston Astros,3,4
+2026-05-28,Los Angeles Dodgers,Colorado Rockies,4,1
+2026-05-28,Detroit Tigers,Los Angeles Angels,1,7
+2026-05-28,Chicago White Sox,Minnesota Twins,6,2
+2026-05-28,Boston Red Sox,Atlanta Braves,2,10
+2026-05-28,Baltimore Orioles,Toronto Blue Jays,1,2
+2026-05-28,Pittsburgh Pirates,Chicago Cubs,2,7
+2026-05-29,Texas Rangers,Houston Astros,1,5
+2026-05-29,Cincinnati Reds,Atlanta Braves,3,8
+2026-05-29,Pittsburgh Pirates,Minnesota Twins,6,5
+2026-05-29,Washington Nationals,San Diego Padres,5,7
+2026-05-29,Baltimore Orioles,Toronto Blue Jays,5,6
+2026-05-29,Tampa Bay Rays,Los Angeles Angels,8,5
+2026-05-29,Cleveland Guardians,Boston Red Sox,4,3
+2026-05-29,New York Mets,Miami Marlins,9,7
+2026-05-29,St. Louis Cardinals,Chicago Cubs,6,5
+2026-05-29,Chicago White Sox,Detroit Tigers,4,3
+2026-05-30,Texas Rangers,Kansas City Royals,9,1
+2026-05-30,Houston Astros,Milwaukee Brewers,4,5
+2026-05-30,Colorado Rockies,San Francisco Giants,8,6
+2026-05-30,Athletics,New York Yankees,2,8
+2026-05-30,Seattle Mariners,Arizona Diamondbacks,7,6
+2026-05-30,Los Angeles Dodgers,Philadelphia Phillies,4,2
+2026-05-30,Chicago White Sox,Detroit Tigers,7,1
+2026-05-30,Pittsburgh Pirates,Minnesota Twins,10,9
+2026-05-30,Washington Nationals,San Diego Padres,9,4
+2026-05-30,Baltimore Orioles,Toronto Blue Jays,6,5
+2026-05-30,Tampa Bay Rays,Los Angeles Angels,3,14
+2026-05-30,Cleveland Guardians,Boston Red Sox,1,9
+2026-05-30,New York Mets,Miami Marlins,6,1
+2026-05-30,Cincinnati Reds,Atlanta Braves,2,5
+2026-05-30,St. Louis Cardinals,Chicago Cubs,1,6
+2026-05-31,Colorado Rockies,San Francisco Giants,8,3
+2026-05-31,Athletics,New York Yankees,6,4
+2026-05-31,Seattle Mariners,Arizona Diamondbacks,5,1
+2026-05-31,Los Angeles Dodgers,Philadelphia Phillies,3,4
+2026-05-31,Baltimore Orioles,Toronto Blue Jays,9,5
+2026-05-31,Pittsburgh Pirates,Minnesota Twins,9,3
+2026-05-31,Washington Nationals,San Diego Padres,4,2
+2026-05-31,Tampa Bay Rays,Los Angeles Angels,5,2
+2026-05-31,Cincinnati Reds,Atlanta Braves,6,4
+2026-05-31,Cleveland Guardians,Boston Red Sox,4,9
+2026-05-31,New York Mets,Miami Marlins,10,1
+2026-05-31,Chicago White Sox,Detroit Tigers,2,1
+2026-05-31,Houston Astros,Milwaukee Brewers,0,2
+2026-05-31,Texas Rangers,Kansas City Royals,6,3
+2026-05-31,St. Louis Cardinals,Chicago Cubs,5,1
+2026-06-01,Tampa Bay Rays,Detroit Tigers,9,10
+2026-06-01,Washington Nationals,Miami Marlins,3,7
+2026-06-01,Cincinnati Reds,Kansas City Royals,2,9
+2026-06-01,Minnesota Twins,Chicago White Sox,9,6
+2026-06-01,Milwaukee Brewers,San Francisco Giants,16,2
+2026-06-01,St. Louis Cardinals,Texas Rangers,1,2
+2026-06-02,Los Angeles Angels,Colorado Rockies,8,9
+2026-06-02,Arizona Diamondbacks,Los Angeles Dodgers,4,1
+2026-06-02,Seattle Mariners,New York Mets,3,2
+2026-06-02,Tampa Bay Rays,Detroit Tigers,0,8
+2026-06-02,Philadelphia Phillies,San Diego Padres,3,2
+2026-06-02,Boston Red Sox,Baltimore Orioles,2,4
+2026-06-02,Washington Nationals,Miami Marlins,3,7
+2026-06-02,New York Yankees,Cleveland Guardians,4,9
+2026-06-02,Cincinnati Reds,Kansas City Royals,4,3
+2026-06-02,Atlanta Braves,Toronto Blue Jays,4,3
+2026-06-02,Minnesota Twins,Chicago White Sox,6,4
+2026-06-02,Milwaukee Brewers,San Francisco Giants,8,3
+2026-06-02,St. Louis Cardinals,Texas Rangers,4,7
+2026-06-03,Chicago Cubs,Athletics,1,2
+2026-06-03,Houston Astros,Pittsburgh Pirates,6,10
+2026-06-03,Los Angeles Angels,Colorado Rockies,2,8
+2026-06-03,Arizona Diamondbacks,Los Angeles Dodgers,5,6
+2026-06-03,Seattle Mariners,New York Mets,8,3
+2026-06-03,Washington Nationals,Miami Marlins,1,4
+2026-06-03,Tampa Bay Rays,Detroit Tigers,2,7
+2026-06-03,Minnesota Twins,Chicago White Sox,0,8
+2026-06-03,Philadelphia Phillies,San Diego Padres,3,2
+2026-06-03,Boston Red Sox,Baltimore Orioles,8,1
+2026-06-03,New York Yankees,Cleveland Guardians,4,5
+2026-06-03,Cincinnati Reds,Kansas City Royals,2,5
+2026-06-03,Atlanta Braves,Toronto Blue Jays,7,3
+2026-06-03,Milwaukee Brewers,San Francisco Giants,0,1
+2026-06-03,St. Louis Cardinals,Texas Rangers,5,3
+2026-06-04,Chicago Cubs,Athletics,4,5
+2026-06-04,Houston Astros,Pittsburgh Pirates,11,9
+2026-06-04,Los Angeles Angels,Colorado Rockies,11,4
+2026-06-04,Arizona Diamondbacks,Los Angeles Dodgers,0,7
+2026-06-04,Philadelphia Phillies,San Diego Padres,6,4
+2026-06-04,Boston Red Sox,Baltimore Orioles,2,8
+2026-06-04,New York Yankees,Cleveland Guardians,2,1
+2026-06-04,Milwaukee Brewers,San Francisco Giants,9,12
+2026-06-04,Atlanta Braves,Toronto Blue Jays,2,7
+2026-06-04,Minnesota Twins,Kansas City Royals,6,8
+2026-06-05,Chicago Cubs,Athletics,7,6
+2026-06-05,Houston Astros,Pittsburgh Pirates,1,5
+2026-06-05,Arizona Diamondbacks,Los Angeles Dodgers,3,2
+2026-06-05,Chicago Cubs,San Francisco Giants,3,18
+2026-06-05,Philadelphia Phillies,Chicago White Sox,8,6
+2026-06-05,Detroit Tigers,Seattle Mariners,7,3
+2026-06-05,New York Yankees,Boston Red Sox,3,5
+2026-06-05,Toronto Blue Jays,Baltimore Orioles,3,13
+2026-06-05,Miami Marlins,Tampa Bay Rays,0,6
+2026-06-05,Atlanta Braves,Pittsburgh Pirates,6,3
+2026-06-06,Houston Astros,Athletics,5,1
+2026-06-06,St. Louis Cardinals,Cincinnati Reds,10,3
+2026-06-06,Texas Rangers,Cleveland Guardians,3,2
+2026-06-06,Minnesota Twins,Kansas City Royals,5,3
+2026-06-06,Colorado Rockies,Milwaukee Brewers,7,9
+2026-06-06,San Diego Padres,New York Mets,0,5
+2026-06-06,Arizona Diamondbacks,Washington Nationals,1,14
+2026-06-06,Los Angeles Dodgers,Los Angeles Angels,1,0
+2026-06-06,Detroit Tigers,Seattle Mariners,0,4
+2026-06-06,Chicago Cubs,San Francisco Giants,3,2
+2026-06-06,Toronto Blue Jays,Baltimore Orioles,6,4
+2026-06-06,Philadelphia Phillies,Chicago White Sox,3,6
+2026-06-06,Atlanta Braves,Pittsburgh Pirates,6,3
+2026-06-06,Miami Marlins,Tampa Bay Rays,4,3
+2026-06-07,Colorado Rockies,Milwaukee Brewers,1,7
+2026-06-07,Los Angeles Dodgers,Los Angeles Angels,9,2
+2026-06-07,San Diego Padres,New York Mets,3,2
+2026-06-07,New York Yankees,Boston Red Sox,6,1
+2026-06-07,Philadelphia Phillies,Chicago White Sox,9,5
+2026-06-07,Atlanta Braves,Pittsburgh Pirates,3,2
+2026-06-07,Toronto Blue Jays,Baltimore Orioles,6,4
+2026-06-07,Detroit Tigers,Seattle Mariners,5,4
+2026-06-07,Miami Marlins,Tampa Bay Rays,4,1
+2026-06-07,Houston Astros,Athletics,0,5
+2026-06-07,Minnesota Twins,Kansas City Royals,5,6
+2026-06-07,St. Louis Cardinals,Cincinnati Reds,5,3
+2026-06-07,Texas Rangers,Cleveland Guardians,10,0
+2026-06-07,Arizona Diamondbacks,Washington Nationals,5,1
+2026-06-08,Chicago Cubs,San Francisco Giants,1,2
+2026-06-08,Baltimore Orioles,Seattle Mariners,3,6
+2026-06-08,Tampa Bay Rays,Boston Red Sox,3,1
+2026-06-08,Cleveland Guardians,New York Yankees,5,7
+2026-06-08,Toronto Blue Jays,Philadelphia Phillies,2,5
+2026-06-09,Los Angeles Angels,Houston Astros,4,5
+2026-06-09,San Diego Padres,Cincinnati Reds,6,2
+2026-06-09,San Francisco Giants,Washington Nationals,3,4
+2026-06-09,Athletics,Milwaukee Brewers,14,15
+2026-06-09,Baltimore Orioles,Seattle Mariners,5,6
+2026-06-09,Miami Marlins,Arizona Diamondbacks,10,6
+2026-06-09,Tampa Bay Rays,Boston Red Sox,4,3
+2026-06-09,Pittsburgh Pirates,Los Angeles Dodgers,3,12
+2026-06-09,Detroit Tigers,Minnesota Twins,10,4
+2026-06-09,Cleveland Guardians,New York Yankees,2,3
+2026-06-09,Toronto Blue Jays,Philadelphia Phillies,3,2
+2026-06-09,New York Mets,St. Louis Cardinals,0,7
+2026-06-09,Chicago White Sox,Atlanta Braves,6,5
+2026-06-09,Kansas City Royals,Texas Rangers,5,3
+2026-06-10,Colorado Rockies,Chicago Cubs,7,3
+2026-06-10,Los Angeles Angels,Houston Astros,10,1
+2026-06-10,San Diego Padres,Cincinnati Reds,3,5
+2026-06-10,San Francisco Giants,Washington Nationals,3,6
+2026-06-10,Athletics,Milwaukee Brewers,7,5
+2026-06-10,Tampa Bay Rays,Boston Red Sox,7,5
+2026-06-10,Cleveland Guardians,New York Yankees,4,8
+2026-06-10,Baltimore Orioles,Seattle Mariners,7,2
+2026-06-10,Miami Marlins,Arizona Diamondbacks,8,0
+2026-06-10,Pittsburgh Pirates,Los Angeles Dodgers,9,8
+2026-06-10,Detroit Tigers,Minnesota Twins,4,6
+2026-06-10,Toronto Blue Jays,Philadelphia Phillies,4,7
+2026-06-10,New York Mets,St. Louis Cardinals,2,9
+2026-06-10,Chicago White Sox,Atlanta Braves,2,1
+2026-06-10,Kansas City Royals,Texas Rangers,4,6
+2026-06-11,Colorado Rockies,Chicago Cubs,3,2
+2026-06-11,Athletics,Milwaukee Brewers,4,3
+2026-06-11,Los Angeles Angels,Houston Astros,3,2

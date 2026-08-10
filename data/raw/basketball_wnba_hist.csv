@@ -1,0 +1,436 @@
+date,home,away,home_score,away_score
+2025-05-02,Las Vegas Aces,Dallas Wings,112,78
+2025-05-03,Chicago Sky,Brazil,89,62
+2025-05-03,Indiana Fever,Washington Mystics,79,74
+2025-05-04,Indiana Fever,Brazil,108,44
+2025-05-04,Seattle Storm,Connecticut Sun,79,59
+2025-05-06,Chicago Sky,Minnesota Lynx,74,69
+2025-05-07,Golden State Valkyries,Los Angeles Sparks,82,83
+2025-05-07,Las Vegas Aces,Phoenix Mercury,85,84
+2025-05-07,Washington Mystics,Atlanta Dream,70,80
+2025-05-09,New York Liberty,Connecticut Sun,86,94
+2025-05-10,Atlanta Dream,Indiana Fever,76,81
+2025-05-11,Minnesota Lynx,Chicago Sky,92,87
+2025-05-11,Dallas Wings,Toyota Antelopes,119,52
+2025-05-11,Phoenix Mercury,Golden State Valkyries,79,84
+2025-05-13,New York Liberty,Toyota Antelopes,84,61
+2025-05-16,Washington Mystics,Atlanta Dream,94,90
+2025-05-16,Dallas Wings,Minnesota Lynx,84,99
+2025-05-17,Golden State Valkyries,Los Angeles Sparks,67,84
+2025-05-17,New York Liberty,Las Vegas Aces,92,78
+2025-05-17,Indiana Fever,Chicago Sky,93,58
+2025-05-18,Phoenix Mercury,Seattle Storm,81,59
+2025-05-18,Connecticut Sun,Washington Mystics,85,90
+2025-05-18,Los Angeles Sparks,Minnesota Lynx,75,89
+2025-05-20,Dallas Wings,Seattle Storm,71,79
+2025-05-20,Connecticut Sun,Las Vegas Aces,62,87
+2025-05-20,Indiana Fever,Atlanta Dream,90,91
+2025-05-22,Minnesota Lynx,Dallas Wings,85,81
+2025-05-22,Golden State Valkyries,Washington Mystics,76,74
+2025-05-22,Phoenix Mercury,Los Angeles Sparks,89,86
+2025-05-22,Atlanta Dream,Indiana Fever,76,81
+2025-05-23,Chicago Sky,New York Liberty,74,99
+2025-05-23,Minnesota Lynx,Connecticut Sun,76,70
+2025-05-24,Las Vegas Aces,Washington Mystics,75,72
+2025-05-24,Los Angeles Sparks,Golden State Valkyries,73,82
+2025-05-24,Seattle Storm,Phoenix Mercury,77,70
+2025-05-24,Indiana Fever,New York Liberty,88,90
+2025-05-24,Atlanta Dream,Dallas Wings,83,75
+2025-05-25,Atlanta Dream,Connecticut Sun,79,55
+2025-05-25,Los Angeles Sparks,Chicago Sky,91,78
+2025-05-25,Phoenix Mercury,Washington Mystics,68,62
+2025-05-25,Seattle Storm,Las Vegas Aces,102,82
+2025-05-27,Connecticut Sun,Dallas Wings,87,109
+2025-05-27,New York Liberty,Golden State Valkyries,95,67
+2025-05-28,Minnesota Lynx,Seattle Storm,82,77
+2025-05-28,Los Angeles Sparks,Atlanta Dream,82,88
+2025-05-28,Phoenix Mercury,Chicago Sky,94,89
+2025-05-28,Washington Mystics,Indiana Fever,83,77
+2025-05-29,New York Liberty,Golden State Valkyries,82,77
+2025-05-30,Chicago Sky,Dallas Wings,97,92
+2025-05-30,Indiana Fever,Connecticut Sun,83,85
+2025-05-30,Washington Mystics,New York Liberty,63,85
+2025-05-31,Las Vegas Aces,Los Angeles Sparks,96,81
+2025-05-31,Phoenix Mercury,Minnesota Lynx,71,74
+2025-05-31,Seattle Storm,Atlanta Dream,87,94
+2025-06-01,Dallas Wings,Chicago Sky,83,94
+2025-06-01,New York Liberty,Connecticut Sun,100,52
+2025-06-01,Los Angeles Sparks,Phoenix Mercury,80,85
+2025-06-01,Seattle Storm,Las Vegas Aces,70,75
+2025-06-02,Golden State Valkyries,Minnesota Lynx,75,86
+2025-06-03,Indiana Fever,Washington Mystics,85,76
+2025-06-04,Minnesota Lynx,Phoenix Mercury,88,65
+2025-06-04,Seattle Storm,Dallas Wings,83,77
+2025-06-05,Washington Mystics,New York Liberty,78,86
+2025-06-06,Phoenix Mercury,Golden State Valkyries,86,77
+2025-06-06,Connecticut Sun,Atlanta Dream,84,76
+2025-06-07,Dallas Wings,Los Angeles Sparks,79,93
+2025-06-07,Golden State Valkyries,Las Vegas Aces,95,68
+2025-06-08,Chicago Sky,Indiana Fever,52,79
+2025-06-08,Phoenix Mercury,Seattle Storm,77,89
+2025-06-08,Washington Mystics,Connecticut Sun,104,67
+2025-06-08,Dallas Wings,Minnesota Lynx,65,81
+2025-06-10,Los Angeles Sparks,Golden State Valkyries,81,89
+2025-06-10,Atlanta Dream,Indiana Fever,77,58
+2025-06-11,New York Liberty,Chicago Sky,85,66
+2025-06-12,Las Vegas Aces,Los Angeles Sparks,89,97
+2025-06-12,Phoenix Mercury,Dallas Wings,93,80
+2025-06-12,Seattle Storm,Minnesota Lynx,94,84
+2025-06-13,Atlanta Dream,Chicago Sky,88,70
+2025-06-14,Las Vegas Aces,Dallas Wings,88,84
+2025-06-14,Minnesota Lynx,Los Angeles Sparks,101,78
+2025-06-14,Indiana Fever,New York Liberty,102,88
+2025-06-15,Golden State Valkyries,Seattle Storm,76,70
+2025-06-15,Connecticut Sun,Chicago Sky,66,78
+2025-06-15,Washington Mystics,Atlanta Dream,56,89
+2025-06-15,Las Vegas Aces,Phoenix Mercury,70,76
+2025-06-17,Indiana Fever,Connecticut Sun,88,71
+2025-06-17,New York Liberty,Atlanta Dream,86,81
+2025-06-18,Chicago Sky,Washington Mystics,72,79
+2025-06-18,Dallas Wings,Golden State Valkyries,80,71
+2025-06-18,Minnesota Lynx,Las Vegas Aces,76,62
+2025-06-18,Los Angeles Sparks,Seattle Storm,67,98
+2025-06-18,Connecticut Sun,Phoenix Mercury,75,83
+2025-06-19,New York Liberty,Phoenix Mercury,81,89
+2025-06-20,Golden State Valkyries,Indiana Fever,88,77
+2025-06-20,Atlanta Dream,Washington Mystics,92,91
+2025-06-20,Connecticut Sun,Dallas Wings,83,86
+2025-06-21,Las Vegas Aces,Seattle Storm,83,90
+2025-06-21,Chicago Sky,Phoenix Mercury,86,107
+2025-06-22,Minnesota Lynx,Los Angeles Sparks,82,66
+2025-06-22,Atlanta Dream,Chicago Sky,93,80
+2025-06-22,Washington Mystics,Dallas Wings,91,88
+2025-06-22,Las Vegas Aces,Indiana Fever,89,81
+2025-06-22,Seattle Storm,New York Liberty,89,79
+2025-06-23,Golden State Valkyries,Connecticut Sun,87,63
+2025-06-25,Washington Mystics,Minnesota Lynx,68,64
+2025-06-25,Chicago Sky,Los Angeles Sparks,97,86
+2025-06-25,Dallas Wings,Atlanta Dream,68,55
+2025-06-25,Seattle Storm,Indiana Fever,86,94
+2025-06-26,Golden State Valkyries,New York Liberty,78,81
+2025-06-26,Las Vegas Aces,Connecticut Sun,85,59
+2025-06-26,Indiana Fever,Los Angeles Sparks,75,85
+2025-06-27,Las Vegas Aces,Washington Mystics,83,94
+2025-06-27,Atlanta Dream,Minnesota Lynx,92,96
+2025-06-27,Dallas Wings,Indiana Fever,86,94
+2025-06-28,Golden State Valkyries,Chicago Sky,83,78
+2025-06-28,Phoenix Mercury,New York Liberty,106,91
+2025-06-28,Seattle Storm,Connecticut Sun,97,81
+2025-06-29,Dallas Wings,Washington Mystics,79,71
+2025-06-29,Atlanta Dream,New York Liberty,90,81
+2025-06-29,Los Angeles Sparks,Chicago Sky,85,92
+2025-06-29,Phoenix Mercury,Las Vegas Aces,81,84
+2025-06-29,Minnesota Lynx,Connecticut Sun,102,63
+2025-06-30,Golden State Valkyries,Seattle Storm,84,57
+2025-07-02,Minnesota Lynx,Indiana Fever,59,74
+2025-07-03,Indiana Fever,Las Vegas Aces,81,54
+2025-07-03,New York Liberty,Los Angeles Sparks,89,79
+2025-07-03,Atlanta Dream,Seattle Storm,79,80
+2025-07-04,Dallas Wings,Phoenix Mercury,98,89
+2025-07-04,Minnesota Lynx,Washington Mystics,92,75
+2025-07-05,Indiana Fever,Los Angeles Sparks,87,89
+2025-07-06,Minnesota Lynx,Golden State Valkyries,82,71
+2025-07-06,New York Liberty,Seattle Storm,70,79
+2025-07-06,Connecticut Sun,Las Vegas Aces,68,86
+2025-07-06,Minnesota Lynx,Chicago Sky,80,75
+2025-07-07,Atlanta Dream,Golden State Valkyries,90,81
+2025-07-08,Phoenix Mercury,Dallas Wings,102,72
+2025-07-08,Washington Mystics,Chicago Sky,81,79
+2025-07-09,New York Liberty,Las Vegas Aces,87,78
+2025-07-09,Connecticut Sun,Seattle Storm,93,83
+2025-07-09,Indiana Fever,Golden State Valkyries,61,80
+2025-07-09,Phoenix Mercury,Minnesota Lynx,79,71
+2025-07-10,Chicago Sky,Dallas Wings,87,76
+2025-07-10,Los Angeles Sparks,Minnesota Lynx,82,91
+2025-07-10,Washington Mystics,Las Vegas Aces,70,68
+2025-07-11,Indiana Fever,Atlanta Dream,99,82
+2025-07-12,Seattle Storm,Connecticut Sun,79,65
+2025-07-12,Chicago Sky,Minnesota Lynx,87,81
+2025-07-12,Las Vegas Aces,Golden State Valkyries,104,102
+2025-07-13,Indiana Fever,Dallas Wings,102,83
+2025-07-13,New York Liberty,Atlanta Dream,79,72
+2025-07-13,Los Angeles Sparks,Connecticut Sun,92,88
+2025-07-13,Seattle Storm,Washington Mystics,69,74
+2025-07-15,Chicago Sky,Minnesota Lynx,78,91
+2025-07-15,Golden State Valkyries,Phoenix Mercury,77,78
+2025-07-16,Connecticut Sun,Indiana Fever,77,85
+2025-07-16,Los Angeles Sparks,Washington Mystics,99,80
+2025-07-16,Chicago Sky,Atlanta Dream,49,86
+2025-07-16,Minnesota Lynx,Phoenix Mercury,79,66
+2025-07-16,Seattle Storm,Golden State Valkyries,67,58
+2025-07-16,New York Liberty,Indiana Fever,98,77
+2025-07-17,Dallas Wings,Las Vegas Aces,86,90
+2025-07-20,TEAM CLARK,TEAM COLLIER,131,151
+2025-07-22,Washington Mystics,Los Angeles Sparks,86,93
+2025-07-23,New York Liberty,Indiana Fever,98,84
+2025-07-23,Minnesota Lynx,Chicago Sky,91,68
+2025-07-23,Las Vegas Aces,Atlanta Dream,87,72
+2025-07-23,Seattle Storm,Dallas Wings,63,87
+2025-07-24,Phoenix Mercury,Atlanta Dream,79,90
+2025-07-24,Connecticut Sun,Los Angeles Sparks,86,101
+2025-07-24,Indiana Fever,Las Vegas Aces,80,70
+2025-07-25,Chicago Sky,Seattle Storm,57,95
+2025-07-25,New York Liberty,Phoenix Mercury,89,76
+2025-07-25,Minnesota Lynx,Las Vegas Aces,109,78
+2025-07-26,Golden State Valkyries,Dallas Wings,86,76
+2025-07-26,New York Liberty,Los Angeles Sparks,99,101
+2025-07-26,Washington Mystics,Seattle Storm,69,58
+2025-07-27,Connecticut Sun,Golden State Valkyries,95,64
+2025-07-27,Chicago Sky,Indiana Fever,78,93
+2025-07-27,Dallas Wings,Las Vegas Aces,80,106
+2025-07-27,Washington Mystics,Phoenix Mercury,72,88
+2025-07-27,Minnesota Lynx,Atlanta Dream,86,90
+2025-07-28,Connecticut Sun,Seattle Storm,85,101
+2025-07-29,Dallas Wings,New York Liberty,92,82
+2025-07-29,Atlanta Dream,Golden State Valkyries,75,77
+2025-07-29,Washington Mystics,Chicago Sky,103,86
+2025-07-30,Los Angeles Sparks,Las Vegas Aces,74,89
+2025-07-30,Indiana Fever,Phoenix Mercury,107,101
+2025-07-31,Dallas Wings,Atlanta Dream,85,88
+2025-07-31,Minnesota Lynx,New York Liberty,100,93
+2025-07-31,Washington Mystics,Golden State Valkyries,67,68
+2025-08-01,Atlanta Dream,Phoenix Mercury,95,72
+2025-08-01,Connecticut Sun,New York Liberty,78,62
+2025-08-01,Chicago Sky,Golden State Valkyries,66,73
+2025-08-01,Dallas Wings,Indiana Fever,78,88
+2025-08-02,Seattle Storm,Los Angeles Sparks,106,108
+2025-08-02,Las Vegas Aces,Minnesota Lynx,58,111
+2025-08-03,Connecticut Sun,New York Liberty,78,87
+2025-08-03,Atlanta Dream,Washington Mystics,99,83
+2025-08-03,Seattle Storm,Indiana Fever,74,78
+2025-08-03,Chicago Sky,Phoenix Mercury,67,83
+2025-08-03,Las Vegas Aces,Golden State Valkyries,101,77
+2025-08-05,New York Liberty,Dallas Wings,85,76
+2025-08-06,Chicago Sky,Washington Mystics,78,64
+2025-08-06,Los Angeles Sparks,Indiana Fever,100,91
+2025-08-06,Phoenix Mercury,Connecticut Sun,82,66
+2025-08-06,Seattle Storm,Minnesota Lynx,87,91
+2025-08-07,Golden State Valkyries,Las Vegas Aces,72,78
+2025-08-08,Chicago Sky,Atlanta Dream,65,86
+2025-08-08,Los Angeles Sparks,Connecticut Sun,102,91
+2025-08-08,Phoenix Mercury,Indiana Fever,95,60
+2025-08-08,Dallas Wings,New York Liberty,77,88
+2025-08-08,Minnesota Lynx,Washington Mystics,80,76
+2025-08-09,Las Vegas Aces,Seattle Storm,90,86
+2025-08-10,Indiana Fever,Chicago Sky,92,70
+2025-08-10,Golden State Valkyries,Los Angeles Sparks,72,59
+2025-08-10,New York Liberty,Minnesota Lynx,71,83
+2025-08-10,Dallas Wings,Washington Mystics,78,91
+2025-08-10,Phoenix Mercury,Atlanta Dream,66,74
+2025-08-11,Los Angeles Sparks,Seattle Storm,94,91
+2025-08-11,Las Vegas Aces,Connecticut Sun,94,86
+2025-08-12,Golden State Valkyries,Connecticut Sun,74,57
+2025-08-12,Indiana Fever,Dallas Wings,80,81
+2025-08-13,Los Angeles Sparks,New York Liberty,97,105
+2025-08-13,Connecticut Sun,Chicago Sky,71,62
+2025-08-13,Washington Mystics,Golden State Valkyries,83,88
+2025-08-14,Las Vegas Aces,New York Liberty,83,77
+2025-08-14,Seattle Storm,Atlanta Dream,75,85
+2025-08-15,Indiana Fever,Washington Mystics,84,88
+2025-08-15,Chicago Sky,Golden State Valkyries,59,90
+2025-08-15,Dallas Wings,Los Angeles Sparks,96,97
+2025-08-16,Atlanta Dream,Seattle Storm,78,80
+2025-08-16,Phoenix Mercury,Las Vegas Aces,83,86
+2025-08-16,Minnesota Lynx,New York Liberty,86,80
+2025-08-17,Connecticut Sun,Indiana Fever,93,99
+2025-08-17,Washington Mystics,Los Angeles Sparks,95,86
+2025-08-17,Las Vegas Aces,Dallas Wings,106,87
+2025-08-17,Seattle Storm,Phoenix Mercury,82,85
+2025-08-18,Golden State Valkyries,Atlanta Dream,63,79
+2025-08-19,New York Liberty,Minnesota Lynx,85,75
+2025-08-19,Washington Mystics,Connecticut Sun,69,80
+2025-08-20,Chicago Sky,Seattle Storm,88,94
+2025-08-20,Las Vegas Aces,Atlanta Dream,74,72
+2025-08-20,Golden State Valkyries,Phoenix Mercury,91,98
+2025-08-21,Los Angeles Sparks,Dallas Wings,81,80
+2025-08-21,Connecticut Sun,Washington Mystics,67,56
+2025-08-21,New York Liberty,Chicago Sky,85,91
+2025-08-21,Atlanta Dream,Minnesota Lynx,75,73
+2025-08-22,Las Vegas Aces,Phoenix Mercury,83,61
+2025-08-22,Indiana Fever,Minnesota Lynx,90,95
+2025-08-22,Dallas Wings,Seattle Storm,60,95
+2025-08-23,Phoenix Mercury,Golden State Valkyries,81,72
+2025-08-23,Atlanta Dream,New York Liberty,78,62
+2025-08-23,Washington Mystics,Las Vegas Aces,81,91
+2025-08-23,Chicago Sky,Connecticut Sun,84,94
+2025-08-24,Washington Mystics,Seattle Storm,82,84
+2025-08-24,Dallas Wings,Golden State Valkyries,81,90
+2025-08-24,Minnesota Lynx,Indiana Fever,97,84
+2025-08-25,New York Liberty,Connecticut Sun,81,79
+2025-08-26,Chicago Sky,Las Vegas Aces,74,79
+2025-08-26,Indiana Fever,Seattle Storm,95,75
+2025-08-27,Los Angeles Sparks,Phoenix Mercury,84,92
+2025-08-27,Atlanta Dream,Las Vegas Aces,75,81
+2025-08-28,Dallas Wings,Connecticut Sun,95,101
+2025-08-28,New York Liberty,Washington Mystics,89,63
+2025-08-29,Minnesota Lynx,Seattle Storm,79,93
+2025-08-29,Phoenix Mercury,Chicago Sky,83,79
+2025-08-29,Atlanta Dream,Dallas Wings,100,78
+2025-08-30,Los Angeles Sparks,Indiana Fever,75,76
+2025-08-30,Connecticut Sun,Minnesota Lynx,70,94
+2025-08-31,Golden State Valkyries,Washington Mystics,99,62
+2025-08-31,Seattle Storm,Chicago Sky,79,69
+2025-08-31,Phoenix Mercury,New York Liberty,80,63
+2025-09-01,Los Angeles Sparks,Washington Mystics,81,78
+2025-09-01,Golden State Valkyries,Indiana Fever,75,63
+2025-09-01,Connecticut Sun,Atlanta Dream,76,93
+2025-09-02,Minnesota Lynx,Dallas Wings,96,71
+2025-09-02,Seattle Storm,Los Angeles Sparks,85,91
+2025-09-03,Golden State Valkyries,New York Liberty,66,58
+2025-09-03,Phoenix Mercury,Indiana Fever,85,79
+2025-09-03,Atlanta Dream,Los Angeles Sparks,86,75
+2025-09-04,Chicago Sky,Connecticut Sun,88,64
+2025-09-04,Washington Mystics,Phoenix Mercury,69,75
+2025-09-05,Golden State Valkyries,Dallas Wings,84,80
+2025-09-05,Las Vegas Aces,Minnesota Lynx,97,87
+2025-09-05,Atlanta Dream,Los Angeles Sparks,104,85
+2025-09-05,Indiana Fever,Chicago Sky,97,77
+2025-09-06,Seattle Storm,New York Liberty,76,84
+2025-09-06,Connecticut Sun,Phoenix Mercury,87,84
+2025-09-07,Golden State Valkyries,Minnesota Lynx,72,78
+2025-09-07,Washington Mystics,Indiana Fever,65,94
+2025-09-07,Los Angeles Sparks,Dallas Wings,91,77
+2025-09-08,Las Vegas Aces,Chicago Sky,80,66
+2025-09-08,Atlanta Dream,Connecticut Sun,87,62
+2025-09-09,New York Liberty,Washington Mystics,75,66
+2025-09-09,Indiana Fever,Minnesota Lynx,83,72
+2025-09-10,Las Vegas Aces,Chicago Sky,92,61
+2025-09-10,Phoenix Mercury,Los Angeles Sparks,83,88
+2025-09-10,Seattle Storm,Golden State Valkyries,74,73
+2025-09-10,Connecticut Sun,Atlanta Dream,72,88
+2025-09-12,Chicago Sky,New York Liberty,86,91
+2025-09-12,Dallas Wings,Phoenix Mercury,97,76
+2025-09-12,Minnesota Lynx,Golden State Valkyries,72,53
+2025-09-12,Los Angeles Sparks,Las Vegas Aces,75,103
+2025-09-14,Minnesota Lynx,Golden State Valkyries,101,72
+2025-09-14,Atlanta Dream,Indiana Fever,80,68
+2025-09-14,Phoenix Mercury,New York Liberty,69,76
+2025-09-15,Las Vegas Aces,Seattle Storm,102,77
+2025-09-16,Indiana Fever,Atlanta Dream,77,60
+2025-09-17,Seattle Storm,Las Vegas Aces,86,83
+2025-09-18,New York Liberty,Phoenix Mercury,60,86
+2025-09-18,Golden State Valkyries,Minnesota Lynx,74,75
+2025-09-18,Atlanta Dream,Indiana Fever,85,87
+2025-09-19,Las Vegas Aces,Seattle Storm,74,73
+2025-09-20,Phoenix Mercury,New York Liberty,79,73
+2025-09-21,Las Vegas Aces,Indiana Fever,73,89
+2025-09-21,Minnesota Lynx,Phoenix Mercury,82,69
+2025-09-23,Minnesota Lynx,Phoenix Mercury,83,89
+2025-09-24,Las Vegas Aces,Indiana Fever,90,68
+2025-09-26,Indiana Fever,Las Vegas Aces,72,84
+2025-09-27,Phoenix Mercury,Minnesota Lynx,84,76
+2025-09-28,Indiana Fever,Las Vegas Aces,90,83
+2025-09-29,Phoenix Mercury,Minnesota Lynx,86,81
+2025-10-01,Las Vegas Aces,Indiana Fever,107,98
+2025-10-04,Las Vegas Aces,Phoenix Mercury,89,86
+2025-10-05,Las Vegas Aces,Phoenix Mercury,91,78
+2025-10-09,Phoenix Mercury,Las Vegas Aces,88,90
+2025-10-11,Phoenix Mercury,Las Vegas Aces,86,97
+2026-04-25,New York Liberty,Indiana Fever,91,109
+2026-04-25,Los Angeles Sparks,NIGERIA,89,63
+2026-04-25,Phoenix Mercury,Chicago Sky,108,104
+2026-04-25,Washington Mystics,Minnesota Lynx,66,77
+2026-04-26,Golden State Valkyries,Seattle Storm,78,76
+2026-04-27,Las Vegas Aces,JAPAN,94,78
+2026-04-28,Minnesota Lynx,NIGERIA,88,79
+2026-04-29,Toronto Tempo,Connecticut Sun,78,83
+2026-04-29,Chicago Sky,Atlanta Dream,78,87
+2026-04-30,Seattle Storm,Portland Fire,91,81
+2026-04-30,Phoenix Mercury,JAPAN,86,60
+2026-04-30,Indiana Fever,Dallas Wings,80,95
+2026-05-02,Minnesota Lynx,Toronto Tempo,73,66
+2026-05-02,Indiana Fever,NIGERIA,105,57
+2026-05-03,Atlanta Dream,Washington Mystics,72,83
+2026-05-03,Connecticut Sun,New York Liberty,67,79
+2026-05-03,Dallas Wings,Las Vegas Aces,101,84
+2026-05-03,Portland Fire,Los Angeles Sparks,75,85
+2026-05-08,New York Liberty,Connecticut Sun,106,75
+2026-05-08,Toronto Tempo,Washington Mystics,65,68
+2026-05-09,Seattle Storm,Golden State Valkyries,80,91
+2026-05-09,Indiana Fever,Dallas Wings,104,107
+2026-05-09,Las Vegas Aces,Phoenix Mercury,66,99
+2026-05-10,Minnesota Lynx,Atlanta Dream,90,91
+2026-05-10,Portland Fire,Chicago Sky,83,98
+2026-05-10,Connecticut Sun,Seattle Storm,82,89
+2026-05-10,Washington Mystics,New York Liberty,93,98
+2026-05-10,Los Angeles Sparks,Las Vegas Aces,78,105
+2026-05-11,Golden State Valkyries,Phoenix Mercury,95,79
+2026-05-13,Dallas Wings,Atlanta Dream,72,77
+2026-05-13,Phoenix Mercury,Minnesota Lynx,84,88
+2026-05-13,Portland Fire,New York Liberty,98,96
+2026-05-13,Toronto Tempo,Seattle Storm,86,73
+2026-05-14,Connecticut Sun,Las Vegas Aces,69,98
+2026-05-14,Golden State Valkyries,Chicago Sky,63,69
+2026-05-14,Los Angeles Sparks,Indiana Fever,78,87
+2026-05-15,Dallas Wings,Minnesota Lynx,86,90
+2026-05-15,Portland Fire,New York Liberty,82,100
+2026-05-15,Connecticut Sun,Las Vegas Aces,94,101
+2026-05-15,Indiana Fever,Washington Mystics,102,104
+2026-05-16,Los Angeles Sparks,Toronto Tempo,99,95
+2026-05-16,Phoenix Mercury,Chicago Sky,91,83
+2026-05-17,Atlanta Dream,Las Vegas Aces,84,85
+2026-05-17,Indiana Fever,Seattle Storm,89,78
+2026-05-17,Minnesota Lynx,Chicago Sky,79,86
+2026-05-17,Los Angeles Sparks,Toronto Tempo,96,106
+2026-05-19,Dallas Wings,Washington Mystics,92,69
+2026-05-19,Portland Fire,Connecticut Sun,83,82
+2026-05-20,Phoenix Mercury,Toronto Tempo,90,98
+2026-05-20,Indiana Fever,Portland Fire,90,73
+2026-05-21,Chicago Sky,Dallas Wings,89,99
+2026-05-21,Seattle Storm,Connecticut Sun,78,80
+2026-05-22,New York Liberty,Golden State Valkyries,70,87
+2026-05-22,Minnesota Lynx,Toronto Tempo,100,72
+2026-05-22,Phoenix Mercury,Los Angeles Sparks,88,97
+2026-05-22,Atlanta Dream,Dallas Wings,86,69
+2026-05-22,Indiana Fever,Golden State Valkyries,90,82
+2026-05-23,Seattle Storm,Connecticut Sun,77,59
+2026-05-23,Chicago Sky,Minnesota Lynx,75,85
+2026-05-23,Toronto Tempo,Portland Fire,80,99
+2026-05-24,Las Vegas Aces,Los Angeles Sparks,95,101
+2026-05-24,Atlanta Dream,Phoenix Mercury,82,80
+2026-05-24,New York Liberty,Dallas Wings,76,91
+2026-05-24,Seattle Storm,Washington Mystics,97,85
+2026-05-26,New York Liberty,Portland Fire,74,81
+2026-05-26,Golden State Valkyries,Connecticut Sun,97,70
+2026-05-27,New York Liberty,Phoenix Mercury,84,74
+2026-05-28,Chicago Sky,Toronto Tempo,104,111
+2026-05-28,Minnesota Lynx,Atlanta Dream,96,81
+2026-05-28,Portland Fire,Connecticut Sun,71,61
+2026-05-28,Seattle Storm,Washington Mystics,64,78
+2026-05-29,Dallas Wings,Las Vegas Aces,95,87
+2026-05-29,Golden State Valkyries,Indiana Fever,90,88
+2026-05-29,New York Liberty,Phoenix Mercury,75,68
+2026-05-29,Washington Mystics,Los Angeles Sparks,87,92
+2026-05-29,Chicago Sky,Minnesota Lynx,58,79
+2026-05-30,Portland Fire,Atlanta Dream,66,86
+2026-05-30,Toronto Tempo,Seattle Storm,93,72
+2026-05-30,Connecticut Sun,Los Angeles Sparks,84,81
+2026-05-31,Portland Fire,Indiana Fever,100,84
+2026-05-31,Golden State Valkyries,Las Vegas Aces,81,91
+2026-06-02,Dallas Wings,Seattle Storm,79,56
+2026-06-02,Phoenix Mercury,Minnesota Lynx,77,111
+2026-06-02,Atlanta Dream,Connecticut Sun,91,75
+2026-06-02,Washington Mystics,Chicago Sky,90,72
+2026-06-03,Golden State Valkyries,Portland Fire,95,77
+2026-06-03,Los Angeles Sparks,Las Vegas Aces,69,79
+2026-06-03,New York Liberty,Toronto Tempo,97,82
+2026-06-04,Seattle Storm,Phoenix Mercury,68,72
+2026-06-04,Indiana Fever,Atlanta Dream,83,71
+2026-06-05,Minnesota Lynx,Golden State Valkyries,87,84
+2026-06-05,Chicago Sky,Connecticut Sun,85,80
+2026-06-06,Los Angeles Sparks,Dallas Wings,96,104
+2026-06-06,Portland Fire,Phoenix Mercury,72,78
+2026-06-06,Minnesota Lynx,Seattle Storm,88,68
+2026-06-06,Las Vegas Aces,Golden State Valkyries,84,79
+2026-06-06,Atlanta Dream,Washington Mystics,109,77
+2026-06-07,New York Liberty,Indiana Fever,83,75
+2026-06-07,Toronto Tempo,Chicago Sky,85,68
+2026-06-07,Los Angeles Sparks,Portland Fire,89,72
+2026-06-08,Connecticut Sun,New York Liberty,80,89
+2026-06-08,Washington Mystics,Indiana Fever,76,78
+2026-06-09,Las Vegas Aces,Seattle Storm,101,91
+2026-06-09,Chicago Sky,Atlanta Dream,75,82
+2026-06-10,Minnesota Lynx,Dallas Wings,100,76
+2026-06-10,Golden State Valkyries,Phoenix Mercury,87,81
+2026-06-10,Toronto Tempo,Connecticut Sun,106,102
+2026-06-11,Seattle Storm,Los Angeles Sparks,83,88

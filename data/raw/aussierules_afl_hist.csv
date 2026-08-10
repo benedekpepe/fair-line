@@ -1,0 +1,306 @@
+date,home,away,home_score,away_score
+2025-04-10,Adelaide Crows,Geelong Cats,100,119
+2025-04-11,Collingwood,Sydney Swans,109,78
+2025-04-12,North Melbourne,Gold Coast SUNS,89,141
+2025-04-12,Carlton,West Coast Eagles,121,50
+2025-04-12,Western Bulldogs,Brisbane Lions,97,118
+2025-04-12,Melbourne,Essendon,57,96
+2025-04-13,Richmond,Fremantle,47,108
+2025-04-13,St Kilda,GWS GIANTS,82,110
+2025-04-13,Port Adelaide,Hawthorn,121,91
+2025-04-17,Brisbane Lions,Collingwood,53,105
+2025-04-18,North Melbourne,Carlton,71,153
+2025-04-18,West Coast Eagles,Essendon,75,77
+2025-04-19,Melbourne,Fremantle,107,97
+2025-04-19,Adelaide Crows,GWS GIANTS,52,34
+2025-04-19,Richmond,Gold Coast SUNS,80,69
+2025-04-20,Sydney Swans,Port Adelaide,77,85
+2025-04-20,Western Bulldogs,St Kilda,127,56
+2025-04-21,Geelong Cats,Hawthorn,86,79
+2025-04-24,Melbourne,Richmond,83,63
+2025-04-25,Collingwood,Essendon,107,66
+2025-04-25,Fremantle,Adelaide Crows,85,67
+2025-04-26,St Kilda,Brisbane Lions,73,118
+2025-04-26,Port Adelaide,North Melbourne,97,88
+2025-04-26,GWS GIANTS,Western Bulldogs,81,113
+2025-04-27,Gold Coast SUNS,Sydney Swans,117,79
+2025-04-27,Carlton,Geelong Cats,94,76
+2025-04-27,Hawthorn,West Coast Eagles,124,74
+2025-05-01,Essendon,North Melbourne,65,62
+2025-05-02,St Kilda,Fremantle,94,33
+2025-05-03,Western Bulldogs,Port Adelaide,131,41
+2025-05-03,Adelaide Crows,Carlton,110,50
+2025-05-03,West Coast Eagles,Melbourne,76,108
+2025-05-03,Collingwood,Geelong Cats,87,90
+2025-05-04,Sydney Swans,GWS GIANTS,87,73
+2025-05-04,Hawthorn,Richmond,109,44
+2025-05-04,Brisbane Lions,Gold Coast SUNS,66,49
+2025-05-08,Fremantle,Collingwood,83,97
+2025-05-09,St Kilda,Carlton,62,77
+2025-05-10,Melbourne,Hawthorn,56,91
+2025-05-10,Essendon,Sydney Swans,71,63
+2025-05-10,Gold Coast SUNS,Western Bulldogs,106,96
+2025-05-10,Port Adelaide,Adelaide Crows,84,89
+2025-05-11,Richmond,West Coast Eagles,81,79
+2025-05-11,Geelong Cats,GWS GIANTS,101,105
+2025-05-11,North Melbourne,Brisbane Lions,71,71
+2025-05-15,Gold Coast SUNS,Hawthorn,104,96
+2025-05-16,Sydney Swans,Carlton,78,62
+2025-05-17,Collingwood,Adelaide Crows,78,68
+2025-05-17,Port Adelaide,Geelong Cats,39,115
+2025-05-17,GWS GIANTS,Fremantle,61,95
+2025-05-17,Western Bulldogs,Essendon,127,36
+2025-05-18,Richmond,North Melbourne,74,78
+2025-05-18,Brisbane Lions,Melbourne,88,99
+2025-05-18,West Coast Eagles,St Kilda,108,80
+2025-05-22,Geelong Cats,Western Bulldogs,127,113
+2025-05-23,Essendon,Richmond,81,58
+2025-05-24,Carlton,GWS GIANTS,82,110
+2025-05-24,Hawthorn,Brisbane Lions,60,93
+2025-05-24,North Melbourne,Collingwood,63,108
+2025-05-24,Fremantle,Port Adelaide,100,51
+2025-05-25,Adelaide Crows,West Coast Eagles,128,62
+2025-05-25,Melbourne,Sydney Swans,131,78
+2025-05-25,St Kilda,Gold Coast SUNS,61,80
+2025-05-29,Brisbane Lions,Essendon,90,72
+2025-05-30,Collingwood,Hawthorn,107,56
+2025-05-31,Gold Coast SUNS,Fremantle,64,75
+2025-05-31,GWS GIANTS,Richmond,80,77
+2025-05-31,Sydney Swans,Adelaide Crows,41,131
+2025-06-01,Melbourne,St Kilda,63,91
+2025-06-01,West Coast Eagles,Geelong Cats,73,116
+2025-06-05,Western Bulldogs,Hawthorn,59,81
+2025-06-06,Adelaide Crows,Brisbane Lions,68,63
+2025-06-07,Richmond,Sydney Swans,36,80
+2025-06-07,Geelong Cats,Gold Coast SUNS,61,37
+2025-06-07,GWS GIANTS,Port Adelaide,50,66
+2025-06-08,North Melbourne,West Coast Eagles,62,52
+2025-06-08,Carlton,Essendon,78,70
+2025-06-09,Melbourne,Collingwood,71,72
+2025-06-12,St Kilda,Western Bulldogs,60,132
+2025-06-13,Hawthorn,Adelaide Crows,47,44
+2025-06-14,Brisbane Lions,GWS GIANTS,96,107
+2025-06-14,Essendon,Geelong Cats,56,151
+2025-06-14,North Melbourne,Fremantle,67,73
+2025-06-15,Port Adelaide,Melbourne,93,68
+2025-06-15,West Coast Eagles,Carlton,52,86
+2025-06-19,Fremantle,Essendon,104,63
+2025-06-20,Geelong Cats,Brisbane Lions,51,92
+2025-06-21,Carlton,North Melbourne,73,84
+2025-06-21,Port Adelaide,Sydney Swans,52,71
+2025-06-21,Collingwood,St Kilda,108,74
+2025-06-22,GWS GIANTS,Gold Coast SUNS,106,99
+2025-06-22,Western Bulldogs,Richmond,135,56
+2025-06-26,Port Adelaide,Carlton,110,60
+2025-06-27,Sydney Swans,Western Bulldogs,96,105
+2025-06-28,Gold Coast SUNS,Melbourne,104,85
+2025-06-28,Hawthorn,North Melbourne,150,65
+2025-06-28,Collingwood,West Coast Eagles,88,59
+2025-06-29,Richmond,Adelaide Crows,54,122
+2025-06-29,Fremantle,St Kilda,81,69
+2025-07-03,North Melbourne,Western Bulldogs,85,134
+2025-07-04,Carlton,Collingwood,59,115
+2025-07-04,West Coast Eagles,GWS GIANTS,52,111
+2025-07-05,Essendon,Gold Coast SUNS,74,115
+2025-07-05,Geelong Cats,Richmond,124,52
+2025-07-05,Brisbane Lions,Port Adelaide,120,92
+2025-07-05,St Kilda,Hawthorn,74,94
+2025-07-06,Sydney Swans,Fremantle,94,83
+2025-07-06,Adelaide Crows,Melbourne,90,77
+2025-07-10,Carlton,Brisbane Lions,66,103
+2025-07-11,Gold Coast SUNS,Collingwood,69,63
+2025-07-12,Western Bulldogs,Adelaide Crows,98,109
+2025-07-12,GWS GIANTS,Geelong Cats,111,85
+2025-07-12,Richmond,Essendon,46,37
+2025-07-12,Fremantle,Hawthorn,77,64
+2025-07-13,Melbourne,North Melbourne,119,83
+2025-07-13,St Kilda,Sydney Swans,87,92
+2025-07-13,Port Adelaide,West Coast Eagles,87,61
+2025-07-17,Essendon,GWS GIANTS,56,104
+2025-07-18,Brisbane Lions,Western Bulldogs,86,76
+2025-07-19,Hawthorn,Port Adelaide,87,49
+2025-07-19,Sydney Swans,North Melbourne,84,53
+2025-07-19,Carlton,Melbourne,78,70
+2025-07-19,West Coast Eagles,Richmond,56,105
+2025-07-20,Geelong Cats,St Kilda,113,82
+2025-07-20,Collingwood,Fremantle,78,79
+2025-07-20,Adelaide Crows,Gold Coast SUNS,107,46
+2025-07-24,Hawthorn,Carlton,85,61
+2025-07-25,Essendon,Western Bulldogs,50,143
+2025-07-25,GWS GIANTS,Sydney Swans,102,58
+2025-07-26,Gold Coast SUNS,Brisbane Lions,130,64
+2025-07-26,Fremantle,West Coast Eagles,126,77
+2025-07-26,North Melbourne,Geelong Cats,49,150
+2025-07-26,Adelaide Crows,Port Adelaide,133,35
+2025-07-27,Richmond,Collingwood,57,93
+2025-07-27,St Kilda,Melbourne,96,90
+2025-07-31,Western Bulldogs,GWS GIANTS,132,44
+2025-08-01,Adelaide Crows,Hawthorn,101,87
+2025-08-02,Melbourne,West Coast Eagles,139,56
+2025-08-02,Gold Coast SUNS,Richmond,107,23
+2025-08-02,Sydney Swans,Essendon,68,54
+2025-08-02,Collingwood,Brisbane Lions,65,92
+2025-08-03,St Kilda,North Melbourne,78,69
+2025-08-03,Geelong Cats,Port Adelaide,153,65
+2025-08-03,Fremantle,Carlton,94,67
+2025-08-07,Hawthorn,Collingwood,110,46
+2025-08-08,Geelong Cats,Essendon,109,65
+2025-08-09,Richmond,St Kilda,52,56
+2025-08-09,Brisbane Lions,Sydney Swans,90,92
+2025-08-09,Carlton,Gold Coast SUNS,74,93
+2025-08-09,Port Adelaide,Fremantle,86,92
+2025-08-10,GWS GIANTS,North Melbourne,133,79
+2025-08-10,Melbourne,Western Bulldogs,99,105
+2025-08-10,West Coast Eagles,Adelaide Crows,78,87
+2025-08-15,Essendon,St Kilda,75,77
+2025-08-15,Fremantle,Brisbane Lions,44,101
+2025-08-16,Gold Coast SUNS,GWS GIANTS,76,111
+2025-08-16,Carlton,Port Adelaide,118,64
+2025-08-16,Hawthorn,Melbourne,92,56
+2025-08-16,Adelaide Crows,Collingwood,59,56
+2025-08-17,North Melbourne,Richmond,135,87
+2025-08-17,Sydney Swans,Geelong Cats,68,111
+2025-08-17,Western Bulldogs,West Coast Eagles,126,32
+2025-08-21,Essendon,Carlton,56,90
+2025-08-22,Collingwood,Melbourne,82,76
+2025-08-22,Port Adelaide,Gold Coast SUNS,71,67
+2025-08-23,North Melbourne,Adelaide Crows,100,113
+2025-08-23,Richmond,Geelong Cats,64,103
+2025-08-23,West Coast Eagles,Sydney Swans,51,118
+2025-08-24,GWS GIANTS,St Kilda,104,93
+2025-08-24,Western Bulldogs,Fremantle,97,112
+2025-08-24,Brisbane Lions,Hawthorn,89,79
+2025-08-27,Gold Coast SUNS,Essendon,153,58
+2025-09-04,Adelaide Crows,Collingwood,55,79
+2025-09-05,Geelong Cats,Brisbane Lions,112,74
+2025-09-06,GWS GIANTS,Hawthorn,88,107
+2025-09-06,Fremantle,Gold Coast SUNS,79,80
+2025-09-12,Adelaide Crows,Hawthorn,67,101
+2025-09-13,Brisbane Lions,Gold Coast SUNS,100,47
+2025-09-19,Geelong Cats,Hawthorn,115,85
+2025-09-20,Collingwood,Brisbane Lions,71,100
+2025-09-27,Geelong Cats,Brisbane Lions,75,122
+2026-02-25,Carlton,Geelong Cats,86,71
+2026-02-26,Sydney Swans,GWS GIANTS,97,59
+2026-02-26,Brisbane Lions,Gold Coast SUNS,126,101
+2026-02-27,Melbourne,Richmond,78,43
+2026-02-27,Western Bulldogs,Hawthorn,117,73
+2026-02-28,St Kilda,Essendon,115,72
+2026-02-28,Fremantle,Adelaide Crows,84,68
+2026-03-01,North Melbourne,Collingwood,90,89
+2026-03-01,West Coast Eagles,Port Adelaide,67,140
+2026-03-05,Sydney Swans,Carlton,132,69
+2026-03-06,Gold Coast SUNS,Geelong Cats,125,69
+2026-03-07,GWS GIANTS,Hawthorn,122,95
+2026-03-07,Brisbane Lions,Western Bulldogs,106,111
+2026-03-08,St Kilda,Collingwood,66,78
+2026-03-12,Carlton,Richmond,75,71
+2026-03-13,Essendon,Hawthorn,83,145
+2026-03-14,Western Bulldogs,GWS GIANTS,134,53
+2026-03-14,Geelong Cats,Fremantle,110,100
+2026-03-14,Sydney Swans,Brisbane Lions,104,60
+2026-03-14,Collingwood,Adelaide Crows,79,93
+2026-03-15,North Melbourne,Port Adelaide,113,67
+2026-03-15,Melbourne,St Kilda,120,107
+2026-03-15,Gold Coast SUNS,West Coast Eagles,131,72
+2026-03-19,Hawthorn,Sydney Swans,99,82
+2026-03-20,Adelaide Crows,Western Bulldogs,88,94
+2026-03-21,Richmond,Gold Coast SUNS,60,128
+2026-03-21,GWS GIANTS,St Kilda,74,78
+2026-03-21,Fremantle,Melbourne,118,70
+2026-03-22,Port Adelaide,Essendon,133,70
+2026-03-22,West Coast Eagles,North Melbourne,111,94
+2026-03-26,Geelong Cats,Adelaide Crows,68,60
+2026-03-27,Collingwood,GWS GIANTS,87,54
+2026-03-28,St Kilda,Brisbane Lions,80,113
+2026-03-28,Fremantle,Richmond,103,43
+2026-03-28,Essendon,North Melbourne,69,81
+2026-03-29,Port Adelaide,West Coast Eagles,90,92
+2026-03-29,Carlton,Melbourne,77,100
+2026-04-02,Brisbane Lions,Collingwood,119,65
+2026-04-03,North Melbourne,Carlton,96,86
+2026-04-03,Adelaide Crows,Fremantle,76,78
+2026-04-04,Richmond,Port Adelaide,48,90
+2026-04-04,West Coast Eagles,Sydney Swans,35,163
+2026-04-05,Melbourne,Gold Coast SUNS,109,89
+2026-04-05,Western Bulldogs,Essendon,99,65
+2026-04-06,Hawthorn,Geelong Cats,92,91
+2026-04-09,Adelaide Crows,Carlton,114,86
+2026-04-10,Collingwood,Fremantle,39,45
+2026-04-11,North Melbourne,Brisbane Lions,66,92
+2026-04-11,Essendon,Melbourne,113,68
+2026-04-11,Sydney Swans,Gold Coast SUNS,100,68
+2026-04-11,Hawthorn,Western Bulldogs,104,64
+2026-04-12,Geelong Cats,West Coast Eagles,122,76
+2026-04-12,GWS GIANTS,Richmond,131,75
+2026-04-12,Port Adelaide,St Kilda,67,81
+2026-04-16,Carlton,Collingwood,83,88
+2026-04-17,Geelong Cats,Western Bulldogs,131,56
+2026-04-17,Sydney Swans,GWS GIANTS,107,66
+2026-04-18,Gold Coast SUNS,Essendon,119,110
+2026-04-18,Hawthorn,Port Adelaide,89,86
+2026-04-18,Adelaide Crows,St Kilda,103,102
+2026-04-19,North Melbourne,Richmond,130,55
+2026-04-19,Melbourne,Brisbane Lions,104,102
+2026-04-19,West Coast Eagles,Fremantle,41,97
+2026-04-23,Western Bulldogs,Sydney Swans,60,126
+2026-04-24,Richmond,Melbourne,72,126
+2026-04-25,Hawthorn,Gold Coast SUNS,112,63
+2026-04-25,Essendon,Collingwood,60,137
+2026-04-25,Port Adelaide,Geelong Cats,95,65
+2026-04-25,Fremantle,Carlton,103,89
+2026-04-26,St Kilda,West Coast Eagles,143,42
+2026-04-26,Brisbane Lions,Adelaide Crows,127,75
+2026-04-26,GWS GIANTS,North Melbourne,105,98
+2026-04-30,Collingwood,Hawthorn,93,93
+2026-05-01,Western Bulldogs,Fremantle,102,114
+2026-05-01,Adelaide Crows,Port Adelaide,76,75
+2026-05-02,Essendon,Brisbane Lions,79,143
+2026-05-02,West Coast Eagles,Richmond,88,99
+2026-05-02,Geelong Cats,North Melbourne,135,86
+2026-05-02,Carlton,St Kilda,69,108
+2026-05-03,Sydney Swans,Melbourne,131,114
+2026-05-03,Gold Coast SUNS,GWS GIANTS,83,63
+2026-05-07,Fremantle,Hawthorn,88,73
+2026-05-08,Brisbane Lions,Carlton,100,89
+2026-05-08,Port Adelaide,Western Bulldogs,72,74
+2026-05-09,North Melbourne,Sydney Swans,97,105
+2026-05-09,GWS GIANTS,Essendon,103,89
+2026-05-09,Gold Coast SUNS,St Kilda,89,60
+2026-05-09,Geelong Cats,Collingwood,122,68
+2026-05-10,Melbourne,West Coast Eagles,99,67
+2026-05-10,Richmond,Adelaide Crows,61,98
+2026-05-14,Brisbane Lions,Geelong Cats,76,117
+2026-05-15,Sydney Swans,Collingwood,81,75
+2026-05-15,Gold Coast SUNS,Port Adelaide,98,73
+2026-05-16,Adelaide Crows,North Melbourne,133,65
+2026-05-16,Melbourne,Hawthorn,120,81
+2026-05-16,Carlton,Western Bulldogs,74,62
+2026-05-17,Essendon,Fremantle,61,104
+2026-05-17,St Kilda,Richmond,109,73
+2026-05-17,West Coast Eagles,GWS GIANTS,88,71
+2026-05-21,Hawthorn,Adelaide Crows,75,66
+2026-05-22,Richmond,Essendon,74,56
+2026-05-22,Fremantle,St Kilda,104,74
+2026-05-23,North Melbourne,Gold Coast SUNS,111,105
+2026-05-23,Geelong Cats,Sydney Swans,107,80
+2026-05-23,Collingwood,West Coast Eagles,92,82
+2026-05-23,Port Adelaide,Carlton,58,92
+2026-05-24,GWS GIANTS,Brisbane Lions,166,88
+2026-05-24,Western Bulldogs,Melbourne,93,90
+2026-05-28,St Kilda,Hawthorn,67,119
+2026-05-29,Carlton,Geelong Cats,88,84
+2026-05-30,Sydney Swans,Richmond,170,56
+2026-05-30,Brisbane Lions,Fremantle,78,103
+2026-05-30,Western Bulldogs,Collingwood,97,93
+2026-05-31,Melbourne,GWS GIANTS,70,119
+2026-05-31,West Coast Eagles,Essendon,85,55
+2026-06-04,Adelaide Crows,Geelong Cats,75,74
+2026-06-05,Hawthorn,Western Bulldogs,71,77
+2026-06-06,North Melbourne,Fremantle,31,155
+2026-06-06,Gold Coast SUNS,Brisbane Lions,75,106
+2026-06-06,West Coast Eagles,Port Adelaide,71,77
+2026-06-07,Sydney Swans,St Kilda,104,102
+2026-06-07,Essendon,Carlton,67,72
+2026-06-08,Collingwood,Melbourne,75,83
+2026-06-11,Western Bulldogs,Adelaide Crows,64,121

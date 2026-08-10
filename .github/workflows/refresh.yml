@@ -31,19 +31,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Weekly cache stamp
-        id: weekstamp
-        run: echo "week=$(date -u +%G-W%V)" >> "$GITHUB_OUTPUT"
-
-      - name: Cache historical data (refreshes weekly)
-        uses: actions/cache@v4
-        with:
-          path: data/raw
-          # A new key each ISO week re-fetches provider history weekly so the
-          # models stay current; within the same week data/raw is restored for
-          # fast, light runs (no re-downloading 1500+ ESPN games every day).
-          key: data-raw-${{ steps.weekstamp.outputs.week }}
-
       - name: Seed web/data.js from the last published data (so sports never vanish)
         # Every run starts from the LAST PUBLISHED data.js (on the data branch), not
         # from main's possibly-stale copy. Each exporter rebuilds its own sport; any
@@ -65,6 +52,7 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          ESPN_BASE: ${{ secrets.ESPN_BASE }}
         run: |
           # Odds-quota throttle: only Mondays (or a forced manual run) fetch real
           # market odds; the other days refresh fixtures from free ESPN (0 credits)
