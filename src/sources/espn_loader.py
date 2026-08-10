@@ -9,17 +9,53 @@ The container can't reach ESPN (network allow-list), so this is verified live on
 your machine — it prints counts + a sample so we can adjust field names if ESPN's
 shape differs. Results are cached to CSV by the caller.
 """
-import json, time, urllib.request
+import json, time, urllib.request, urllib.error
 from datetime import date, timedelta
 import pandas as pd
 
 ESPN = "https://site.api.espn.com/apis/site/v2/sports"
 
 
-def _get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+       "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
+_HEADERS = {
+    "User-Agent": _UA,
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.espn.com/",
+    "Origin": "https://www.espn.com",
+}
+_err_shown = False
+
+
+def _get(url, retries=2):
+    """GET + parse JSON from ESPN's public API with full browser-like headers
+    (bare requests started getting rejected). Retries only transient errors
+    (429 / timeout); fails fast on a hard block (e.g. 403) so a blocked run stays
+    quick. The first failure per run is printed once so the cause is visible."""
+    global _err_shown
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers=_HEADERS)
+            with urllib.request.urlopen(req, timeout=20) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code == 429 and attempt < retries:   # rate limited -> back off and retry
+                time.sleep(2 * (attempt + 1)); continue
+            break                                       # 403 / 404 / etc. -> don't hammer
+        except Exception as e:                          # timeout / URLError -> one quick retry
+            last = e
+            if attempt < retries:
+                time.sleep(1); continue
+            break
+    if not _err_shown:
+        code = getattr(last, "code", None)
+        print("  ESPN request failed (" + type(last).__name__
+              + (" " + str(code) if code else "") + "): " + str(last)[:140])
+        _err_shown = True
+    raise last
 
 
 def _is_post(*objs):
