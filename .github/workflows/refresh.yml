@@ -44,15 +44,18 @@ jobs:
           # fast, light runs (no re-downloading 1500+ ESPN games every day).
           key: data-raw-${{ steps.weekstamp.outputs.week }}
 
-      - name: Fetch last published data.js (for weekly-odds carry-over)
-        # The paid odds are fetched once a week; on the free days we copy them
-        # forward from the last published data.js so they stay visible all week.
+      - name: Seed web/data.js from the last published data (so sports never vanish)
+        # Every run starts from the LAST PUBLISHED data.js (on the data branch), not
+        # from main's possibly-stale copy. Each exporter rebuilds its own sport; any
+        # sport a run can't rebuild that day keeps its previous matches (with odds)
+        # instead of disappearing. The same file also feeds the odds carry-over.
         run: |
           if git fetch origin data --depth=1 -q 2>/dev/null && \
              git show origin/data:web/data.js > /tmp/prev_data.js 2>/dev/null; then
-            echo "Got previous data.js ($(wc -c < /tmp/prev_data.js) bytes)."
+            cp /tmp/prev_data.js web/data.js
+            echo "Seeded web/data.js from data branch ($(wc -c < web/data.js) bytes)."
           else
-            echo "No previous data.js yet (first run?) — carry-over will be skipped."
+            echo "No previous data.js yet (first run?) — starting fresh."
           fi
 
       - name: Run the pipeline
