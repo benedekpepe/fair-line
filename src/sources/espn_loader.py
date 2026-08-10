@@ -9,11 +9,14 @@ The container can't reach ESPN (network allow-list), so this is verified live on
 your machine — it prints counts + a sample so we can adjust field names if ESPN's
 shape differs. Results are cached to CSV by the caller.
 """
-import json, time, urllib.request, urllib.error
+import os, json, time, urllib.request, urllib.error
 from datetime import date, timedelta
 import pandas as pd
 
-ESPN = "https://site.api.espn.com/apis/site/v2/sports"
+# ESPN blocks datacenter/CI IPs (403 Forbidden). Set ESPN_BASE to a proxy that
+# mirrors the path (e.g. a free Cloudflare Worker) to route around it; unset it
+# runs directly (works from a residential IP, e.g. your machine).
+ESPN = os.environ.get("ESPN_BASE", "https://site.api.espn.com/apis/site/v2/sports").rstrip("/")
 
 
 _UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
