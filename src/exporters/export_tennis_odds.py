@@ -209,7 +209,7 @@ def build():
 
 def main():
     if NO_ODDS:
-        print("  Tennis: no-odds mode — free ESPN fixtures, no paid odds.")
+        print("  Tennis: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
     matches, failed = build()
     djs = DATA_JS; data = {}
     if djs.exists():

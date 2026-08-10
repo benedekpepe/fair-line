@@ -275,7 +275,7 @@ def build_league(lg, sports_state):
 
 def main():
     if NO_ODDS:
-        print("  Margin sports: no-odds mode — free ESPN fixtures, no paid odds.")
+        print("  Margin sports: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
     if not KEY:
         print("  Margin sports: ODDS_API_KEY not set — skipped."); return
     active = _active({lg["key"] for lg in LEAGUES})

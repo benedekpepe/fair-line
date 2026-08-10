@@ -182,7 +182,7 @@ def build_league(lg, data):
 
 def main():
     if NO_ODDS:
-        print("  Combat sports: no-odds mode — free ESPN fixtures, no paid odds.")
+        print("  Combat sports: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
     if not KEY:
         print("  Combat sports: ODDS_API_KEY not set — skipped."); return
     active = _active({lg["key"] for lg in LEAGUES})

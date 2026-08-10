@@ -279,7 +279,7 @@ def _rows_from_espn(espn_slug, model, teams, norm_index, label):
 
 def main():
     if NO_ODDS:
-        print("Odds leagues: no-odds mode — free ESPN fixtures, no paid odds.")
+        print("Odds leagues: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
     new = build()
     if not new:
         print("Odds leagues: nothing to add right now."); return
