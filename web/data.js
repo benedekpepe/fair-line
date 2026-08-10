@@ -243,6 +243,17 @@ window.SPORTS_DATA = {
         "insight": "Group stage. Expected goals: 0.76–0.91."
       },
       {
+        "home": "CD Santa Clara",
+        "away": "CD Nacional",
+        "league": "Primeira Liga",
+        "date": "Mon 8.10",
+        "kickoff": "2026-08-10T19:15:00Z",
+        "lam": 1.12,
+        "mu": 0.81,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 1.12-0.81."
+      },
+      {
         "home": "Fluminense FC",
         "away": "SE Palmeiras",
         "league": "Brasileirao",
@@ -639,17 +650,6 @@ window.SPORTS_DATA = {
         "insight": "Round 2. Expected goals: 2.23-1.02."
       },
       {
-        "home": "CD Santa Clara",
-        "away": "CD Nacional",
-        "league": "Primeira Liga",
-        "date": "Mon 8.10",
-        "kickoff": "2026-08-10T19:15:00Z",
-        "lam": 1.12,
-        "mu": 0.81,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.12-0.81."
-      },
-      {
         "home": "Atlanta United FC",
         "away": "New York Red Bulls",
         "league": "MLS",
@@ -759,7 +759,7 @@ window.SPORTS_DATA = {
         "mu": 1.23,
         "mkt": {
           "1": 2.16,
-          "X": 3.55,
+          "X": 3.58,
           "2": 3.05
         },
         "mkt_ou": {
@@ -858,7 +858,7 @@ window.SPORTS_DATA = {
         "lam": 1.96,
         "mu": 1.18,
         "mkt": {
-          "1": 1.55,
+          "1": 1.54,
           "X": 4.45,
           "2": 4.9
         },
@@ -883,8 +883,8 @@ window.SPORTS_DATA = {
         "lam": 1.98,
         "mu": 1.38,
         "mkt": {
-          "1": 2.02,
-          "X": 3.85,
+          "1": 2.0,
+          "X": 3.8,
           "2": 3.2
         },
         "mkt_ou": {
@@ -1692,9 +1692,9 @@ window.SPORTS_DATA = {
         "lam": 1.46,
         "mu": 1.82,
         "mkt": {
-          "1": 2.65,
-          "X": 3.85,
-          "2": 2.2
+          "1": 2.6,
+          "X": 3.8,
+          "2": 2.25
         },
         "mkt_ou": {
           "line": 2.5,
@@ -1702,9 +1702,9 @@ window.SPORTS_DATA = {
           "under": 2.6
         },
         "mkt_ah": {
-          "line": 0.25,
-          "home": 1.81,
-          "away": 2.06
+          "line": 0.0,
+          "home": 2.01,
+          "away": 1.85
         },
         "insight": "Expected goals: 1.46-1.82."
       },
@@ -1719,7 +1719,7 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 2.75,
           "X": 3.7,
-          "2": 2.21
+          "2": 2.2
         },
         "mkt_ou": {
           "line": 2.5,
@@ -1767,7 +1767,7 @@ window.SPORTS_DATA = {
         "lam": 1.68,
         "mu": 1.26,
         "mkt": {
-          "1": 2.24,
+          "1": 2.25,
           "X": 3.45,
           "2": 2.85
         },
@@ -1793,8 +1793,8 @@ window.SPORTS_DATA = {
         "mu": 0.83,
         "mkt": {
           "1": 1.88,
-          "X": 3.5,
-          "2": 3.7
+          "X": 3.55,
+          "2": 3.8
         },
         "mkt_ou": {
           "line": 2.5,
@@ -1817,7 +1817,7 @@ window.SPORTS_DATA = {
         "lam": 1.16,
         "mu": 1.97,
         "mkt": {
-          "1": 4.15,
+          "1": 4.2,
           "X": 3.9,
           "2": 1.76
         },
@@ -1844,17 +1844,17 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 1.95,
           "X": 3.5,
-          "2": 3.5
+          "2": 3.55
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 1.78,
-          "under": 1.97
+          "over": 1.77,
+          "under": 1.98
         },
         "mkt_ah": {
           "line": 0.0,
-          "home": 1.47,
-          "away": 2.57
+          "home": 1.44,
+          "away": 2.65
         },
         "insight": "Expected goals: 1.97-1.23."
       },
@@ -1867,7 +1867,7 @@ window.SPORTS_DATA = {
         "lam": 1.72,
         "mu": 0.92,
         "mkt": {
-          "1": 1.45,
+          "1": 1.44,
           "X": 4.4,
           "2": 5.6
         },
@@ -1878,8 +1878,8 @@ window.SPORTS_DATA = {
         },
         "mkt_ah": {
           "line": -1.5,
-          "home": 2.18,
-          "away": 1.66
+          "home": 2.27,
+          "away": 1.61
         },
         "insight": "Expected goals: 1.72-0.92."
       },
@@ -1892,7 +1892,7 @@ window.SPORTS_DATA = {
         "lam": 1.09,
         "mu": 1.39,
         "mkt": {
-          "1": 2.94,
+          "1": 2.93,
           "X": 3.3,
           "2": 2.34
         },
@@ -1919,7 +1919,7 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 2.12,
           "X": 3.5,
-          "2": 3.08
+          "2": 3.1
         },
         "mkt_ou": {
           "line": 2.5,
@@ -1942,19 +1942,19 @@ window.SPORTS_DATA = {
         "lam": 2.22,
         "mu": 0.85,
         "mkt": {
-          "1": 1.25,
-          "X": 5.75,
-          "2": 7.9
+          "1": 1.33,
+          "X": 5.25,
+          "2": 7.0
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 1.35,
-          "under": 3.15
+          "over": 1.43,
+          "under": 3.0
         },
         "mkt_ah": {
           "line": -1.5,
-          "home": 1.64,
-          "away": 2.05
+          "home": 1.96,
+          "away": 1.83
         },
         "insight": "Expected goals: 2.22-0.85."
       },
@@ -2069,7 +2069,7 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 2.48,
           "X": 3.4,
-          "2": 2.62
+          "2": 2.65
         },
         "mkt_ou": {
           "line": 2.5,
@@ -2219,7 +2219,7 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 3.8,
           "X": 3.4,
-          "2": 1.9
+          "2": 1.91
         },
         "mkt_ou": {
           "line": 2.5,
@@ -2267,9 +2267,9 @@ window.SPORTS_DATA = {
         "lam": 2.55,
         "mu": 1.06,
         "mkt": {
-          "1": 1.44,
+          "1": 1.43,
           "X": 4.88,
-          "2": 5.48
+          "2": 5.5
         },
         "mkt_ou": {
           "line": 2.5,
@@ -2319,11 +2319,11 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 2.07,
           "X": 3.25,
-          "2": 3.46
+          "2": 3.48
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 1.98,
+          "over": 1.95,
           "under": 1.77
         },
         "mkt_ah": {
@@ -2369,7 +2369,7 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 3.35,
           "X": 3.5,
-          "2": 2.02
+          "2": 2.03
         },
         "mkt_ou": {
           "line": 2.5,
@@ -2392,9 +2392,9 @@ window.SPORTS_DATA = {
         "lam": 1.36,
         "mu": 1.81,
         "mkt": {
-          "1": 2.73,
+          "1": 2.7,
           "X": 3.65,
-          "2": 2.22
+          "2": 2.25
         },
         "mkt_ou": {
           "line": 2.5,
@@ -2442,7 +2442,7 @@ window.SPORTS_DATA = {
         "lam": 1.89,
         "mu": 1.03,
         "mkt": {
-          "1": 1.85,
+          "1": 1.87,
           "X": 3.9,
           "2": 3.6
         },
@@ -2468,8 +2468,8 @@ window.SPORTS_DATA = {
         "mu": 1.62,
         "mkt": {
           "1": 6.4,
-          "X": 4.22,
-          "2": 1.46
+          "X": 4.2,
+          "2": 1.47
         },
         "mkt_ou": {
           "line": 2.5,
