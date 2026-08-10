@@ -243,17 +243,6 @@ window.SPORTS_DATA = {
         "insight": "Group stage. Expected goals: 0.76–0.91."
       },
       {
-        "home": "CD Santa Clara",
-        "away": "CD Nacional",
-        "league": "Primeira Liga",
-        "date": "Mon 8.10",
-        "kickoff": "2026-08-10T19:15:00Z",
-        "lam": 1.12,
-        "mu": 0.81,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.12-0.81."
-      },
-      {
         "home": "Fluminense FC",
         "away": "SE Palmeiras",
         "league": "Brasileirao",
@@ -650,6 +639,17 @@ window.SPORTS_DATA = {
         "insight": "Round 2. Expected goals: 2.23-1.02."
       },
       {
+        "home": "CD Santa Clara",
+        "away": "CD Nacional",
+        "league": "Primeira Liga",
+        "date": "Mon 8.10",
+        "kickoff": "2026-08-10T19:15:00Z",
+        "lam": 1.12,
+        "mu": 0.81,
+        "md": 1,
+        "insight": "Round 1. Expected goals: 1.12-0.81."
+      },
+      {
         "home": "Atlanta United FC",
         "away": "New York Red Bulls",
         "league": "MLS",
@@ -683,7 +683,7 @@ window.SPORTS_DATA = {
         "lam": 1.67,
         "mu": 1.25,
         "mkt": {
-          "1": 2.22,
+          "1": 2.2,
           "X": 3.55,
           "2": 3.0
         },
@@ -708,9 +708,9 @@ window.SPORTS_DATA = {
         "lam": 1.53,
         "mu": 1.28,
         "mkt": {
-          "1": 2.25,
+          "1": 2.22,
           "X": 3.54,
-          "2": 2.91
+          "2": 2.9
         },
         "mkt_ou": {
           "line": 2.5,
@@ -758,8 +758,8 @@ window.SPORTS_DATA = {
         "lam": 1.33,
         "mu": 1.23,
         "mkt": {
-          "1": 2.16,
-          "X": 3.58,
+          "1": 2.14,
+          "X": 3.55,
           "2": 3.05
         },
         "mkt_ou": {
@@ -808,9 +808,9 @@ window.SPORTS_DATA = {
         "lam": 2.17,
         "mu": 1.17,
         "mkt": {
-          "1": 1.47,
+          "1": 1.46,
           "X": 4.6,
-          "2": 5.7
+          "2": 5.65
         },
         "mkt_ou": {
           "line": 2.5,
@@ -933,7 +933,7 @@ window.SPORTS_DATA = {
         "lam": 1.55,
         "mu": 1.17,
         "mkt": {
-          "1": 2.11,
+          "1": 2.1,
           "X": 3.6,
           "2": 3.08
         },
@@ -1369,8 +1369,8 @@ window.SPORTS_DATA = {
         },
         "mkt_ah": {
           "line": -1.0,
-          "home": 1.99,
-          "away": 1.89
+          "home": 1.98,
+          "away": 1.91
         },
         "insight": "Expected goals: 1.48-0.87."
       },
@@ -1892,9 +1892,9 @@ window.SPORTS_DATA = {
         "lam": 1.09,
         "mu": 1.39,
         "mkt": {
-          "1": 2.93,
+          "1": 2.88,
           "X": 3.3,
-          "2": 2.34
+          "2": 2.3
         },
         "mkt_ou": {
           "line": 2.5,
@@ -1943,13 +1943,13 @@ window.SPORTS_DATA = {
         "mu": 0.85,
         "mkt": {
           "1": 1.33,
-          "X": 5.25,
+          "X": 5.1,
           "2": 7.0
         },
         "mkt_ou": {
           "line": 2.5,
           "over": 1.43,
-          "under": 3.0
+          "under": 2.75
         },
         "mkt_ah": {
           "line": -1.5,
@@ -1967,7 +1967,7 @@ window.SPORTS_DATA = {
         "lam": 1.17,
         "mu": 1.02,
         "mkt": {
-          "1": 1.66,
+          "1": 1.65,
           "X": 3.85,
           "2": 4.8
         },
@@ -2117,7 +2117,7 @@ window.SPORTS_DATA = {
         "lam": 1.69,
         "mu": 0.77,
         "mkt": {
-          "1": 1.74,
+          "1": 1.75,
           "X": 3.5,
           "2": 4.5
         },
@@ -2129,7 +2129,7 @@ window.SPORTS_DATA = {
         "mkt_ah": {
           "line": -0.75,
           "home": 2.04,
-          "away": 1.85
+          "away": 1.83
         },
         "insight": "Expected goals: 1.69-0.77."
       },
@@ -2203,7 +2203,7 @@ window.SPORTS_DATA = {
         },
         "mkt_ah": {
           "line": -0.25,
-          "home": 1.93,
+          "home": 1.92,
           "away": 1.95
         },
         "insight": "Expected goals: 1.51-0.80."
@@ -2303,7 +2303,7 @@ window.SPORTS_DATA = {
         },
         "mkt_ah": {
           "line": 0.5,
-          "home": 1.76,
+          "home": 1.79,
           "away": 2.04
         },
         "insight": "Expected goals: 1.27-1.96."
@@ -2394,7 +2394,7 @@ window.SPORTS_DATA = {
         "mkt": {
           "1": 2.7,
           "X": 3.65,
-          "2": 2.25
+          "2": 2.23
         },
         "mkt_ou": {
           "line": 2.5,
@@ -2417,9 +2417,9 @@ window.SPORTS_DATA = {
         "lam": 2.23,
         "mu": 1.38,
         "mkt": {
-          "1": 2.08,
-          "X": 3.72,
-          "2": 3.05
+          "1": 2.06,
+          "X": 3.65,
+          "2": 3.0
         },
         "mkt_ou": {
           "line": 2.5,
@@ -2457,131 +2457,6 @@ window.SPORTS_DATA = {
           "away": 1.95
         },
         "insight": "Expected goals: 1.89-1.03."
-      },
-      {
-        "home": "Atlante FC",
-        "away": "Toluca",
-        "league": "Mexico",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T23:00:00Z",
-        "lam": 1.87,
-        "mu": 1.62,
-        "mkt": {
-          "1": 6.4,
-          "X": 4.2,
-          "2": 1.47
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.6,
-          "under": 2.23
-        },
-        "mkt_ah": {
-          "line": 1.0,
-          "home": 2.13,
-          "away": 1.78
-        },
-        "insight": "Expected goals: 1.87-1.62."
-      },
-      {
-        "home": "Monterrey",
-        "away": "FC Juárez",
-        "league": "Mexico",
-        "date": "Sun 8.16",
-        "kickoff": "2026-08-16T01:00:00Z",
-        "lam": 2.32,
-        "mu": 1.01,
-        "mkt": {
-          "1": 1.51,
-          "X": 4.25,
-          "2": 5.4
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.5,
-          "under": 2.48
-        },
-        "mkt_ah": {
-          "line": -1.0,
-          "home": 1.83,
-          "away": 2.01
-        },
-        "insight": "Expected goals: 2.32-1.01."
-      },
-      {
-        "home": "Tijuana",
-        "away": "Cruz Azul",
-        "league": "Mexico",
-        "date": "Mon 8.17",
-        "kickoff": "2026-08-17T03:00:00Z",
-        "lam": 1.29,
-        "mu": 1.45,
-        "mkt": {
-          "1": 3.14,
-          "X": 3.32,
-          "2": 2.15
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.75,
-          "under": 1.98
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 2.25,
-          "away": 1.59
-        },
-        "insight": "Expected goals: 1.29-1.45."
-      },
-      {
-        "home": "Necaxa",
-        "away": "León",
-        "league": "Mexico",
-        "date": "Tue 8.18",
-        "kickoff": "2026-08-18T01:00:00Z",
-        "lam": 1.79,
-        "mu": 1.18,
-        "mkt": {
-          "1": 2.17,
-          "X": 3.4,
-          "2": 3.08
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.62,
-          "under": 2.12
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.6,
-          "away": 2.23
-        },
-        "insight": "Expected goals: 1.79-1.18."
-      },
-      {
-        "home": "Pachuca",
-        "away": "Puebla",
-        "league": "Mexico",
-        "date": "Tue 8.18",
-        "kickoff": "2026-08-18T03:00:00Z",
-        "lam": 2.03,
-        "mu": 0.74,
-        "mkt": {
-          "1": 1.47,
-          "X": 4.1,
-          "2": 6.0
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.64,
-          "under": 2.12
-        },
-        "mkt_ah": {
-          "line": -1.0,
-          "home": 1.84,
-          "away": 2.03
-        },
-        "insight": "Expected goals: 2.03-0.74."
       }
     ]
   },
