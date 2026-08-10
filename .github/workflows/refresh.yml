@@ -68,6 +68,7 @@ jobs:
               python carry_odds.py /tmp/prev_data.js
             fi
           fi
+          python prune_past.py            # drop finished/stale fixtures before publishing
 
       - name: Publish data.js to the 'data' branch
         # Netlify only watches the production branch (main), so committing data to a
