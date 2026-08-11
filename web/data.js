@@ -399,15 +399,48 @@ window.SPORTS_DATA = {
         "insight": "Round 2. Expected goals: 2.23-1.02."
       },
       {
-        "home": "CD Santa Clara",
-        "away": "CD Nacional",
+        "home": "Académico de Viseu FC",
+        "away": "CD Santa Clara",
         "league": "Primeira Liga",
-        "date": "Mon 8.10",
-        "kickoff": "2026-08-10T19:15:00Z",
-        "lam": 1.12,
-        "mu": 0.81,
-        "md": 1,
-        "insight": "Round 1. Expected goals: 1.12-0.81."
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:00:00Z",
+        "lam": 3.57,
+        "mu": 0.69,
+        "md": 2,
+        "insight": "Round 2. Expected goals: 3.57-0.69."
+      },
+      {
+        "home": "Rio Ave FC",
+        "away": "FC Porto",
+        "league": "Primeira Liga",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T19:30:00Z",
+        "lam": 0.64,
+        "mu": 1.9,
+        "md": 2,
+        "insight": "Round 2. Expected goals: 0.64-1.90."
+      },
+      {
+        "home": "FC Arouca",
+        "away": "Moreirense FC",
+        "league": "Primeira Liga",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T17:00:00Z",
+        "lam": 1.57,
+        "mu": 1.18,
+        "md": 2,
+        "insight": "Round 2. Expected goals: 1.57-1.18."
+      },
+      {
+        "home": "FC Famalicão",
+        "away": "CS Marítimo",
+        "league": "Primeira Liga",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T19:30:00Z",
+        "lam": 1.53,
+        "mu": 0.62,
+        "md": 2,
+        "insight": "Round 2. Expected goals: 1.53-0.62."
       }
     ]
   },
