@@ -23,7 +23,7 @@ try:
 except Exception:
     pass
 from models import fighter_elo
-from sources import espn_loader
+from sources import espn_loader, oddsapi_events
 
 KEY = os.environ.get("ODDS_API_KEY")
 API = "https://api.the-odds-api.com/v4"
@@ -115,7 +115,7 @@ def map_name(name, fighters, norm_index):
 
 def _fights_fixtures_only(lg, model, fighters, norm_index, data):
     """No odds (quota out): build cards from free ESPN upcoming fights, Elo read only."""
-    ups = espn_loader.fetch_upcoming(lg["espn"], days_ahead=14, fights=True)
+    ups = oddsapi_events.fetch_events(lg["key"])
     out = []
     for u in ups:
         fa = map_name(u["home"], fighters, norm_index); fb = map_name(u["away"], fighters, norm_index)
@@ -134,7 +134,7 @@ def _fights_fixtures_only(lg, model, fighters, norm_index, data):
                     "extra": []})
     if not out:
         return None
-    print(f"  {lg['label']}: {len(out)} upcoming fights from ESPN (model only — no odds)")
+    print(f"  {lg['label']}: {len(out)} upcoming fights from The Odds API (model only — no odds)")
     data.setdefault(lg["block"], {"label": lg["sport_label"], "matches": []})
     data[lg["block"]]["matches"] += out
     return out
@@ -182,7 +182,7 @@ def build_league(lg, data):
 
 def main():
     if NO_ODDS:
-        print("  Combat sports: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
+        print("  Combat sports: no-odds day — free fixtures (The Odds API /events), no paid odds.")
     if not KEY:
         print("  Combat sports: ODDS_API_KEY not set — skipped."); return
     active = _active({lg["key"] for lg in LEAGUES})

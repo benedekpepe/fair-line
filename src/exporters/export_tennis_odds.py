@@ -28,7 +28,7 @@ try:
 except Exception:
     pass
 from models import tennis_elo
-from sources import espn_loader
+from sources import espn_loader, oddsapi_events
 
 KEY = os.environ.get("ODDS_API_KEY")
 API = "https://api.the-odds-api.com/v4"
@@ -164,41 +164,41 @@ def build():
         print(f"  Tennis {title}: {n} matches")
         time.sleep(0.3)
 
-    # No odds at all (quota out): fall back to ESPN upcoming singles (model only)
+    # No odds (quota out or --no-odds): fixtures from the free /events endpoint (model only)
     if any_fail and not out:
-        from sources import espn_loader
-        ups = espn_loader.fetch_tennis_upcoming(days_ahead=9)
         emiss = set()
-        for u in ups:
-            if u["home"] == "TBD" or u["away"] == "TBD":
-                continue  # opponent not decided yet (future round) — can't predict
-            tour = "wta" if u.get("wta") else "atp"
+        for sk in active:
+            evs = oddsapi_events.fetch_events(sk)
+            if not evs:
+                continue
+            tour = "atp" if sk.startswith("tennis_atp") else "wta"
             model = model_for(tour)
             if not model:
                 continue
             players = set(model["gen"]); norm_index = {_pnorm(p): p for p in players}
-            pa = map_player(u["home"], players, norm_index); pb = map_player(u["away"], players, norm_index)
-            if not pa or not pb:
-                if not pa: emiss.add(u["home"])
-                if not pb: emiss.add(u["away"])
-                continue
-            tname = (u.get("tour") or "").lower()
-            clay = ("roland garros" in tname) or ("french" in tname)
-            pr = tennis_elo.predict_clay(model, pa, pb) if clay else predict_gen(model, pa, pb)
-            try:
-                d = datetime.fromisoformat(u["date"].replace("Z", "+00:00"))
-                dstr = f"{HD[d.weekday()]} {d.month}.{d.day:02d}"; ko = u["date"]
-            except Exception:
-                dstr, ko = "", None
-            out.append({"home": u["home"], "away": u["away"], "league": u.get("tour") or "Tennis",
-                        "date": dstr, "kickoff": ko,
-                        "insight": f"{'Clay ' if clay else ''}Elo: {pr * 100:.0f}% / {(1 - pr) * 100:.0f}%.",
-                        "base": [{"name": "Match winner", "grid": "c2",
-                                  "outs": [{"k": u["home"], "p": round(pr, 3)}, {"k": u["away"], "p": round(1 - pr, 3)}]}],
-                        "extra": []})
+            title = sk.replace("tennis_", "").replace("_", " ").title()
+            clay = ("roland garros" in title.lower()) or ("french" in title.lower())
+            for u in evs:
+                pa = map_player(u["home"], players, norm_index); pb = map_player(u["away"], players, norm_index)
+                if not pa or not pb:
+                    if not pa: emiss.add(u["home"])
+                    if not pb: emiss.add(u["away"])
+                    continue
+                pr = tennis_elo.predict_clay(model, pa, pb) if clay else predict_gen(model, pa, pb)
+                try:
+                    d = datetime.fromisoformat(u["date"].replace("Z", "+00:00"))
+                    dstr = f"{HD[d.weekday()]} {d.month}.{d.day:02d}"; ko = u["date"]
+                except Exception:
+                    dstr, ko = "", None
+                out.append({"home": u["home"], "away": u["away"], "league": title,
+                            "date": dstr, "kickoff": ko,
+                            "insight": f"{'Clay ' if clay else ''}Elo: {pr * 100:.0f}% / {(1 - pr) * 100:.0f}%.",
+                            "base": [{"name": "Match winner", "grid": "c2",
+                                      "outs": [{"k": u["home"], "p": round(pr, 3)}, {"k": u["away"], "p": round(1 - pr, 3)}]}],
+                            "extra": []})
         if emiss:
-            print(f"  Tennis ESPN unmatched players: {sorted(emiss)}")
-        print(f"  Tennis: {len(out)} upcoming matches from ESPN (model only — no odds)")
+            print(f"  Tennis unmatched players: {sorted(emiss)}")
+        print(f"  Tennis: {len(out)} upcoming matches from The Odds API (model only — no odds)")
         if out:
             any_fail = False
 
@@ -209,7 +209,7 @@ def build():
 
 def main():
     if NO_ODDS:
-        print("  Tennis: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
+        print("  Tennis: no-odds day — free fixtures (The Odds API /events), no paid odds.")
     matches, failed = build()
     djs = DATA_JS; data = {}
     if djs.exists():

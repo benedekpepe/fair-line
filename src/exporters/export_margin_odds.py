@@ -30,7 +30,7 @@ try:
 except Exception:
     pass
 from models import margin_model
-from sources import espn_loader
+from sources import espn_loader, oddsapi_events
 
 KEY = os.environ.get("ODDS_API_KEY")
 API = "https://api.the-odds-api.com/v4"
@@ -173,7 +173,7 @@ POST_TOTAL_FACTOR = 0.96   # playoffs/finals: tighter defense, slower pace -> ~4
 
 def _margin_fixtures_only(lg, model, teams, norm_index, sports_state):
     """No odds (quota out): build cards from free ESPN upcoming fixtures, model read only."""
-    ups = espn_loader.fetch_upcoming(lg["espn"], days_ahead=10)
+    ups = oddsapi_events.fetch_events(lg["key"])
     out = []
     for u in ups:
         H = map_name(u["home"], teams, norm_index); A = map_name(u["away"], teams, norm_index)
@@ -205,7 +205,7 @@ def _margin_fixtures_only(lg, model, teams, norm_index, sports_state):
                     ]})
     if not out:
         return None
-    print(f"  {lg['label']}: {len(out)} upcoming fixtures from ESPN (model only — no odds)")
+    print(f"  {lg['label']}: {len(out)} upcoming fixtures from The Odds API (model only — no odds)")
     sports_state.setdefault(lg["block"], {"label": lg["sport_label"], "matches": []})
     sports_state[lg["block"]]["matches"] += out
     return out
@@ -275,7 +275,7 @@ def build_league(lg, sports_state):
 
 def main():
     if NO_ODDS:
-        print("  Margin sports: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
+        print("  Margin sports: no-odds day — free fixtures (The Odds API /events), no paid odds.")
     if not KEY:
         print("  Margin sports: ODDS_API_KEY not set — skipped."); return
     active = _active({lg["key"] for lg in LEAGUES})

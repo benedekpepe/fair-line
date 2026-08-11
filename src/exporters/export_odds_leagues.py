@@ -26,7 +26,7 @@ try:
 except Exception:
     pass
 from models.dixon_coles import fit_dixon_coles, predict_match
-from sources import espn_loader
+from sources import oddsapi_events
 
 KEY = os.environ.get("ODDS_API_KEY")
 API = "https://api.the-odds-api.com/v4"
@@ -212,7 +212,7 @@ def build():
             evs = None
 
         if evs is None:
-            out[label] = _rows_from_espn(espn, model, teams, norm_index, label)
+            out[label] = _rows_from_events(sk, model, teams, norm_index, label)
             time.sleep(0.3)
             continue
 
@@ -250,11 +250,11 @@ def build():
     return out
 
 
-def _rows_from_espn(espn_slug, model, teams, norm_index, label):
+def _rows_from_events(sport_key, model, teams, norm_index, label):
     """No odds (quota out): upcoming fixtures from ESPN soccer scoreboard, model 1X2 only."""
-    if not espn_slug:
+    if not sport_key:
         return []
-    ups = espn_loader.fetch_upcoming(espn_slug, days_ahead=12)
+    ups = oddsapi_events.fetch_events(sport_key)
     rows, missing = [], set()
     for u in ups:
         hm = map_name(u["home"], teams, norm_index); am = map_name(u["away"], teams, norm_index)
@@ -272,14 +272,14 @@ def _rows_from_espn(espn_slug, model, teams, norm_index, label):
                      "lam": round(p["exp_home_goals"], 2), "mu": round(p["exp_away_goals"], 2),
                      "mkt": None, "mkt_ou": None, "mkt_ah": None,
                      "insight": f"Expected goals: {p['exp_home_goals']:.2f}-{p['exp_away_goals']:.2f}."})
-    note = f" | ESPN unmatched: {sorted(missing)}" if missing else ""
-    print(f"  {label}: {len(rows)} upcoming fixtures from ESPN (model only — no odds){note}")
+    note = f" | unmatched: {sorted(missing)}" if missing else ""
+    print(f"  {label}: {len(rows)} upcoming fixtures from The Odds API (model only — no odds){note}")
     return rows
 
 
 def main():
     if NO_ODDS:
-        print("Odds leagues: no-odds day — keeping the last paid-run data (ESPN unavailable on CI)."); return
+        print("Odds leagues: no-odds day — free fixtures (The Odds API /events), no paid odds.")
     new = build()
     if not new:
         print("Odds leagues: nothing to add right now."); return
