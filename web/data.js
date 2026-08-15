@@ -989,19 +989,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.92-1.26."
       },
       {
-        "home": "Racing Club",
-        "away": "Banfield",
-        "league": "Argentina",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:30:00Z",
-        "lam": 1.69,
-        "mu": 0.74,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.69-0.74."
-      },
-      {
         "home": "San Lorenzo",
         "away": "Union Santa Fe",
         "league": "Argentina",
@@ -1158,19 +1145,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.02-1.02."
       },
       {
-        "home": "Rosenborg",
-        "away": "Viking FK",
-        "league": "Norway",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T17:00:00Z",
-        "lam": 1.48,
-        "mu": 1.78,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.48-1.78."
-      },
-      {
         "home": "Aalesund",
         "away": "Vålerenga",
         "league": "Norway",
@@ -1223,19 +1197,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.51-0.84."
       },
       {
-        "home": "IF Elfsborg",
-        "away": "Västerås SK",
-        "league": "Sweden",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T17:00:00Z",
-        "lam": 1.85,
-        "mu": 1.18,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.85-1.18."
-      },
-      {
         "home": "Djurgardens IF",
         "away": "AIK",
         "league": "Sweden",
@@ -1286,19 +1247,6 @@ window.SPORTS_DATA = {
         "mkt_ou": null,
         "mkt_ah": null,
         "insight": "Expected goals: 2.20-0.84."
-      },
-      {
-        "home": "VPS Vaasa",
-        "away": "TPS Turku",
-        "league": "Finland",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "lam": 1.17,
-        "mu": 1.04,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.17-1.04."
       },
       {
         "home": "IFK Mariehamn",
@@ -1364,19 +1312,6 @@ window.SPORTS_DATA = {
         "mkt_ou": null,
         "mkt_ah": null,
         "insight": "Expected goals: 1.65-1.91."
-      },
-      {
-        "home": "Tokyo Verdy",
-        "away": "Kashiwa Reysol",
-        "league": "Japan",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T10:00:00Z",
-        "lam": 0.83,
-        "mu": 1.13,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 0.83-1.13."
       },
       {
         "home": "Kashima Antlers",
@@ -1455,45 +1390,6 @@ window.SPORTS_DATA = {
         "mkt_ou": null,
         "mkt_ah": null,
         "insight": "Expected goals: 1.84-1.55."
-      },
-      {
-        "home": "Shandong Luneng Taishan FC",
-        "away": "Qingdao Hainiu FC",
-        "league": "China",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T11:35:00Z",
-        "lam": 2.55,
-        "mu": 1.04,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 2.55-1.04."
-      },
-      {
-        "home": "Wuhan Three Towns",
-        "away": "Shanghai SIPG FC",
-        "league": "China",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T11:35:00Z",
-        "lam": 1.31,
-        "mu": 2.0,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.31-2.00."
-      },
-      {
-        "home": "Qingdao West Coast FC",
-        "away": "Chongqing Tonglianglong FC",
-        "league": "China",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T12:00:00Z",
-        "lam": 1.14,
-        "mu": 0.9,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.14-0.90."
       },
       {
         "home": "Liaoning Tieren FC",
@@ -1696,531 +1592,6 @@ window.SPORTS_DATA = {
     "label": "Tennis",
     "matches": [
       {
-        "home": "Kyrian Jacquet",
-        "away": "Adolfo Daniel Vallejo",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 51% / 49%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Kyrian Jacquet",
-                "p": 0.514
-              },
-              {
-                "k": "Adolfo Daniel Vallejo",
-                "p": 0.486
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Chak Lam Coleman Wong",
-        "away": "Daniel Altmaier",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 50% / 50%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chak Lam Coleman Wong",
-                "p": 0.499
-              },
-              {
-                "k": "Daniel Altmaier",
-                "p": 0.501
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Sho Shimabukuro",
-        "away": "Hubert Hurkacz",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 46% / 54%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sho Shimabukuro",
-                "p": 0.462
-              },
-              {
-                "k": "Hubert Hurkacz",
-                "p": 0.538
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Vit Kopriva",
-        "away": "Quentin Halys",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 37% / 63%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Vit Kopriva",
-                "p": 0.371
-              },
-              {
-                "k": "Quentin Halys",
-                "p": 0.629
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Valentin Royer",
-        "away": "Stefanos Tsitsipas",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 28% / 72%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Valentin Royer",
-                "p": 0.279
-              },
-              {
-                "k": "Stefanos Tsitsipas",
-                "p": 0.721
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Sebastian Baez",
-        "away": "Grigor Dimitrov",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:10:00Z",
-        "insight": "Elo: 47% / 53%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sebastian Baez",
-                "p": 0.473
-              },
-              {
-                "k": "Grigor Dimitrov",
-                "p": 0.527
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "JJ Wolf",
-        "away": "James Duckworth",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:10:00Z",
-        "insight": "Elo: 51% / 49%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "JJ Wolf",
-                "p": 0.514
-              },
-              {
-                "k": "James Duckworth",
-                "p": 0.486
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Yannick Hanfmann",
-        "away": "Luca Van Assche",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:10:00Z",
-        "insight": "Elo: 61% / 39%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Yannick Hanfmann",
-                "p": 0.61
-              },
-              {
-                "k": "Luca Van Assche",
-                "p": 0.39
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Titouan Droguet",
-        "away": "Matteo Berrettini",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:10:00Z",
-        "insight": "Elo: 52% / 48%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Titouan Droguet",
-                "p": 0.517
-              },
-              {
-                "k": "Matteo Berrettini",
-                "p": 0.483
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Tomas Machac",
-        "away": "Pablo Carreno Busta",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:30:00Z",
-        "insight": "Elo: 61% / 39%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Tomas Machac",
-                "p": 0.613
-              },
-              {
-                "k": "Pablo Carreno Busta",
-                "p": 0.387
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Christopher O'Connell",
-        "away": "Kamil Majchrzak",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T17:20:00Z",
-        "insight": "Elo: 32% / 68%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Christopher O'Connell",
-                "p": 0.319
-              },
-              {
-                "k": "Kamil Majchrzak",
-                "p": 0.681
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Mark Lajal",
-        "away": "Juan Manuel Cerundolo",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T17:20:00Z",
-        "insight": "Elo: 34% / 66%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Mark Lajal",
-                "p": 0.341
-              },
-              {
-                "k": "Juan Manuel Cerundolo",
-                "p": 0.659
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Alex Michelsen",
-        "away": "Jesper De Jong",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:00:00Z",
-        "insight": "Elo: 65% / 35%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Alex Michelsen",
-                "p": 0.652
-              },
-              {
-                "k": "Jesper De Jong",
-                "p": 0.348
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Botic van de Zandschulp",
-        "away": "Tallon Griekspoor",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:00:00Z",
-        "insight": "Elo: 55% / 45%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Botic van de Zandschulp",
-                "p": 0.549
-              },
-              {
-                "k": "Tallon Griekspoor",
-                "p": 0.451
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Nuno Borges",
-        "away": "Thanasi Kokkinakis",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:00:00Z",
-        "insight": "Elo: 67% / 33%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Nuno Borges",
-                "p": 0.675
-              },
-              {
-                "k": "Thanasi Kokkinakis",
-                "p": 0.325
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Adam Walton",
-        "away": "Nicolas Mejia",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:30:00Z",
-        "insight": "Elo: 46% / 54%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Adam Walton",
-                "p": 0.457
-              },
-              {
-                "k": "Nicolas Mejia",
-                "p": 0.543
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Fabian Marozsan",
-        "away": "Michael Zheng",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:30:00Z",
-        "insight": "Elo: 46% / 54%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Fabian Marozsan",
-                "p": 0.46
-              },
-              {
-                "k": "Michael Zheng",
-                "p": 0.54
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Hamad Medjedovic",
-        "away": "Marco Trungelliti",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:30:00Z",
-        "insight": "Elo: 64% / 36%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Hamad Medjedovic",
-                "p": 0.64
-              },
-              {
-                "k": "Marco Trungelliti",
-                "p": 0.36
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Jaime Faria",
-        "away": "Jenson Brooksby",
-        "league": "Atp Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:00:00Z",
-        "insight": "Elo: 59% / 41%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Jaime Faria",
-                "p": 0.59
-              },
-              {
-                "k": "Jenson Brooksby",
-                "p": 0.41
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Aleksandar Kovacevic",
-        "away": "Karen Khachanov",
-        "league": "Atp Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T00:30:00Z",
-        "insight": "Elo: 33% / 67%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Aleksandar Kovacevic",
-                "p": 0.333
-              },
-              {
-                "k": "Karen Khachanov",
-                "p": 0.667
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Jan-Lennard Struff",
-        "away": "Alejandro Tabilo",
-        "league": "Atp Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 47% / 53%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Jan-Lennard Struff",
-                "p": 0.471
-              },
-              {
-                "k": "Alejandro Tabilo",
-                "p": 0.529
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
         "home": "Alexander Blockx",
         "away": "Mariano Navone",
         "league": "Atp Cincinnati Open",
@@ -2239,31 +1610,6 @@ window.SPORTS_DATA = {
               {
                 "k": "Mariano Navone",
                 "p": 0.415
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Alexander Zverev",
-        "away": "Cameron Norrie",
-        "league": "Atp Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 81% / 19%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Alexander Zverev",
-                "p": 0.81
-              },
-              {
-                "k": "Cameron Norrie",
-                "p": 0.19
               }
             ]
           }
@@ -2296,56 +1642,6 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Mattia Bellucci",
-        "away": "Jakub Mensik",
-        "league": "Atp Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 25% / 75%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Mattia Bellucci",
-                "p": 0.246
-              },
-              {
-                "k": "Jakub Mensik",
-                "p": 0.754
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Luciano Darderi",
-        "away": "Rinky Hijikata",
-        "league": "Atp Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 67% / 33%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Luciano Darderi",
-                "p": 0.665
-              },
-              {
-                "k": "Rinky Hijikata",
-                "p": 0.335
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
         "home": "Martin Landaluce",
         "away": "Matteo Arnaldi",
         "league": "Atp Cincinnati Open",
@@ -2371,11 +1667,36 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Mattia Bellucci",
+        "away": "Jakub Mensik",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T16:10:00Z",
+        "insight": "Elo: 25% / 75%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Mattia Bellucci",
+                "p": 0.246
+              },
+              {
+                "k": "Jakub Mensik",
+                "p": 0.754
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Novak Djokovic",
         "away": "Thiago Agustin Tirante",
         "league": "Atp Cincinnati Open",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
+        "kickoff": "2026-08-15T16:10:00Z",
         "insight": "Elo: 75% / 25%.",
         "base": [
           {
@@ -2396,11 +1717,211 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Adolfo Daniel Vallejo",
+        "away": "Valentin Vacherot",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:00:00Z",
+        "insight": "Elo: 36% / 64%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Adolfo Daniel Vallejo",
+                "p": 0.36
+              },
+              {
+                "k": "Valentin Vacherot",
+                "p": 0.64
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Quentin Halys",
+        "away": "Alex de Minaur",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:20:00Z",
+        "insight": "Elo: 39% / 61%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Quentin Halys",
+                "p": 0.387
+              },
+              {
+                "k": "Alex de Minaur",
+                "p": 0.613
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Arthur Fery",
+        "away": "James Duckworth",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:20:00Z",
+        "insight": "Elo: 71% / 29%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Arthur Fery",
+                "p": 0.707
+              },
+              {
+                "k": "James Duckworth",
+                "p": 0.293
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Tommy Paul",
+        "away": "Hubert Hurkacz",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:20:00Z",
+        "insight": "Elo: 67% / 33%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tommy Paul",
+                "p": 0.668
+              },
+              {
+                "k": "Hubert Hurkacz",
+                "p": 0.332
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Luciano Darderi",
+        "away": "Rinky Hijikata",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:20:00Z",
+        "insight": "Elo: 67% / 33%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Luciano Darderi",
+                "p": 0.665
+              },
+              {
+                "k": "Rinky Hijikata",
+                "p": 0.335
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Jan-Lennard Struff",
+        "away": "Alejandro Tabilo",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T18:10:00Z",
+        "insight": "Elo: 47% / 53%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jan-Lennard Struff",
+                "p": 0.471
+              },
+              {
+                "k": "Alejandro Tabilo",
+                "p": 0.529
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Yannick Hanfmann",
+        "away": "Arthur Fils",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T18:30:00Z",
+        "insight": "Elo: 29% / 71%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Yannick Hanfmann",
+                "p": 0.288
+              },
+              {
+                "k": "Arthur Fils",
+                "p": 0.712
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Jiri Lehecka",
+        "away": "Matteo Berrettini",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T18:30:00Z",
+        "insight": "Elo: 64% / 36%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jiri Lehecka",
+                "p": 0.64
+              },
+              {
+                "k": "Matteo Berrettini",
+                "p": 0.36
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Terence Atmane",
         "away": "Tomas Martin Etcheverry",
         "league": "Atp Cincinnati Open",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
+        "kickoff": "2026-08-15T19:20:00Z",
         "insight": "Elo: 49% / 51%.",
         "base": [
           {
@@ -2421,24 +1942,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Nikola Bartunkova",
-        "away": "Alina Charaeva",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 55% / 45%.",
+        "home": "Rafael Jodar",
+        "away": "Denis Shapovalov",
+        "league": "Atp Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T23:00:00Z",
+        "insight": "Elo: 82% / 18%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Nikola Bartunkova",
-                "p": 0.547
+                "k": "Rafael Jodar",
+                "p": 0.824
               },
               {
-                "k": "Alina Charaeva",
-                "p": 0.453
+                "k": "Denis Shapovalov",
+                "p": 0.176
               }
             ]
           }
@@ -2446,24 +1967,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Jessica Bouzas Maneiro",
-        "away": "Anna Bondár",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 41% / 59%.",
+        "home": "Alexander Zverev",
+        "away": "Cameron Norrie",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T00:10:00Z",
+        "insight": "Elo: 81% / 19%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Jessica Bouzas Maneiro",
-                "p": 0.412
+                "k": "Alexander Zverev",
+                "p": 0.81
               },
               {
-                "k": "Anna Bondár",
-                "p": 0.588
+                "k": "Cameron Norrie",
+                "p": 0.19
               }
             ]
           }
@@ -2471,261 +1992,11 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Daria Snigur",
-        "away": "Yuliia Starodubtseva",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 71% / 29%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Daria Snigur",
-                "p": 0.707
-              },
-              {
-                "k": "Yuliia Starodubtseva",
-                "p": 0.293
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Elisabetta Cocciaretto",
-        "away": "Lucrezia Stefanini",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 66% / 34%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Elisabetta Cocciaretto",
-                "p": 0.664
-              },
-              {
-                "k": "Lucrezia Stefanini",
-                "p": 0.336
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Sara Bejlek",
-        "away": "Karolina Pliskova",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T15:00:00Z",
-        "insight": "Elo: 40% / 60%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sara Bejlek",
-                "p": 0.395
-              },
-              {
-                "k": "Karolina Pliskova",
-                "p": 0.605
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Mananchaya Sawangkaew",
-        "away": "Anna Blinkova",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:10:00Z",
-        "insight": "Elo: 67% / 33%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Mananchaya Sawangkaew",
-                "p": 0.665
-              },
-              {
-                "k": "Anna Blinkova",
-                "p": 0.335
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Peyton Stearns",
-        "away": "Harriet Dart",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:10:00Z",
-        "insight": "Elo: 70% / 30%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Peyton Stearns",
-                "p": 0.697
-              },
-              {
-                "k": "Harriet Dart",
-                "p": 0.303
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Lilli Tagger",
-        "away": "Talia Gibson",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:10:00Z",
-        "insight": "Elo: 57% / 43%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Lilli Tagger",
-                "p": 0.573
-              },
-              {
-                "k": "Talia Gibson",
-                "p": 0.427
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Maya Joint",
-        "away": "Tamara Korpatsch",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T16:30:00Z",
-        "insight": "Elo: 40% / 60%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Maya Joint",
-                "p": 0.398
-              },
-              {
-                "k": "Tamara Korpatsch",
-                "p": 0.602
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Emiliana Arango",
-        "away": "Venus Williams",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T17:00:00Z",
-        "insight": "Elo: 63% / 37%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Emiliana Arango",
-                "p": 0.628
-              },
-              {
-                "k": "Venus Williams",
-                "p": 0.372
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Elvina Kalieva",
-        "away": "Oleksandra Oliynykova",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T17:20:00Z",
-        "insight": "Elo: 41% / 59%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Elvina Kalieva",
-                "p": 0.407
-              },
-              {
-                "k": "Oleksandra Oliynykova",
-                "p": 0.593
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Alycia Parks",
-        "away": "Viktorija Golubic",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:30:00Z",
-        "insight": "Elo: 31% / 69%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Alycia Parks",
-                "p": 0.31
-              },
-              {
-                "k": "Viktorija Golubic",
-                "p": 0.69
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Mary Stoiana",
-        "away": "Tereza Valentova",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:30:00Z",
+        "home": "Adam Walton",
+        "away": "Ignacio Buse",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
         "insight": "Elo: 37% / 63%.",
         "base": [
           {
@@ -2733,12 +2004,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Mary Stoiana",
-                "p": 0.366
+                "k": "Adam Walton",
+                "p": 0.373
               },
               {
-                "k": "Tereza Valentova",
-                "p": 0.634
+                "k": "Ignacio Buse",
+                "p": 0.627
               }
             ]
           }
@@ -2746,24 +2017,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Yulia Putintseva",
-        "away": "Liudmila Samsonova",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T19:30:00Z",
-        "insight": "Elo: 46% / 54%.",
+        "home": "Brandon Nakashima",
+        "away": "Aleksandar Kovacevic",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 82% / 18%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Yulia Putintseva",
-                "p": 0.457
+                "k": "Brandon Nakashima",
+                "p": 0.817
               },
               {
-                "k": "Liudmila Samsonova",
-                "p": 0.543
+                "k": "Aleksandar Kovacevic",
+                "p": 0.183
               }
             ]
           }
@@ -2771,24 +2042,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Sloane Stephens",
-        "away": "Sinja Kraus",
-        "league": "Wta Cincinnati Open",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:00:00Z",
-        "insight": "Elo: 31% / 69%.",
+        "home": "Taylor Fritz",
+        "away": "Alex Michelsen",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 71% / 29%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Sloane Stephens",
-                "p": 0.312
+                "k": "Taylor Fritz",
+                "p": 0.708
               },
               {
-                "k": "Sinja Kraus",
-                "p": 0.688
+                "k": "Alex Michelsen",
+                "p": 0.292
               }
             ]
           }
@@ -2796,24 +2067,299 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Sofia Kenin",
-        "away": "Eva Lys",
-        "league": "Wta Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T00:10:00Z",
-        "insight": "Elo: 33% / 67%.",
+        "home": "Andrey Rublev",
+        "away": "Pablo Carreno Busta",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 66% / 34%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Sofia Kenin",
-                "p": 0.325
+                "k": "Andrey Rublev",
+                "p": 0.661
               },
               {
-                "k": "Eva Lys",
-                "p": 0.675
+                "k": "Pablo Carreno Busta",
+                "p": 0.339
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Arthur Rinderknech",
+        "away": "Juan Manuel Cerundolo",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 52% / 48%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Arthur Rinderknech",
+                "p": 0.519
+              },
+              {
+                "k": "Juan Manuel Cerundolo",
+                "p": 0.481
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Ben Shelton",
+        "away": "Jaime Faria",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 70% / 30%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ben Shelton",
+                "p": 0.698
+              },
+              {
+                "k": "Jaime Faria",
+                "p": 0.302
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Joao Fonseca",
+        "away": "Botic van de Zandschulp",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 67% / 33%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Joao Fonseca",
+                "p": 0.674
+              },
+              {
+                "k": "Botic van de Zandschulp",
+                "p": 0.326
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Christopher O'Connell",
+        "away": "Casper Ruud",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 20% / 80%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Christopher O'Connell",
+                "p": 0.197
+              },
+              {
+                "k": "Casper Ruud",
+                "p": 0.803
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Daniel Altmaier",
+        "away": "Lorenzo Musetti",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 27% / 73%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Daniel Altmaier",
+                "p": 0.273
+              },
+              {
+                "k": "Lorenzo Musetti",
+                "p": 0.727
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Marco Trungelliti",
+        "away": "Daniil Medvedev",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 19% / 81%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Marco Trungelliti",
+                "p": 0.19
+              },
+              {
+                "k": "Daniil Medvedev",
+                "p": 0.81
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Stefanos Tsitsipas",
+        "away": "Felix Auger-Aliassime",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 32% / 68%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Stefanos Tsitsipas",
+                "p": 0.317
+              },
+              {
+                "k": "Felix Auger-Aliassime",
+                "p": 0.683
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Lorenzo Sonego",
+        "away": "Frances Tiafoe",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 25% / 75%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Lorenzo Sonego",
+                "p": 0.249
+              },
+              {
+                "k": "Frances Tiafoe",
+                "p": 0.751
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Nuno Borges",
+        "away": "Francisco Cerundolo",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 43% / 57%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Nuno Borges",
+                "p": 0.432
+              },
+              {
+                "k": "Francisco Cerundolo",
+                "p": 0.568
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Learner Tien",
+        "away": "Sebastian Baez",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 74% / 26%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Learner Tien",
+                "p": 0.735
+              },
+              {
+                "k": "Sebastian Baez",
+                "p": 0.265
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Ugo Humbert",
+        "away": "Michael Zheng",
+        "league": "Atp Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 54% / 46%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ugo Humbert",
+                "p": 0.536
+              },
+              {
+                "k": "Michael Zheng",
+                "p": 0.464
               }
             ]
           }
@@ -2896,56 +2442,6 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Emma Navarro",
-        "away": "Anhelina Kalinina",
-        "league": "Wta Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 51% / 49%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Emma Navarro",
-                "p": 0.514
-              },
-              {
-                "k": "Anhelina Kalinina",
-                "p": 0.486
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Lois Boisson",
-        "away": "Belinda Bencic",
-        "league": "Wta Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 18% / 82%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Lois Boisson",
-                "p": 0.177
-              },
-              {
-                "k": "Belinda Bencic",
-                "p": 0.823
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
         "home": "Cristina Bucsa",
         "away": "Maja Chwalinska",
         "league": "Wta Cincinnati Open",
@@ -2975,7 +2471,7 @@ window.SPORTS_DATA = {
         "away": "Tatjana Maria",
         "league": "Wta Cincinnati Open",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
+        "kickoff": "2026-08-15T16:10:00Z",
         "insight": "Elo: 61% / 39%.",
         "base": [
           {
@@ -2996,61 +2492,11 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Elise Mertens",
-        "away": "Diane Parry",
-        "league": "Wta Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 66% / 34%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Elise Mertens",
-                "p": 0.656
-              },
-              {
-                "k": "Diane Parry",
-                "p": 0.344
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Taylor Townsend",
-        "away": "Elena Rybakina",
-        "league": "Wta Cincinnati Open",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 23% / 77%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Taylor Townsend",
-                "p": 0.228
-              },
-              {
-                "k": "Elena Rybakina",
-                "p": 0.772
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
         "home": "Jelena Ostapenko",
         "away": "Magdalena Frech",
         "league": "Wta Cincinnati Open",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
+        "kickoff": "2026-08-15T16:10:00Z",
         "insight": "Elo: 68% / 32%.",
         "base": [
           {
@@ -3071,11 +2517,86 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Sorana Cirstea",
+        "away": "Nikola Bartunkova",
+        "league": "Wta Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T16:10:00Z",
+        "insight": "Elo: 64% / 36%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Sorana Cirstea",
+                "p": 0.638
+              },
+              {
+                "k": "Nikola Bartunkova",
+                "p": 0.362
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Linda Noskova",
+        "away": "Katie Boulter",
+        "league": "Wta Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:00:00Z",
+        "insight": "Elo: 82% / 18%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Linda Noskova",
+                "p": 0.816
+              },
+              {
+                "k": "Katie Boulter",
+                "p": 0.184
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Emma Navarro",
+        "away": "Anhelina Kalinina",
+        "league": "Wta Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:20:00Z",
+        "insight": "Elo: 51% / 49%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Emma Navarro",
+                "p": 0.514
+              },
+              {
+                "k": "Anhelina Kalinina",
+                "p": 0.486
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Simona Waltert",
         "away": "Jessica Pegula",
         "league": "Wta Cincinnati Open",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
+        "kickoff": "2026-08-15T18:10:00Z",
         "insight": "Elo: 16% / 84%.",
         "base": [
           {
@@ -3096,11 +2617,36 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Elise Mertens",
+        "away": "Diane Parry",
+        "league": "Wta Cincinnati Open",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T18:30:00Z",
+        "insight": "Elo: 66% / 34%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Elise Mertens",
+                "p": 0.656
+              },
+              {
+                "k": "Diane Parry",
+                "p": 0.344
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Kamilla Rakhimova",
         "away": "Maria Sakkari",
         "league": "Wta Cincinnati Open",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
+        "kickoff": "2026-08-15T18:30:00Z",
         "insight": "Elo: 38% / 62%.",
         "base": [
           {
@@ -3121,24 +2667,199 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Linda Noskova",
-        "away": "Katie Boulter",
+        "home": "Peyton Stearns",
+        "away": "Clara Tauson",
         "league": "Wta Cincinnati Open",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T15:00:00Z",
-        "insight": "Elo: 82% / 18%.",
+        "kickoff": "2026-08-15T23:00:00Z",
+        "insight": "Elo: 54% / 46%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Linda Noskova",
-                "p": 0.816
+                "k": "Peyton Stearns",
+                "p": 0.542
               },
               {
-                "k": "Katie Boulter",
-                "p": 0.184
+                "k": "Clara Tauson",
+                "p": 0.458
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Lois Boisson",
+        "away": "Belinda Bencic",
+        "league": "Wta Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T00:30:00Z",
+        "insight": "Elo: 18% / 82%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Lois Boisson",
+                "p": 0.177
+              },
+              {
+                "k": "Belinda Bencic",
+                "p": 0.823
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Taylor Townsend",
+        "away": "Elena Rybakina",
+        "league": "Wta Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 23% / 77%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Taylor Townsend",
+                "p": 0.228
+              },
+              {
+                "k": "Elena Rybakina",
+                "p": 0.772
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Tamara Korpatsch",
+        "away": "Iva Jović",
+        "league": "Wta Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 34% / 66%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tamara Korpatsch",
+                "p": 0.338
+              },
+              {
+                "k": "Iva Jović",
+                "p": 0.662
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Janice Tjen",
+        "away": "Viktorija Golubic",
+        "league": "Wta Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 30% / 70%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Janice Tjen",
+                "p": 0.297
+              },
+              {
+                "k": "Viktorija Golubic",
+                "p": 0.703
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Katerina Siniakova",
+        "away": "Jessica Bouzas Maneiro",
+        "league": "Wta Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 57% / 43%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Katerina Siniakova",
+                "p": 0.569
+              },
+              {
+                "k": "Jessica Bouzas Maneiro",
+                "p": 0.431
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Marie Bouzkova",
+        "away": "Lucrezia Stefanini",
+        "league": "Wta Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 76% / 24%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Marie Bouzkova",
+                "p": 0.763
+              },
+              {
+                "k": "Lucrezia Stefanini",
+                "p": 0.237
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Oleksandra Oliynykova",
+        "away": "Mirra Andreeva",
+        "league": "Wta Cincinnati Open",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T15:00:00Z",
+        "insight": "Elo: 26% / 74%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Oleksandra Oliynykova",
+                "p": 0.26
+              },
+              {
+                "k": "Mirra Andreeva",
+                "p": 0.74
               }
             ]
           }
@@ -3150,114 +2871,6 @@ window.SPORTS_DATA = {
   "kosar": {
     "label": "Basketball",
     "matches": [
-      {
-        "home": "Indiana Fever",
-        "away": "Dallas Wings",
-        "league": "WNBA",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:30:00Z",
-        "insight": "Expected 91-83 (margin +8.0).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Indiana Fever",
-                "p": 0.728
-              },
-              {
-                "k": "Dallas Wings",
-                "p": 0.272
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Indiana Fever -8.0",
-                "p": 0.501
-              },
-              {
-                "k": "Dallas Wings +8.0",
-                "p": 0.499
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 173.5",
-                "p": 0.498
-              },
-              {
-                "k": "Under 173.5",
-                "p": 0.502
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Seattle Storm",
-        "away": "Portland Fire",
-        "league": "WNBA",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T02:00:00Z",
-        "insight": "Expected 85-78 (margin +7.4).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Seattle Storm",
-                "p": 0.712
-              },
-              {
-                "k": "Portland Fire",
-                "p": 0.288
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Seattle Storm -7.5",
-                "p": 0.497
-              },
-              {
-                "k": "Portland Fire +7.5",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 163.0",
-                "p": 0.496
-              },
-              {
-                "k": "Under 163.0",
-                "p": 0.504
-              }
-            ]
-          }
-        ]
-      },
       {
         "home": "Connecticut Sun",
         "away": "New York Liberty",
@@ -3415,6 +3028,168 @@ window.SPORTS_DATA = {
               {
                 "k": "Under 166.5",
                 "p": 0.503
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Atlanta Dream",
+        "away": "Indiana Fever",
+        "league": "WNBA",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T21:00:00Z",
+        "insight": "Expected 84-80 (margin +4.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Atlanta Dream",
+                "p": 0.62
+              },
+              {
+                "k": "Indiana Fever",
+                "p": 0.38
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Atlanta Dream -4.0",
+                "p": 0.502
+              },
+              {
+                "k": "Indiana Fever +4.0",
+                "p": 0.498
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 163.5",
+                "p": 0.502
+              },
+              {
+                "k": "Under 163.5",
+                "p": 0.498
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Seattle Storm",
+        "away": "Chicago Sky",
+        "league": "WNBA",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T21:00:00Z",
+        "insight": "Expected 85-76 (margin +9.0).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Seattle Storm",
+                "p": 0.751
+              },
+              {
+                "k": "Chicago Sky",
+                "p": 0.249
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Seattle Storm -9.0",
+                "p": 0.5
+              },
+              {
+                "k": "Chicago Sky +9.0",
+                "p": 0.5
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 160.5",
+                "p": 0.499
+              },
+              {
+                "k": "Under 160.5",
+                "p": 0.501
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Phoenix Mercury",
+        "away": "Portland Fire",
+        "league": "WNBA",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T23:00:00Z",
+        "insight": "Expected 88-78 (margin +9.7).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Phoenix Mercury",
+                "p": 0.768
+              },
+              {
+                "k": "Portland Fire",
+                "p": 0.232
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Phoenix Mercury -9.5",
+                "p": 0.506
+              },
+              {
+                "k": "Portland Fire +9.5",
+                "p": 0.494
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 165.5",
+                "p": 0.502
+              },
+              {
+                "k": "Under 165.5",
+                "p": 0.498
               }
             ]
           }
@@ -5640,119 +5415,11 @@ window.SPORTS_DATA = {
     "label": "AFL",
     "matches": [
       {
-        "home": "Fremantle Dockers",
-        "away": "Adelaide Crows",
-        "league": "AFL",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T10:10:42Z",
-        "insight": "Expected 82-77 (margin +5.9).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Fremantle Dockers",
-                "p": 0.573
-              },
-              {
-                "k": "Adelaide Crows",
-                "p": 0.427
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Fremantle Dockers -6.0",
-                "p": 0.498
-              },
-              {
-                "k": "Adelaide Crows +6.0",
-                "p": 0.502
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 159.0",
-                "p": 0.498
-              },
-              {
-                "k": "Under 159.0",
-                "p": 0.502
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Richmond Tigers",
-        "away": "St Kilda Saints",
-        "league": "AFL",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T02:35:22Z",
-        "insight": "Expected 69-91 (margin -21.7).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Richmond Tigers",
-                "p": 0.248
-              },
-              {
-                "k": "St Kilda Saints",
-                "p": 0.752
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Richmond Tigers +21.5",
-                "p": 0.497
-              },
-              {
-                "k": "St Kilda Saints -21.5",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 159.5",
-                "p": 0.504
-              },
-              {
-                "k": "Under 159.5",
-                "p": 0.496
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "North Melbourne Kangaroos",
         "away": "Geelong Cats",
         "league": "AFL",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T05:45:56Z",
+        "kickoff": "2026-08-15T05:46:00Z",
         "insight": "Expected 80-114 (margin -33.8).",
         "base": [
           {
@@ -5806,7 +5473,7 @@ window.SPORTS_DATA = {
         "away": "Gold Coast Suns",
         "league": "AFL",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T06:15:36Z",
+        "kickoff": "2026-08-15T06:15:56Z",
         "insight": "Expected 97-83 (margin +13.2).",
         "base": [
           {
@@ -6072,114 +5739,6 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "St Kilda Saints",
-        "away": "Gold Coast Suns",
-        "league": "AFL",
-        "date": "Thu 8.20",
-        "kickoff": "2026-08-20T09:30:24Z",
-        "insight": "Expected 84-91 (margin -7.0).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "St Kilda Saints",
-                "p": 0.413
-              },
-              {
-                "k": "Gold Coast Suns",
-                "p": 0.587
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "St Kilda Saints +7.0",
-                "p": 0.499
-              },
-              {
-                "k": "Gold Coast Suns -7.0",
-                "p": 0.501
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 174.0",
-                "p": 0.503
-              },
-              {
-                "k": "Under 174.0",
-                "p": 0.497
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Collingwood Magpies",
-        "away": "Brisbane Lions",
-        "league": "AFL",
-        "date": "Fri 8.21",
-        "kickoff": "2026-08-21T09:40:25Z",
-        "insight": "Expected 84-84 (margin +0.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Collingwood Magpies",
-                "p": 0.51
-              },
-              {
-                "k": "Brisbane Lions",
-                "p": 0.49
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Collingwood Magpies -1.0",
-                "p": 0.498
-              },
-              {
-                "k": "Brisbane Lions +1.0",
-                "p": 0.502
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 168.0",
-                "p": 0.5
-              },
-              {
-                "k": "Under 168.0",
-                "p": 0.5
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Carlton Blues",
         "away": "Fremantle Dockers",
         "league": "AFL",
@@ -6234,114 +5793,6 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "Melbourne Demons",
-        "away": "Western Bulldogs",
-        "league": "AFL",
-        "date": "Sat 8.22",
-        "kickoff": "2026-08-22T06:15:17Z",
-        "insight": "Expected 91-102 (margin -11.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Melbourne Demons",
-                "p": 0.362
-              },
-              {
-                "k": "Western Bulldogs",
-                "p": 0.638
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Melbourne Demons +11.0",
-                "p": 0.497
-              },
-              {
-                "k": "Western Bulldogs -11.0",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 192.5",
-                "p": 0.498
-              },
-              {
-                "k": "Under 192.5",
-                "p": 0.502
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Geelong Cats",
-        "away": "Richmond Tigers",
-        "league": "AFL",
-        "date": "Sat 8.22",
-        "kickoff": "2026-08-22T09:45:46Z",
-        "insight": "Expected 115-55 (margin +59.5).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Geelong Cats",
-                "p": 0.969
-              },
-              {
-                "k": "Richmond Tigers",
-                "p": 0.031
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Geelong Cats -59.5",
-                "p": 0.5
-              },
-              {
-                "k": "Richmond Tigers +59.5",
-                "p": 0.5
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 170.0",
-                "p": 0.501
-              },
-              {
-                "k": "Under 170.0",
-                "p": 0.499
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Essendon Bombers",
         "away": "Port Adelaide Power",
         "league": "AFL",
@@ -6390,60 +5841,6 @@ window.SPORTS_DATA = {
               {
                 "k": "Under 160.5",
                 "p": 0.501
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Sydney Swans",
-        "away": "North Melbourne Kangaroos",
-        "league": "AFL",
-        "date": "Sun 8.23",
-        "kickoff": "2026-08-23T05:20:57Z",
-        "insight": "Expected 110-75 (margin +34.7).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sydney Swans",
-                "p": 0.862
-              },
-              {
-                "k": "North Melbourne Kangaroos",
-                "p": 0.138
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sydney Swans -34.5",
-                "p": 0.503
-              },
-              {
-                "k": "North Melbourne Kangaroos +34.5",
-                "p": 0.497
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 185.0",
-                "p": 0.501
-              },
-              {
-                "k": "Under 185.0",
-                "p": 0.499
               }
             ]
           }
@@ -6509,119 +5906,11 @@ window.SPORTS_DATA = {
     "label": "NRL",
     "matches": [
       {
-        "home": "Manly Warringah Sea Eagles",
-        "away": "Dolphins",
-        "league": "NRL",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T08:00:00Z",
-        "insight": "Expected 25-27 (margin -1.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Manly Warringah Sea Eagles",
-                "p": 0.471
-              },
-              {
-                "k": "Dolphins",
-                "p": 0.529
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Manly Warringah Sea Eagles +1.5",
-                "p": 0.503
-              },
-              {
-                "k": "Dolphins -1.5",
-                "p": 0.497
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 52.0",
-                "p": 0.494
-              },
-              {
-                "k": "Under 52.0",
-                "p": 0.506
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Canterbury Bulldogs",
-        "away": "South Sydney Rabbitohs",
-        "league": "NRL",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T10:00:00Z",
-        "insight": "Expected 23-19 (margin +3.9).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Canterbury Bulldogs",
-                "p": 0.584
-              },
-              {
-                "k": "South Sydney Rabbitohs",
-                "p": 0.416
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Canterbury Bulldogs -4.0",
-                "p": 0.497
-              },
-              {
-                "k": "South Sydney Rabbitohs +4.0",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 42.5",
-                "p": 0.501
-              },
-              {
-                "k": "Under 42.5",
-                "p": 0.499
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Cronulla Sutherland Sharks",
         "away": "Canberra Raiders",
         "league": "NRL",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T05:00:00Z",
+        "kickoff": "2026-08-15T05:01:00Z",
         "insight": "Expected 27-21 (margin +6.5).",
         "base": [
           {
@@ -6941,60 +6230,6 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "Canberra Raiders",
-        "away": "Brisbane Broncos",
-        "league": "NRL",
-        "date": "Fri 8.21",
-        "kickoff": "2026-08-21T08:00:00Z",
-        "insight": "Expected 25-23 (margin +2.5).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Canberra Raiders",
-                "p": 0.555
-              },
-              {
-                "k": "Brisbane Broncos",
-                "p": 0.445
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Canberra Raiders -2.5",
-                "p": 0.501
-              },
-              {
-                "k": "Brisbane Broncos +2.5",
-                "p": 0.499
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 48.0",
-                "p": 0.505
-              },
-              {
-                "k": "Under 48.0",
-                "p": 0.495
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Dolphins",
         "away": "Parramatta Eels",
         "league": "NRL",
@@ -7211,60 +6446,6 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "Gold Coast Titans",
-        "away": "Cronulla Sutherland Sharks",
-        "league": "NRL",
-        "date": "Sun 8.23",
-        "kickoff": "2026-08-23T04:00:00Z",
-        "insight": "Expected 20-29 (margin -9.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Gold Coast Titans",
-                "p": 0.306
-              },
-              {
-                "k": "Cronulla Sutherland Sharks",
-                "p": 0.694
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Gold Coast Titans +9.5",
-                "p": 0.505
-              },
-              {
-                "k": "Cronulla Sutherland Sharks -9.5",
-                "p": 0.495
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 49.5",
-                "p": 0.5
-              },
-              {
-                "k": "Under 49.5",
-                "p": 0.5
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Sydney Roosters",
         "away": "Wests Tigers",
         "league": "NRL",
@@ -7324,173 +6505,11 @@ window.SPORTS_DATA = {
     "label": "Baseball",
     "matches": [
       {
-        "home": "Chicago Cubs",
-        "away": "St. Louis Cardinals",
-        "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T18:20:00Z",
-        "insight": "Expected 4-5 (margin -0.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Cubs",
-                "p": 0.483
-              },
-              {
-                "k": "St. Louis Cardinals",
-                "p": 0.517
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Cubs -0.0",
-                "p": 0.483
-              },
-              {
-                "k": "St. Louis Cardinals 0.0",
-                "p": 0.517
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.0",
-                "p": 0.491
-              },
-              {
-                "k": "Under 9.0",
-                "p": 0.509
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Cincinnati Reds",
-        "away": "Miami Marlins",
-        "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T22:11:00Z",
-        "insight": "Expected 5-5 (margin -0.6).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Cincinnati Reds",
-                "p": 0.451
-              },
-              {
-                "k": "Miami Marlins",
-                "p": 0.549
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Cincinnati Reds +0.5",
-                "p": 0.495
-              },
-              {
-                "k": "Miami Marlins -0.5",
-                "p": 0.505
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 10.0",
-                "p": 0.481
-              },
-              {
-                "k": "Under 10.0",
-                "p": 0.519
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Pittsburgh Pirates",
-        "away": "Boston Red Sox",
-        "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T22:41:00Z",
-        "insight": "Expected 5-4 (margin +0.9).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Pittsburgh Pirates",
-                "p": 0.579
-              },
-              {
-                "k": "Boston Red Sox",
-                "p": 0.421
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Pittsburgh Pirates -1.0",
-                "p": 0.491
-              },
-              {
-                "k": "Boston Red Sox +1.0",
-                "p": 0.509
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.5",
-                "p": 0.507
-              },
-              {
-                "k": "Under 9.5",
-                "p": 0.493
-              }
-            ]
-          }
-        ]
-      },
-      {
         "home": "Detroit Tigers",
         "away": "Chicago White Sox",
         "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T22:41:00Z",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T17:10:00Z",
         "insight": "Expected 4-5 (margin -0.3).",
         "base": [
           {
@@ -7540,24 +6559,24 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "Tampa Bay Rays",
-        "away": "Baltimore Orioles",
+        "home": "Chicago Cubs",
+        "away": "St. Louis Cardinals",
         "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:11:00Z",
-        "insight": "Expected 5-4 (margin +0.2).",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T18:21:00Z",
+        "insight": "Expected 4-5 (margin -0.2).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Tampa Bay Rays",
-                "p": 0.521
+                "k": "Chicago Cubs",
+                "p": 0.483
               },
               {
-                "k": "Baltimore Orioles",
-                "p": 0.479
+                "k": "St. Louis Cardinals",
+                "p": 0.517
               }
             ]
           }
@@ -7568,12 +6587,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Tampa Bay Rays -0.0",
-                "p": 0.521
+                "k": "Chicago Cubs -0.0",
+                "p": 0.483
               },
               {
-                "k": "Baltimore Orioles 0.0",
-                "p": 0.479
+                "k": "St. Louis Cardinals 0.0",
+                "p": 0.517
               }
             ]
           },
@@ -7583,173 +6602,11 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Over 9.0",
-                "p": 0.516
+                "p": 0.491
               },
               {
                 "k": "Under 9.0",
-                "p": 0.484
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Cleveland Guardians",
-        "away": "San Diego Padres",
-        "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:11:00Z",
-        "insight": "Expected 5-4 (margin +0.4).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Cleveland Guardians",
-                "p": 0.536
-              },
-              {
-                "k": "San Diego Padres",
-                "p": 0.464
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Cleveland Guardians -0.5",
-                "p": 0.492
-              },
-              {
-                "k": "San Diego Padres +0.5",
-                "p": 0.508
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 8.5",
-                "p": 0.516
-              },
-              {
-                "k": "Under 8.5",
-                "p": 0.484
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "New York Mets",
-        "away": "Washington Nationals",
-        "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:11:00Z",
-        "insight": "Expected 4-5 (margin -0.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New York Mets",
-                "p": 0.49
-              },
-              {
-                "k": "Washington Nationals",
-                "p": 0.51
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New York Mets -0.0",
-                "p": 0.49
-              },
-              {
-                "k": "Washington Nationals 0.0",
-                "p": 0.51
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.0",
-                "p": 0.496
-              },
-              {
-                "k": "Under 9.0",
-                "p": 0.504
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Atlanta Braves",
-        "away": "Arizona Diamondbacks",
-        "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:16:00Z",
-        "insight": "Expected 6-4 (margin +1.9).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Atlanta Braves",
-                "p": 0.664
-              },
-              {
-                "k": "Arizona Diamondbacks",
-                "p": 0.336
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Atlanta Braves -2.0",
-                "p": 0.492
-              },
-              {
-                "k": "Arizona Diamondbacks +2.0",
-                "p": 0.508
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 9.5",
-                "p": 0.52
-              },
-              {
-                "k": "Under 9.5",
-                "p": 0.48
+                "p": 0.509
               }
             ]
           }
@@ -7759,8 +6616,8 @@ window.SPORTS_DATA = {
         "home": "Toronto Blue Jays",
         "away": "New York Yankees",
         "league": "MLB",
-        "date": "Fri 8.14",
-        "kickoff": "2026-08-14T23:16:00Z",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T19:08:00Z",
         "insight": "Expected 4-5 (margin -0.4).",
         "base": [
           {
@@ -7810,11 +6667,281 @@ window.SPORTS_DATA = {
         ]
       },
       {
+        "home": "San Francisco Giants",
+        "away": "Colorado Rockies",
+        "league": "MLB",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T20:06:00Z",
+        "insight": "Expected 6-5 (margin +0.8).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "San Francisco Giants",
+                "p": 0.569
+              },
+              {
+                "k": "Colorado Rockies",
+                "p": 0.431
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "San Francisco Giants -1.0",
+                "p": 0.481
+              },
+              {
+                "k": "Colorado Rockies +1.0",
+                "p": 0.519
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 10.5",
+                "p": 0.514
+              },
+              {
+                "k": "Under 10.5",
+                "p": 0.486
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "New York Mets",
+        "away": "Washington Nationals",
+        "league": "MLB",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T20:11:00Z",
+        "insight": "Expected 4-5 (margin -0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New York Mets",
+                "p": 0.49
+              },
+              {
+                "k": "Washington Nationals",
+                "p": 0.51
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New York Mets -0.0",
+                "p": 0.49
+              },
+              {
+                "k": "Washington Nationals 0.0",
+                "p": 0.51
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.496
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.504
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Tampa Bay Rays",
+        "away": "Baltimore Orioles",
+        "league": "MLB",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T22:11:00Z",
+        "insight": "Expected 5-4 (margin +0.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tampa Bay Rays",
+                "p": 0.521
+              },
+              {
+                "k": "Baltimore Orioles",
+                "p": 0.479
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tampa Bay Rays -0.0",
+                "p": 0.521
+              },
+              {
+                "k": "Baltimore Orioles 0.0",
+                "p": 0.479
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.0",
+                "p": 0.516
+              },
+              {
+                "k": "Under 9.0",
+                "p": 0.484
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Cincinnati Reds",
+        "away": "Miami Marlins",
+        "league": "MLB",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T22:41:00Z",
+        "insight": "Expected 5-5 (margin -0.6).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Cincinnati Reds",
+                "p": 0.451
+              },
+              {
+                "k": "Miami Marlins",
+                "p": 0.549
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Cincinnati Reds +0.5",
+                "p": 0.495
+              },
+              {
+                "k": "Miami Marlins -0.5",
+                "p": 0.505
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 10.0",
+                "p": 0.481
+              },
+              {
+                "k": "Under 10.0",
+                "p": 0.519
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Cleveland Guardians",
+        "away": "San Diego Padres",
+        "league": "MLB",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T23:11:00Z",
+        "insight": "Expected 5-4 (margin +0.4).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Cleveland Guardians",
+                "p": 0.536
+              },
+              {
+                "k": "San Diego Padres",
+                "p": 0.464
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Cleveland Guardians -0.5",
+                "p": 0.492
+              },
+              {
+                "k": "San Diego Padres +0.5",
+                "p": 0.508
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 8.5",
+                "p": 0.516
+              },
+              {
+                "k": "Under 8.5",
+                "p": 0.484
+              }
+            ]
+          }
+        ]
+      },
+      {
         "home": "Houston Astros",
         "away": "Seattle Mariners",
         "league": "MLB",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T00:11:00Z",
+        "kickoff": "2026-08-15T23:11:00Z",
         "insight": "Expected 4-4 (margin +0.2).",
         "base": [
           {
@@ -7864,24 +6991,24 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "Los Angeles Angels",
-        "away": "Kansas City Royals",
+        "home": "Minnesota Twins",
+        "away": "Philadelphia Phillies",
         "league": "MLB",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T01:39:00Z",
-        "insight": "Expected 5-5 (margin +0.2).",
+        "kickoff": "2026-08-15T23:11:00Z",
+        "insight": "Expected 5-5 (margin -0.3).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Los Angeles Angels",
-                "p": 0.521
+                "k": "Minnesota Twins",
+                "p": 0.472
               },
               {
-                "k": "Kansas City Royals",
-                "p": 0.479
+                "k": "Philadelphia Phillies",
+                "p": 0.528
               }
             ]
           }
@@ -7892,12 +7019,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Los Angeles Angels -0.0",
-                "p": 0.521
+                "k": "Minnesota Twins +0.5",
+                "p": 0.517
               },
               {
-                "k": "Kansas City Royals 0.0",
-                "p": 0.479
+                "k": "Philadelphia Phillies -0.5",
+                "p": 0.483
               }
             ]
           },
@@ -7907,11 +7034,65 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Over 9.5",
-                "p": 0.517
+                "p": 0.498
               },
               {
                 "k": "Under 9.5",
-                "p": 0.483
+                "p": 0.502
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Atlanta Braves",
+        "away": "Arizona Diamondbacks",
+        "league": "MLB",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T23:15:00Z",
+        "insight": "Expected 6-4 (margin +1.9).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Atlanta Braves",
+                "p": 0.664
+              },
+              {
+                "k": "Arizona Diamondbacks",
+                "p": 0.336
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Atlanta Braves -2.0",
+                "p": 0.492
+              },
+              {
+                "k": "Arizona Diamondbacks +2.0",
+                "p": 0.508
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.5",
+                "p": 0.52
+              },
+              {
+                "k": "Under 9.5",
+                "p": 0.48
               }
             ]
           }
@@ -7922,7 +7103,7 @@ window.SPORTS_DATA = {
         "away": "Milwaukee Brewers",
         "league": "MLB",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T02:11:00Z",
+        "kickoff": "2026-08-15T23:15:00Z",
         "insight": "Expected 5-4 (margin +0.5).",
         "base": [
           {
@@ -7972,24 +7153,24 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "San Francisco Giants",
-        "away": "Colorado Rockies",
+        "home": "Pittsburgh Pirates",
+        "away": "Boston Red Sox",
         "league": "MLB",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T02:16:00Z",
-        "insight": "Expected 6-5 (margin +0.8).",
+        "kickoff": "2026-08-15T23:16:00Z",
+        "insight": "Expected 5-4 (margin +0.9).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "San Francisco Giants",
-                "p": 0.569
+                "k": "Pittsburgh Pirates",
+                "p": 0.579
               },
               {
-                "k": "Colorado Rockies",
-                "p": 0.431
+                "k": "Boston Red Sox",
+                "p": 0.421
               }
             ]
           }
@@ -8000,12 +7181,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Francisco Giants -1.0",
-                "p": 0.481
+                "k": "Pittsburgh Pirates -1.0",
+                "p": 0.491
               },
               {
-                "k": "Colorado Rockies +1.0",
-                "p": 0.519
+                "k": "Boston Red Sox +1.0",
+                "p": 0.509
               }
             ]
           },
@@ -8014,12 +7195,120 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 10.5",
-                "p": 0.514
+                "k": "Over 9.5",
+                "p": 0.507
               },
               {
-                "k": "Under 10.5",
-                "p": 0.486
+                "k": "Under 9.5",
+                "p": 0.493
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Los Angeles Angels",
+        "away": "Kansas City Royals",
+        "league": "MLB",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T01:38:00Z",
+        "insight": "Expected 5-5 (margin +0.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Angels",
+                "p": 0.521
+              },
+              {
+                "k": "Kansas City Royals",
+                "p": 0.479
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Angels -0.0",
+                "p": 0.521
+              },
+              {
+                "k": "Kansas City Royals 0.0",
+                "p": 0.479
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.5",
+                "p": 0.517
+              },
+              {
+                "k": "Under 9.5",
+                "p": 0.483
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Athletics",
+        "away": "Texas Rangers",
+        "league": "MLB",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T01:40:00Z",
+        "insight": "Expected 5-5 (margin -0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Athletics",
+                "p": 0.495
+              },
+              {
+                "k": "Texas Rangers",
+                "p": 0.505
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Athletics -0.0",
+                "p": 0.495
+              },
+              {
+                "k": "Texas Rangers 0.0",
+                "p": 0.505
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 9.5",
+                "p": 0.505
+              },
+              {
+                "k": "Under 9.5",
+                "p": 0.495
               }
             ]
           }
@@ -18831,6 +18120,60 @@ window.SPORTS_DATA = {
         ]
       },
       {
+        "home": "Washington Commanders",
+        "away": "Houston Texans",
+        "league": "NFL",
+        "date": "Sun 12.13",
+        "kickoff": "2026-12-13T18:00:00Z",
+        "insight": "Expected 15-27 (margin -11.5).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Washington Commanders",
+                "p": 0.171
+              },
+              {
+                "k": "Houston Texans",
+                "p": 0.829
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Washington Commanders +11.5",
+                "p": 0.5
+              },
+              {
+                "k": "Houston Texans -11.5",
+                "p": 0.5
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 42.0",
+                "p": 0.498
+              },
+              {
+                "k": "Under 42.0",
+                "p": 0.502
+              }
+            ]
+          }
+        ]
+      },
+      {
         "home": "Philadelphia Eagles",
         "away": "Indianapolis Colts",
         "league": "NFL",
@@ -24299,7 +23642,7 @@ window.SPORTS_DATA = {
         "away": "Myktybek Orolbai",
         "league": "UFC",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T21:30:00Z",
+        "kickoff": "2026-08-15T21:45:00Z",
         "insight": "Elo: 48% / 52%.",
         "base": [
           {
@@ -24320,36 +23663,11 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Rafael Tobias",
-        "away": "Lucas Fernando",
-        "league": "UFC",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T21:30:00Z",
-        "insight": "Elo: 50% / 50%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Rafael Tobias",
-                "p": 0.502
-              },
-              {
-                "k": "Lucas Fernando",
-                "p": 0.498
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
         "home": "Neil Magny",
         "away": "Ramiz Brahimaj",
         "league": "UFC",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T21:30:00Z",
+        "kickoff": "2026-08-15T22:15:00Z",
         "insight": "Elo: 49% / 51%.",
         "base": [
           {
@@ -24370,49 +23688,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Chidi Njokuani",
-        "away": "Joel Alvarez",
+        "home": "Rafael Tobias",
+        "away": "Lucas Fernando",
         "league": "UFC",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T23:00:00Z",
-        "insight": "Elo: 48% / 52%.",
+        "kickoff": "2026-08-15T22:45:00Z",
+        "insight": "Elo: 50% / 50%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Chidi Njokuani",
-                "p": 0.475
+                "k": "Rafael Tobias",
+                "p": 0.502
               },
               {
-                "k": "Joel Alvarez",
-                "p": 0.525
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Donte Johnson",
-        "away": "Eric McConico",
-        "league": "UFC",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T23:00:00Z",
-        "insight": "Elo: 51% / 49%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Donte Johnson",
-                "p": 0.514
-              },
-              {
-                "k": "Eric McConico",
-                "p": 0.486
+                "k": "Lucas Fernando",
+                "p": 0.498
               }
             ]
           }
@@ -24424,7 +23717,7 @@ window.SPORTS_DATA = {
         "away": "Tresean Gore",
         "league": "UFC",
         "date": "Sat 8.15",
-        "kickoff": "2026-08-15T23:00:00Z",
+        "kickoff": "2026-08-15T23:15:00Z",
         "insight": "Elo: 50% / 50%.",
         "base": [
           {
@@ -24445,11 +23738,36 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Donte Johnson",
+        "away": "Eric McConico",
+        "league": "UFC",
+        "date": "Sat 8.15",
+        "kickoff": "2026-08-15T23:45:00Z",
+        "insight": "Elo: 51% / 49%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Donte Johnson",
+                "p": 0.514
+              },
+              {
+                "k": "Eric McConico",
+                "p": 0.486
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Charles Johnson",
         "away": "Eduardo Chapolin",
         "league": "UFC",
-        "date": "Sat 8.15",
-        "kickoff": "2026-08-15T23:40:00Z",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T00:10:00Z",
         "insight": "Elo: 50% / 50%.",
         "base": [
           {
@@ -24463,6 +23781,31 @@ window.SPORTS_DATA = {
               {
                 "k": "Eduardo Chapolin",
                 "p": 0.497
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Chidi Njokuani",
+        "away": "Joel Alvarez",
+        "league": "UFC",
+        "date": "Sun 8.16",
+        "kickoff": "2026-08-16T00:45:00Z",
+        "insight": "Elo: 48% / 52%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Chidi Njokuani",
+                "p": 0.475
+              },
+              {
+                "k": "Joel Alvarez",
+                "p": 0.525
               }
             ]
           }
@@ -24595,6 +23938,31 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Alik Lorenz",
+        "away": "Mahamed Aly",
+        "league": "UFC",
+        "date": "Wed 8.19",
+        "kickoff": "2026-08-19T00:00:00Z",
+        "insight": "Elo: 50% / 50%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alik Lorenz",
+                "p": 0.5
+              },
+              {
+                "k": "Mahamed Aly",
+                "p": 0.5
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Nasrat Haqparast",
         "away": "Chris Padilla",
         "league": "UFC",
@@ -24713,6 +24081,31 @@ window.SPORTS_DATA = {
               {
                 "k": "Jeisla Chaves",
                 "p": 0.503
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Shanelle Dyer",
+        "away": "Elise Reed",
+        "league": "UFC",
+        "date": "Sun 8.23",
+        "kickoff": "2026-08-23T00:00:00Z",
+        "insight": "Elo: 50% / 50%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Shanelle Dyer",
+                "p": 0.503
+              },
+              {
+                "k": "Elise Reed",
+                "p": 0.497
               }
             ]
           }
