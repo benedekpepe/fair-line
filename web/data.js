@@ -1452,31 +1452,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.13-2.24."
       },
       {
-        "home": "Querétaro",
-        "away": "Atlante FC",
-        "league": "Mexico",
-        "date": "Sat 10.10",
-        "kickoff": "2026-10-10T01:00:00Z",
-        "lam": 1.31,
-        "mu": 1.05,
-        "mkt": {
-          "1": 1.95,
-          "X": 3.4,
-          "2": 3.23
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.78,
-          "under": 1.95
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.49,
-          "away": 2.46
-        },
-        "insight": "Expected goals: 1.31-1.05."
-      },
-      {
         "home": "Puebla",
         "away": "León",
         "league": "Mexico",
@@ -1500,6 +1475,31 @@ window.SPORTS_DATA = {
           "away": 1.65
         },
         "insight": "Expected goals: 1.26-1.27."
+      },
+      {
+        "home": "Querétaro",
+        "away": "Atlante FC",
+        "league": "Mexico",
+        "date": "Sat 10.10",
+        "kickoff": "2026-10-10T23:00:00Z",
+        "lam": 1.31,
+        "mu": 1.05,
+        "mkt": {
+          "1": 1.95,
+          "X": 3.4,
+          "2": 3.23
+        },
+        "mkt_ou": {
+          "line": 2.5,
+          "over": 1.78,
+          "under": 1.95
+        },
+        "mkt_ah": {
+          "line": 0.0,
+          "home": 1.49,
+          "away": 2.46
+        },
+        "insight": "Expected goals: 1.31-1.05."
       },
       {
         "home": "FC Juárez",
@@ -1580,7 +1580,1283 @@ window.SPORTS_DATA = {
   },
   "tenisz": {
     "label": "Tennis",
-    "matches": []
+    "matches": [
+      {
+        "home": "Karen Khachanov",
+        "away": "Felix Auger-Aliassime",
+        "league": "Atp China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T03:00:00Z",
+        "insight": "Elo: 23% / 77%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Karen Khachanov",
+                "p": 0.235
+              },
+              {
+                "k": "Felix Auger-Aliassime",
+                "p": 0.765
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Jan-Lennard Struff",
+        "away": "Thiago Agustin Tirante",
+        "league": "Atp China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T05:00:00Z",
+        "insight": "Elo: 43% / 57%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jan-Lennard Struff",
+                "p": 0.428
+              },
+              {
+                "k": "Thiago Agustin Tirante",
+                "p": 0.572
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Juan Manuel Cerundolo",
+        "away": "Bu Yunchaokete",
+        "league": "Atp China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T06:15:00Z",
+        "insight": "Elo: 71% / 29%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Juan Manuel Cerundolo",
+                "p": 0.71
+              },
+              {
+                "k": "Bu Yunchaokete",
+                "p": 0.29
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Nuno Borges",
+        "away": "Novak Djokovic",
+        "league": "Atp China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T11:00:00Z",
+        "insight": "Elo: 24% / 76%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Nuno Borges",
+                "p": 0.238
+              },
+              {
+                "k": "Novak Djokovic",
+                "p": 0.762
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Alex Molcan",
+        "away": "Arthur Rinderknech",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 56% / 44%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alex Molcan",
+                "p": 0.555
+              },
+              {
+                "k": "Arthur Rinderknech",
+                "p": 0.445
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Alex de Minaur",
+        "away": "Mariano Navone",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 64% / 36%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alex de Minaur",
+                "p": 0.643
+              },
+              {
+                "k": "Mariano Navone",
+                "p": 0.357
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Alexander Bublik",
+        "away": "Jakub Mensik",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 45% / 55%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alexander Bublik",
+                "p": 0.454
+              },
+              {
+                "k": "Jakub Mensik",
+                "p": 0.546
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Alexander Zverev",
+        "away": "Cameron Norrie",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 81% / 19%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alexander Zverev",
+                "p": 0.81
+              },
+              {
+                "k": "Cameron Norrie",
+                "p": 0.19
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Tallon Griekspoor",
+        "away": "Andrey Rublev",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 32% / 68%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tallon Griekspoor",
+                "p": 0.324
+              },
+              {
+                "k": "Andrey Rublev",
+                "p": 0.676
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Botic van de Zandschulp",
+        "away": "Francisco Cerundolo",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 36% / 64%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Botic van de Zandschulp",
+                "p": 0.364
+              },
+              {
+                "k": "Francisco Cerundolo",
+                "p": 0.636
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Daniil Medvedev",
+        "away": "Pablo Carreno Busta",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 73% / 27%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Daniil Medvedev",
+                "p": 0.732
+              },
+              {
+                "k": "Pablo Carreno Busta",
+                "p": 0.268
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Roman Safiullin",
+        "away": "Flavio Cobolli",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 35% / 65%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Roman Safiullin",
+                "p": 0.355
+              },
+              {
+                "k": "Flavio Cobolli",
+                "p": 0.645
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Learner Tien",
+        "away": "Hubert Hurkacz",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 69% / 31%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Learner Tien",
+                "p": 0.688
+              },
+              {
+                "k": "Hubert Hurkacz",
+                "p": 0.312
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Ignacio Buse",
+        "away": "Quentin Halys",
+        "league": "Atp China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 44% / 56%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ignacio Buse",
+                "p": 0.439
+              },
+              {
+                "k": "Quentin Halys",
+                "p": 0.561
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Valentin Vacherot",
+        "away": "Alexander Blockx",
+        "league": "Atp Japan Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T02:00:00Z",
+        "insight": "Elo: 45% / 55%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Valentin Vacherot",
+                "p": 0.449
+              },
+              {
+                "k": "Alexander Blockx",
+                "p": 0.551
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Jiri Lehecka",
+        "away": "Zizou Bergs",
+        "league": "Atp Japan Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T02:00:00Z",
+        "insight": "Elo: 65% / 35%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jiri Lehecka",
+                "p": 0.645
+              },
+              {
+                "k": "Zizou Bergs",
+                "p": 0.355
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Alejandro Tabilo",
+        "away": "Tommy Paul",
+        "league": "Atp Japan Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T03:15:00Z",
+        "insight": "Elo: 37% / 63%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alejandro Tabilo",
+                "p": 0.365
+              },
+              {
+                "k": "Tommy Paul",
+                "p": 0.635
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Tomas Martin Etcheverry",
+        "away": "Stefanos Tsitsipas",
+        "league": "Atp Japan Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T03:15:00Z",
+        "insight": "Elo: 40% / 60%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tomas Martin Etcheverry",
+                "p": 0.396
+              },
+              {
+                "k": "Stefanos Tsitsipas",
+                "p": 0.604
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Arthur Fils",
+        "away": "Luca Van Assche",
+        "league": "Atp Japan Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T07:00:00Z",
+        "insight": "Elo: 79% / 21%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Arthur Fils",
+                "p": 0.795
+              },
+              {
+                "k": "Luca Van Assche",
+                "p": 0.205
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Matteo Arnaldi",
+        "away": "Rei Sakamoto",
+        "league": "Atp Japan Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T08:15:00Z",
+        "insight": "Elo: 53% / 47%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Matteo Arnaldi",
+                "p": 0.527
+              },
+              {
+                "k": "Rei Sakamoto",
+                "p": 0.473
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Adolfo Daniel Vallejo",
+        "away": "Rafael Jodar",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 17% / 83%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Adolfo Daniel Vallejo",
+                "p": 0.166
+              },
+              {
+                "k": "Rafael Jodar",
+                "p": 0.834
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Alejandro Davidovich Fokina",
+        "away": "Matteo Berrettini",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 61% / 39%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alejandro Davidovich Fokina",
+                "p": 0.605
+              },
+              {
+                "k": "Matteo Berrettini",
+                "p": 0.395
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Carlos Alcaraz",
+        "away": "Alex Michelsen",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 86% / 14%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Carlos Alcaraz",
+                "p": 0.859
+              },
+              {
+                "k": "Alex Michelsen",
+                "p": 0.141
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Lorenzo Musetti",
+        "away": "Arthur Fery",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 60% / 40%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Lorenzo Musetti",
+                "p": 0.601
+              },
+              {
+                "k": "Arthur Fery",
+                "p": 0.399
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Brandon Nakashima",
+        "away": "Ugo Humbert",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 61% / 39%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Brandon Nakashima",
+                "p": 0.61
+              },
+              {
+                "k": "Ugo Humbert",
+                "p": 0.39
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Luciano Darderi",
+        "away": "Casper Ruud",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 45% / 55%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Luciano Darderi",
+                "p": 0.449
+              },
+              {
+                "k": "Casper Ruud",
+                "p": 0.551
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Denis Shapovalov",
+        "away": "Sho Shimabukuro",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 48% / 52%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Denis Shapovalov",
+                "p": 0.481
+              },
+              {
+                "k": "Sho Shimabukuro",
+                "p": 0.519
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Kei Nishikori",
+        "away": "Frances Tiafoe",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 21% / 79%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Kei Nishikori",
+                "p": 0.214
+              },
+              {
+                "k": "Frances Tiafoe",
+                "p": 0.786
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Holger Rune",
+        "away": "Kyrian Jacquet",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 64% / 36%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Holger Rune",
+                "p": 0.643
+              },
+              {
+                "k": "Kyrian Jacquet",
+                "p": 0.357
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Taylor Fritz",
+        "away": "Jaume Munar",
+        "league": "Atp Japan Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 79% / 21%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Taylor Fritz",
+                "p": 0.789
+              },
+              {
+                "k": "Jaume Munar",
+                "p": 0.211
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Janice Tjen",
+        "away": "Anhelina Kalinina",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T03:00:00Z",
+        "insight": "Elo: 32% / 68%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Janice Tjen",
+                "p": 0.32
+              },
+              {
+                "k": "Anhelina Kalinina",
+                "p": 0.68
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Darja Vidmanova",
+        "away": "Maria Timofeeva",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T03:00:00Z",
+        "insight": "Elo: 54% / 46%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Darja Vidmanova",
+                "p": 0.543
+              },
+              {
+                "k": "Maria Timofeeva",
+                "p": 0.457
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Elena Gabriela Ruse",
+        "away": "Lilli Tagger",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T03:00:00Z",
+        "insight": "Elo: 51% / 49%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Elena Gabriela Ruse",
+                "p": 0.51
+              },
+              {
+                "k": "Lilli Tagger",
+                "p": 0.49
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Maya Joint",
+        "away": "Sinja Kraus",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T03:00:00Z",
+        "insight": "Elo: 34% / 66%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Maya Joint",
+                "p": 0.344
+              },
+              {
+                "k": "Sinja Kraus",
+                "p": 0.656
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Mayar Sherif",
+        "away": "Polina Kudermetova",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T04:15:00Z",
+        "insight": "Elo: 65% / 35%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Mayar Sherif",
+                "p": 0.653
+              },
+              {
+                "k": "Polina Kudermetova",
+                "p": 0.347
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Aliaksandra Sasnovich",
+        "away": "Talia Gibson",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T04:30:00Z",
+        "insight": "Elo: 47% / 53%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Aliaksandra Sasnovich",
+                "p": 0.474
+              },
+              {
+                "k": "Talia Gibson",
+                "p": 0.526
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Daria Snigur",
+        "away": "Katarzyna Kawa",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T04:30:00Z",
+        "insight": "Elo: 67% / 33%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Daria Snigur",
+                "p": 0.67
+              },
+              {
+                "k": "Katarzyna Kawa",
+                "p": 0.33
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Viktorija Golubic",
+        "away": "Elvina Kalieva",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T04:30:00Z",
+        "insight": "Elo: 62% / 38%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Viktorija Golubic",
+                "p": 0.618
+              },
+              {
+                "k": "Elvina Kalieva",
+                "p": 0.382
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Maddison Inglis",
+        "away": "Zeynep Sonmez",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T06:00:00Z",
+        "insight": "Elo: 38% / 62%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Maddison Inglis",
+                "p": 0.379
+              },
+              {
+                "k": "Zeynep Sonmez",
+                "p": 0.621
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Mai Hontama",
+        "away": "Katie Boulter",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T07:00:00Z",
+        "insight": "Elo: 45% / 55%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Mai Hontama",
+                "p": 0.449
+              },
+              {
+                "k": "Katie Boulter",
+                "p": 0.551
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Taylah Preston",
+        "away": "Tamara Korpatsch",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T08:30:00Z",
+        "insight": "Elo: 43% / 57%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Taylah Preston",
+                "p": 0.432
+              },
+              {
+                "k": "Tamara Korpatsch",
+                "p": 0.568
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Elsa Jacquemot",
+        "away": "Magdalena Frech",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T11:00:00Z",
+        "insight": "Elo: 39% / 61%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Elsa Jacquemot",
+                "p": 0.392
+              },
+              {
+                "k": "Magdalena Frech",
+                "p": 0.608
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Anna Bondár",
+        "away": "Renata Zarazua",
+        "league": "Wta China Open",
+        "date": "Wed 9.30",
+        "kickoff": "2026-09-30T12:15:00Z",
+        "insight": "Elo: 62% / 38%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Anna Bondár",
+                "p": 0.622
+              },
+              {
+                "k": "Renata Zarazua",
+                "p": 0.378
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Yuliia Starodubtseva",
+        "away": "Alina Charaeva",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 40% / 60%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Yuliia Starodubtseva",
+                "p": 0.398
+              },
+              {
+                "k": "Alina Charaeva",
+                "p": 0.602
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Aoi Ito",
+        "away": "Kimberly Birrell",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 34% / 66%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Aoi Ito",
+                "p": 0.338
+              },
+              {
+                "k": "Kimberly Birrell",
+                "p": 0.662
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Sofia Kenin",
+        "away": "Ashlyn Krueger",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 16% / 84%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Sofia Kenin",
+                "p": 0.164
+              },
+              {
+                "k": "Ashlyn Krueger",
+                "p": 0.836
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Paula Badosa",
+        "away": "Daria Kasatkina",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 61% / 39%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Paula Badosa",
+                "p": 0.608
+              },
+              {
+                "k": "Daria Kasatkina",
+                "p": 0.392
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Magda Linette",
+        "away": "Katerina Siniakova",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T02:00:00Z",
+        "insight": "Elo: 45% / 55%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Magda Linette",
+                "p": 0.452
+              },
+              {
+                "k": "Katerina Siniakova",
+                "p": 0.548
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Sonay Kartal",
+        "away": "Andrea Lazaro Garcia",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T04:00:00Z",
+        "insight": "Elo: 68% / 32%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Sonay Kartal",
+                "p": 0.681
+              },
+              {
+                "k": "Andrea Lazaro Garcia",
+                "p": 0.319
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Marina Bassols Ribera",
+        "away": "Kamilla Rakhimova",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T04:00:00Z",
+        "insight": "Elo: 53% / 47%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Marina Bassols Ribera",
+                "p": 0.528
+              },
+              {
+                "k": "Kamilla Rakhimova",
+                "p": 0.472
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Katie Volynets",
+        "away": "Robin Montgomery",
+        "league": "Wta China Open",
+        "date": "Thu 10.01",
+        "kickoff": "2026-10-01T04:00:00Z",
+        "insight": "Elo: 54% / 46%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Katie Volynets",
+                "p": 0.544
+              },
+              {
+                "k": "Robin Montgomery",
+                "p": 0.456
+              }
+            ]
+          }
+        ],
+        "extra": []
+      }
+    ]
   },
   "kosar": {
     "label": "Basketball",
@@ -1616,14 +2892,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Indiana Fever -1.0",
-                "p": 0.544,
-                "mkt": 1.91
+                "k": "Indiana Fever -2.5",
+                "p": 0.499
               },
               {
-                "k": "Las Vegas Aces +1.0",
-                "p": 0.456,
-                "mkt": 1.91
+                "k": "Las Vegas Aces +2.5",
+                "p": 0.501
               }
             ]
           },
@@ -1632,14 +2906,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 183.0",
-                "p": 0.222,
-                "mkt": 1.91
+                "k": "Over 170.5",
+                "p": 0.497
               },
               {
-                "k": "Under 183.0",
-                "p": 0.778,
-                "mkt": 1.91
+                "k": "Under 170.5",
+                "p": 0.503
               }
             ]
           }
@@ -1676,14 +2948,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Liberty +2.5",
-                "p": 0.486,
-                "mkt": 1.93
+                "k": "New York Liberty +3.0",
+                "p": 0.501
               },
               {
-                "k": "Minnesota Lynx -2.5",
-                "p": 0.514,
-                "mkt": 1.88
+                "k": "Minnesota Lynx -3.0",
+                "p": 0.499
               }
             ]
           },
@@ -1692,14 +2962,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 172.0",
-                "p": 0.311,
-                "mkt": 1.91
+                "k": "Over 164.0",
+                "p": 0.497
               },
               {
-                "k": "Under 172.0",
-                "p": 0.689,
-                "mkt": 1.91
+                "k": "Under 164.0",
+                "p": 0.503
               }
             ]
           }
@@ -1736,14 +3004,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Washington Mystics +3.5",
-                "p": 0.41,
-                "mkt": 1.95
+                "k": "Washington Mystics +6.5",
+                "p": 0.499
               },
               {
-                "k": "Atlanta Dream -3.5",
-                "p": 0.59,
-                "mkt": 1.91
+                "k": "Atlanta Dream -6.5",
+                "p": 0.501
               }
             ]
           },
@@ -1752,14 +3018,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 164.5",
-                "p": 0.315,
-                "mkt": 1.89
+                "k": "Over 156.5",
+                "p": 0.501
               },
               {
-                "k": "Under 164.5",
-                "p": 0.685,
-                "mkt": 1.94
+                "k": "Under 156.5",
+                "p": 0.499
               }
             ]
           }
@@ -1796,14 +3060,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Dallas Wings +4.0",
-                "p": 0.576,
-                "mkt": 1.91
+                "k": "Dallas Wings +1.5",
+                "p": 0.501
               },
               {
-                "k": "Golden State Valkyries -4.0",
-                "p": 0.424,
-                "mkt": 1.91
+                "k": "Golden State Valkyries -1.5",
+                "p": 0.499
               }
             ]
           },
@@ -1812,14 +3074,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 155.5",
-                "p": 0.684,
-                "mkt": 1.92
+                "k": "Over 163.5",
+                "p": 0.498
               },
               {
-                "k": "Under 155.5",
-                "p": 0.316,
-                "mkt": 1.91
+                "k": "Under 163.5",
+                "p": 0.502
               }
             ]
           }
@@ -1872,14 +3132,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 221.5",
-                "p": 0.374,
-                "mkt": 1.91
+                "k": "Over 215.5",
+                "p": 0.5
               },
               {
-                "k": "Under 221.5",
-                "p": 0.626,
-                "mkt": 1.91
+                "k": "Under 215.5",
+                "p": 0.5
               }
             ]
           }
@@ -1916,14 +3174,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Knicks -5.5",
-                "p": 0.626,
-                "mkt": 1.91
+                "k": "New York Knicks -10.0",
+                "p": 0.502
               },
               {
-                "k": "Philadelphia 76ers +5.5",
-                "p": 0.374,
-                "mkt": 1.91
+                "k": "Philadelphia 76ers +10.0",
+                "p": 0.498
               }
             ]
           },
@@ -1932,14 +3188,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 231.5",
-                "p": 0.35,
-                "mkt": 1.91
+                "k": "Over 224.5",
+                "p": 0.495
               },
               {
-                "k": "Under 231.5",
-                "p": 0.65,
-                "mkt": 1.91
+                "k": "Under 224.5",
+                "p": 0.505
               }
             ]
           }
@@ -1976,14 +3230,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Antonio Spurs -1.5",
-                "p": 0.473,
-                "mkt": 1.91
+                "k": "San Antonio Spurs -0.5",
+                "p": 0.501
               },
               {
-                "k": "Oklahoma City Thunder +1.5",
-                "p": 0.527,
-                "mkt": 1.91
+                "k": "Oklahoma City Thunder +0.5",
+                "p": 0.499
               }
             ]
           },
@@ -1992,14 +3244,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 230.5",
-                "p": 0.383,
-                "mkt": 1.91
+                "k": "Over 225.0",
+                "p": 0.498
               },
               {
-                "k": "Under 230.5",
-                "p": 0.617,
-                "mkt": 1.91
+                "k": "Under 225.0",
+                "p": 0.502
               }
             ]
           }
@@ -2036,14 +3286,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Orlando Magic -2.5",
-                "p": 0.487,
-                "mkt": 1.91
+                "k": "Orlando Magic -2.0",
+                "p": 0.501
               },
               {
-                "k": "Atlanta Hawks +2.5",
-                "p": 0.513,
-                "mkt": 1.91
+                "k": "Atlanta Hawks +2.0",
+                "p": 0.499
               }
             ]
           },
@@ -2052,14 +3300,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 233.5",
-                "p": 0.47,
-                "mkt": 1.91
+                "k": "Over 232.0",
+                "p": 0.502
               },
               {
-                "k": "Under 233.5",
-                "p": 0.53,
-                "mkt": 1.91
+                "k": "Under 232.0",
+                "p": 0.498
               }
             ]
           }
@@ -2096,14 +3342,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Washington Wizards -6.5",
-                "p": 0.238,
-                "mkt": 1.91
+                "k": "Washington Wizards +3.5",
+                "p": 0.497
               },
               {
-                "k": "Milwaukee Bucks +6.5",
-                "p": 0.762,
-                "mkt": 1.91
+                "k": "Milwaukee Bucks -3.5",
+                "p": 0.503
               }
             ]
           },
@@ -2112,14 +3356,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 238.5",
-                "p": 0.41,
-                "mkt": 1.95
+                "k": "Over 234.0",
+                "p": 0.505
               },
               {
-                "k": "Under 238.5",
-                "p": 0.59,
-                "mkt": 1.87
+                "k": "Under 234.0",
+                "p": 0.495
               }
             ]
           }
@@ -2156,14 +3398,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Brooklyn Nets +4.5",
-                "p": 0.329,
-                "mkt": 1.91
+                "k": "Brooklyn Nets +11.0",
+                "p": 0.507
               },
               {
-                "k": "Charlotte Hornets -4.5",
-                "p": 0.671,
-                "mkt": 1.91
+                "k": "Charlotte Hornets -11.0",
+                "p": 0.493
               }
             ]
           },
@@ -2172,14 +3412,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 225.5",
-                "p": 0.386,
-                "mkt": 1.91
+                "k": "Over 220.0",
+                "p": 0.501
               },
               {
-                "k": "Under 225.5",
-                "p": 0.614,
-                "mkt": 1.91
+                "k": "Under 220.0",
+                "p": 0.499
               }
             ]
           }
@@ -2216,14 +3454,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Miami Heat -1.5",
-                "p": 0.462,
-                "mkt": 1.91
+                "k": "Miami Heat -0.0",
+                "p": 0.504
               },
               {
-                "k": "Minnesota Timberwolves +1.5",
-                "p": 0.538,
-                "mkt": 1.92
+                "k": "Minnesota Timberwolves 0.0",
+                "p": 0.496
               }
             ]
           },
@@ -2232,14 +3468,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 243.5",
-                "p": 0.413,
-                "mkt": 1.92
+                "k": "Over 239.5",
+                "p": 0.498
               },
               {
-                "k": "Under 243.5",
-                "p": 0.587,
-                "mkt": 1.88
+                "k": "Under 239.5",
+                "p": 0.502
               }
             ]
           }
@@ -2276,14 +3510,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New Orleans Pelicans +3.5",
-                "p": 0.728,
-                "mkt": 1.95
+                "k": "New Orleans Pelicans -5.0",
+                "p": 0.503
               },
               {
-                "k": "Indiana Pacers -3.5",
-                "p": 0.272,
-                "mkt": 1.87
+                "k": "Indiana Pacers +5.0",
+                "p": 0.497
               }
             ]
           },
@@ -2292,14 +3524,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 242.5",
-                "p": 0.413,
-                "mkt": 1.91
+                "k": "Over 238.5",
+                "p": 0.497
               },
               {
-                "k": "Under 242.5",
-                "p": 0.587,
-                "mkt": 1.95
+                "k": "Under 238.5",
+                "p": 0.503
               }
             ]
           }
@@ -2336,14 +3566,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Memphis Grizzlies +3.0",
-                "p": 0.682,
-                "mkt": 1.91
+                "k": "Memphis Grizzlies -3.5",
+                "p": 0.506
               },
               {
-                "k": "Utah Jazz -3.0",
-                "p": 0.318,
-                "mkt": 1.91
+                "k": "Utah Jazz +3.5",
+                "p": 0.494
               }
             ]
           },
@@ -2352,14 +3580,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 241.5",
-                "p": 0.649,
-                "mkt": 1.91
+                "k": "Over 248.5",
+                "p": 0.504
               },
               {
-                "k": "Under 241.5",
-                "p": 0.351,
-                "mkt": 1.91
+                "k": "Under 248.5",
+                "p": 0.496
               }
             ]
           }
@@ -2396,14 +3622,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Houston Rockets -8.5",
-                "p": 0.553,
-                "mkt": 1.98
+                "k": "Houston Rockets -10.5",
+                "p": 0.497
               },
               {
-                "k": "Dallas Mavericks +8.5",
-                "p": 0.447,
-                "mkt": 1.85
+                "k": "Dallas Mavericks +10.5",
+                "p": 0.503
               }
             ]
           },
@@ -2412,14 +3636,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 227.5",
-                "p": 0.474,
-                "mkt": 1.93
+                "k": "Over 226.5",
+                "p": 0.495
               },
               {
-                "k": "Under 227.5",
-                "p": 0.526,
-                "mkt": 1.91
+                "k": "Under 226.5",
+                "p": 0.505
               }
             ]
           }
@@ -2456,14 +3678,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Los Angeles Lakers -5.5",
-                "p": 0.428,
-                "mkt": 1.98
+                "k": "Los Angeles Lakers -3.0",
+                "p": 0.497
               },
               {
-                "k": "Golden State Warriors +5.5",
-                "p": 0.572,
-                "mkt": 1.85
+                "k": "Golden State Warriors +3.0",
+                "p": 0.503
               }
             ]
           },
@@ -2472,14 +3692,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 235.5",
-                "p": 0.337,
-                "mkt": 1.91
+                "k": "Over 227.5",
+                "p": 0.502
               },
               {
-                "k": "Under 235.5",
-                "p": 0.663,
-                "mkt": 1.91
+                "k": "Under 227.5",
+                "p": 0.498
               }
             ]
           }
@@ -2516,14 +3734,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Portland Trail Blazers -4.5",
-                "p": 0.366,
-                "mkt": 1.91
+                "k": "Portland Trail Blazers +0.5",
+                "p": 0.504
               },
               {
-                "k": "Phoenix Suns +4.5",
-                "p": 0.634,
-                "mkt": 1.91
+                "k": "Phoenix Suns -0.5",
+                "p": 0.496
               }
             ]
           },
@@ -2532,14 +3748,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 235.5",
-                "p": 0.27,
-                "mkt": 1.91
+                "k": "Over 224.0",
+                "p": 0.5
               },
               {
-                "k": "Under 235.5",
-                "p": 0.73,
-                "mkt": 1.91
+                "k": "Under 224.0",
+                "p": 0.5
               }
             ]
           }
@@ -2576,14 +3790,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Philadelphia 76ers -4.5",
-                "p": 0.326,
-                "mkt": 1.91
+                "k": "Philadelphia 76ers +2.0",
+                "p": 0.503
               },
               {
-                "k": "Cleveland Cavaliers +4.5",
-                "p": 0.674,
-                "mkt": 1.91
+                "k": "Cleveland Cavaliers -2.0",
+                "p": 0.497
               }
             ]
           },
@@ -2592,14 +3804,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 233.5",
-                "p": 0.484,
-                "mkt": 1.91
+                "k": "Over 232.5",
+                "p": 0.505
               },
               {
-                "k": "Under 233.5",
-                "p": 0.516,
-                "mkt": 1.95
+                "k": "Under 232.5",
+                "p": 0.495
               }
             ]
           }
@@ -2652,14 +3862,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 232.5",
-                "p": 0.489,
-                "mkt": 1.93
+                "k": "Over 232.0",
+                "p": 0.499
               },
               {
-                "k": "Under 232.5",
-                "p": 0.511,
-                "mkt": 1.91
+                "k": "Under 232.0",
+                "p": 0.501
               }
             ]
           }
@@ -2696,14 +3904,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Boston Celtics -2.5",
-                "p": 0.456,
-                "mkt": 1.91
+                "k": "Boston Celtics -1.0",
+                "p": 0.498
               },
               {
-                "k": "New York Knicks +2.5",
-                "p": 0.544,
-                "mkt": 1.91
+                "k": "New York Knicks +1.0",
+                "p": 0.502
               }
             ]
           },
@@ -2712,14 +3918,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 223.5",
-                "p": 0.33,
-                "mkt": 1.91
+                "k": "Over 215.5",
+                "p": 0.495
               },
               {
-                "k": "Under 223.5",
-                "p": 0.67,
-                "mkt": 1.91
+                "k": "Under 215.5",
+                "p": 0.505
               }
             ]
           }
@@ -2756,14 +3960,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Antonio Spurs -5.5",
-                "p": 0.52,
-                "mkt": 1.85
+                "k": "San Antonio Spurs -6.0",
+                "p": 0.506
               },
               {
-                "k": "Houston Rockets +5.5",
-                "p": 0.48,
-                "mkt": 1.98
+                "k": "Houston Rockets +6.0",
+                "p": 0.494
               }
             ]
           },
@@ -2772,14 +3974,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 225.5",
-                "p": 0.445,
-                "mkt": 1.91
+                "k": "Over 223.0",
+                "p": 0.498
               },
               {
-                "k": "Under 225.5",
-                "p": 0.555,
-                "mkt": 1.91
+                "k": "Under 223.0",
+                "p": 0.502
               }
             ]
           }
@@ -2816,14 +4016,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Washington Wizards +1.5",
-                "p": 0.213,
-                "mkt": 1.87
+                "k": "Washington Wizards +13.0",
+                "p": 0.506
               },
               {
-                "k": "Charlotte Hornets -1.5",
-                "p": 0.787,
-                "mkt": 1.95
+                "k": "Charlotte Hornets -13.0",
+                "p": 0.494
               }
             ]
           },
@@ -2832,14 +4030,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 235.5",
-                "p": 0.484,
-                "mkt": 1.91
+                "k": "Over 234.5",
+                "p": 0.505
               },
               {
-                "k": "Under 235.5",
-                "p": 0.516,
-                "mkt": 1.91
+                "k": "Under 234.5",
+                "p": 0.495
               }
             ]
           }
@@ -2876,14 +4072,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Boston Celtics -11.5",
-                "p": 0.537,
-                "mkt": 1.91
+                "k": "Boston Celtics -13.0",
+                "p": 0.494
               },
               {
-                "k": "Chicago Bulls +11.5",
-                "p": 0.463,
-                "mkt": 1.91
+                "k": "Chicago Bulls +13.0",
+                "p": 0.506
               }
             ]
           },
@@ -2892,14 +4086,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 232.5",
-                "p": 0.427,
-                "mkt": 1.91
+                "k": "Over 229.0",
+                "p": 0.501
               },
               {
-                "k": "Under 232.5",
-                "p": 0.573,
-                "mkt": 1.91
+                "k": "Under 229.0",
+                "p": 0.499
               }
             ]
           }
@@ -2936,14 +4128,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Brooklyn Nets +7.5",
-                "p": 0.341,
-                "mkt": 1.98
+                "k": "Brooklyn Nets +13.5",
+                "p": 0.505
               },
               {
-                "k": "Detroit Pistons -7.5",
-                "p": 0.659,
-                "mkt": 1.85
+                "k": "Detroit Pistons -13.5",
+                "p": 0.495
               }
             ]
           },
@@ -2952,14 +4142,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 225.5",
-                "p": 0.319,
-                "mkt": 1.91
+                "k": "Over 216.5",
+                "p": 0.504
               },
               {
-                "k": "Under 225.5",
-                "p": 0.681,
-                "mkt": 1.91
+                "k": "Under 216.5",
+                "p": 0.496
               }
             ]
           }
@@ -2996,14 +4184,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Philadelphia 76ers -1.5",
-                "p": 0.285,
-                "mkt": 1.87
+                "k": "Philadelphia 76ers +6.5",
+                "p": 0.499
               },
               {
-                "k": "New York Knicks +1.5",
-                "p": 0.715,
-                "mkt": 1.95
+                "k": "New York Knicks -6.5",
+                "p": 0.501
               }
             ]
           },
@@ -3012,14 +4198,66 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 231.5",
-                "p": 0.35,
-                "mkt": 1.91
+                "k": "Over 224.5",
+                "p": 0.495
               },
               {
-                "k": "Under 231.5",
-                "p": 0.65,
-                "mkt": 1.91
+                "k": "Under 224.5",
+                "p": 0.505
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Toronto Raptors",
+        "away": "Orlando Magic",
+        "league": "NBA",
+        "date": "Fri 10.30",
+        "kickoff": "2026-10-30T23:40:00Z",
+        "insight": "Expected 113-111 (margin +2.6).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Toronto Raptors",
+                "p": 0.574
+              },
+              {
+                "k": "Orlando Magic",
+                "p": 0.426
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Toronto Raptors -2.5",
+                "p": 0.504
+              },
+              {
+                "k": "Orlando Magic +2.5",
+                "p": 0.496
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 224.5",
+                "p": 0.495
+              },
+              {
+                "k": "Under 224.5",
+                "p": 0.505
               }
             ]
           }
@@ -3056,14 +4294,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Dallas Mavericks +4.5",
-                "p": 0.433,
-                "mkt": 1.91
+                "k": "Dallas Mavericks +7.0",
+                "p": 0.503
               },
               {
-                "k": "Houston Rockets -4.5",
-                "p": 0.567,
-                "mkt": 1.91
+                "k": "Houston Rockets -7.0",
+                "p": 0.497
               }
             ]
           },
@@ -3116,14 +4352,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Miami Heat -3.5",
-                "p": 0.674,
-                "mkt": 1.91
+                "k": "Miami Heat -10.0",
+                "p": 0.497
               },
               {
-                "k": "Indiana Pacers +3.5",
-                "p": 0.326,
-                "mkt": 1.91
+                "k": "Indiana Pacers +10.0",
+                "p": 0.503
               }
             ]
           },
@@ -3132,14 +4366,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 242.5",
-                "p": 0.489,
-                "mkt": 1.95
+                "k": "Over 242.0",
+                "p": 0.499
               },
               {
-                "k": "Under 242.5",
-                "p": 0.511,
-                "mkt": 1.87
+                "k": "Under 242.0",
+                "p": 0.501
               }
             ]
           }
@@ -3176,14 +4408,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Phoenix Suns +2.5",
-                "p": 0.538,
-                "mkt": 1.91
+                "k": "Phoenix Suns +1.0",
+                "p": 0.496
               },
               {
-                "k": "Denver Nuggets -2.5",
-                "p": 0.462,
-                "mkt": 1.91
+                "k": "Denver Nuggets -1.0",
+                "p": 0.504
               }
             ]
           },
@@ -3192,14 +4422,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 234.5",
-                "p": 0.401,
-                "mkt": 1.95
+                "k": "Over 230.0",
+                "p": 0.495
               },
               {
-                "k": "Under 234.5",
-                "p": 0.599,
-                "mkt": 1.87
+                "k": "Under 230.0",
+                "p": 0.505
               }
             ]
           }
@@ -3236,14 +4464,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Golden State Warriors -1.5",
-                "p": 0.475,
-                "mkt": 2.0
+                "k": "Golden State Warriors -0.5",
+                "p": 0.503
               },
               {
-                "k": "Los Angeles Lakers +1.5",
-                "p": 0.525,
-                "mkt": 1.83
+                "k": "Los Angeles Lakers +0.5",
+                "p": 0.497
               }
             ]
           },
@@ -3252,14 +4478,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 235.5",
-                "p": 0.337,
-                "mkt": 1.91
+                "k": "Over 227.5",
+                "p": 0.502
               },
               {
-                "k": "Under 235.5",
-                "p": 0.663,
-                "mkt": 1.91
+                "k": "Under 227.5",
+                "p": 0.498
               }
             ]
           }
@@ -3296,14 +4520,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Cleveland Cavaliers -1.5",
-                "p": 0.609,
-                "mkt": 1.91
+                "k": "Cleveland Cavaliers -5.5",
+                "p": 0.497
               },
               {
-                "k": "Philadelphia 76ers +1.5",
-                "p": 0.391,
-                "mkt": 1.91
+                "k": "Philadelphia 76ers +5.5",
+                "p": 0.503
               }
             ]
           },
@@ -3312,14 +4534,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 233.5",
-                "p": 0.484,
-                "mkt": 1.87
+                "k": "Over 232.5",
+                "p": 0.505
               },
               {
-                "k": "Under 233.5",
-                "p": 0.516,
-                "mkt": 1.95
+                "k": "Under 232.5",
+                "p": 0.495
               }
             ]
           }
@@ -3372,14 +4592,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 238.5",
-                "p": 0.295,
-                "mkt": 1.91
+                "k": "Over 228.5",
+                "p": 0.498
               },
               {
-                "k": "Under 238.5",
-                "p": 0.705,
-                "mkt": 1.91
+                "k": "Under 228.5",
+                "p": 0.502
               }
             ]
           }
@@ -3416,14 +4634,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Indiana Pacers +2.5",
-                "p": 0.231,
-                "mkt": 1.87
+                "k": "Indiana Pacers +13.0",
+                "p": 0.502
               },
               {
-                "k": "New York Knicks -2.5",
-                "p": 0.769,
-                "mkt": 1.95
+                "k": "New York Knicks -13.0",
+                "p": 0.498
               }
             ]
           },
@@ -3432,14 +4648,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 233.5",
-                "p": 0.366,
-                "mkt": 1.91
+                "k": "Over 227.0",
+                "p": 0.502
               },
               {
-                "k": "Under 233.5",
-                "p": 0.634,
-                "mkt": 1.91
+                "k": "Under 227.0",
+                "p": 0.498
               }
             ]
           }
@@ -3476,14 +4690,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Antonio Spurs -10.5",
-                "p": 0.512,
-                "mkt": 1.85
+                "k": "San Antonio Spurs -11.0",
+                "p": 0.498
               },
               {
-                "k": "Golden State Warriors +10.5",
-                "p": 0.488,
-                "mkt": 1.98
+                "k": "Golden State Warriors +11.0",
+                "p": 0.502
               }
             ]
           },
@@ -3492,14 +4704,66 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 234.5",
-                "p": 0.372,
-                "mkt": 1.87
+                "k": "Over 228.5",
+                "p": 0.497
               },
               {
-                "k": "Under 234.5",
-                "p": 0.628,
-                "mkt": 1.95
+                "k": "Under 228.5",
+                "p": 0.503
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Detroit Pistons",
+        "away": "Toronto Raptors",
+        "league": "NBA",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T00:40:00Z",
+        "insight": "Expected 113-107 (margin +5.8).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Detroit Pistons",
+                "p": 0.659
+              },
+              {
+                "k": "Toronto Raptors",
+                "p": 0.341
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Detroit Pistons -6.0",
+                "p": 0.494
+              },
+              {
+                "k": "Toronto Raptors +6.0",
+                "p": 0.506
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 220.5",
+                "p": 0.496
+              },
+              {
+                "k": "Under 220.5",
+                "p": 0.504
               }
             ]
           }
@@ -3536,14 +4800,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Denver Nuggets -3.5",
-                "p": 0.448,
-                "mkt": 1.91
+                "k": "Denver Nuggets -1.5",
+                "p": 0.504
               },
               {
-                "k": "Houston Rockets +3.5",
-                "p": 0.552,
-                "mkt": 1.91
+                "k": "Houston Rockets +1.5",
+                "p": 0.496
               }
             ]
           },
@@ -3552,14 +4814,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 228.5",
-                "p": 0.531,
-                "mkt": 1.95
+                "k": "Over 230.0",
+                "p": 0.499
               },
               {
-                "k": "Under 228.5",
-                "p": 0.469,
-                "mkt": 1.87
+                "k": "Under 230.0",
+                "p": 0.501
               }
             ]
           }
@@ -3596,14 +4856,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Washington Wizards +5.5",
-                "p": 0.234,
-                "mkt": 1.91
+                "k": "Washington Wizards +16.0",
+                "p": 0.506
               },
               {
-                "k": "Boston Celtics -5.5",
-                "p": 0.766,
-                "mkt": 1.91
+                "k": "Boston Celtics -16.0",
+                "p": 0.494
               }
             ]
           },
@@ -3612,14 +4870,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 230.5",
-                "p": 0.453,
-                "mkt": 1.91
+                "k": "Over 228.5",
+                "p": 0.496
               },
               {
-                "k": "Under 230.5",
-                "p": 0.547,
-                "mkt": 1.91
+                "k": "Under 228.5",
+                "p": 0.504
               }
             ]
           }
@@ -3656,14 +4912,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Denver Nuggets -8.5",
-                "p": 0.551,
-                "mkt": 1.91
+                "k": "Denver Nuggets -10.5",
+                "p": 0.494
               },
               {
-                "k": "Dallas Mavericks +8.5",
-                "p": 0.449,
-                "mkt": 1.91
+                "k": "Dallas Mavericks +10.5",
+                "p": 0.506
               }
             ]
           },
@@ -3672,14 +4926,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 237.5",
-                "p": 0.516,
-                "mkt": 1.87
+                "k": "Over 238.0",
+                "p": 0.505
               },
               {
-                "k": "Under 237.5",
-                "p": 0.484,
-                "mkt": 1.95
+                "k": "Under 238.0",
+                "p": 0.495
               }
             ]
           }
@@ -3716,14 +4968,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Philadelphia 76ers -3.5",
-                "p": 0.403,
-                "mkt": 1.87
+                "k": "Philadelphia 76ers -0.0",
+                "p": 0.5
               },
               {
-                "k": "Miami Heat +3.5",
-                "p": 0.597,
-                "mkt": 1.95
+                "k": "Miami Heat 0.0",
+                "p": 0.5
               }
             ]
           },
@@ -3732,14 +4982,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 239.5",
-                "p": 0.493,
-                "mkt": 1.91
+                "k": "Over 239.0",
+                "p": 0.503
               },
               {
-                "k": "Under 239.5",
-                "p": 0.507,
-                "mkt": 1.91
+                "k": "Under 239.0",
+                "p": 0.497
               }
             ]
           }
@@ -3776,14 +5024,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Oklahoma City Thunder -8.5",
-                "p": 0.516,
-                "mkt": 1.85
+                "k": "Oklahoma City Thunder -9.0",
+                "p": 0.502
               },
               {
-                "k": "Minnesota Timberwolves +8.5",
-                "p": 0.484,
-                "mkt": 1.98
+                "k": "Minnesota Timberwolves +9.0",
+                "p": 0.498
               }
             ]
           },
@@ -3792,14 +5038,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 235.5",
-                "p": 0.315,
-                "mkt": 1.95
+                "k": "Over 226.5",
+                "p": 0.499
               },
               {
-                "k": "Under 235.5",
-                "p": 0.685,
-                "mkt": 1.87
+                "k": "Under 226.5",
+                "p": 0.501
               }
             ]
           }
@@ -3836,14 +5080,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Portland Trail Blazers +4.5",
-                "p": 0.408,
-                "mkt": 1.91
+                "k": "Portland Trail Blazers +8.0",
+                "p": 0.506
               },
               {
-                "k": "San Antonio Spurs -4.5",
-                "p": 0.592,
-                "mkt": 1.91
+                "k": "San Antonio Spurs -8.0",
+                "p": 0.494
               }
             ]
           },
@@ -3852,14 +5094,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 237.5",
-                "p": 0.328,
-                "mkt": 1.87
+                "k": "Over 229.0",
+                "p": 0.503
               },
               {
-                "k": "Under 237.5",
-                "p": 0.672,
-                "mkt": 1.95
+                "k": "Under 229.0",
+                "p": 0.497
               }
             ]
           }
@@ -3896,14 +5136,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Knicks -5.5",
-                "p": 0.579,
-                "mkt": 1.91
+                "k": "New York Knicks -8.5",
+                "p": 0.495
               },
               {
-                "k": "Miami Heat +5.5",
-                "p": 0.421,
-                "mkt": 1.91
+                "k": "Miami Heat +8.5",
+                "p": 0.505
               }
             ]
           },
@@ -3912,14 +5150,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 232.5",
-                "p": 0.51,
-                "mkt": 1.87
+                "k": "Over 233.0",
+                "p": 0.5
               },
               {
-                "k": "Under 232.5",
-                "p": 0.49,
-                "mkt": 1.95
+                "k": "Under 233.0",
+                "p": 0.5
               }
             ]
           }
@@ -3956,14 +5192,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Antonio Spurs -7.5",
-                "p": 0.564,
-                "mkt": 1.85
+                "k": "San Antonio Spurs -10.0",
+                "p": 0.494
               },
               {
-                "k": "Los Angeles Lakers +7.5",
-                "p": 0.436,
-                "mkt": 1.98
+                "k": "Los Angeles Lakers +10.0",
+                "p": 0.506
               }
             ]
           },
@@ -3972,14 +5206,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 232.5",
-                "p": 0.386,
-                "mkt": 1.91
+                "k": "Over 227.0",
+                "p": 0.502
               },
               {
-                "k": "Under 232.5",
-                "p": 0.614,
-                "mkt": 1.91
+                "k": "Under 227.0",
+                "p": 0.498
               }
             ]
           }
@@ -4016,14 +5248,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Knicks +1.5",
-                "p": 0.559,
-                "mkt": 1.91
+                "k": "New York Knicks -0.5",
+                "p": 0.503
               },
               {
-                "k": "San Antonio Spurs -1.5",
-                "p": 0.441,
-                "mkt": 1.94
+                "k": "San Antonio Spurs +0.5",
+                "p": 0.497
               }
             ]
           },
@@ -4032,14 +5262,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 228.5",
-                "p": 0.384,
-                "mkt": 1.91
+                "k": "Over 223.0",
+                "p": 0.499
               },
               {
-                "k": "Under 228.5",
-                "p": 0.616,
-                "mkt": 1.91
+                "k": "Under 223.0",
+                "p": 0.501
               }
             ]
           }
@@ -4076,14 +5304,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Boston Celtics -5.5",
-                "p": 0.556,
-                "mkt": 1.91
+                "k": "Boston Celtics -7.5",
+                "p": 0.5
               },
               {
-                "k": "Miami Heat +5.5",
-                "p": 0.444,
-                "mkt": 1.91
+                "k": "Miami Heat +7.5",
+                "p": 0.5
               }
             ]
           },
@@ -4092,14 +5318,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 230.5",
-                "p": 0.493,
-                "mkt": 1.91
+                "k": "Over 230.0",
+                "p": 0.503
               },
               {
-                "k": "Under 230.5",
-                "p": 0.507,
-                "mkt": 1.91
+                "k": "Under 230.0",
+                "p": 0.497
               }
             ]
           }
@@ -4136,14 +5360,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Los Angeles Lakers -1.5",
-                "p": 0.547,
-                "mkt": 1.95
+                "k": "Los Angeles Lakers -3.0",
+                "p": 0.505
               },
               {
-                "k": "Philadelphia 76ers +1.5",
-                "p": 0.453,
-                "mkt": 1.9
+                "k": "Philadelphia 76ers +3.0",
+                "p": 0.495
               }
             ]
           },
@@ -4152,14 +5374,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 237.5",
-                "p": 0.314,
-                "mkt": 1.91
+                "k": "Over 228.5",
+                "p": 0.497
               },
               {
-                "k": "Under 237.5",
-                "p": 0.686,
-                "mkt": 1.91
+                "k": "Under 228.5",
+                "p": 0.503
               }
             ]
           }
@@ -4196,14 +5416,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Minnesota Timberwolves +4.5",
-                "p": 0.471,
-                "mkt": 1.9
+                "k": "Minnesota Timberwolves +5.5",
+                "p": 0.499
               },
               {
-                "k": "Oklahoma City Thunder -4.5",
-                "p": 0.529,
-                "mkt": 1.95
+                "k": "Oklahoma City Thunder -5.5",
+                "p": 0.501
               }
             ]
           },
@@ -4212,14 +5430,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 233.5",
-                "p": 0.353,
-                "mkt": 1.91
+                "k": "Over 226.5",
+                "p": 0.499
               },
               {
-                "k": "Under 233.5",
-                "p": 0.647,
-                "mkt": 1.91
+                "k": "Under 226.5",
+                "p": 0.501
               }
             ]
           }
@@ -4256,14 +5472,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Golden State Warriors +2.5",
-                "p": 0.49,
-                "mkt": 1.91
+                "k": "Golden State Warriors +3.0",
+                "p": 0.504
               },
               {
-                "k": "Denver Nuggets -2.5",
-                "p": 0.51,
-                "mkt": 1.91
+                "k": "Denver Nuggets -3.0",
+                "p": 0.496
               }
             ]
           },
@@ -4272,14 +5486,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 238.5",
-                "p": 0.435,
-                "mkt": 1.91
+                "k": "Over 235.5",
+                "p": 0.498
               },
               {
-                "k": "Under 238.5",
-                "p": 0.565,
-                "mkt": 1.91
+                "k": "Under 235.5",
+                "p": 0.502
               }
             ]
           }
@@ -4321,14 +5533,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Sydney Roosters -6.5",
-                "p": 0.698,
-                "mkt": 1.87
+                "k": "Sydney Roosters -16.0",
+                "p": 0.499
               },
               {
-                "k": "Newcastle Knights +6.5",
-                "p": 0.302,
-                "mkt": 1.87
+                "k": "Newcastle Knights +16.0",
+                "p": 0.501
               }
             ]
           },
@@ -4337,14 +5547,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 41.5",
-                "p": 0.712,
-                "mkt": 1.83
+                "k": "Over 48.5",
+                "p": 0.503
               },
               {
-                "k": "Under 41.5",
-                "p": 0.288,
-                "mkt": 1.95
+                "k": "Under 48.5",
+                "p": 0.497
               }
             ]
           }
@@ -4402,14 +5610,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.645,
-                "mkt": 1.82
+                "k": "Over 8.5",
+                "p": 0.482
               },
               {
-                "k": "Under 6.5",
-                "p": 0.355,
-                "mkt": 2.02
+                "k": "Under 8.5",
+                "p": 0.518
               }
             ]
           }
@@ -4446,14 +5652,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Houston Astros -1.5",
-                "p": 0.32,
-                "mkt": 2.55
+                "k": "Houston Astros +0.5",
+                "p": 0.491
               },
               {
-                "k": "Chicago White Sox +1.5",
-                "p": 0.68,
-                "mkt": 1.54
+                "k": "Chicago White Sox -0.5",
+                "p": 0.509
               }
             ]
           },
@@ -4462,14 +5666,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 8.0",
-                "p": 0.563,
-                "mkt": 1.91
+                "k": "Over 9.0",
+                "p": 0.48
               },
               {
-                "k": "Under 8.0",
-                "p": 0.437,
-                "mkt": 1.91
+                "k": "Under 9.0",
+                "p": 0.52
               }
             ]
           }
@@ -4522,14 +5724,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.698,
-                "mkt": 1.93
+                "k": "Over 9.0",
+                "p": 0.499
               },
               {
-                "k": "Under 6.5",
-                "p": 0.302,
-                "mkt": 1.91
+                "k": "Under 9.0",
+                "p": 0.501
               }
             ]
           }
@@ -4566,14 +5766,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Diego Padres -1.5",
-                "p": 0.35,
-                "mkt": 2.74
+                "k": "San Diego Padres -0.0",
+                "p": 0.479
               },
               {
-                "k": "Chicago Cubs +1.5",
-                "p": 0.65,
-                "mkt": 1.49
+                "k": "Chicago Cubs 0.0",
+                "p": 0.521
               }
             ]
           },
@@ -4582,14 +5780,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 7.0",
-                "p": 0.684,
-                "mkt": 1.88
+                "k": "Over 9.5",
+                "p": 0.484
               },
               {
-                "k": "Under 7.0",
-                "p": 0.316,
-                "mkt": 1.97
+                "k": "Under 9.5",
+                "p": 0.516
               }
             ]
           }
@@ -4600,66 +5796,6 @@ window.SPORTS_DATA = {
   "amfoci": {
     "label": "Am. football",
     "matches": [
-      {
-        "home": "Chicago Bears",
-        "away": "Philadelphia Eagles",
-        "league": "NFL",
-        "date": "Tue 9.29",
-        "kickoff": "2026-09-29T00:15:00Z",
-        "insight": "Expected 24-21 (margin +2.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Bears",
-                "p": 0.592,
-                "mkt": 2.71
-              },
-              {
-                "k": "Philadelphia Eagles",
-                "p": 0.408,
-                "mkt": 1.49
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Bears +3.5",
-                "p": 0.699,
-                "mkt": 1.95
-              },
-              {
-                "k": "Philadelphia Eagles -3.5",
-                "p": 0.301,
-                "mkt": 1.87
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 41.5",
-                "p": 0.621,
-                "mkt": 1.91
-              },
-              {
-                "k": "Under 41.5",
-                "p": 0.379,
-                "mkt": 1.91
-              }
-            ]
-          }
-        ]
-      },
       {
         "home": "Cleveland Browns",
         "away": "Pittsburgh Steelers",
@@ -4691,14 +5827,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Cleveland Browns +2.5",
-                "p": 0.524,
-                "mkt": 1.95
+                "k": "Cleveland Browns +2.0",
+                "p": 0.508
               },
               {
-                "k": "Pittsburgh Steelers -2.5",
-                "p": 0.476,
-                "mkt": 1.88
+                "k": "Pittsburgh Steelers -2.0",
+                "p": 0.492
               }
             ]
           },
@@ -4707,14 +5841,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 38.0",
-                "p": 0.52,
-                "mkt": 1.91
+                "k": "Over 38.5",
+                "p": 0.504
               },
               {
-                "k": "Under 38.0",
-                "p": 0.48,
-                "mkt": 1.91
+                "k": "Under 38.5",
+                "p": 0.496
               }
             ]
           }
@@ -4751,14 +5883,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Washington Commanders +3.0",
-                "p": 0.33,
-                "mkt": 1.95
+                "k": "Washington Commanders +8.5",
+                "p": 0.505
               },
               {
-                "k": "Indianapolis Colts -3.0",
-                "p": 0.67,
-                "mkt": 1.87
+                "k": "Indianapolis Colts -8.5",
+                "p": 0.495
               }
             ]
           },
@@ -4767,14 +5897,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 47.5",
-                "p": 0.653,
-                "mkt": 1.98
+                "k": "Over 52.5",
+                "p": 0.493
               },
               {
-                "k": "Under 47.5",
-                "p": 0.347,
-                "mkt": 1.88
+                "k": "Under 52.5",
+                "p": 0.507
               }
             ]
           }
@@ -4811,14 +5939,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Giants +1.0",
-                "p": 0.728,
-                "mkt": 1.92
+                "k": "New York Giants -6.5",
+                "p": 0.495
               },
               {
-                "k": "Arizona Cardinals -1.0",
-                "p": 0.272,
-                "mkt": 1.95
+                "k": "Arizona Cardinals +6.5",
+                "p": 0.505
               }
             ]
           },
@@ -4827,14 +5953,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 44.5",
-                "p": 0.656,
-                "mkt": 1.93
+                "k": "Over 49.5",
+                "p": 0.497
               },
               {
-                "k": "Under 44.5",
-                "p": 0.344,
-                "mkt": 1.91
+                "k": "Under 49.5",
+                "p": 0.503
               }
             ]
           }
@@ -4871,14 +5995,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Baltimore Ravens -11.5",
-                "p": 0.512,
-                "mkt": 1.93
+                "k": "Baltimore Ravens -12.0",
+                "p": 0.496
               },
               {
-                "k": "Tennessee Titans +11.5",
-                "p": 0.488,
-                "mkt": 1.89
+                "k": "Tennessee Titans +12.0",
+                "p": 0.504
               }
             ]
           },
@@ -4887,14 +6009,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 43.5",
-                "p": 0.576,
-                "mkt": 1.91
+                "k": "Over 46.0",
+                "p": 0.495
               },
               {
-                "k": "Under 43.5",
-                "p": 0.424,
-                "mkt": 1.91
+                "k": "Under 46.0",
+                "p": 0.505
               }
             ]
           }
@@ -4931,14 +6051,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Buffalo Bills -7.0",
-                "p": 0.255,
-                "mkt": 1.95
+                "k": "Buffalo Bills +1.0",
+                "p": 0.5
               },
               {
-                "k": "New England Patriots +7.0",
-                "p": 0.745,
-                "mkt": 1.87
+                "k": "New England Patriots -1.0",
+                "p": 0.5
               }
             ]
           },
@@ -4947,14 +6065,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 48.5",
-                "p": 0.564,
-                "mkt": 1.93
+                "k": "Over 50.5",
+                "p": 0.499
               },
               {
-                "k": "Under 48.5",
-                "p": 0.436,
-                "mkt": 1.91
+                "k": "Under 50.5",
+                "p": 0.501
               }
             ]
           }
@@ -4991,14 +6107,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Chicago Bears -3.0",
-                "p": 0.782,
-                "mkt": 1.93
+                "k": "Chicago Bears -12.5",
+                "p": 0.498
               },
               {
-                "k": "New York Jets +3.0",
-                "p": 0.218,
-                "mkt": 1.91
+                "k": "New York Jets +12.5",
+                "p": 0.502
               }
             ]
           },
@@ -5007,14 +6121,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 43.0",
-                "p": 0.712,
-                "mkt": 1.91
+                "k": "Over 50.0",
+                "p": 0.494
               },
               {
-                "k": "Under 43.0",
-                "p": 0.288,
-                "mkt": 1.91
+                "k": "Under 50.0",
+                "p": 0.506
               }
             ]
           }
@@ -5051,14 +6163,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Cincinnati Bengals -2.5",
-                "p": 0.221,
-                "mkt": 1.91
+                "k": "Cincinnati Bengals +7.0",
+                "p": 0.505
               },
               {
-                "k": "Jacksonville Jaguars +2.5",
-                "p": 0.779,
-                "mkt": 1.91
+                "k": "Jacksonville Jaguars -7.0",
+                "p": 0.495
               }
             ]
           },
@@ -5067,14 +6177,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 51.5",
-                "p": 0.567,
-                "mkt": 1.93
+                "k": "Over 53.5",
+                "p": 0.502
               },
               {
-                "k": "Under 51.5",
-                "p": 0.433,
-                "mkt": 1.91
+                "k": "Under 53.5",
+                "p": 0.498
               }
             ]
           }
@@ -5111,14 +6219,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Houston Texans -2.5",
-                "p": 0.77,
-                "mkt": 1.91
+                "k": "Houston Texans -11.5",
+                "p": 0.498
               },
               {
-                "k": "Dallas Cowboys +2.5",
-                "p": 0.23,
-                "mkt": 1.91
+                "k": "Dallas Cowboys +11.5",
+                "p": 0.502
               }
             ]
           },
@@ -5127,14 +6233,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 47.5",
-                "p": 0.573,
-                "mkt": 1.91
+                "k": "Over 49.5",
+                "p": 0.508
               },
               {
-                "k": "Under 47.5",
-                "p": 0.427,
-                "mkt": 1.93
+                "k": "Under 49.5",
+                "p": 0.492
               }
             ]
           }
@@ -5171,14 +6275,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Tampa Bay Buccaneers +3.5",
-                "p": 0.618,
-                "mkt": 1.91
+                "k": "Tampa Bay Buccaneers -0.0",
+                "p": 0.504
               },
               {
-                "k": "Green Bay Packers -3.5",
-                "p": 0.382,
-                "mkt": 1.93
+                "k": "Green Bay Packers 0.0",
+                "p": 0.496
               }
             ]
           },
@@ -5187,14 +6289,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 39.5",
-                "p": 0.631,
-                "mkt": 1.91
+                "k": "Over 43.5",
+                "p": 0.503
               },
               {
-                "k": "Under 39.5",
-                "p": 0.369,
-                "mkt": 1.93
+                "k": "Under 43.5",
+                "p": 0.497
               }
             ]
           }
@@ -5231,14 +6331,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Philadelphia Eagles +1.5",
-                "p": 0.4,
-                "mkt": 1.95
+                "k": "Philadelphia Eagles +4.5",
+                "p": 0.497
               },
               {
-                "k": "Los Angeles Rams -1.5",
-                "p": 0.6,
-                "mkt": 1.91
+                "k": "Los Angeles Rams -4.5",
+                "p": 0.503
               }
             ]
           },
@@ -5247,14 +6345,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 46.5",
-                "p": 0.477,
-                "mkt": 1.93
+                "k": "Over 46.0",
+                "p": 0.494
               },
               {
-                "k": "Under 46.5",
-                "p": 0.523,
-                "mkt": 1.91
+                "k": "Under 46.0",
+                "p": 0.506
               }
             ]
           }
@@ -5291,14 +6387,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Minnesota Vikings -10.0",
-                "p": 0.352,
-                "mkt": 1.91
+                "k": "Minnesota Vikings -5.5",
+                "p": 0.497
               },
               {
-                "k": "Miami Dolphins +10.0",
-                "p": 0.648,
-                "mkt": 1.91
+                "k": "Miami Dolphins +5.5",
+                "p": 0.503
               }
             ]
           },
@@ -5307,14 +6401,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 39.5",
-                "p": 0.444,
-                "mkt": 1.94
+                "k": "Over 38.0",
+                "p": 0.493
               },
               {
-                "k": "Under 39.5",
-                "p": 0.556,
-                "mkt": 1.88
+                "k": "Under 38.0",
+                "p": 0.507
               }
             ]
           }
@@ -5351,14 +6443,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Francisco 49ers -3.0",
-                "p": 0.386,
-                "mkt": 1.93
+                "k": "San Francisco 49ers +0.5",
+                "p": 0.5
               },
               {
-                "k": "Denver Broncos +3.0",
-                "p": 0.614,
-                "mkt": 1.89
+                "k": "Denver Broncos -0.5",
+                "p": 0.5
               }
             ]
           },
@@ -5367,14 +6457,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 46.5",
-                "p": 0.417,
-                "mkt": 1.93
+                "k": "Over 44.0",
+                "p": 0.499
               },
               {
-                "k": "Under 46.5",
-                "p": 0.583,
-                "mkt": 1.91
+                "k": "Under 44.0",
+                "p": 0.501
               }
             ]
           }
@@ -5411,14 +6499,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Las Vegas Raiders +4.5",
-                "p": 0.433,
-                "mkt": 1.91
+                "k": "Las Vegas Raiders +6.5",
+                "p": 0.499
               },
               {
-                "k": "Kansas City Chiefs -4.5",
-                "p": 0.567,
-                "mkt": 1.91
+                "k": "Kansas City Chiefs -6.5",
+                "p": 0.501
               }
             ]
           },
@@ -5427,14 +6513,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 47.5",
-                "p": 0.21,
-                "mkt": 1.91
+                "k": "Over 37.5",
+                "p": 0.506
               },
               {
-                "k": "Under 47.5",
-                "p": 0.79,
-                "mkt": 1.91
+                "k": "Under 37.5",
+                "p": 0.494
               }
             ]
           }
@@ -5471,14 +6555,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Seattle Seahawks -6.5",
-                "p": 0.587,
-                "mkt": 1.85
+                "k": "Seattle Seahawks -9.0",
+                "p": 0.505
               },
               {
-                "k": "Los Angeles Chargers +6.5",
-                "p": 0.413,
-                "mkt": 1.96
+                "k": "Los Angeles Chargers +9.0",
+                "p": 0.495
               }
             ]
           },
@@ -5487,14 +6569,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 43.0",
-                "p": 0.488,
-                "mkt": 1.91
+                "k": "Over 42.5",
+                "p": 0.504
               },
               {
-                "k": "Under 43.0",
-                "p": 0.512,
-                "mkt": 1.91
+                "k": "Under 42.5",
+                "p": 0.496
               }
             ]
           }
@@ -5531,14 +6611,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Carolina Panthers +3.0",
-                "p": 0.479,
-                "mkt": 2.0
+                "k": "Carolina Panthers +3.5",
+                "p": 0.495
               },
               {
-                "k": "Detroit Lions -3.0",
-                "p": 0.521,
-                "mkt": 1.85
+                "k": "Detroit Lions -3.5",
+                "p": 0.505
               }
             ]
           },
@@ -5547,14 +6625,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 50.0",
-                "p": 0.34,
-                "mkt": 1.95
+                "k": "Over 45.0",
+                "p": 0.499
               },
               {
-                "k": "Under 50.0",
-                "p": 0.66,
-                "mkt": 1.88
+                "k": "Under 45.0",
+                "p": 0.501
               }
             ]
           }
@@ -5591,14 +6667,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New Orleans Saints -3.0",
-                "p": 0.454,
-                "mkt": 2.0
+                "k": "New Orleans Saints -1.5",
+                "p": 0.504
               },
               {
-                "k": "Atlanta Falcons +3.0",
-                "p": 0.546,
-                "mkt": 1.86
+                "k": "Atlanta Falcons +1.5",
+                "p": 0.496
               }
             ]
           },
@@ -5607,14 +6681,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 48.5",
-                "p": 0.229,
-                "mkt": 1.89
+                "k": "Over 39.5",
+                "p": 0.498
               },
               {
-                "k": "Under 48.5",
-                "p": 0.771,
-                "mkt": 1.95
+                "k": "Under 39.5",
+                "p": 0.502
               }
             ]
           }
@@ -5630,7 +6702,7 @@ window.SPORTS_DATA = {
         "away": "Florida Panthers",
         "league": "NHL",
         "date": "Tue 9.29",
-        "kickoff": "2026-09-29T21:00:47Z",
+        "kickoff": "2026-09-29T21:10:47Z",
         "insight": "Expected 4-3 (margin +1.0).",
         "base": [
           {
@@ -5656,14 +6728,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Carolina Hurricanes -1.5",
-                "p": 0.414,
-                "mkt": 2.89
+                "k": "Carolina Hurricanes -1.0",
+                "p": 0.494
               },
               {
-                "k": "Florida Panthers +1.5",
-                "p": 0.586,
-                "mkt": 1.44
+                "k": "Florida Panthers +1.0",
+                "p": 0.506
               }
             ]
           },
@@ -5716,14 +6786,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Toronto Maple Leafs -1.5",
-                "p": 0.185,
-                "mkt": 3.15
+                "k": "Toronto Maple Leafs +0.5",
+                "p": 0.465
               },
               {
-                "k": "Montréal Canadiens +1.5",
-                "p": 0.815,
-                "mkt": 1.38
+                "k": "Montréal Canadiens -0.5",
+                "p": 0.535
               }
             ]
           },
@@ -5732,14 +6800,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.573,
-                "mkt": 2.0
+                "k": "Over 7.0",
+                "p": 0.484
               },
               {
-                "k": "Under 6.5",
-                "p": 0.427,
-                "mkt": 1.83
+                "k": "Under 7.0",
+                "p": 0.516
               }
             ]
           }
@@ -5776,14 +6842,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Boston Bruins -1.5",
-                "p": 0.345,
-                "mkt": 3.19
+                "k": "Boston Bruins -0.5",
+                "p": 0.502
               },
               {
-                "k": "New York Rangers +1.5",
-                "p": 0.655,
-                "mkt": 1.38
+                "k": "New York Rangers +0.5",
+                "p": 0.498
               }
             ]
           },
@@ -5792,14 +6856,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.587,
-                "mkt": 1.77
+                "k": "Over 6.0",
+                "p": 0.498
               },
               {
-                "k": "Under 5.5",
-                "p": 0.413,
-                "mkt": 2.05
+                "k": "Under 6.0",
+                "p": 0.502
               }
             ]
           }
@@ -5836,14 +6898,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Edmonton Oilers -1.5",
-                "p": 0.435,
-                "mkt": 1.91
+                "k": "Edmonton Oilers -1.0",
+                "p": 0.515
               },
               {
-                "k": "Vancouver Canucks +1.5",
-                "p": 0.565,
-                "mkt": 1.91
+                "k": "Vancouver Canucks +1.0",
+                "p": 0.485
               }
             ]
           },
@@ -5852,14 +6912,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.577,
-                "mkt": 1.87
+                "k": "Over 7.0",
+                "p": 0.489
               },
               {
-                "k": "Under 6.5",
-                "p": 0.423,
-                "mkt": 1.95
+                "k": "Under 7.0",
+                "p": 0.511
               }
             ]
           }
@@ -5896,14 +6954,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Vegas Golden Knights -1.5",
-                "p": 0.44,
-                "mkt": 2.0
+                "k": "Vegas Golden Knights -1.0",
+                "p": 0.52
               },
               {
-                "k": "Chicago Blackhawks +1.5",
-                "p": 0.56,
-                "mkt": 1.82
+                "k": "Chicago Blackhawks +1.0",
+                "p": 0.48
               }
             ]
           },
@@ -5912,14 +6968,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.567,
-                "mkt": 1.77
+                "k": "Over 6.0",
+                "p": 0.478
               },
               {
-                "k": "Under 5.5",
-                "p": 0.433,
-                "mkt": 2.1
+                "k": "Under 6.0",
+                "p": 0.522
               }
             ]
           }
@@ -5956,14 +7010,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Philadelphia Flyers -1.5",
-                "p": 0.258,
-                "mkt": 2.83
+                "k": "Philadelphia Flyers -0.0",
+                "p": 0.482
               },
               {
-                "k": "Pittsburgh Penguins +1.5",
-                "p": 0.742,
-                "mkt": 1.45
+                "k": "Pittsburgh Penguins 0.0",
+                "p": 0.518
               }
             ]
           },
@@ -5972,14 +7024,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.639,
-                "mkt": 1.78
+                "k": "Over 6.5",
+                "p": 0.464
               },
               {
-                "k": "Under 5.5",
-                "p": 0.361,
-                "mkt": 2.1
+                "k": "Under 6.5",
+                "p": 0.536
               }
             ]
           }
@@ -6016,14 +7066,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Toronto Maple Leafs -1.5",
-                "p": 0.236,
-                "mkt": 3.1
+                "k": "Toronto Maple Leafs +0.5",
+                "p": 0.535
               },
               {
-                "k": "New York Islanders +1.5",
-                "p": 0.764,
-                "mkt": 1.38
+                "k": "New York Islanders -0.5",
+                "p": 0.465
               }
             ]
           },
@@ -6136,14 +7184,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Columbus Blue Jackets -1.5",
-                "p": 0.222,
-                "mkt": 3.15
+                "k": "Columbus Blue Jackets +0.5",
+                "p": 0.516
               },
               {
-                "k": "Buffalo Sabres +1.5",
-                "p": 0.778,
-                "mkt": 1.4
+                "k": "Buffalo Sabres -0.5",
+                "p": 0.484
               }
             ]
           },
@@ -6152,14 +7198,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.648,
-                "mkt": 1.74
+                "k": "Over 6.5",
+                "p": 0.474
               },
               {
-                "k": "Under 5.5",
-                "p": 0.352,
-                "mkt": 2.2
+                "k": "Under 6.5",
+                "p": 0.526
               }
             ]
           }
@@ -6196,14 +7240,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New Jersey Devils -1.5",
-                "p": 0.247,
-                "mkt": 2.7
+                "k": "New Jersey Devils -0.0",
+                "p": 0.469
               },
               {
-                "k": "Philadelphia Flyers +1.5",
-                "p": 0.753,
-                "mkt": 1.49
+                "k": "Philadelphia Flyers 0.0",
+                "p": 0.531
               }
             ]
           },
@@ -6256,14 +7298,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Rangers +1.5",
-                "p": 0.629,
-                "mkt": 1.46
+                "k": "New York Rangers +0.5",
+                "p": 0.47
               },
               {
-                "k": "Tampa Bay Lightning -1.5",
-                "p": 0.371,
-                "mkt": 2.8
+                "k": "Tampa Bay Lightning -0.5",
+                "p": 0.53
               }
             ]
           },
@@ -6272,14 +7312,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.583,
-                "mkt": 1.77
+                "k": "Over 6.0",
+                "p": 0.494
               },
               {
-                "k": "Under 5.5",
-                "p": 0.417,
-                "mkt": 2.1
+                "k": "Under 6.0",
+                "p": 0.506
               }
             ]
           }
@@ -6316,14 +7354,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Nashville Predators +1.5",
-                "p": 0.655,
-                "mkt": 1.5
+                "k": "Nashville Predators +0.5",
+                "p": 0.498
               },
               {
-                "k": "Minnesota Wild -1.5",
-                "p": 0.345,
-                "mkt": 2.7
+                "k": "Minnesota Wild -0.5",
+                "p": 0.502
               }
             ]
           },
@@ -6376,14 +7412,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Calgary Flames -1.5",
-                "p": 0.252,
-                "mkt": 3.1
+                "k": "Calgary Flames -0.0",
+                "p": 0.476
               },
               {
-                "k": "Seattle Kraken +1.5",
-                "p": 0.748,
-                "mkt": 1.39
+                "k": "Seattle Kraken 0.0",
+                "p": 0.524
               }
             ]
           },
@@ -6436,14 +7470,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Utah Mammoth -1.5",
-                "p": 0.426,
-                "mkt": 2.25
+                "k": "Utah Mammoth -1.0",
+                "p": 0.506
               },
               {
-                "k": "Chicago Blackhawks +1.5",
-                "p": 0.574,
-                "mkt": 1.68
+                "k": "Chicago Blackhawks +1.0",
+                "p": 0.494
               }
             ]
           },
@@ -6452,14 +7484,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.575,
-                "mkt": 1.87
+                "k": "Over 6.0",
+                "p": 0.487
               },
               {
-                "k": "Under 5.5",
-                "p": 0.425,
-                "mkt": 1.95
+                "k": "Under 6.0",
+                "p": 0.513
               }
             ]
           }
@@ -6496,14 +7526,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Vancouver Canucks +1.5",
-                "p": 0.596,
-                "mkt": 1.7
+                "k": "Vancouver Canucks +1.0",
+                "p": 0.517
               },
               {
-                "k": "Edmonton Oilers -1.5",
-                "p": 0.404,
-                "mkt": 2.2
+                "k": "Edmonton Oilers -1.0",
+                "p": 0.483
               }
             ]
           },
@@ -6512,14 +7540,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.577,
-                "mkt": 1.91
+                "k": "Over 7.0",
+                "p": 0.489
               },
               {
-                "k": "Under 6.5",
-                "p": 0.423,
-                "mkt": 1.91
+                "k": "Under 7.0",
+                "p": 0.511
               }
             ]
           }
@@ -6556,14 +7582,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "San Jose Sharks +1.5",
-                "p": 0.688,
-                "mkt": 1.46
+                "k": "San Jose Sharks +0.5",
+                "p": 0.535
               },
               {
-                "k": "Florida Panthers -1.5",
-                "p": 0.312,
-                "mkt": 2.8
+                "k": "Florida Panthers -0.5",
+                "p": 0.465
               }
             ]
           },
@@ -6572,14 +7596,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.547,
-                "mkt": 2.05
+                "k": "Over 7.0",
+                "p": 0.458
               },
               {
-                "k": "Under 6.5",
-                "p": 0.453,
-                "mkt": 1.82
+                "k": "Under 7.0",
+                "p": 0.542
               }
             ]
           }
@@ -6616,14 +7638,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Detroit Red Wings -1.5",
-                "p": 0.29,
-                "mkt": 2.8
+                "k": "Detroit Red Wings -0.0",
+                "p": 0.521
               },
               {
-                "k": "New York Rangers +1.5",
-                "p": 0.71,
-                "mkt": 1.45
+                "k": "New York Rangers 0.0",
+                "p": 0.479
               }
             ]
           },
@@ -6632,14 +7652,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.375,
-                "mkt": 2.2
+                "k": "Over 6.0",
+                "p": 0.462
               },
               {
-                "k": "Under 6.5",
-                "p": 0.625,
-                "mkt": 1.74
+                "k": "Under 6.0",
+                "p": 0.538
               }
             ]
           }
@@ -6676,14 +7694,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Winnipeg Jets -1.5",
-                "p": 0.207,
-                "mkt": 3.2
+                "k": "Winnipeg Jets +0.5",
+                "p": 0.496
               },
               {
-                "k": "Boston Bruins +1.5",
-                "p": 0.793,
-                "mkt": 1.38
+                "k": "Boston Bruins -0.5",
+                "p": 0.504
               }
             ]
           },
@@ -6692,14 +7708,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.595,
-                "mkt": 1.8
+                "k": "Over 6.0",
+                "p": 0.506
               },
               {
-                "k": "Under 5.5",
-                "p": 0.405,
-                "mkt": 2.05
+                "k": "Under 6.0",
+                "p": 0.494
               }
             ]
           }
@@ -6736,14 +7750,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Dallas Stars -1.5",
-                "p": 0.401,
-                "mkt": 2.2
+                "k": "Dallas Stars -1.0",
+                "p": 0.481
               },
               {
-                "k": "St Louis Blues +1.5",
-                "p": 0.599,
-                "mkt": 1.7
+                "k": "St Louis Blues +1.0",
+                "p": 0.519
               }
             ]
           },
@@ -6752,14 +7764,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.584,
-                "mkt": 1.93
+                "k": "Over 6.0",
+                "p": 0.495
               },
               {
-                "k": "Under 5.5",
-                "p": 0.416,
-                "mkt": 2.0
+                "k": "Under 6.0",
+                "p": 0.505
               }
             ]
           }
@@ -6812,14 +7822,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.613,
-                "mkt": 1.77
+                "k": "Over 6.0",
+                "p": 0.525
               },
               {
-                "k": "Under 5.5",
-                "p": 0.387,
-                "mkt": 2.2
+                "k": "Under 6.0",
+                "p": 0.475
               }
             ]
           }
@@ -6856,14 +7864,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Pittsburgh Penguins -1.5",
-                "p": 0.276,
-                "mkt": 3.2
+                "k": "Pittsburgh Penguins -0.0",
+                "p": 0.504
               },
               {
-                "k": "Montréal Canadiens +1.5",
-                "p": 0.724,
-                "mkt": 1.39
+                "k": "Montréal Canadiens 0.0",
+                "p": 0.496
               }
             ]
           },
@@ -6872,14 +7878,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.555,
-                "mkt": 2.15
+                "k": "Over 7.0",
+                "p": 0.466
               },
               {
-                "k": "Under 6.5",
-                "p": 0.445,
-                "mkt": 1.77
+                "k": "Under 7.0",
+                "p": 0.534
               }
             ]
           }
@@ -6916,14 +7920,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Tampa Bay Lightning -1.5",
-                "p": 0.337,
-                "mkt": 2.7
+                "k": "Tampa Bay Lightning -0.5",
+                "p": 0.493
               },
               {
-                "k": "Washington Capitals +1.5",
-                "p": 0.663,
-                "mkt": 1.5
+                "k": "Washington Capitals +0.5",
+                "p": 0.507
               }
             ]
           },
@@ -6932,14 +7934,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.614,
-                "mkt": 1.74
+                "k": "Over 6.0",
+                "p": 0.527
               },
               {
-                "k": "Under 5.5",
-                "p": 0.386,
-                "mkt": 2.15
+                "k": "Under 6.0",
+                "p": 0.473
               }
             ]
           }
@@ -6976,14 +7976,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Islanders -1.5",
-                "p": 0.304,
-                "mkt": 3.05
+                "k": "New York Islanders -0.0",
+                "p": 0.537
               },
               {
-                "k": "New Jersey Devils +1.5",
-                "p": 0.696,
-                "mkt": 1.41
+                "k": "New Jersey Devils 0.0",
+                "p": 0.463
               }
             ]
           },
@@ -7036,14 +8034,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Minnesota Wild -1.5",
-                "p": 0.295,
-                "mkt": 2.35
+                "k": "Minnesota Wild -0.0",
+                "p": 0.527
               },
               {
-                "k": "Boston Bruins +1.5",
-                "p": 0.705,
-                "mkt": 1.62
+                "k": "Boston Bruins 0.0",
+                "p": 0.473
               }
             ]
           },
@@ -7096,14 +8092,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Anaheim Ducks +1.5",
-                "p": 0.73,
-                "mkt": 1.44
+                "k": "Anaheim Ducks -0.0",
+                "p": 0.503
               },
               {
-                "k": "Florida Panthers -1.5",
-                "p": 0.27,
-                "mkt": 2.9
+                "k": "Florida Panthers 0.0",
+                "p": 0.497
               }
             ]
           },
@@ -7112,14 +8106,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 6.5",
-                "p": 0.586,
-                "mkt": 1.77
+                "k": "Over 7.0",
+                "p": 0.497
               },
               {
-                "k": "Under 6.5",
-                "p": 0.414,
-                "mkt": 2.1
+                "k": "Under 7.0",
+                "p": 0.503
               }
             ]
           }
@@ -7156,14 +8148,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Seattle Kraken -1.5",
-                "p": 0.321,
-                "mkt": 2.8
+                "k": "Seattle Kraken -0.5",
+                "p": 0.475
               },
               {
-                "k": "Calgary Flames +1.5",
-                "p": 0.679,
-                "mkt": 1.46
+                "k": "Calgary Flames +0.5",
+                "p": 0.525
               }
             ]
           },
@@ -7216,14 +8206,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Montréal Canadiens +1.5",
-                "p": 0.689,
-                "mkt": 1.41
+                "k": "Montréal Canadiens +0.5",
+                "p": 0.536
               },
               {
-                "k": "Carolina Hurricanes -1.5",
-                "p": 0.311,
-                "mkt": 3.0
+                "k": "Carolina Hurricanes -0.5",
+                "p": 0.464
               }
             ]
           },
@@ -7276,14 +8264,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Chicago Blackhawks +1.5",
-                "p": 0.679,
-                "mkt": 1.39
+                "k": "Chicago Blackhawks +0.5",
+                "p": 0.525
               },
               {
-                "k": "St Louis Blues -1.5",
-                "p": 0.321,
-                "mkt": 3.1
+                "k": "St Louis Blues -0.5",
+                "p": 0.475
               }
             ]
           },
@@ -7336,14 +8322,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Los Angeles Kings +1.5",
-                "p": 0.72,
-                "mkt": 1.42
+                "k": "Los Angeles Kings -0.0",
+                "p": 0.491
               },
               {
-                "k": "Florida Panthers -1.5",
-                "p": 0.28,
-                "mkt": 2.95
+                "k": "Florida Panthers 0.0",
+                "p": 0.509
               }
             ]
           },
@@ -7352,14 +8336,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.568,
-                "mkt": 1.77
+                "k": "Over 6.0",
+                "p": 0.48
               },
               {
-                "k": "Under 5.5",
-                "p": 0.432,
-                "mkt": 2.1
+                "k": "Under 6.0",
+                "p": 0.52
               }
             ]
           }
@@ -7396,14 +8378,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Washington Capitals -1.5",
-                "p": 0.284,
-                "mkt": 2.45
+                "k": "Washington Capitals -0.0",
+                "p": 0.514
               },
               {
-                "k": "Pittsburgh Penguins +1.5",
-                "p": 0.716,
-                "mkt": 1.57
+                "k": "Pittsburgh Penguins 0.0",
+                "p": 0.486
               }
             ]
           },
@@ -7456,14 +8436,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Ottawa Senators -1.5",
-                "p": 0.309,
-                "mkt": 3.05
+                "k": "Ottawa Senators -0.5",
+                "p": 0.463
               },
               {
-                "k": "Philadelphia Flyers +1.5",
-                "p": 0.691,
-                "mkt": 1.4
+                "k": "Philadelphia Flyers +0.5",
+                "p": 0.537
               }
             ]
           },
@@ -7472,14 +8450,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.56,
-                "mkt": 1.98
+                "k": "Over 6.0",
+                "p": 0.471
               },
               {
-                "k": "Under 5.5",
-                "p": 0.44,
-                "mkt": 1.85
+                "k": "Under 6.0",
+                "p": 0.529
               }
             ]
           }
@@ -7516,14 +8492,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "St Louis Blues +1.5",
-                "p": 0.772,
-                "mkt": 1.4
+                "k": "St Louis Blues -0.5",
+                "p": 0.475
               },
               {
-                "k": "San Jose Sharks -1.5",
-                "p": 0.228,
-                "mkt": 3.05
+                "k": "San Jose Sharks +0.5",
+                "p": 0.525
               }
             ]
           },
@@ -7532,14 +8506,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 5.5",
-                "p": 0.65,
-                "mkt": 1.91
+                "k": "Over 6.5",
+                "p": 0.476
               },
               {
-                "k": "Under 5.5",
-                "p": 0.35,
-                "mkt": 1.91
+                "k": "Under 6.5",
+                "p": 0.524
               }
             ]
           }
@@ -7576,14 +8548,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Florida Panthers -1.5",
-                "p": 0.225,
-                "mkt": 2.7
+                "k": "Florida Panthers +0.5",
+                "p": 0.521
               },
               {
-                "k": "Minnesota Wild +1.5",
-                "p": 0.775,
-                "mkt": 1.49
+                "k": "Minnesota Wild -0.5",
+                "p": 0.479
               }
             ]
           },
@@ -7777,7 +8747,7 @@ window.SPORTS_DATA = {
         "away": "Roman Kopylov",
         "league": "UFC",
         "date": "Sun 10.04",
-        "kickoff": "2026-10-04T01:00:00Z",
+        "kickoff": "2026-10-04T00:15:00Z",
         "insight": "Elo: 54% / 46%.",
         "base": [
           {
@@ -7804,7 +8774,7 @@ window.SPORTS_DATA = {
         "away": "Payton Talbott",
         "league": "UFC",
         "date": "Sun 10.04",
-        "kickoff": "2026-10-04T01:00:00Z",
+        "kickoff": "2026-10-04T01:45:00Z",
         "insight": "Elo: 44% / 56%.",
         "base": [
           {
@@ -7831,7 +8801,7 @@ window.SPORTS_DATA = {
         "away": "Wang Cong",
         "league": "UFC",
         "date": "Sun 10.04",
-        "kickoff": "2026-10-04T04:30:00Z",
+        "kickoff": "2026-10-04T02:15:00Z",
         "insight": "Elo: 52% / 48%.",
         "base": [
           {
