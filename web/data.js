@@ -3,17 +3,6 @@ window.SPORTS_DATA = {
     "label": "Football",
     "matches": [
       {
-        "home": "SC Corinthians Paulista",
-        "away": "Mirassol FC",
-        "league": "Brasileirao",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T23:00:00Z",
-        "lam": 1.31,
-        "mu": 1.11,
-        "md": 33,
-        "insight": "Round 33. Expected goals: 1.31-1.11."
-      },
-      {
         "home": "Coritiba FBC",
         "away": "EC Vitória",
         "league": "Brasileirao",
@@ -320,17 +309,6 @@ window.SPORTS_DATA = {
         "mu": 1.23,
         "md": 8,
         "insight": "Round 8. Expected goals: 2.47-1.23."
-      },
-      {
-        "home": "Le Havre AC",
-        "away": "Paris Saint-Germain FC",
-        "league": "Ligue 1",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T18:00:00Z",
-        "lam": 0.78,
-        "mu": 2.23,
-        "md": 9,
-        "insight": "Round 9. Expected goals: 0.78-2.23."
       },
       {
         "home": "Paris FC",
@@ -649,31 +627,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.49-1.25."
       },
       {
-        "home": "Sarmiento de Junin",
-        "away": "Rosario Central",
-        "league": "Argentina",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T00:15:00Z",
-        "lam": 0.88,
-        "mu": 1.3,
-        "mkt": {
-          "1": 3.75,
-          "X": 3.15,
-          "2": 1.98
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 2.22,
-          "under": 1.64
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 2.84,
-          "away": 1.43
-        },
-        "insight": "Expected goals: 0.88-1.30."
-      },
-      {
         "home": "Velez Sarsfield BA",
         "away": "San Lorenzo",
         "league": "Argentina",
@@ -822,31 +775,6 @@ window.SPORTS_DATA = {
           "away": 2.29
         },
         "insight": "Expected goals: 1.19-1.07."
-      },
-      {
-        "home": "Bodø/Glimt",
-        "away": "Viking FK",
-        "league": "Norway",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T18:00:00Z",
-        "lam": 2.17,
-        "mu": 1.34,
-        "mkt": {
-          "1": 1.68,
-          "X": 4.3,
-          "2": 4.04
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.32,
-          "under": 3.35
-        },
-        "mkt_ah": {
-          "line": -0.75,
-          "home": 1.9,
-          "away": 1.95
-        },
-        "insight": "Expected goals: 2.17-1.34."
       },
       {
         "home": "Fredrikstad FK",
@@ -1070,6 +998,19 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 1.43-1.00."
       },
       {
+        "home": "Hammarby IF",
+        "away": "IF Elfsborg",
+        "league": "Sweden",
+        "date": "Fri 11.06",
+        "kickoff": "2026-11-06T18:00:00Z",
+        "lam": 1.81,
+        "mu": 0.91,
+        "mkt": null,
+        "mkt_ou": null,
+        "mkt_ah": null,
+        "insight": "Expected goals: 1.81-0.91."
+      },
+      {
         "home": "AC Oulu",
         "away": "KuPS Kuopio",
         "league": "Finland",
@@ -1119,131 +1060,6 @@ window.SPORTS_DATA = {
         "mkt_ou": null,
         "mkt_ah": null,
         "insight": "Expected goals: 1.23-1.76."
-      },
-      {
-        "home": "Fagiano Okayama",
-        "away": "FC Tokyo",
-        "league": "Japan",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T05:00:00Z",
-        "lam": 0.97,
-        "mu": 1.33,
-        "mkt": {
-          "1": 3.4,
-          "X": 3.2,
-          "2": 2.05
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 2.02,
-          "under": 1.72
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 2.54,
-          "away": 1.53
-        },
-        "insight": "Expected goals: 0.97-1.33."
-      },
-      {
-        "home": "Kyoto Purple Sanga",
-        "away": "Shimizu S Pulse",
-        "league": "Japan",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T05:00:00Z",
-        "lam": 1.72,
-        "mu": 0.91,
-        "mkt": {
-          "1": 2.52,
-          "X": 3.1,
-          "2": 2.6
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.95,
-          "under": 1.75
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.92,
-          "away": 1.91
-        },
-        "insight": "Expected goals: 1.72-0.91."
-      },
-      {
-        "home": "Kashima Antlers",
-        "away": "Cerezo Osaka",
-        "league": "Japan",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T06:00:00Z",
-        "lam": 1.98,
-        "mu": 1.01,
-        "mkt": {
-          "1": 1.69,
-          "X": 3.9,
-          "2": 4.2
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.55,
-          "under": 2.29
-        },
-        "mkt_ah": {
-          "line": -0.75,
-          "home": 1.93,
-          "away": 1.92
-        },
-        "insight": "Expected goals: 1.98-1.01."
-      },
-      {
-        "home": "Vissel Kobe",
-        "away": "Nagoya Grampus",
-        "league": "Japan",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T06:00:00Z",
-        "lam": 1.56,
-        "mu": 0.72,
-        "mkt": {
-          "1": 1.85,
-          "X": 3.55,
-          "2": 3.75
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.68,
-          "under": 2.06
-        },
-        "mkt_ah": {
-          "line": -1.0,
-          "home": 2.62,
-          "away": 1.48
-        },
-        "insight": "Expected goals: 1.56-0.72."
-      },
-      {
-        "home": "Kashiwa Reysol",
-        "away": "Urawa Red Diamonds",
-        "league": "Japan",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T07:00:00Z",
-        "lam": 1.68,
-        "mu": 1.16,
-        "mkt": {
-          "1": 2.02,
-          "X": 3.65,
-          "2": 3.2
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.59,
-          "under": 2.22
-        },
-        "mkt_ah": {
-          "line": -0.25,
-          "home": 1.81,
-          "away": 2.05
-        },
-        "insight": "Expected goals: 1.68-1.16."
       },
       {
         "home": "Yokohama F Marinos",
@@ -1319,6 +1135,32 @@ window.SPORTS_DATA = {
           "away": 1.6
         },
         "insight": "Expected goals: 2.09-0.83."
+      },
+      {
+        "home": "Nagoya Grampus",
+        "away": "Kyoto Purple Sanga",
+        "league": "Japan",
+        "date": "Sat 11.07",
+        "kickoff": "2026-11-07T05:00:00Z",
+        "lam": 1.3,
+        "mu": 1.26,
+        "mkt": null,
+        "mkt_ou": null,
+        "mkt_ah": null,
+        "insight": "Expected goals: 1.30-1.26."
+      },
+      {
+        "home": "FC Tokyo",
+        "away": "Kashima Antlers",
+        "league": "Japan",
+        "date": "Sat 11.07",
+        "kickoff": "2026-11-07T06:00:00Z",
+        "lam": 1.43,
+        "mu": 1.27,
+        "mkt": null,
+        "mkt_ou": null,
+        "mkt_ah": null,
+        "insight": "Expected goals: 1.43-1.27."
       },
       {
         "home": "Beijing FC",
@@ -1425,31 +1267,6 @@ window.SPORTS_DATA = {
         "insight": "Expected goals: 2.50-1.56."
       },
       {
-        "home": "FC Juárez",
-        "away": "Querétaro",
-        "league": "Mexico",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T01:00:00Z",
-        "lam": 1.29,
-        "mu": 1.24,
-        "mkt": {
-          "1": 2.9,
-          "X": 3.45,
-          "2": 2.22
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.72,
-          "under": 2.02
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 2.12,
-          "away": 1.65
-        },
-        "insight": "Expected goals: 1.29-1.24."
-      },
-      {
         "home": "Monterrey",
         "away": "Tijuana",
         "league": "Mexico",
@@ -1532,6 +1349,32 @@ window.SPORTS_DATA = {
           "away": 1.71
         },
         "insight": "Expected goals: 2.18-0.96."
+      },
+      {
+        "home": "Necaxa",
+        "away": "Tijuana",
+        "league": "Mexico",
+        "date": "Sat 11.07",
+        "kickoff": "2026-11-07T01:00:00Z",
+        "lam": 1.47,
+        "mu": 1.53,
+        "mkt": null,
+        "mkt_ou": null,
+        "mkt_ah": null,
+        "insight": "Expected goals: 1.47-1.53."
+      },
+      {
+        "home": "Atlante FC",
+        "away": "Santos Laguna",
+        "league": "Mexico",
+        "date": "Sat 11.07",
+        "kickoff": "2026-11-07T03:00:00Z",
+        "lam": 1.38,
+        "mu": 1.1,
+        "mkt": null,
+        "mkt_ou": null,
+        "mkt_ah": null,
+        "insight": "Expected goals: 1.38-1.10."
       }
     ]
   },
@@ -1539,24 +1382,24 @@ window.SPORTS_DATA = {
     "label": "Tennis",
     "matches": [
       {
-        "home": "Holger Rune",
-        "away": "Valentin Vacherot",
-        "league": "Atp Swiss Indoors",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T13:00:00Z",
-        "insight": "Elo: 52% / 48%.",
+        "home": "Hugo Gaston",
+        "away": "Vit Kopriva",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T11:05:00Z",
+        "insight": "Elo: 41% / 59%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Holger Rune",
-                "p": 0.517
+                "k": "Hugo Gaston",
+                "p": 0.413
               },
               {
-                "k": "Valentin Vacherot",
-                "p": 0.483
+                "k": "Vit Kopriva",
+                "p": 0.587
               }
             ]
           }
@@ -1564,24 +1407,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Taylor Fritz",
-        "away": "Arthur Fils",
-        "league": "Atp Swiss Indoors",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T14:10:00Z",
-        "insight": "Elo: 50% / 50%.",
+        "home": "Juan Manuel Cerundolo",
+        "away": "Aleksandar Kovacevic",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T12:00:00Z",
+        "insight": "Elo: 70% / 30%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Taylor Fritz",
-                "p": 0.503
+                "k": "Juan Manuel Cerundolo",
+                "p": 0.702
               },
               {
-                "k": "Arthur Fils",
-                "p": 0.497
+                "k": "Aleksandar Kovacevic",
+                "p": 0.298
               }
             ]
           }
@@ -1589,24 +1432,24 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Jerome Kym",
-        "away": "Jiri Lehecka",
-        "league": "Atp Swiss Indoors",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T17:00:00Z",
-        "insight": "Elo: 29% / 71%.",
+        "home": "James Duckworth",
+        "away": "Miomir Kecmanovic",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T12:00:00Z",
+        "insight": "Elo: 49% / 51%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Jerome Kym",
-                "p": 0.292
+                "k": "James Duckworth",
+                "p": 0.486
               },
               {
-                "k": "Jiri Lehecka",
-                "p": 0.708
+                "k": "Miomir Kecmanovic",
+                "p": 0.514
               }
             ]
           }
@@ -1614,24 +1457,149 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Jan-Lennard Struff",
-        "away": "Nuno Borges",
-        "league": "Atp Swiss Indoors",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T18:10:00Z",
-        "insight": "Elo: 45% / 55%.",
+        "home": "Tomas Machac",
+        "away": "Martin Landaluce",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T12:00:00Z",
+        "insight": "Elo: 67% / 33%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Jan-Lennard Struff",
-                "p": 0.448
+                "k": "Tomas Machac",
+                "p": 0.67
               },
+              {
+                "k": "Martin Landaluce",
+                "p": 0.33
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Tallon Griekspoor",
+        "away": "Benjamin Bonzi",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T13:00:00Z",
+        "insight": "Elo: 49% / 51%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Tallon Griekspoor",
+                "p": 0.487
+              },
+              {
+                "k": "Benjamin Bonzi",
+                "p": 0.513
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Sebastian Baez",
+        "away": "Damir Dzumhur",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T14:00:00Z",
+        "insight": "Elo: 54% / 46%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Sebastian Baez",
+                "p": 0.535
+              },
+              {
+                "k": "Damir Dzumhur",
+                "p": 0.465
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Lorenzo Sonego",
+        "away": "Jaume Munar",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T14:00:00Z",
+        "insight": "Elo: 44% / 56%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Lorenzo Sonego",
+                "p": 0.439
+              },
+              {
+                "k": "Jaume Munar",
+                "p": 0.561
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Adolfo Daniel Vallejo",
+        "away": "Grigor Dimitrov",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T16:00:00Z",
+        "insight": "Elo: 46% / 54%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Adolfo Daniel Vallejo",
+                "p": 0.456
+              },
+              {
+                "k": "Grigor Dimitrov",
+                "p": 0.544
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Nuno Borges",
+        "away": "Adrian Mannarino",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T16:00:00Z",
+        "insight": "Elo: 67% / 33%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
               {
                 "k": "Nuno Borges",
-                "p": 0.552
+                "p": 0.669
+              },
+              {
+                "k": "Adrian Mannarino",
+                "p": 0.331
               }
             ]
           }
@@ -1639,24 +1607,224 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
-        "home": "Adrian Mannarino",
-        "away": "Daniil Medvedev",
-        "league": "Atp Vienna Open",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T12:39:00Z",
-        "insight": "Elo: 22% / 78%.",
+        "home": "Alex Molcan",
+        "away": "Daniel Altmaier",
+        "league": "Atp Paris Masters",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T16:00:00Z",
+        "insight": "Elo: 64% / 36%.",
         "base": [
           {
             "name": "Match winner",
             "grid": "c2",
             "outs": [
               {
-                "k": "Adrian Mannarino",
-                "p": 0.215
+                "k": "Alex Molcan",
+                "p": 0.639
               },
               {
-                "k": "Daniil Medvedev",
-                "p": 0.785
+                "k": "Daniel Altmaier",
+                "p": 0.361
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Alejandro Tabilo",
+        "away": "Rafael Jodar",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 24% / 76%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Alejandro Tabilo",
+                "p": 0.237
+              },
+              {
+                "k": "Rafael Jodar",
+                "p": 0.763
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Andrey Rublev",
+        "away": "Tomas Martin Etcheverry",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 66% / 34%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Andrey Rublev",
+                "p": 0.656
+              },
+              {
+                "k": "Tomas Martin Etcheverry",
+                "p": 0.344
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Quentin Halys",
+        "away": "Arthur Fery",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 49% / 51%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Quentin Halys",
+                "p": 0.487
+              },
+              {
+                "k": "Arthur Fery",
+                "p": 0.513
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Arthur Rinderknech",
+        "away": "Francisco Cerundolo",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 40% / 60%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Arthur Rinderknech",
+                "p": 0.398
+              },
+              {
+                "k": "Francisco Cerundolo",
+                "p": 0.602
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Ugo Humbert",
+        "away": "Botic van de Zandschulp",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 56% / 44%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ugo Humbert",
+                "p": 0.564
+              },
+              {
+                "k": "Botic van de Zandschulp",
+                "p": 0.436
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Brandon Nakashima",
+        "away": "Matteo Berrettini",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 63% / 37%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Brandon Nakashima",
+                "p": 0.635
+              },
+              {
+                "k": "Matteo Berrettini",
+                "p": 0.365
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Cameron Norrie",
+        "away": "Matteo Arnaldi",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 63% / 37%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Cameron Norrie",
+                "p": 0.633
+              },
+              {
+                "k": "Matteo Arnaldi",
+                "p": 0.367
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Denis Shapovalov",
+        "away": "Karen Khachanov",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 48% / 52%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Denis Shapovalov",
+                "p": 0.48
+              },
+              {
+                "k": "Karen Khachanov",
+                "p": 0.52
               }
             ]
           }
@@ -1665,11 +1833,11 @@ window.SPORTS_DATA = {
       },
       {
         "home": "Tommy Paul",
-        "away": "Carlos Alcaraz",
-        "league": "Atp Vienna Open",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T14:00:00Z",
-        "insight": "Elo: 20% / 80%.",
+        "away": "Holger Rune",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 59% / 41%.",
         "base": [
           {
             "name": "Match winner",
@@ -1677,11 +1845,161 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Tommy Paul",
-                "p": 0.196
+                "p": 0.587
+              },
+              {
+                "k": "Holger Rune",
+                "p": 0.413
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Ignacio Buse",
+        "away": "Zizou Bergs",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 48% / 52%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ignacio Buse",
+                "p": 0.484
+              },
+              {
+                "k": "Zizou Bergs",
+                "p": 0.516
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Stefanos Tsitsipas",
+        "away": "Learner Tien",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 37% / 63%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Stefanos Tsitsipas",
+                "p": 0.372
+              },
+              {
+                "k": "Learner Tien",
+                "p": 0.628
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Luca Van Assche",
+        "away": "Mariano Navone",
+        "league": "Atp Paris Masters",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T10:00:00Z",
+        "insight": "Elo: 42% / 58%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Luca Van Assche",
+                "p": 0.422
+              },
+              {
+                "k": "Mariano Navone",
+                "p": 0.578
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Valentin Vacherot",
+        "away": "Taylor Fritz",
+        "league": "Atp Swiss Indoors",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T14:00:00Z",
+        "insight": "Elo: 29% / 71%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Valentin Vacherot",
+                "p": 0.287
+              },
+              {
+                "k": "Taylor Fritz",
+                "p": 0.713
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Jiri Lehecka",
+        "away": "Jan-Lennard Struff",
+        "league": "Atp Swiss Indoors",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T16:00:00Z",
+        "insight": "Elo: 66% / 34%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jiri Lehecka",
+                "p": 0.658
+              },
+              {
+                "k": "Jan-Lennard Struff",
+                "p": 0.342
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Daniil Medvedev",
+        "away": "Carlos Alcaraz",
+        "league": "Atp Vienna Open",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T14:00:00Z",
+        "insight": "Elo: 22% / 78%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Daniil Medvedev",
+                "p": 0.217
               },
               {
                 "k": "Carlos Alcaraz",
-                "p": 0.804
+                "p": 0.783
               }
             ]
           }
@@ -1690,11 +2008,11 @@ window.SPORTS_DATA = {
       },
       {
         "home": "Alexander Zverev",
-        "away": "Arthur Fery",
+        "away": "Alex de Minaur",
         "league": "Atp Vienna Open",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T16:30:00Z",
-        "insight": "Elo: 81% / 19%.",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T15:30:00Z",
+        "insight": "Elo: 73% / 27%.",
         "base": [
           {
             "name": "Match winner",
@@ -1702,36 +2020,11 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Alexander Zverev",
-                "p": 0.805
-              },
-              {
-                "k": "Arthur Fery",
-                "p": 0.195
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Matteo Berrettini",
-        "away": "Alex de Minaur",
-        "league": "Atp Vienna Open",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T19:00:00Z",
-        "insight": "Elo: 35% / 65%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Matteo Berrettini",
-                "p": 0.35
+                "p": 0.733
               },
               {
                 "k": "Alex de Minaur",
-                "p": 0.65
+                "p": 0.267
               }
             ]
           }
@@ -1740,11 +2033,11 @@ window.SPORTS_DATA = {
       },
       {
         "home": "Leylah Fernandez",
-        "away": "Kamilla Rakhimova",
+        "away": "Diana Shnaider",
         "league": "Wta Pan Pacific Open",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T03:00:00Z",
-        "insight": "Elo: 59% / 41%.",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T03:00:00Z",
+        "insight": "Elo: 33% / 67%.",
         "base": [
           {
             "name": "Match winner",
@@ -1752,36 +2045,11 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Leylah Fernandez",
-                "p": 0.591
+                "p": 0.329
               },
-              {
-                "k": "Kamilla Rakhimova",
-                "p": 0.409
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
-      {
-        "home": "Diana Shnaider",
-        "away": "Mia Pohánková",
-        "league": "Wta Pan Pacific Open",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T04:30:00Z",
-        "insight": "Elo: 82% / 18%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
               {
                 "k": "Diana Shnaider",
-                "p": 0.817
-              },
-              {
-                "k": "Mia Pohánková",
-                "p": 0.183
+                "p": 0.671
               }
             ]
           }
@@ -1848,186 +2116,78 @@ window.SPORTS_DATA = {
         ]
       },
       {
-        "home": "Washington Wizards",
-        "away": "Charlotte Hornets",
+        "home": "Utah Jazz",
+        "away": "Portland Trail Blazers",
         "league": "NBA",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T23:10:00Z",
-        "insight": "Expected 111-124 (margin -12.8).",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T19:10:00Z",
+        "insight": "Expected 119-124 (margin -5.2).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Washington Wizards",
-                "p": 0.184
+                "k": "Utah Jazz",
+                "p": 0.358
               },
+              {
+                "k": "Portland Trail Blazers",
+                "p": 0.642
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Utah Jazz +5.0",
+                "p": 0.496
+              },
+              {
+                "k": "Portland Trail Blazers -5.0",
+                "p": 0.504
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 243.5",
+                "p": 0.503
+              },
+              {
+                "k": "Under 243.5",
+                "p": 0.497
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Charlotte Hornets",
+        "away": "Philadelphia 76ers",
+        "league": "NBA",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T22:10:00Z",
+        "insight": "Expected 117-111 (margin +6.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
               {
                 "k": "Charlotte Hornets",
-                "p": 0.816
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Washington Wizards +13.0",
-                "p": 0.506
+                "p": 0.67
               },
-              {
-                "k": "Charlotte Hornets -13.0",
-                "p": 0.494
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 234.5",
-                "p": 0.505
-              },
-              {
-                "k": "Under 234.5",
-                "p": 0.495
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Boston Celtics",
-        "away": "Chicago Bulls",
-        "league": "NBA",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T23:40:00Z",
-        "insight": "Expected 121-108 (margin +12.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Boston Celtics",
-                "p": 0.817
-              },
-              {
-                "k": "Chicago Bulls",
-                "p": 0.183
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Boston Celtics -13.0",
-                "p": 0.494
-              },
-              {
-                "k": "Chicago Bulls +13.0",
-                "p": 0.506
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 229.0",
-                "p": 0.501
-              },
-              {
-                "k": "Under 229.0",
-                "p": 0.499
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Brooklyn Nets",
-        "away": "Detroit Pistons",
-        "league": "NBA",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T23:40:00Z",
-        "insight": "Expected 102-115 (margin -13.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Brooklyn Nets",
-                "p": 0.174
-              },
-              {
-                "k": "Detroit Pistons",
-                "p": 0.826
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Brooklyn Nets +13.5",
-                "p": 0.505
-              },
-              {
-                "k": "Detroit Pistons -13.5",
-                "p": 0.495
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 216.5",
-                "p": 0.504
-              },
-              {
-                "k": "Under 216.5",
-                "p": 0.496
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Philadelphia 76ers",
-        "away": "New York Knicks",
-        "league": "NBA",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T23:40:00Z",
-        "insight": "Expected 109-115 (margin -6.6).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
               {
                 "k": "Philadelphia 76ers",
-                "p": 0.322
-              },
-              {
-                "k": "New York Knicks",
-                "p": 0.678
+                "p": 0.33
               }
             ]
           }
@@ -2038,12 +2198,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Philadelphia 76ers +6.5",
-                "p": 0.499
+                "k": "Charlotte Hornets -6.0",
+                "p": 0.507
               },
               {
-                "k": "New York Knicks -6.5",
-                "p": 0.501
+                "k": "Philadelphia 76ers +6.0",
+                "p": 0.493
               }
             ]
           },
@@ -2052,36 +2212,36 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 224.5",
-                "p": 0.495
+                "k": "Over 228.0",
+                "p": 0.497
               },
               {
-                "k": "Under 224.5",
-                "p": 0.505
+                "k": "Under 228.0",
+                "p": 0.503
               }
             ]
           }
         ]
       },
       {
-        "home": "Toronto Raptors",
-        "away": "Orlando Magic",
+        "home": "New Orleans Pelicans",
+        "away": "Atlanta Hawks",
         "league": "NBA",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T23:40:00Z",
-        "insight": "Expected 113-111 (margin +2.6).",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T23:10:00Z",
+        "insight": "Expected 118-121 (margin -3.1).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Toronto Raptors",
-                "p": 0.574
+                "k": "New Orleans Pelicans",
+                "p": 0.413
               },
               {
-                "k": "Orlando Magic",
-                "p": 0.426
+                "k": "Atlanta Hawks",
+                "p": 0.587
               }
             ]
           }
@@ -2092,11 +2252,119 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Toronto Raptors -2.5",
+                "k": "New Orleans Pelicans +3.0",
+                "p": 0.496
+              },
+              {
+                "k": "Atlanta Hawks -3.0",
+                "p": 0.504
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 239.0",
                 "p": 0.504
               },
               {
-                "k": "Orlando Magic +2.5",
+                "k": "Under 239.0",
+                "p": 0.496
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Milwaukee Bucks",
+        "away": "Cleveland Cavaliers",
+        "league": "NBA",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T00:10:00Z",
+        "insight": "Expected 112-118 (margin -6.6).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Milwaukee Bucks",
+                "p": 0.321
+              },
+              {
+                "k": "Cleveland Cavaliers",
+                "p": 0.679
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Milwaukee Bucks +6.5",
+                "p": 0.497
+              },
+              {
+                "k": "Cleveland Cavaliers -6.5",
+                "p": 0.503
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 229.5",
+                "p": 0.504
+              },
+              {
+                "k": "Under 229.5",
+                "p": 0.496
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Memphis Grizzlies",
+        "away": "Sacramento Kings",
+        "league": "NBA",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T00:10:00Z",
+        "insight": "Expected 121-116 (margin +5.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Memphis Grizzlies",
+                "p": 0.642
+              },
+              {
+                "k": "Sacramento Kings",
+                "p": 0.358
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Memphis Grizzlies -5.0",
+                "p": 0.504
+              },
+              {
+                "k": "Sacramento Kings +5.0",
                 "p": 0.496
               }
             ]
@@ -2106,36 +2374,90 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 224.5",
-                "p": 0.495
+                "k": "Over 237.0",
+                "p": 0.499
               },
               {
-                "k": "Under 224.5",
-                "p": 0.505
+                "k": "Under 237.0",
+                "p": 0.501
               }
             ]
           }
         ]
       },
       {
-        "home": "Dallas Mavericks",
-        "away": "Houston Rockets",
+        "home": "San Antonio Spurs",
+        "away": "Minnesota Timberwolves",
         "league": "NBA",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T00:10:00Z",
-        "insight": "Expected 110-117 (margin -6.9).",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T00:10:00Z",
+        "insight": "Expected 119-111 (margin +7.8).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Dallas Mavericks",
-                "p": 0.313
+                "k": "San Antonio Spurs",
+                "p": 0.71
               },
+              {
+                "k": "Minnesota Timberwolves",
+                "p": 0.29
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "San Antonio Spurs -8.0",
+                "p": 0.496
+              },
+              {
+                "k": "Minnesota Timberwolves +8.0",
+                "p": 0.504
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 229.5",
+                "p": 0.497
+              },
+              {
+                "k": "Under 229.5",
+                "p": 0.503
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Houston Rockets",
+        "away": "Oklahoma City Thunder",
+        "league": "NBA",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T00:40:00Z",
+        "insight": "Expected 108-112 (margin -3.9).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
               {
                 "k": "Houston Rockets",
-                "p": 0.687
+                "p": 0.391
+              },
+              {
+                "k": "Oklahoma City Thunder",
+                "p": 0.609
               }
             ]
           }
@@ -2146,11 +2468,11 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Dallas Mavericks +7.0",
+                "k": "Houston Rockets +4.0",
                 "p": 0.503
               },
               {
-                "k": "Houston Rockets -7.0",
+                "k": "Oklahoma City Thunder -4.0",
                 "p": 0.497
               }
             ]
@@ -2160,174 +2482,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 226.5",
-                "p": 0.495
+                "k": "Over 220.0",
+                "p": 0.5
               },
               {
-                "k": "Under 226.5",
-                "p": 0.505
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Miami Heat",
-        "away": "Indiana Pacers",
-        "league": "NBA",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T00:10:00Z",
-        "insight": "Expected 126-116 (margin +9.9).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Miami Heat",
-                "p": 0.757
-              },
-              {
-                "k": "Indiana Pacers",
-                "p": 0.243
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Miami Heat -10.0",
-                "p": 0.497
-              },
-              {
-                "k": "Indiana Pacers +10.0",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 242.0",
-                "p": 0.499
-              },
-              {
-                "k": "Under 242.0",
-                "p": 0.501
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Phoenix Suns",
-        "away": "Denver Nuggets",
-        "league": "NBA",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T02:10:00Z",
-        "insight": "Expected 114-115 (margin -1.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Phoenix Suns",
-                "p": 0.468
-              },
-              {
-                "k": "Denver Nuggets",
-                "p": 0.532
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Phoenix Suns +1.0",
-                "p": 0.496
-              },
-              {
-                "k": "Denver Nuggets -1.0",
-                "p": 0.504
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 230.0",
-                "p": 0.495
-              },
-              {
-                "k": "Under 230.0",
-                "p": 0.505
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Golden State Warriors",
-        "away": "Los Angeles Lakers",
-        "league": "NBA",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T02:10:00Z",
-        "insight": "Expected 114-113 (margin +0.6).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Golden State Warriors",
-                "p": 0.517
-              },
-              {
-                "k": "Los Angeles Lakers",
-                "p": 0.483
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Golden State Warriors -0.5",
-                "p": 0.503
-              },
-              {
-                "k": "Los Angeles Lakers +0.5",
-                "p": 0.497
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 227.5",
-                "p": 0.502
-              },
-              {
-                "k": "Under 227.5",
-                "p": 0.498
+                "k": "Under 220.0",
+                "p": 0.5
               }
             ]
           }
@@ -3950,6 +4110,60 @@ window.SPORTS_DATA = {
         ]
       },
       {
+        "home": "Carolina Panthers",
+        "away": "Denver Broncos",
+        "league": "NFL",
+        "date": "Sun 11.08",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "insight": "Expected 15-23 (margin -7.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Carolina Panthers",
+                "p": 0.277
+              },
+              {
+                "k": "Denver Broncos",
+                "p": 0.723
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Carolina Panthers +7.0",
+                "p": 0.495
+              },
+              {
+                "k": "Denver Broncos -7.0",
+                "p": 0.505
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 38.0",
+                "p": 0.502
+              },
+              {
+                "k": "Under 38.0",
+                "p": 0.498
+              }
+            ]
+          }
+        ]
+      },
+      {
         "home": "New Orleans Saints",
         "away": "Cleveland Browns",
         "league": "NFL",
@@ -4436,6 +4650,60 @@ window.SPORTS_DATA = {
         ]
       },
       {
+        "home": "New England Patriots",
+        "away": "Green Bay Packers",
+        "league": "NFL",
+        "date": "Sun 11.08",
+        "kickoff": "2026-11-08T21:25:00Z",
+        "insight": "Expected 25-19 (margin +6.3).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New England Patriots",
+                "p": 0.7
+              },
+              {
+                "k": "Green Bay Packers",
+                "p": 0.3
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New England Patriots -6.5",
+                "p": 0.495
+              },
+              {
+                "k": "Green Bay Packers +6.5",
+                "p": 0.505
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 44.0",
+                "p": 0.493
+              },
+              {
+                "k": "Under 44.0",
+                "p": 0.507
+              }
+            ]
+          }
+        ]
+      },
+      {
         "home": "Chicago Bears",
         "away": "Tampa Bay Buccaneers",
         "league": "NFL",
@@ -4549,11 +4817,443 @@ window.SPORTS_DATA = {
     "label": "Ice hockey",
     "matches": [
       {
-        "home": "Vegas Golden Knights",
-        "away": "New Jersey Devils",
+        "home": "Boston Bruins",
+        "away": "Chicago Blackhawks",
         "league": "NHL",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T22:10:00Z",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T17:10:00Z",
+        "insight": "Expected 4-2 (margin +1.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Boston Bruins",
+                "p": 0.668
+              },
+              {
+                "k": "Chicago Blackhawks",
+                "p": 0.332
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Boston Bruins -1.0",
+                "p": 0.512
+              },
+              {
+                "k": "Chicago Blackhawks +1.0",
+                "p": 0.488
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.0",
+                "p": 0.488
+              },
+              {
+                "k": "Under 6.0",
+                "p": 0.512
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Detroit Red Wings",
+        "away": "St Louis Blues",
+        "league": "NHL",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T17:10:00Z",
+        "insight": "Expected 3-3 (margin +0.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Detroit Red Wings",
+                "p": 0.54
+              },
+              {
+                "k": "St Louis Blues",
+                "p": 0.46
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Detroit Red Wings -0.0",
+                "p": 0.54
+              },
+              {
+                "k": "St Louis Blues 0.0",
+                "p": 0.46
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.0",
+                "p": 0.471
+              },
+              {
+                "k": "Under 6.0",
+                "p": 0.529
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "New York Islanders",
+        "away": "Edmonton Oilers",
+        "league": "NHL",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T18:10:00Z",
+        "insight": "Expected 3-3 (margin +0.0).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New York Islanders",
+                "p": 0.505
+              },
+              {
+                "k": "Edmonton Oilers",
+                "p": 0.495
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "New York Islanders -0.0",
+                "p": 0.505
+              },
+              {
+                "k": "Edmonton Oilers 0.0",
+                "p": 0.495
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.5",
+                "p": 0.469
+              },
+              {
+                "k": "Under 6.5",
+                "p": 0.531
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Nashville Predators",
+        "away": "Tampa Bay Lightning",
+        "league": "NHL",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T18:10:00Z",
+        "insight": "Expected 3-4 (margin -0.8).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Nashville Predators",
+                "p": 0.371
+              },
+              {
+                "k": "Tampa Bay Lightning",
+                "p": 0.629
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Nashville Predators +1.0",
+                "p": 0.529
+              },
+              {
+                "k": "Tampa Bay Lightning -1.0",
+                "p": 0.471
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.5",
+                "p": 0.459
+              },
+              {
+                "k": "Under 6.5",
+                "p": 0.541
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Los Angeles Kings",
+        "away": "Buffalo Sabres",
+        "league": "NHL",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T20:10:00Z",
+        "insight": "Expected 3-3 (margin -0.7).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Kings",
+                "p": 0.387
+              },
+              {
+                "k": "Buffalo Sabres",
+                "p": 0.613
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Kings +0.5",
+                "p": 0.466
+              },
+              {
+                "k": "Buffalo Sabres -0.5",
+                "p": 0.534
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.0",
+                "p": 0.488
+              },
+              {
+                "k": "Under 6.0",
+                "p": 0.512
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "San Jose Sharks",
+        "away": "Ottawa Senators",
+        "league": "NHL",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T20:10:00Z",
+        "insight": "Expected 3-4 (margin -0.7).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "San Jose Sharks",
+                "p": 0.394
+              },
+              {
+                "k": "Ottawa Senators",
+                "p": 0.606
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "San Jose Sharks +0.5",
+                "p": 0.473
+              },
+              {
+                "k": "Ottawa Senators -0.5",
+                "p": 0.527
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.5",
+                "p": 0.509
+              },
+              {
+                "k": "Under 6.5",
+                "p": 0.491
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Montréal Canadiens",
+        "away": "Pittsburgh Penguins",
+        "league": "NHL",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T23:10:00Z",
+        "insight": "Expected 3-3 (margin +0.2).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Montréal Canadiens",
+                "p": 0.527
+              },
+              {
+                "k": "Pittsburgh Penguins",
+                "p": 0.473
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Montréal Canadiens -0.0",
+                "p": 0.527
+              },
+              {
+                "k": "Pittsburgh Penguins 0.0",
+                "p": 0.473
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 7.0",
+                "p": 0.466
+              },
+              {
+                "k": "Under 7.0",
+                "p": 0.534
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Vancouver Canucks",
+        "away": "Toronto Maple Leafs",
+        "league": "NHL",
+        "date": "Sat 10.31",
+        "kickoff": "2026-10-31T23:10:00Z",
+        "insight": "Expected 3-4 (margin -0.5).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Vancouver Canucks",
+                "p": 0.427
+              },
+              {
+                "k": "Toronto Maple Leafs",
+                "p": 0.573
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Vancouver Canucks +0.5",
+                "p": 0.507
+              },
+              {
+                "k": "Toronto Maple Leafs -0.5",
+                "p": 0.493
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 7.0",
+                "p": 0.503
+              },
+              {
+                "k": "Under 7.0",
+                "p": 0.497
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Dallas Stars",
+        "away": "Columbus Blue Jackets",
+        "league": "NHL",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T00:10:00Z",
         "insight": "Expected 3-3 (margin +0.6).",
         "base": [
           {
@@ -4561,12 +5261,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Vegas Golden Knights",
-                "p": 0.6
+                "k": "Dallas Stars",
+                "p": 0.594
               },
               {
-                "k": "New Jersey Devils",
-                "p": 0.4
+                "k": "Columbus Blue Jackets",
+                "p": 0.406
               }
             ]
           }
@@ -4577,12 +5277,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Vegas Golden Knights -0.5",
-                "p": 0.52
+                "k": "Dallas Stars -0.5",
+                "p": 0.514
               },
               {
-                "k": "New Jersey Devils +0.5",
-                "p": 0.48
+                "k": "Columbus Blue Jackets +0.5",
+                "p": 0.486
               }
             ]
           },
@@ -4592,89 +5292,35 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Over 6.0",
-                "p": 0.47
+                "p": 0.513
               },
               {
                 "k": "Under 6.0",
-                "p": 0.53
+                "p": 0.487
               }
             ]
           }
         ]
       },
       {
-        "home": "Florida Panthers",
-        "away": "Winnipeg Jets",
+        "home": "Colorado Avalanche",
+        "away": "Calgary Flames",
         "league": "NHL",
-        "date": "Fri 10.30",
-        "kickoff": "2026-10-30T23:10:00Z",
-        "insight": "Expected 3-3 (margin +0.3).",
+        "date": "Sun 11.01",
+        "kickoff": "2026-11-01T02:10:00Z",
+        "insight": "Expected 4-2 (margin +1.8).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Florida Panthers",
-                "p": 0.552
+                "k": "Colorado Avalanche",
+                "p": 0.769
               },
-              {
-                "k": "Winnipeg Jets",
-                "p": 0.448
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Florida Panthers -0.5",
-                "p": 0.472
-              },
-              {
-                "k": "Winnipeg Jets +0.5",
-                "p": 0.528
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 6.0",
-                "p": 0.536
-              },
-              {
-                "k": "Under 6.0",
-                "p": 0.464
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Calgary Flames",
-        "away": "Seattle Kraken",
-        "league": "NHL",
-        "date": "Sat 10.31",
-        "kickoff": "2026-10-31T00:10:00Z",
-        "insight": "Expected 3-3 (margin -0.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
               {
                 "k": "Calgary Flames",
-                "p": 0.476
-              },
-              {
-                "k": "Seattle Kraken",
-                "p": 0.524
+                "p": 0.231
               }
             ]
           }
@@ -4685,12 +5331,12 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Calgary Flames -0.0",
-                "p": 0.476
+                "k": "Colorado Avalanche -2.0",
+                "p": 0.471
               },
               {
-                "k": "Seattle Kraken 0.0",
-                "p": 0.524
+                "k": "Calgary Flames +2.0",
+                "p": 0.529
               }
             ]
           },
@@ -4700,11 +5346,11 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Over 5.5",
-                "p": 0.495
+                "p": 0.534
               },
               {
                 "k": "Under 5.5",
-                "p": 0.505
+                "p": 0.466
               }
             ]
           }
@@ -4920,6 +5566,56 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Jonny Parsons",
+        "away": "José Henrique",
+        "league": "UFC",
+        "date": "Sat 11.07",
+        "kickoff": "2026-11-07T22:15:00Z",
+        "insight": "Elo: 50% / 50%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Jonny Parsons",
+                "p": 0.5
+              },
+              {
+                "k": "José Henrique",
+                "p": 0.5
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Mantas Kondratavicius",
+        "away": "Andre Petroski",
+        "league": "UFC",
+        "date": "Sun 11.08",
+        "kickoff": "2026-11-08T01:00:00Z",
+        "insight": "Elo: 51% / 49%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Mantas Kondratavicius",
+                "p": 0.51
+              },
+              {
+                "k": "Andre Petroski",
+                "p": 0.49
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Billy Elekana",
         "away": "Lucas Fernando",
         "league": "UFC",
@@ -4945,6 +5641,31 @@ window.SPORTS_DATA = {
         "extra": []
       },
       {
+        "home": "Davey Grant",
+        "away": "Elijah Smith",
+        "league": "UFC",
+        "date": "Sun 11.08",
+        "kickoff": "2026-11-08T01:00:00Z",
+        "insight": "Elo: 48% / 52%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Davey Grant",
+                "p": 0.481
+              },
+              {
+                "k": "Elijah Smith",
+                "p": 0.519
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
         "home": "Karine Silva",
         "away": "Gabriella Fernandes",
         "league": "UFC",
@@ -4963,6 +5684,31 @@ window.SPORTS_DATA = {
               {
                 "k": "Gabriella Fernandes",
                 "p": 0.507
+              }
+            ]
+          }
+        ],
+        "extra": []
+      },
+      {
+        "home": "Waldo Cortes-Acosta",
+        "away": "Johnny Walker",
+        "league": "UFC",
+        "date": "Sun 11.08",
+        "kickoff": "2026-11-08T01:00:00Z",
+        "insight": "Elo: 55% / 45%.",
+        "base": [
+          {
+            "name": "Match winner",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Waldo Cortes-Acosta",
+                "p": 0.546
+              },
+              {
+                "k": "Johnny Walker",
+                "p": 0.454
               }
             ]
           }
@@ -5270,12 +6016,12 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Khamzat Chimaev",
-                "p": 0.512,
+                "p": 0.505,
                 "mkt": 1.2
               },
               {
                 "k": "Paulo Henrique Costa",
-                "p": 0.488,
+                "p": 0.495,
                 "mkt": 4.75
               }
             ]
