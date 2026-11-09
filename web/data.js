@@ -3,631 +3,6 @@ window.SPORTS_DATA = {
     "label": "Football",
     "matches": [
       {
-        "home": "New York Red Bulls",
-        "away": "Atlanta United FC",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 1.67,
-        "mu": 1.16,
-        "mkt": {
-          "1": 1.88,
-          "X": 4.0,
-          "2": 3.38
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.36,
-          "under": 2.88
-        },
-        "mkt_ah": {
-          "line": -0.5,
-          "home": 1.89,
-          "away": 1.91
-        },
-        "insight": "Expected goals: 1.67-1.16."
-      },
-      {
-        "home": "CF Montreal",
-        "away": "Vancouver Whitecaps FC",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 1.01,
-        "mu": 1.97,
-        "mkt": {
-          "1": 4.43,
-          "X": 4.33,
-          "2": 1.64
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.4,
-          "under": 2.62
-        },
-        "mkt_ah": {
-          "line": 1.0,
-          "home": 1.75,
-          "away": 2.04
-        },
-        "insight": "Expected goals: 1.01-1.97."
-      },
-      {
-        "home": "Inter Miami CF",
-        "away": "Charlotte FC",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 2.32,
-        "mu": 1.49,
-        "mkt": {
-          "1": 1.38,
-          "X": 5.4,
-          "2": 6.05
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.22,
-          "under": 3.9
-        },
-        "mkt_ah": {
-          "line": -1.5,
-          "home": 1.93,
-          "away": 1.87
-        },
-        "insight": "Expected goals: 2.32-1.49."
-      },
-      {
-        "home": "Chicago Fire",
-        "away": "Columbus Crew SC",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 1.79,
-        "mu": 1.57,
-        "mkt": {
-          "1": 1.96,
-          "X": 3.85,
-          "2": 3.3
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.44,
-          "under": 2.75
-        },
-        "mkt_ah": {
-          "line": -0.5,
-          "home": 1.99,
-          "away": 1.81
-        },
-        "insight": "Expected goals: 1.79-1.57."
-      },
-      {
-        "home": "D.C. United",
-        "away": "New York City FC",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 1.08,
-        "mu": 1.46,
-        "mkt": {
-          "1": 2.9,
-          "X": 3.54,
-          "2": 2.27
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.62,
-          "under": 2.22
-        },
-        "mkt_ah": {
-          "line": 0.5,
-          "home": 1.61,
-          "away": 2.29
-        },
-        "insight": "Expected goals: 1.08-1.46."
-      },
-      {
-        "home": "FC Cincinnati",
-        "away": "Nashville SC",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 1.38,
-        "mu": 1.63,
-        "mkt": {
-          "1": 2.36,
-          "X": 3.8,
-          "2": 2.55
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.4,
-          "under": 2.7
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.86,
-          "away": 1.97
-        },
-        "insight": "Expected goals: 1.38-1.63."
-      },
-      {
-        "home": "Orlando City SC",
-        "away": "New England Revolution",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 2.04,
-        "mu": 1.54,
-        "mkt": {
-          "1": 1.85,
-          "X": 4.0,
-          "2": 3.25
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.36,
-          "under": 3.0
-        },
-        "mkt_ah": {
-          "line": -0.5,
-          "home": 1.89,
-          "away": 1.89
-        },
-        "insight": "Expected goals: 2.04-1.54."
-      },
-      {
-        "home": "Philadelphia Union",
-        "away": "Toronto FC",
-        "league": "MLS",
-        "date": "Sat 11.07",
-        "kickoff": "2026-11-07T21:00:00Z",
-        "lam": 2.24,
-        "mu": 1.0,
-        "mkt": {
-          "1": 1.42,
-          "X": 4.95,
-          "2": 5.9
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.35,
-          "under": 3.0
-        },
-        "mkt_ah": {
-          "line": -1.5,
-          "home": 2.06,
-          "away": 1.74
-        },
-        "insight": "Expected goals: 2.24-1.00."
-      },
-      {
-        "home": "Austin FC",
-        "away": "Portland Timbers",
-        "league": "MLS",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T00:00:00Z",
-        "lam": 1.58,
-        "mu": 1.55,
-        "mkt": {
-          "1": 3.85,
-          "X": 4.1,
-          "2": 1.75
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.4,
-          "under": 2.7
-        },
-        "mkt_ah": {
-          "line": 0.5,
-          "home": 2.06,
-          "away": 1.73
-        },
-        "insight": "Expected goals: 1.58-1.55."
-      },
-      {
-        "home": "FC Dallas",
-        "away": "Colorado Rapids",
-        "league": "MLS",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T00:00:00Z",
-        "lam": 1.86,
-        "mu": 1.14,
-        "mkt": {
-          "1": 2.0,
-          "X": 3.65,
-          "2": 3.2
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.62,
-          "under": 2.23
-        },
-        "mkt_ah": {
-          "line": -0.5,
-          "home": 2.02,
-          "away": 1.74
-        },
-        "insight": "Expected goals: 1.86-1.14."
-      },
-      {
-        "home": "Houston Dynamo",
-        "away": "St. Louis City SC",
-        "league": "MLS",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T00:00:00Z",
-        "lam": 1.51,
-        "mu": 1.2,
-        "mkt": {
-          "1": 2.4,
-          "X": 3.54,
-          "2": 2.74
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.65,
-          "under": 2.18
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.84,
-          "away": 2.02
-        },
-        "insight": "Expected goals: 1.51-1.20."
-      },
-      {
-        "home": "Seattle Sounders FC",
-        "away": "Los Angeles FC",
-        "league": "MLS",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T00:00:00Z",
-        "lam": 1.22,
-        "mu": 1.24,
-        "mkt": {
-          "1": 1.95,
-          "X": 3.65,
-          "2": 3.3
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.6,
-          "under": 2.31
-        },
-        "mkt_ah": {
-          "line": -0.5,
-          "home": 1.95,
-          "away": 1.84
-        },
-        "insight": "Expected goals: 1.22-1.24."
-      },
-      {
-        "home": "Minnesota United FC",
-        "away": "San Jose Earthquakes",
-        "league": "MLS",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T00:00:00Z",
-        "lam": 2.0,
-        "mu": 1.39,
-        "mkt": {
-          "1": 1.75,
-          "X": 4.1,
-          "2": 3.9
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.44,
-          "under": 2.62
-        },
-        "mkt_ah": {
-          "line": -0.5,
-          "home": 1.72,
-          "away": 2.08
-        },
-        "insight": "Expected goals: 2.00-1.39."
-      },
-      {
-        "home": "San Diego FC",
-        "away": "Sporting Kansas City",
-        "league": "MLS",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T00:00:00Z",
-        "lam": 2.82,
-        "mu": 1.22,
-        "mkt": {
-          "1": 1.44,
-          "X": 5.04,
-          "2": 5.5
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.24,
-          "under": 3.95
-        },
-        "mkt_ah": {
-          "line": -1.5,
-          "home": 2.06,
-          "away": 1.74
-        },
-        "insight": "Expected goals: 2.82-1.22."
-      },
-      {
-        "home": "FC Machida Zelvia",
-        "away": "Hiroshima Sanfrecce FC",
-        "league": "Japan",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T05:00:00Z",
-        "lam": 1.24,
-        "mu": 1.03,
-        "mkt": {
-          "1": 2.85,
-          "X": 3.25,
-          "2": 2.3
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.79,
-          "under": 1.95
-        },
-        "mkt_ah": {
-          "line": 0.25,
-          "home": 1.79,
-          "away": 2.08
-        },
-        "insight": "Expected goals: 1.24-1.03."
-      },
-      {
-        "home": "Vissel Kobe",
-        "away": "Urawa Red Diamonds",
-        "league": "Japan",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T05:00:00Z",
-        "lam": 1.6,
-        "mu": 0.82,
-        "mkt": {
-          "1": 2.1,
-          "X": 3.35,
-          "2": 3.25
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.76,
-          "under": 1.98
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.58,
-          "away": 2.41
-        },
-        "insight": "Expected goals: 1.60-0.82."
-      },
-      {
-        "home": "Gamba Osaka",
-        "away": "Cerezo Osaka",
-        "league": "Japan",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T06:00:00Z",
-        "lam": 1.59,
-        "mu": 1.22,
-        "mkt": {
-          "1": 2.19,
-          "X": 3.35,
-          "2": 3.0
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.7,
-          "under": 2.08
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.65,
-          "away": 2.27
-        },
-        "insight": "Expected goals: 1.59-1.22."
-      },
-      {
-        "home": "Beijing FC",
-        "away": "Chongqing Tonglianglong FC",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 1.69,
-        "mu": 0.8,
-        "mkt": {
-          "1": 1.28,
-          "X": 5.35,
-          "2": 9.0
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.44,
-          "under": 2.62
-        },
-        "mkt_ah": {
-          "line": -1.5,
-          "home": 1.82,
-          "away": 1.96
-        },
-        "insight": "Expected goals: 1.69-0.80."
-      },
-      {
-        "home": "Shandong Luneng Taishan FC",
-        "away": "Chengdu Rongcheng FC",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 1.67,
-        "mu": 1.48,
-        "mkt": {
-          "1": 2.25,
-          "X": 3.7,
-          "2": 2.7
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.33,
-          "under": 3.05
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.72,
-          "away": 2.05
-        },
-        "insight": "Expected goals: 1.67-1.48."
-      },
-      {
-        "home": "Dalian Yingbo",
-        "away": "Tianjin Jinmen Tiger FC",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 1.27,
-        "mu": 1.03,
-        "mkt": {
-          "1": 1.36,
-          "X": 4.7,
-          "2": 7.53
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.68,
-          "under": 2.09
-        },
-        "mkt_ah": {
-          "line": -1.5,
-          "home": 2.08,
-          "away": 1.73
-        },
-        "insight": "Expected goals: 1.27-1.03."
-      },
-      {
-        "home": "Zhejiang",
-        "away": "Henan FC",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 1.99,
-        "mu": 1.43,
-        "mkt": {
-          "1": 2.05,
-          "X": 4.0,
-          "2": 2.86
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.24,
-          "under": 3.65
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 1.64,
-          "away": 2.29
-        },
-        "insight": "Expected goals: 1.99-1.43."
-      },
-      {
-        "home": "Shanghai SIPG FC",
-        "away": "Liaoning Tieren FC",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 2.74,
-        "mu": 1.02,
-        "mkt": {
-          "1": 1.25,
-          "X": 6.0,
-          "2": 8.6
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.26,
-          "under": 3.45
-        },
-        "mkt_ah": {
-          "line": -1.5,
-          "home": 1.68,
-          "away": 2.15
-        },
-        "insight": "Expected goals: 2.74-1.02."
-      },
-      {
-        "home": "Qingdao Hainiu FC",
-        "away": "Shenzhen Peng City FC",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 1.45,
-        "mu": 1.33,
-        "mkt": {
-          "1": 4.49,
-          "X": 4.1,
-          "2": 1.62
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.48,
-          "under": 2.48
-        },
-        "mkt_ah": {
-          "line": 1.0,
-          "home": 1.76,
-          "away": 2.05
-        },
-        "insight": "Expected goals: 1.45-1.33."
-      },
-      {
-        "home": "Shanghai Shenhua FC",
-        "away": "Qingdao West Coast FC",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 2.11,
-        "mu": 0.94,
-        "mkt": {
-          "1": 1.42,
-          "X": 4.9,
-          "2": 5.8
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.29,
-          "under": 3.3
-        },
-        "mkt_ah": {
-          "line": -1.5,
-          "home": 2.1,
-          "away": 1.71
-        },
-        "insight": "Expected goals: 2.11-0.94."
-      },
-      {
-        "home": "Yunnan Yukun",
-        "away": "Wuhan Three Towns",
-        "league": "China",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T07:30:00Z",
-        "lam": 2.5,
-        "mu": 1.56,
-        "mkt": {
-          "1": 1.61,
-          "X": 4.63,
-          "2": 4.0
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.23,
-          "under": 3.75
-        },
-        "mkt_ah": {
-          "line": -1.0,
-          "home": 1.96,
-          "away": 1.81
-        },
-        "insight": "Expected goals: 2.50-1.56."
-      },
-      {
         "home": "Chapecoense AF",
         "away": "CR Vasco da Gama",
         "league": "Brasileirao",
@@ -639,48 +14,92 @@ window.SPORTS_DATA = {
         "insight": "Round 21. Expected goals: 1.37-1.77."
       },
       {
-        "home": "Crystal Palace FC",
-        "away": "Liverpool FC",
+        "home": "Manchester City FC",
+        "away": "Fulham FC",
         "league": "Premier League",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "lam": 1.13,
-        "mu": 1.78,
-        "md": 10,
-        "insight": "Round 10. Expected goals: 1.13-1.78."
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T12:30:00Z",
+        "lam": 2.1,
+        "mu": 0.82,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 2.10-0.82."
       },
       {
-        "home": "Sunderland AFC",
-        "away": "Chelsea FC",
+        "home": "Chelsea FC",
+        "away": "Leeds United FC",
         "league": "Premier League",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "lam": 1.15,
-        "mu": 1.52,
-        "md": 10,
-        "insight": "Round 10. Expected goals: 1.15-1.52."
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "lam": 1.64,
+        "mu": 1.11,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 1.64-1.11."
       },
       {
-        "home": "Brighton & Hove Albion FC",
-        "away": "Brentford FC",
+        "home": "Aston Villa FC",
+        "away": "Sunderland AFC",
         "league": "Premier League",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "lam": 1.79,
-        "mu": 1.27,
-        "md": 10,
-        "insight": "Round 10. Expected goals: 1.79-1.27."
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "lam": 1.66,
+        "mu": 0.94,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 1.66-0.94."
       },
       {
-        "home": "Manchester United FC",
-        "away": "Aston Villa FC",
+        "home": "AFC Bournemouth",
+        "away": "Nottingham Forest FC",
         "league": "Premier League",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T16:30:00Z",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T15:00:00Z",
         "lam": 1.55,
-        "mu": 1.36,
-        "md": 10,
-        "insight": "Round 10. Expected goals: 1.55-1.36."
+        "mu": 1.12,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 1.55-1.12."
+      },
+      {
+        "home": "Newcastle United FC",
+        "away": "Arsenal FC",
+        "league": "Premier League",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T17:30:00Z",
+        "lam": 0.92,
+        "mu": 1.7,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 0.92-1.70."
+      },
+      {
+        "home": "Hull City AFC",
+        "away": "Brighton & Hove Albion FC",
+        "league": "Premier League",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T14:00:00Z",
+        "lam": 1.02,
+        "mu": 1.19,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 1.02-1.19."
+      },
+      {
+        "home": "Liverpool FC",
+        "away": "Manchester United FC",
+        "league": "Premier League",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T16:30:00Z",
+        "lam": 2.05,
+        "mu": 1.22,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 2.05-1.22."
+      },
+      {
+        "home": "Brentford FC",
+        "away": "Everton FC",
+        "league": "Premier League",
+        "date": "Mon 11.23",
+        "kickoff": "2026-11-23T20:00:00Z",
+        "lam": 1.47,
+        "mu": 1.01,
+        "md": 11,
+        "insight": "Round 11. Expected goals: 1.47-1.01."
       },
       {
         "home": "Sheffield United FC",
@@ -688,10 +107,10 @@ window.SPORTS_DATA = {
         "league": "Championship",
         "date": "Sat 11.21",
         "kickoff": "2026-11-21T15:00:00Z",
-        "lam": 1.71,
-        "mu": 0.91,
+        "lam": 1.67,
+        "mu": 0.9,
         "md": 16,
-        "insight": "Round 16. Expected goals: 1.71-0.91."
+        "insight": "Round 16. Expected goals: 1.67-0.90."
       },
       {
         "home": "Middlesbrough FC",
@@ -699,234 +118,391 @@ window.SPORTS_DATA = {
         "league": "Championship",
         "date": "Sat 11.21",
         "kickoff": "2026-11-21T15:00:00Z",
-        "lam": 1.78,
-        "mu": 1.0,
+        "lam": 1.83,
+        "mu": 0.95,
         "md": 16,
-        "insight": "Round 16. Expected goals: 1.78-1.00."
+        "insight": "Round 16. Expected goals: 1.83-0.95."
       },
       {
-        "home": "Villarreal CF",
-        "away": "Getafe CF",
+        "home": "Sevilla FC",
+        "away": "Real Betis Balompié",
         "league": "La Liga",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T17:30:00Z",
-        "lam": 1.66,
-        "mu": 0.7,
-        "md": 12,
-        "insight": "Round 12. Expected goals: 1.66-0.70."
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T17:30:00Z",
+        "lam": 1.35,
+        "mu": 1.48,
+        "md": 13,
+        "insight": "Round 13. Expected goals: 1.35-1.48."
       },
       {
-        "home": "Club Atlético de Madrid",
-        "away": "FC Barcelona",
+        "home": "FC Barcelona",
+        "away": "Villarreal CF",
         "league": "La Liga",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T20:00:00Z",
-        "lam": 1.54,
-        "mu": 1.73,
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T13:00:00Z",
+        "lam": 3.04,
+        "mu": 1.14,
+        "md": 13,
+        "insight": "Round 13. Expected goals: 3.04-1.14."
+      },
+      {
+        "home": "Getafe CF",
+        "away": "Club Atlético de Madrid",
+        "league": "La Liga",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T20:00:00Z",
+        "lam": 0.71,
+        "mu": 1.26,
+        "md": 13,
+        "insight": "Round 13. Expected goals: 0.71-1.26."
+      },
+      {
+        "home": "Levante UD",
+        "away": "Elche CF",
+        "league": "La Liga",
+        "date": "Mon 11.23",
+        "kickoff": "2026-11-23T20:00:00Z",
+        "lam": 1.72,
+        "mu": 1.26,
+        "md": 13,
+        "insight": "Round 13. Expected goals: 1.72-1.26."
+      },
+      {
+        "home": "SSC Napoli",
+        "away": "Torino FC",
+        "league": "Serie A",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T19:45:00Z",
+        "lam": 1.78,
+        "mu": 0.81,
         "md": 12,
-        "insight": "Round 12. Expected goals: 1.54-1.73."
+        "insight": "Round 12. Expected goals: 1.78-0.81."
+      },
+      {
+        "home": "Juventus FC",
+        "away": "Venezia FC",
+        "league": "Serie A",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T11:30:00Z",
+        "lam": 1.86,
+        "mu": 0.57,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 1.86-0.57."
+      },
+      {
+        "home": "AC Milan",
+        "away": "Frosinone Calcio",
+        "league": "Serie A",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T17:00:00Z",
+        "lam": 2.07,
+        "mu": 1.45,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 2.07-1.45."
+      },
+      {
+        "home": "Atalanta BC",
+        "away": "FC Internazionale Milano",
+        "league": "Serie A",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T19:45:00Z",
+        "lam": 1.26,
+        "mu": 1.94,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 1.26-1.94."
       },
       {
         "home": "AC Monza",
-        "away": "Atalanta BC",
+        "away": "ACF Fiorentina",
         "league": "Serie A",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "lam": 1.13,
-        "mu": 2.23,
-        "md": 11,
-        "insight": "Round 11. Expected goals: 1.13-2.23."
+        "date": "Mon 11.23",
+        "kickoff": "2026-11-23T19:45:00Z",
+        "lam": 1.27,
+        "mu": 1.86,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 1.27-1.86."
       },
       {
-        "home": "ACF Fiorentina",
-        "away": "Juventus FC",
-        "league": "Serie A",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T19:45:00Z",
-        "lam": 1.02,
-        "mu": 1.48,
-        "md": 11,
-        "insight": "Round 11. Expected goals: 1.02-1.48."
-      },
-      {
-        "home": "SC Freiburg",
-        "away": "1. FC Union Berlin",
+        "home": "Bayer 04 Leverkusen",
+        "away": "SC Paderborn 07",
         "league": "Bundesliga",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T16:30:00Z",
-        "lam": 1.86,
-        "mu": 0.99,
-        "md": 9,
-        "insight": "Round 9. Expected goals: 1.86-0.99."
-      },
-      {
-        "home": "Le Mans FC",
-        "away": "AS Monaco FC",
-        "league": "Ligue 1",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T16:15:00Z",
-        "lam": 1.28,
-        "mu": 2.13,
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T14:30:00Z",
+        "lam": 1.79,
+        "mu": 0.68,
         "md": 10,
-        "insight": "Round 10. Expected goals: 1.28-2.13."
+        "insight": "Round 10. Expected goals: 1.79-0.68."
       },
       {
-        "home": "Le Havre AC",
-        "away": "FC Lorient",
-        "league": "Ligue 1",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T16:15:00Z",
-        "lam": 1.13,
-        "mu": 1.25,
+        "home": "1. FC Union Berlin",
+        "away": "RB Leipzig",
+        "league": "Bundesliga",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T14:30:00Z",
+        "lam": 1.09,
+        "mu": 1.89,
         "md": 10,
-        "insight": "Round 10. Expected goals: 1.13-1.25."
+        "insight": "Round 10. Expected goals: 1.09-1.89."
       },
       {
-        "home": "CD Santa Clara",
-        "away": "Gil Vicente FC",
-        "league": "Primeira Liga",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T15:30:00Z",
-        "lam": 1.01,
-        "mu": 0.8,
+        "home": "Borussia Mönchengladbach",
+        "away": "Borussia Dortmund",
+        "league": "Bundesliga",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T14:30:00Z",
+        "lam": 1.07,
+        "mu": 2.0,
+        "md": 10,
+        "insight": "Round 10. Expected goals: 1.07-2.00."
+      },
+      {
+        "home": "FC Schalke 04",
+        "away": "VfB Stuttgart",
+        "league": "Bundesliga",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T17:30:00Z",
+        "lam": 0.7,
+        "mu": 1.43,
+        "md": 10,
+        "insight": "Round 10. Expected goals: 0.70-1.43."
+      },
+      {
+        "home": "OGC Nice",
+        "away": "Paris Saint-Germain FC",
+        "league": "Ligue 1",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T16:15:00Z",
+        "lam": 1.02,
+        "mu": 1.98,
         "md": 11,
-        "insight": "Round 11. Expected goals: 1.01-0.80."
+        "insight": "Round 11. Expected goals: 1.02-1.98."
       },
       {
-        "home": "CD Nacional",
-        "away": "Académico de Viseu FC",
-        "league": "Primeira Liga",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T15:30:00Z",
-        "lam": 0.91,
-        "mu": 1.61,
+        "home": "Olympique de Marseille",
+        "away": "Le Mans FC",
+        "league": "Ligue 1",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T19:45:00Z",
+        "lam": 2.69,
+        "mu": 1.03,
         "md": 11,
-        "insight": "Round 11. Expected goals: 0.91-1.61."
+        "insight": "Round 11. Expected goals: 2.69-1.03."
       },
       {
-        "home": "Central Córdoba",
-        "away": "Lanus",
-        "league": "Argentina",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T22:30:00Z",
-        "lam": 0.88,
-        "mu": 1.22,
+        "home": "FC Groningen",
+        "away": "SC Heerenveen",
+        "league": "Eredivisie",
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T20:00:00Z",
+        "lam": 1.69,
+        "mu": 1.55,
+        "md": 13,
+        "insight": "Round 13. Expected goals: 1.69-1.55."
+      },
+      {
+        "home": "Go Ahead Eagles",
+        "away": "Fortuna Sittard",
+        "league": "Eredivisie",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T15:45:00Z",
+        "lam": 1.83,
+        "mu": 1.31,
+        "md": 13,
+        "insight": "Round 13. Expected goals: 1.83-1.31."
+      },
+      {
+        "home": "CS Marítimo",
+        "away": "CD Nacional",
+        "league": "Primeira Liga",
+        "date": "Fri 11.27",
+        "kickoff": "2026-11-27T20:15:00Z",
+        "lam": 1.19,
+        "mu": 1.49,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 1.19-1.49."
+      },
+      {
+        "home": "Moreirense FC",
+        "away": "CD Santa Clara",
+        "league": "Primeira Liga",
+        "date": "Sat 11.28",
+        "kickoff": "2026-11-28T15:30:00Z",
+        "lam": 0.98,
+        "mu": 1.06,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 0.98-1.06."
+      },
+      {
+        "home": "FC Arouca",
+        "away": "Rio Ave FC",
+        "league": "Primeira Liga",
+        "date": "Sat 11.28",
+        "kickoff": "2026-11-28T15:30:00Z",
+        "lam": 1.77,
+        "mu": 1.03,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 1.77-1.03."
+      },
+      {
+        "home": "Académico de Viseu FC",
+        "away": "FC Alverca",
+        "league": "Primeira Liga",
+        "date": "Sat 11.28",
+        "kickoff": "2026-11-28T18:00:00Z",
+        "lam": 1.6,
+        "mu": 0.86,
+        "md": 12,
+        "insight": "Round 12. Expected goals: 1.60-0.86."
+      },
+      {
+        "home": "Orlando City SC",
+        "away": "FC Cincinnati",
+        "league": "MLS",
+        "date": "Fri 11.20",
+        "kickoff": "2026-11-20T00:30:00Z",
+        "lam": 2.27,
+        "mu": 1.83,
         "mkt": {
-          "1": 3.7,
-          "X": 3.15,
-          "2": 1.99
+          "1": 2.4,
+          "X": 3.85,
+          "2": 2.5
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 2.37,
-          "under": 1.56
+          "over": 1.27,
+          "under": 3.7
         },
         "mkt_ah": {
           "line": 0.0,
-          "home": 2.8,
-          "away": 1.44
+          "home": 1.88,
+          "away": 1.91
         },
-        "insight": "Expected goals: 0.88-1.22."
+        "insight": "Expected goals: 2.27-1.83."
       },
       {
-        "home": "Tromso",
-        "away": "Bodø/Glimt",
-        "league": "Norway",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T13:30:00Z",
-        "lam": 1.16,
-        "mu": 1.97,
+        "home": "Seattle Sounders FC",
+        "away": "Real Salt Lake",
+        "league": "MLS",
+        "date": "Fri 11.20",
+        "kickoff": "2026-11-20T03:00:00Z",
+        "lam": 1.53,
+        "mu": 1.06,
         "mkt": {
-          "1": 7.0,
-          "X": 5.2,
-          "2": 1.35
+          "1": 1.95,
+          "X": 3.6,
+          "2": 3.3
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 1.39,
-          "under": 2.95
+          "over": 1.52,
+          "under": 2.48
         },
         "mkt_ah": {
-          "line": 1.5,
-          "home": 1.89,
-          "away": 1.93
+          "line": -0.5,
+          "home": 1.98,
+          "away": 1.87
         },
-        "insight": "Expected goals: 1.16-1.97."
+        "insight": "Expected goals: 1.53-1.06."
       },
       {
-        "home": "Lillestrom",
-        "away": "Aalesund",
-        "league": "Norway",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T16:00:00Z",
-        "lam": 2.29,
-        "mu": 1.31,
+        "home": "Argentinos Juniors",
+        "away": "Independiente",
+        "league": "Argentina",
+        "date": "Fri 11.20",
+        "kickoff": "2026-11-20T19:00:00Z",
+        "lam": 1.18,
+        "mu": 0.76,
         "mkt": {
-          "1": 1.8,
-          "X": 4.1,
-          "2": 3.65
+          "1": 1.98,
+          "X": 3.33,
+          "2": 4.54
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 1.35,
-          "under": 3.15
+          "over": 2.31,
+          "under": 1.61
+        },
+        "mkt_ah": {
+          "line": -0.5,
+          "home": 1.98,
+          "away": 1.87
+        },
+        "insight": "Expected goals: 1.18-0.76."
+      },
+      {
+        "home": "Defensa y Justicia",
+        "away": "Barracas Central",
+        "league": "Argentina",
+        "date": "Fri 11.20",
+        "kickoff": "2026-11-20T19:00:00Z",
+        "lam": 1.33,
+        "mu": 0.95,
+        "mkt": {
+          "1": 2.25,
+          "X": 3.11,
+          "2": 3.47
+        },
+        "mkt_ou": {
+          "line": 2.5,
+          "over": 2.46,
+          "under": 1.55
+        },
+        "mkt_ah": {
+          "line": 0.0,
+          "home": 1.56,
+          "away": 2.42
+        },
+        "insight": "Expected goals: 1.33-0.95."
+      },
+      {
+        "home": "Rosario Central",
+        "away": "Gimnasia Mendoza",
+        "league": "Argentina",
+        "date": "Fri 11.20",
+        "kickoff": "2026-11-20T19:00:00Z",
+        "lam": 1.59,
+        "mu": 0.75,
+        "mkt": {
+          "1": 1.49,
+          "X": 4.65,
+          "2": 7.99
+        },
+        "mkt_ou": {
+          "line": 2.5,
+          "over": 1.99,
+          "under": 1.93
+        },
+        "mkt_ah": {
+          "line": -1.25,
+          "home": 1.97,
+          "away": 1.88
+        },
+        "insight": "Expected goals: 1.59-0.75."
+      },
+      {
+        "home": "River Plate",
+        "away": "Lanus",
+        "league": "Argentina",
+        "date": "Fri 11.20",
+        "kickoff": "2026-11-20T19:00:00Z",
+        "lam": 1.37,
+        "mu": 0.78,
+        "mkt": {
+          "1": 1.63,
+          "X": 3.63,
+          "2": 5.77
+        },
+        "mkt_ou": {
+          "line": 2.5,
+          "over": 2.23,
+          "under": 1.66
         },
         "mkt_ah": {
           "line": -0.75,
-          "home": 2.03,
-          "away": 1.83
+          "home": 1.83,
+          "away": 2.03
         },
-        "insight": "Expected goals: 2.29-1.31."
-      },
-      {
-        "home": "Sandefjord",
-        "away": "Molde",
-        "league": "Norway",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T16:00:00Z",
-        "lam": 1.46,
-        "mu": 1.65,
-        "mkt": {
-          "1": 3.93,
-          "X": 4.15,
-          "2": 1.73
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.35,
-          "under": 3.15
-        },
-        "mkt_ah": {
-          "line": 0.75,
-          "home": 1.89,
-          "away": 1.96
-        },
-        "insight": "Expected goals: 1.46-1.65."
-      },
-      {
-        "home": "Fredrikstad FK",
-        "away": "SK Brann",
-        "league": "Norway",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:15:00Z",
-        "lam": 1.29,
-        "mu": 1.44,
-        "mkt": {
-          "1": 2.65,
-          "X": 3.6,
-          "2": 2.3
-        },
-        "mkt_ou": {
-          "line": 2.5,
-          "over": 1.51,
-          "under": 2.35
-        },
-        "mkt_ah": {
-          "line": 0.0,
-          "home": 2.02,
-          "away": 1.77
-        },
-        "insight": "Expected goals: 1.29-1.44."
+        "insight": "Expected goals: 1.37-0.78."
       },
       {
         "home": "Kristiansund BK",
@@ -936,149 +512,147 @@ window.SPORTS_DATA = {
         "kickoff": "2026-11-09T18:00:00Z",
         "lam": 1.54,
         "mu": 1.79,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.54-1.79."
-      },
-      {
-        "home": "Halmstads BK",
-        "away": "Djurgardens IF",
-        "league": "Sweden",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T13:00:00Z",
-        "lam": 0.61,
-        "mu": 1.99,
         "mkt": {
-          "1": 7.0,
-          "X": 4.7,
-          "2": 1.38
+          "1": 2.85,
+          "X": 4.0,
+          "2": 2.12
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 1.46,
-          "under": 2.68
+          "over": 1.35,
+          "under": 3.15
         },
         "mkt_ah": {
-          "line": 1.5,
-          "home": 1.76,
-          "away": 2.03
+          "line": 0.25,
+          "home": 2.02,
+          "away": 1.88
         },
-        "insight": "Expected goals: 0.61-1.99."
+        "insight": "Expected goals: 1.54-1.79."
       },
       {
-        "home": "IFK Goteborg",
-        "away": "Malmo FF",
+        "home": "AIK",
+        "away": "Degerfors IF",
         "league": "Sweden",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T13:00:00Z",
-        "lam": 1.15,
-        "mu": 1.52,
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T14:00:00Z",
+        "lam": 1.94,
+        "mu": 0.91,
         "mkt": {
-          "1": 2.36,
-          "X": 3.4,
-          "2": 2.75
+          "1": 2.08,
+          "X": 3.6,
+          "2": 2.98
         },
         "mkt_ou": {
           "line": 2.5,
           "over": 1.62,
-          "under": 2.19
+          "under": 2.18
         },
         "mkt_ah": {
-          "line": 0.0,
-          "home": 1.77,
-          "away": 2.08
+          "line": -0.25,
+          "home": 1.88,
+          "away": 1.93
         },
-        "insight": "Expected goals: 1.15-1.52."
+        "insight": "Expected goals: 1.94-0.91."
       },
       {
-        "home": "AIK",
-        "away": "BK Hacken",
+        "home": "GAIS",
+        "away": "Västerås SK",
         "league": "Sweden",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T15:30:00Z",
-        "lam": 1.56,
-        "mu": 1.65,
+        "date": "Sat 11.21",
+        "kickoff": "2026-11-21T16:30:00Z",
+        "lam": 1.35,
+        "mu": 0.89,
         "mkt": {
-          "1": 3.4,
-          "X": 3.8,
-          "2": 1.85
+          "1": 1.83,
+          "X": 3.58,
+          "2": 3.8
         },
         "mkt_ou": {
           "line": 2.5,
-          "over": 1.46,
-          "under": 2.68
+          "over": 1.72,
+          "under": 2.04
         },
         "mkt_ah": {
           "line": 0.0,
-          "home": 2.59,
-          "away": 1.39
+          "home": 1.36,
+          "away": 2.7
         },
-        "insight": "Expected goals: 1.56-1.65."
+        "insight": "Expected goals: 1.35-0.89."
       },
       {
-        "home": "HJK Helsinki",
-        "away": "AC Oulu",
-        "league": "Finland",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T13:00:00Z",
-        "lam": 2.36,
-        "mu": 1.06,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 2.36-1.06."
-      },
-      {
-        "home": "KuPS Kuopio",
-        "away": "FC Inter Turku",
-        "league": "Finland",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T13:00:00Z",
-        "lam": 1.24,
-        "mu": 0.93,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.24-0.93."
-      },
-      {
-        "home": "IF Gnistan",
-        "away": "VPS Vaasa",
-        "league": "Finland",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T13:00:00Z",
-        "lam": 1.62,
-        "mu": 1.26,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
-        "insight": "Expected goals: 1.62-1.26."
-      },
-      {
-        "home": "Querétaro",
-        "away": "Puebla",
-        "league": "Mexico",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T00:00:00Z",
-        "lam": 1.5,
-        "mu": 0.94,
+        "home": "BK Hacken",
+        "away": "IF Elfsborg",
+        "league": "Sweden",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T13:00:00Z",
+        "lam": 1.65,
+        "mu": 1.37,
         "mkt": {
-          "1": 1.75,
-          "X": 3.6,
-          "2": 3.94
+          "1": 1.83,
+          "X": 3.8,
+          "2": 3.5
+        },
+        "mkt_ou": {
+          "line": 2.5,
+          "over": 1.57,
+          "under": 2.23
+        },
+        "mkt_ah": {
+          "line": -0.5,
+          "home": 1.93,
+          "away": 1.88
+        },
+        "insight": "Expected goals: 1.65-1.37."
+      },
+      {
+        "home": "IF Brommapojkarna",
+        "away": "Halmstads BK",
+        "league": "Sweden",
+        "date": "Sun 11.22",
+        "kickoff": "2026-11-22T15:30:00Z",
+        "lam": 1.83,
+        "mu": 0.84,
+        "mkt": {
+          "1": 2.08,
+          "X": 3.55,
+          "2": 3.14
         },
         "mkt_ou": {
           "line": 2.5,
           "over": 1.65,
-          "under": 2.12
+          "under": 2.15
         },
         "mkt_ah": {
-          "line": -1.0,
-          "home": 2.36,
-          "away": 1.55
+          "line": -0.25,
+          "home": 1.88,
+          "away": 1.94
         },
-        "insight": "Expected goals: 1.50-0.94."
+        "insight": "Expected goals: 1.83-0.84."
+      },
+      {
+        "home": "Hammarby IF",
+        "away": "IFK Goteborg",
+        "league": "Sweden",
+        "date": "Mon 11.23",
+        "kickoff": "2026-11-23T18:00:00Z",
+        "lam": 2.03,
+        "mu": 0.77,
+        "mkt": {
+          "1": 1.21,
+          "X": 6.0,
+          "2": 10.0
+        },
+        "mkt_ou": {
+          "line": 2.5,
+          "over": 1.43,
+          "under": 2.75
+        },
+        "mkt_ah": {
+          "line": -1.75,
+          "home": 1.81,
+          "away": 2.02
+        },
+        "insight": "Expected goals: 2.03-0.77."
       },
       {
         "home": "Querétaro",
@@ -1088,42 +662,28 @@ window.SPORTS_DATA = {
         "kickoff": "2026-11-14T23:00:00Z",
         "lam": 1.19,
         "mu": 1.5,
-        "mkt": null,
-        "mkt_ou": null,
-        "mkt_ah": null,
+        "mkt": {
+          "1": 3.4,
+          "X": 3.6,
+          "2": 1.92
+        },
+        "mkt_ou": {
+          "line": 2.5,
+          "over": 1.58,
+          "under": 2.27
+        },
+        "mkt_ah": {
+          "line": 0.5,
+          "home": 1.85,
+          "away": 2.0
+        },
         "insight": "Expected goals: 1.19-1.50."
       }
     ]
   },
   "tenisz": {
     "label": "Tennis",
-    "matches": [
-      {
-        "home": "Ben Shelton",
-        "away": "Carlos Alcaraz",
-        "league": "Atp Paris Masters",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "insight": "Elo: 24% / 76%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Ben Shelton",
-                "p": 0.24
-              },
-              {
-                "k": "Carlos Alcaraz",
-                "p": 0.76
-              }
-            ]
-          }
-        ],
-        "extra": []
-      }
-    ]
+    "matches": []
   },
   "afl": {
     "label": "AFL",
@@ -1142,11 +702,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Sydney Swans",
-                "p": 0.435
+                "p": 0.435,
+                "mkt": 2.0
               },
               {
                 "k": "Geelong Cats",
-                "p": 0.565
+                "p": 0.565,
+                "mkt": 1.74
               }
             ]
           }
@@ -1157,26 +719,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Sydney Swans +5.0",
-                "p": 0.497
+                "k": "Sydney Swans +4.5",
+                "p": 0.491,
+                "mkt": 1.87
               },
               {
-                "k": "Geelong Cats -5.0",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 184.0",
-                "p": 0.499
-              },
-              {
-                "k": "Under 184.0",
-                "p": 0.501
+                "k": "Geelong Cats -4.5",
+                "p": 0.509,
+                "mkt": 1.87
               }
             ]
           }
@@ -1205,43 +755,14 @@ window.SPORTS_DATA = {
             ]
           }
         ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Fremantle Dockers -4.5",
-                "p": 0.5
-              },
-              {
-                "k": "Western Bulldogs +4.5",
-                "p": 0.5
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 178.0",
-                "p": 0.501
-              },
-              {
-                "k": "Under 178.0",
-                "p": 0.499
-              }
-            ]
-          }
-        ]
+        "extra": []
       },
       {
         "home": "Hawthorn Hawks",
         "away": "Brisbane Lions",
         "league": "AFL",
         "date": "Fri 3.19",
-        "kickoff": "2027-03-19T08:40:00Z",
+        "kickoff": "2027-03-19T08:50:00Z",
         "insight": "Expected 92-86 (margin +5.8).",
         "base": [
           {
@@ -1250,11 +771,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Hawthorn Hawks",
-                "p": 0.572
+                "p": 0.572,
+                "mkt": 1.56
               },
               {
                 "k": "Brisbane Lions",
-                "p": 0.428
+                "p": 0.428,
+                "mkt": 2.35
               }
             ]
           }
@@ -1265,26 +788,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Hawthorn Hawks -6.0",
-                "p": 0.497
+                "k": "Hawthorn Hawks -9.5",
+                "p": 0.454,
+                "mkt": 1.87
               },
               {
-                "k": "Brisbane Lions +6.0",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 177.5",
-                "p": 0.498
-              },
-              {
-                "k": "Under 177.5",
-                "p": 0.502
+                "k": "Brisbane Lions +9.5",
+                "p": 0.546,
+                "mkt": 1.87
               }
             ]
           }
@@ -1304,11 +815,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Richmond Tigers",
-                "p": 0.241
+                "p": 0.241,
+                "mkt": 7.5
               },
               {
                 "k": "Carlton Blues",
-                "p": 0.759
+                "p": 0.759,
+                "mkt": 1.07
               }
             ]
           }
@@ -1319,26 +832,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Richmond Tigers +22.5",
-                "p": 0.502
+                "k": "Richmond Tigers +44.5",
+                "p": 0.756,
+                "mkt": 1.87
               },
               {
-                "k": "Carlton Blues -22.5",
-                "p": 0.498
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 154.0",
-                "p": 0.498
-              },
-              {
-                "k": "Under 154.0",
-                "p": 0.502
+                "k": "Carlton Blues -44.5",
+                "p": 0.244,
+                "mkt": 1.87
               }
             ]
           }
@@ -1358,11 +859,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Adelaide Crows",
-                "p": 0.716
+                "p": 0.716,
+                "mkt": 1.35
               },
               {
                 "k": "GWS GIANTS",
-                "p": 0.284
+                "p": 0.284,
+                "mkt": 3.05
               }
             ]
           }
@@ -1373,26 +876,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Adelaide Crows -18.0",
-                "p": 0.503
+                "k": "Adelaide Crows -18.5",
+                "p": 0.497,
+                "mkt": 1.87
               },
               {
-                "k": "GWS GIANTS +18.0",
-                "p": 0.497
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 169.5",
-                "p": 0.501
-              },
-              {
-                "k": "Under 169.5",
-                "p": 0.499
+                "k": "GWS GIANTS +18.5",
+                "p": 0.503,
+                "mkt": 1.87
               }
             ]
           }
@@ -1412,11 +903,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "St Kilda Saints",
-                "p": 0.39
+                "p": 0.39,
+                "mkt": 2.4
               },
               {
                 "k": "Collingwood Magpies",
-                "p": 0.61
+                "p": 0.61,
+                "mkt": 1.54
               }
             ]
           }
@@ -1427,26 +920,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "St Kilda Saints +9.0",
-                "p": 0.501
+                "k": "St Kilda Saints +9.5",
+                "p": 0.508,
+                "mkt": 1.83
               },
               {
-                "k": "Collingwood Magpies -9.0",
-                "p": 0.499
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 162.0",
-                "p": 0.501
-              },
-              {
-                "k": "Under 162.0",
-                "p": 0.499
+                "k": "Collingwood Magpies -9.5",
+                "p": 0.492,
+                "mkt": 1.91
               }
             ]
           }
@@ -1466,11 +947,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "North Melbourne Kangaroos",
-                "p": 0.429
+                "p": 0.429,
+                "mkt": 1.49
               },
               {
                 "k": "Port Adelaide Power",
-                "p": 0.571
+                "p": 0.571,
+                "mkt": 2.55
               }
             ]
           }
@@ -1481,26 +964,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "North Melbourne Kangaroos +5.5",
-                "p": 0.497
+                "k": "North Melbourne Kangaroos -12.5",
+                "p": 0.284,
+                "mkt": 1.87
               },
               {
-                "k": "Port Adelaide Power -5.5",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 177.5",
-                "p": 0.5
-              },
-              {
-                "k": "Under 177.5",
-                "p": 0.5
+                "k": "Port Adelaide Power +12.5",
+                "p": 0.716,
+                "mkt": 1.87
               }
             ]
           }
@@ -1520,11 +991,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Melbourne Demons",
-                "p": 0.848
+                "p": 0.848,
+                "mkt": 1.13
               },
               {
                 "k": "Essendon Bombers",
-                "p": 0.152
+                "p": 0.152,
+                "mkt": 5.5
               }
             ]
           }
@@ -1535,26 +1008,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Melbourne Demons -33.0",
-                "p": 0.497
+                "k": "Melbourne Demons -34.5",
+                "p": 0.478,
+                "mkt": 1.87
               },
               {
-                "k": "Essendon Bombers +33.0",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 175.0",
-                "p": 0.498
-              },
-              {
-                "k": "Under 175.0",
-                "p": 0.502
+                "k": "Essendon Bombers +34.5",
+                "p": 0.522,
+                "mkt": 1.87
               }
             ]
           }
@@ -1583,36 +1044,7 @@ window.SPORTS_DATA = {
             ]
           }
         ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "West Coast Eagles +36.0",
-                "p": 0.5
-              },
-              {
-                "k": "Gold Coast Suns -36.0",
-                "p": 0.5
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 175.0",
-                "p": 0.503
-              },
-              {
-                "k": "Under 175.0",
-                "p": 0.497
-              }
-            ]
-          }
-        ]
+        "extra": []
       }
     ]
   },
@@ -1620,24 +1052,26 @@ window.SPORTS_DATA = {
     "label": "Basketball",
     "matches": [
       {
-        "home": "Chicago Bulls",
-        "away": "Philadelphia 76ers",
+        "home": "Atlanta Hawks",
+        "away": "Los Angeles Lakers",
         "league": "NBA",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T20:40:00Z",
-        "insight": "Expected 118-120 (margin -1.8).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T00:10:00Z",
+        "insight": "Expected 117-115 (margin +2.2).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Chicago Bulls",
-                "p": 0.449
+                "k": "Atlanta Hawks",
+                "p": 0.561,
+                "mkt": 1.83
               },
               {
-                "k": "Philadelphia 76ers",
-                "p": 0.551
+                "k": "Los Angeles Lakers",
+                "p": 0.439,
+                "mkt": 2.0
               }
             ]
           }
@@ -1648,12 +1082,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Chicago Bulls +2.0",
-                "p": 0.506
+                "k": "Atlanta Hawks -1.5",
+                "p": 0.519,
+                "mkt": 1.91
               },
               {
-                "k": "Philadelphia 76ers -2.0",
-                "p": 0.494
+                "k": "Los Angeles Lakers +1.5",
+                "p": 0.481,
+                "mkt": 1.93
               }
             ]
           },
@@ -1662,12 +1098,74 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 238.0",
-                "p": 0.501
+                "k": "Over 236.5",
+                "p": 0.406,
+                "mkt": 1.91
               },
               {
-                "k": "Under 238.0",
-                "p": 0.499
+                "k": "Under 236.5",
+                "p": 0.594,
+                "mkt": 1.91
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Charlotte Hornets",
+        "away": "Cleveland Cavaliers",
+        "league": "NBA",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T00:10:00Z",
+        "insight": "Expected 116-114 (margin +2.6).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Charlotte Hornets",
+                "p": 0.572,
+                "mkt": 3.7
+              },
+              {
+                "k": "Cleveland Cavaliers",
+                "p": 0.428,
+                "mkt": 1.3
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Charlotte Hornets +8.5",
+                "p": 0.783,
+                "mkt": 1.89
+              },
+              {
+                "k": "Cleveland Cavaliers -8.5",
+                "p": 0.217,
+                "mkt": 1.92
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 214.5",
+                "p": 0.798,
+                "mkt": 1.91
+              },
+              {
+                "k": "Under 214.5",
+                "p": 0.202,
+                "mkt": 1.93
               }
             ]
           }
@@ -1675,11 +1173,11 @@ window.SPORTS_DATA = {
       },
       {
         "home": "Detroit Pistons",
-        "away": "Los Angeles Lakers",
+        "away": "Washington Wizards",
         "league": "NBA",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T23:10:00Z",
-        "insight": "Expected 115-108 (margin +7.4).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T00:10:00Z",
+        "insight": "Expected 125-106 (margin +18.8).",
         "base": [
           {
             "name": "Moneyline",
@@ -1687,11 +1185,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Detroit Pistons",
-                "p": 0.698
+                "p": 0.908,
+                "mkt": 1.2
               },
               {
-                "k": "Los Angeles Lakers",
-                "p": 0.302
+                "k": "Washington Wizards",
+                "p": 0.092,
+                "mkt": 4.8
               }
             ]
           }
@@ -1702,12 +1202,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Detroit Pistons -7.5",
-                "p": 0.496
+                "k": "Detroit Pistons -10.5",
+                "p": 0.722,
+                "mkt": 1.91
               },
               {
-                "k": "Los Angeles Lakers +7.5",
-                "p": 0.504
+                "k": "Washington Wizards +10.5",
+                "p": 0.278,
+                "mkt": 1.91
               }
             ]
           },
@@ -1716,36 +1218,40 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 222.5",
-                "p": 0.498
+                "k": "Over 218.0",
+                "p": 0.761,
+                "mkt": 1.91
               },
               {
-                "k": "Under 222.5",
-                "p": 0.502
+                "k": "Under 218.0",
+                "p": 0.239,
+                "mkt": 1.91
               }
             ]
           }
         ]
       },
       {
-        "home": "Minnesota Timberwolves",
-        "away": "Utah Jazz",
+        "home": "Toronto Raptors",
+        "away": "Memphis Grizzlies",
         "league": "NBA",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T00:10:00Z",
-        "insight": "Expected 128-116 (margin +12.1).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T00:40:00Z",
+        "insight": "Expected 121-111 (margin +9.8).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Minnesota Timberwolves",
-                "p": 0.804
+                "k": "Toronto Raptors",
+                "p": 0.756,
+                "mkt": 1.67
               },
               {
-                "k": "Utah Jazz",
-                "p": 0.196
+                "k": "Memphis Grizzlies",
+                "p": 0.244,
+                "mkt": 2.29
               }
             ]
           }
@@ -1756,12 +1262,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Minnesota Timberwolves -12.0",
-                "p": 0.504
+                "k": "Toronto Raptors -3.0",
+                "p": 0.685,
+                "mkt": 1.91
               },
               {
-                "k": "Utah Jazz +12.0",
-                "p": 0.496
+                "k": "Memphis Grizzlies +3.0",
+                "p": 0.315,
+                "mkt": 1.91
               }
             ]
           },
@@ -1770,12 +1278,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 244.0",
-                "p": 0.497
+                "k": "Over 229.0",
+                "p": 0.55,
+                "mkt": 1.95
               },
               {
-                "k": "Under 244.0",
-                "p": 0.503
+                "k": "Under 229.0",
+                "p": 0.45,
+                "mkt": 1.91
               }
             ]
           }
@@ -1783,11 +1293,11 @@ window.SPORTS_DATA = {
       },
       {
         "home": "Dallas Mavericks",
-        "away": "Brooklyn Nets",
+        "away": "Indiana Pacers",
         "league": "NBA",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T00:40:00Z",
-        "insight": "Expected 115-109 (margin +6.1).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T01:10:00Z",
+        "insight": "Expected 120-115 (margin +4.5).",
         "base": [
           {
             "name": "Moneyline",
@@ -1795,11 +1305,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Dallas Mavericks",
-                "p": 0.667
+                "p": 0.624,
+                "mkt": 1.65
               },
               {
-                "k": "Brooklyn Nets",
-                "p": 0.333
+                "k": "Indiana Pacers",
+                "p": 0.376,
+                "mkt": 2.35
               }
             ]
           }
@@ -1810,12 +1322,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Dallas Mavericks -6.0",
-                "p": 0.503
+                "k": "Dallas Mavericks -3.5",
+                "p": 0.527,
+                "mkt": 1.91
               },
               {
-                "k": "Brooklyn Nets +6.0",
-                "p": 0.497
+                "k": "Indiana Pacers +3.5",
+                "p": 0.473,
+                "mkt": 1.91
               }
             ]
           },
@@ -1824,36 +1338,220 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 224.5",
-                "p": 0.504
+                "k": "Over 225.5",
+                "p": 0.699,
+                "mkt": 1.91
               },
               {
-                "k": "Under 224.5",
-                "p": 0.496
+                "k": "Under 225.5",
+                "p": 0.301,
+                "mkt": 1.91
               }
             ]
           }
         ]
       },
       {
-        "home": "Milwaukee Bucks",
-        "away": "Boston Celtics",
+        "home": "Houston Rockets",
+        "away": "Denver Nuggets",
         "league": "NBA",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T01:10:00Z",
-        "insight": "Expected 104-114 (margin -10.4).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T01:40:00Z",
+        "insight": "Expected 116-114 (margin +1.9).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Milwaukee Bucks",
-                "p": 0.231
+                "k": "Houston Rockets",
+                "p": 0.552,
+                "mkt": 1.3
+              },
+              {
+                "k": "Denver Nuggets",
+                "p": 0.448,
+                "mkt": 3.67
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Houston Rockets -9.0",
+                "p": 0.307,
+                "mkt": 1.91
+              },
+              {
+                "k": "Denver Nuggets +9.0",
+                "p": 0.693,
+                "mkt": 1.91
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 219.5",
+                "p": 0.711,
+                "mkt": 1.91
+              },
+              {
+                "k": "Under 219.5",
+                "p": 0.289,
+                "mkt": 1.91
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Phoenix Suns",
+        "away": "San Antonio Spurs",
+        "league": "NBA",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T02:10:00Z",
+        "insight": "Expected 109-114 (margin -5.7).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Phoenix Suns",
+                "p": 0.344,
+                "mkt": 3.85
+              },
+              {
+                "k": "San Antonio Spurs",
+                "p": 0.656,
+                "mkt": 1.28
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Phoenix Suns +8.5",
+                "p": 0.578,
+                "mkt": 1.94
+              },
+              {
+                "k": "San Antonio Spurs -8.5",
+                "p": 0.422,
+                "mkt": 1.91
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 227.5",
+                "p": 0.399,
+                "mkt": 1.95
+              },
+              {
+                "k": "Under 227.5",
+                "p": 0.601,
+                "mkt": 1.88
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Golden State Warriors",
+        "away": "New Orleans Pelicans",
+        "league": "NBA",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T03:10:00Z",
+        "insight": "Expected 120-115 (margin +5.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Golden State Warriors",
+                "p": 0.64,
+                "mkt": 1.26
+              },
+              {
+                "k": "New Orleans Pelicans",
+                "p": 0.36,
+                "mkt": 4.1
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Golden State Warriors -9.5",
+                "p": 0.377,
+                "mkt": 1.94
+              },
+              {
+                "k": "New Orleans Pelicans +9.5",
+                "p": 0.623,
+                "mkt": 1.91
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 232.0",
+                "p": 0.558,
+                "mkt": 1.91
+              },
+              {
+                "k": "Under 232.0",
+                "p": 0.442,
+                "mkt": 1.91
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Philadelphia 76ers",
+        "away": "Boston Celtics",
+        "league": "NBA",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T01:10:00Z",
+        "insight": "Expected 108-114 (margin -5.7).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Philadelphia 76ers",
+                "p": 0.343,
+                "mkt": 1.87
               },
               {
                 "k": "Boston Celtics",
-                "p": 0.769
+                "p": 0.657,
+                "mkt": 1.95
               }
             ]
           }
@@ -1864,12 +1562,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Milwaukee Bucks +10.5",
-                "p": 0.502
+                "k": "Philadelphia 76ers -1.5",
+                "p": 0.305,
+                "mkt": 1.95
               },
               {
-                "k": "Boston Celtics -10.5",
-                "p": 0.498
+                "k": "Boston Celtics +1.5",
+                "p": 0.695,
+                "mkt": 1.87
               }
             ]
           },
@@ -1878,66 +1578,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 218.5",
-                "p": 0.497
+                "k": "Over 215.5",
+                "p": 0.624,
+                "mkt": 1.92
               },
               {
-                "k": "Under 218.5",
-                "p": 0.503
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Sacramento Kings",
-        "away": "Miami Heat",
-        "league": "NBA",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T02:10:00Z",
-        "insight": "Expected 116-125 (margin -8.5).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sacramento Kings",
-                "p": 0.275
-              },
-              {
-                "k": "Miami Heat",
-                "p": 0.725
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Sacramento Kings +8.5",
-                "p": 0.501
-              },
-              {
-                "k": "Miami Heat -8.5",
-                "p": 0.499
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 240.5",
-                "p": 0.502
-              },
-              {
-                "k": "Under 240.5",
-                "p": 0.498
+                "k": "Under 215.5",
+                "p": 0.376,
+                "mkt": 1.88
               }
             ]
           }
@@ -1958,7 +1606,7 @@ window.SPORTS_DATA = {
               {
                 "k": "New York Knicks",
                 "p": 0.517,
-                "mkt": 1.96
+                "mkt": 1.91
               },
               {
                 "k": "San Antonio Spurs",
@@ -1974,12 +1622,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Knicks -0.5",
-                "p": 0.503
+                "k": "New York Knicks -1.0",
+                "p": 0.489,
+                "mkt": 1.94
               },
               {
-                "k": "San Antonio Spurs +0.5",
-                "p": 0.497
+                "k": "San Antonio Spurs +1.0",
+                "p": 0.511,
+                "mkt": 1.87
               }
             ]
           },
@@ -1988,12 +1638,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 223.0",
-                "p": 0.499
+                "k": "Over 230.0",
+                "p": 0.354,
+                "mkt": 1.92
               },
               {
-                "k": "Under 223.0",
-                "p": 0.501
+                "k": "Under 230.0",
+                "p": 0.646,
+                "mkt": 1.89
               }
             ]
           }
@@ -2019,7 +1671,7 @@ window.SPORTS_DATA = {
               {
                 "k": "Miami Heat",
                 "p": 0.298,
-                "mkt": 2.77
+                "mkt": 2.55
               }
             ]
           }
@@ -2030,12 +1682,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Boston Celtics -7.5",
-                "p": 0.5
+                "k": "Boston Celtics -5.0",
+                "p": 0.57,
+                "mkt": 1.88
               },
               {
-                "k": "Miami Heat +7.5",
-                "p": 0.5
+                "k": "Miami Heat +5.0",
+                "p": 0.43,
+                "mkt": 1.93
               }
             ]
           },
@@ -2044,12 +1698,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 230.0",
-                "p": 0.503
+                "k": "Over 230.5",
+                "p": 0.493,
+                "mkt": 1.89
               },
               {
-                "k": "Under 230.0",
-                "p": 0.497
+                "k": "Under 230.5",
+                "p": 0.507,
+                "mkt": 1.92
               }
             ]
           }
@@ -2070,12 +1726,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Los Angeles Lakers",
                 "p": 0.589,
-                "mkt": 1.88
+                "mkt": 1.87
               },
               {
                 "k": "Philadelphia 76ers",
                 "p": 0.411,
-                "mkt": 1.96
+                "mkt": 1.95
               }
             ]
           }
@@ -2086,12 +1742,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Los Angeles Lakers -3.0",
-                "p": 0.505
+                "k": "Los Angeles Lakers -1.0",
+                "p": 0.561,
+                "mkt": 1.91
               },
               {
-                "k": "Philadelphia 76ers +3.0",
-                "p": 0.495
+                "k": "Philadelphia 76ers +1.0",
+                "p": 0.439,
+                "mkt": 1.91
               }
             ]
           },
@@ -2100,12 +1758,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 228.5",
-                "p": 0.497
+                "k": "Over 234.0",
+                "p": 0.382,
+                "mkt": 1.89
               },
               {
-                "k": "Under 228.5",
-                "p": 0.503
+                "k": "Under 234.0",
+                "p": 0.618,
+                "mkt": 1.92
               }
             ]
           }
@@ -2126,7 +1786,7 @@ window.SPORTS_DATA = {
               {
                 "k": "Golden State Warriors",
                 "p": 0.42,
-                "mkt": 2.15
+                "mkt": 2.05
               },
               {
                 "k": "Denver Nuggets",
@@ -2142,12 +1802,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Golden State Warriors +3.0",
-                "p": 0.504
+                "k": "Golden State Warriors +2.0",
+                "p": 0.476,
+                "mkt": 1.89
               },
               {
-                "k": "Denver Nuggets -3.0",
-                "p": 0.496
+                "k": "Denver Nuggets -2.0",
+                "p": 0.524,
+                "mkt": 1.92
               }
             ]
           },
@@ -2156,12 +1818,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 235.5",
-                "p": 0.498
+                "k": "Over 234.5",
+                "p": 0.519,
+                "mkt": 1.89
               },
               {
-                "k": "Under 235.5",
-                "p": 0.502
+                "k": "Under 234.5",
+                "p": 0.481,
+                "mkt": 1.92
               }
             ]
           }
@@ -2172,734 +1836,6 @@ window.SPORTS_DATA = {
   "amfoci": {
     "label": "Am. football",
     "matches": [
-      {
-        "home": "Atlanta Falcons",
-        "away": "Cincinnati Bengals",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T14:30:00Z",
-        "insight": "Expected 26-24 (margin +1.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Atlanta Falcons",
-                "p": 0.558,
-                "mkt": 2.43
-              },
-              {
-                "k": "Cincinnati Bengals",
-                "p": 0.442,
-                "mkt": 1.6
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Atlanta Falcons -2.0",
-                "p": 0.493
-              },
-              {
-                "k": "Cincinnati Bengals +2.0",
-                "p": 0.507
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 50.5",
-                "p": 0.503
-              },
-              {
-                "k": "Under 50.5",
-                "p": 0.497
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Carolina Panthers",
-        "away": "Denver Broncos",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:00:00Z",
-        "insight": "Expected 15-23 (margin -7.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Carolina Panthers",
-                "p": 0.277,
-                "mkt": 2.28
-              },
-              {
-                "k": "Denver Broncos",
-                "p": 0.723,
-                "mkt": 1.67
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Carolina Panthers +7.0",
-                "p": 0.495
-              },
-              {
-                "k": "Denver Broncos -7.0",
-                "p": 0.505
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 38.0",
-                "p": 0.502
-              },
-              {
-                "k": "Under 38.0",
-                "p": 0.498
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "New Orleans Saints",
-        "away": "Cleveland Browns",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:00:00Z",
-        "insight": "Expected 18-17 (margin +0.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New Orleans Saints",
-                "p": 0.527,
-                "mkt": 1.69
-              },
-              {
-                "k": "Cleveland Browns",
-                "p": 0.473,
-                "mkt": 2.23
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New Orleans Saints -1.0",
-                "p": 0.494
-              },
-              {
-                "k": "Cleveland Browns +1.0",
-                "p": 0.506
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 35.5",
-                "p": 0.492
-              },
-              {
-                "k": "Under 35.5",
-                "p": 0.508
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Indianapolis Colts",
-        "away": "Dallas Cowboys",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:00:00Z",
-        "insight": "Expected 34-26 (margin +8.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Indianapolis Colts",
-                "p": 0.753,
-                "mkt": 3.1
-              },
-              {
-                "k": "Dallas Cowboys",
-                "p": 0.247,
-                "mkt": 1.4
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Indianapolis Colts -8.5",
-                "p": 0.493
-              },
-              {
-                "k": "Dallas Cowboys +8.5",
-                "p": 0.507
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 60.0",
-                "p": 0.503
-              },
-              {
-                "k": "Under 60.0",
-                "p": 0.497
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Miami Dolphins",
-        "away": "Detroit Lions",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:00:00Z",
-        "insight": "Expected 23-25 (margin -2.2).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Miami Dolphins",
-                "p": 0.429,
-                "mkt": 3.6
-              },
-              {
-                "k": "Detroit Lions",
-                "p": 0.571,
-                "mkt": 1.31
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Miami Dolphins +2.0",
-                "p": 0.494
-              },
-              {
-                "k": "Detroit Lions -2.0",
-                "p": 0.506
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 47.5",
-                "p": 0.498
-              },
-              {
-                "k": "Under 47.5",
-                "p": 0.502
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Kansas City Chiefs",
-        "away": "New York Jets",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:00:00Z",
-        "insight": "Expected 27-16 (margin +11.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Kansas City Chiefs",
-                "p": 0.825,
-                "mkt": 1.2
-              },
-              {
-                "k": "New York Jets",
-                "p": 0.175,
-                "mkt": 4.75
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Kansas City Chiefs -11.5",
-                "p": 0.494
-              },
-              {
-                "k": "New York Jets +11.5",
-                "p": 0.506
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 43.0",
-                "p": 0.494
-              },
-              {
-                "k": "Under 43.0",
-                "p": 0.506
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Washington Commanders",
-        "away": "Los Angeles Rams",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:00:00Z",
-        "insight": "Expected 20-32 (margin -12.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Washington Commanders",
-                "p": 0.154,
-                "mkt": 3.07
-              },
-              {
-                "k": "Los Angeles Rams",
-                "p": 0.846,
-                "mkt": 1.4
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Washington Commanders +12.5",
-                "p": 0.505
-              },
-              {
-                "k": "Los Angeles Rams -12.5",
-                "p": 0.495
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 51.5",
-                "p": 0.5
-              },
-              {
-                "k": "Under 51.5",
-                "p": 0.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Philadelphia Eagles",
-        "away": "New York Giants",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:00:00Z",
-        "insight": "Expected 24-20 (margin +3.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Philadelphia Eagles",
-                "p": 0.608,
-                "mkt": 2.4
-              },
-              {
-                "k": "New York Giants",
-                "p": 0.392,
-                "mkt": 1.61
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Philadelphia Eagles -3.5",
-                "p": 0.494
-              },
-              {
-                "k": "New York Giants +3.5",
-                "p": 0.506
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 44.0",
-                "p": 0.505
-              },
-              {
-                "k": "Under 44.0",
-                "p": 0.495
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Los Angeles Chargers",
-        "away": "Houston Texans",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T21:05:00Z",
-        "insight": "Expected 17-20 (margin -2.7).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Los Angeles Chargers",
-                "p": 0.411,
-                "mkt": 2.8
-              },
-              {
-                "k": "Houston Texans",
-                "p": 0.589,
-                "mkt": 1.46
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Los Angeles Chargers +2.5",
-                "p": 0.493
-              },
-              {
-                "k": "Houston Texans -2.5",
-                "p": 0.507
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 37.0",
-                "p": 0.508
-              },
-              {
-                "k": "Under 37.0",
-                "p": 0.492
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Seattle Seahawks",
-        "away": "Arizona Cardinals",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T21:25:00Z",
-        "insight": "Expected 32-15 (margin +16.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Seattle Seahawks",
-                "p": 0.909,
-                "mkt": 1.14
-              },
-              {
-                "k": "Arizona Cardinals",
-                "p": 0.091,
-                "mkt": 6.0
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Seattle Seahawks -16.0",
-                "p": 0.505
-              },
-              {
-                "k": "Arizona Cardinals +16.0",
-                "p": 0.495
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 47.0",
-                "p": 0.497
-              },
-              {
-                "k": "Under 47.0",
-                "p": 0.503
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "New England Patriots",
-        "away": "Green Bay Packers",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T21:25:00Z",
-        "insight": "Expected 25-19 (margin +6.3).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New England Patriots",
-                "p": 0.7,
-                "mkt": 1.66
-              },
-              {
-                "k": "Green Bay Packers",
-                "p": 0.3,
-                "mkt": 2.32
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "New England Patriots -6.5",
-                "p": 0.495
-              },
-              {
-                "k": "Green Bay Packers +6.5",
-                "p": 0.505
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 44.0",
-                "p": 0.493
-              },
-              {
-                "k": "Under 44.0",
-                "p": 0.507
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "San Francisco 49ers",
-        "away": "Las Vegas Raiders",
-        "league": "NFL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T21:25:00Z",
-        "insight": "Expected 27-16 (margin +11.4).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "San Francisco 49ers",
-                "p": 0.827,
-                "mkt": 1.21
-              },
-              {
-                "k": "Las Vegas Raiders",
-                "p": 0.173,
-                "mkt": 4.75
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "San Francisco 49ers -11.5",
-                "p": 0.497
-              },
-              {
-                "k": "Las Vegas Raiders +11.5",
-                "p": 0.503
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 42.5",
-                "p": 0.504
-              },
-              {
-                "k": "Under 42.5",
-                "p": 0.496
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Chicago Bears",
-        "away": "Tampa Bay Buccaneers",
-        "league": "NFL",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T01:20:00Z",
-        "insight": "Expected 27-22 (margin +4.8).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Bears",
-                "p": 0.654,
-                "mkt": 1.37
-              },
-              {
-                "k": "Tampa Bay Buccaneers",
-                "p": 0.346,
-                "mkt": 3.2
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Chicago Bears -5.0",
-                "p": 0.494
-              },
-              {
-                "k": "Tampa Bay Buccaneers +5.0",
-                "p": 0.506
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 49.5",
-                "p": 0.498
-              },
-              {
-                "k": "Under 49.5",
-                "p": 0.502
-              }
-            ]
-          }
-        ]
-      },
       {
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
@@ -2915,12 +1851,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Minnesota Vikings",
                 "p": 0.493,
-                "mkt": 2.31
+                "mkt": 2.5
               },
               {
                 "k": "Buffalo Bills",
                 "p": 0.507,
-                "mkt": 1.65
+                "mkt": 1.56
               }
             ]
           }
@@ -2931,12 +1867,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Minnesota Vikings -0.0",
-                "p": 0.493
+                "k": "Minnesota Vikings +3.0",
+                "p": 0.591,
+                "mkt": 1.97
               },
               {
-                "k": "Buffalo Bills 0.0",
-                "p": 0.507
+                "k": "Buffalo Bills -3.0",
+                "p": 0.409,
+                "mkt": 1.87
               }
             ]
           },
@@ -2945,12 +1883,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 44.0",
-                "p": 0.504
+                "k": "Over 45.0",
+                "p": 0.471,
+                "mkt": 1.93
               },
               {
-                "k": "Under 44.0",
-                "p": 0.496
+                "k": "Under 45.0",
+                "p": 0.529,
+                "mkt": 1.91
               }
             ]
           }
@@ -2970,11 +1910,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "New York Giants",
-                "p": 0.749
+                "p": 0.749,
+                "mkt": 1.8
               },
               {
                 "k": "Washington Commanders",
-                "p": 0.251
+                "p": 0.251,
+                "mkt": 2.05
               }
             ]
           }
@@ -2985,12 +1927,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Giants -8.0",
-                "p": 0.505
+                "k": "New York Giants -1.5",
+                "p": 0.708,
+                "mkt": 1.91
               },
               {
-                "k": "Washington Commanders +8.0",
-                "p": 0.495
+                "k": "Washington Commanders +1.5",
+                "p": 0.292,
+                "mkt": 1.91
               }
             ]
           },
@@ -2999,12 +1943,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 50.0",
-                "p": 0.495
+                "k": "Over 43.0",
+                "p": 0.712,
+                "mkt": 1.91
               },
               {
-                "k": "Under 50.0",
-                "p": 0.505
+                "k": "Under 43.0",
+                "p": 0.288,
+                "mkt": 1.91
               }
             ]
           }
@@ -3024,11 +1970,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Detroit Lions",
-                "p": 0.417
+                "p": 0.417,
+                "mkt": 1.67
               },
               {
                 "k": "New England Patriots",
-                "p": 0.583
+                "p": 0.583,
+                "mkt": 2.29
               }
             ]
           }
@@ -3039,12 +1987,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Detroit Lions +2.5",
-                "p": 0.498
+                "k": "Detroit Lions -3.0",
+                "p": 0.323,
+                "mkt": 2.0
               },
               {
-                "k": "New England Patriots -2.5",
-                "p": 0.502
+                "k": "New England Patriots +3.0",
+                "p": 0.677,
+                "mkt": 1.83
               }
             ]
           },
@@ -3053,12 +2003,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 49.5",
-                "p": 0.501
+                "k": "Over 51.0",
+                "p": 0.452,
+                "mkt": 1.91
               },
               {
-                "k": "Under 49.5",
-                "p": 0.499
+                "k": "Under 51.0",
+                "p": 0.548,
+                "mkt": 1.91
               }
             ]
           }
@@ -3078,11 +2030,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Atlanta Falcons",
-                "p": 0.399
+                "p": 0.399,
+                "mkt": 2.5
               },
               {
                 "k": "Kansas City Chiefs",
-                "p": 0.601
+                "p": 0.601,
+                "mkt": 1.55
               }
             ]
           }
@@ -3094,11 +2048,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Atlanta Falcons +3.0",
-                "p": 0.496
+                "p": 0.496,
+                "mkt": 1.96
               },
               {
                 "k": "Kansas City Chiefs -3.0",
-                "p": 0.504
+                "p": 0.504,
+                "mkt": 1.87
               }
             ]
           },
@@ -3107,12 +2063,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 40.0",
-                "p": 0.508
+                "k": "Over 45.0",
+                "p": 0.348,
+                "mkt": 1.91
               },
               {
-                "k": "Under 40.0",
-                "p": 0.492
+                "k": "Under 45.0",
+                "p": 0.652,
+                "mkt": 1.93
               }
             ]
           }
@@ -3132,11 +2090,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "New York Jets",
-                "p": 0.225
+                "p": 0.225,
+                "mkt": 4.6
               },
               {
                 "k": "Buffalo Bills",
-                "p": 0.775
+                "p": 0.775,
+                "mkt": 1.22
               }
             ]
           }
@@ -3147,12 +2107,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New York Jets +9.0",
-                "p": 0.495
+                "k": "New York Jets +7.5",
+                "p": 0.445,
+                "mkt": 1.91
               },
               {
-                "k": "Buffalo Bills -9.0",
-                "p": 0.505
+                "k": "Buffalo Bills -7.5",
+                "p": 0.555,
+                "mkt": 1.91
               }
             ]
           },
@@ -3161,12 +2123,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 50.5",
-                "p": 0.506
+                "k": "Over 51.0",
+                "p": 0.489,
+                "mkt": 1.95
               },
               {
-                "k": "Under 50.5",
-                "p": 0.494
+                "k": "Under 51.0",
+                "p": 0.511,
+                "mkt": 1.88
               }
             ]
           }
@@ -3186,11 +2150,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "New Orleans Saints",
-                "p": 0.57
+                "p": 0.57,
+                "mkt": 1.93
               },
               {
                 "k": "Carolina Panthers",
-                "p": 0.43
+                "p": 0.43,
+                "mkt": 1.91
               }
             ]
           }
@@ -3201,12 +2167,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "New Orleans Saints -2.0",
-                "p": 0.505
+                "k": "New Orleans Saints 0.0",
+                "p": 0.57,
+                "mkt": 1.91
               },
               {
-                "k": "Carolina Panthers +2.0",
-                "p": 0.495
+                "k": "Carolina Panthers -0.0",
+                "p": 0.43,
+                "mkt": 1.95
               }
             ]
           },
@@ -3215,12 +2183,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 37.5",
-                "p": 0.492
+                "k": "Over 47.5",
+                "p": 0.2,
+                "mkt": 1.91
               },
               {
-                "k": "Under 37.5",
-                "p": 0.508
+                "k": "Under 47.5",
+                "p": 0.8,
+                "mkt": 1.91
               }
             ]
           }
@@ -3240,11 +2210,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Cleveland Browns",
-                "p": 0.252
+                "p": 0.252,
+                "mkt": 2.76
               },
               {
                 "k": "Houston Texans",
-                "p": 0.748
+                "p": 0.748,
+                "mkt": 1.46
               }
             ]
           }
@@ -3255,12 +2227,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Cleveland Browns +8.0",
-                "p": 0.496
+                "k": "Cleveland Browns +4.5",
+                "p": 0.383,
+                "mkt": 1.91
               },
               {
-                "k": "Houston Texans -8.0",
-                "p": 0.504
+                "k": "Houston Texans -4.5",
+                "p": 0.617,
+                "mkt": 1.93
               }
             ]
           },
@@ -3269,12 +2243,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 34.0",
-                "p": 0.502
+                "k": "Over 39.5",
+                "p": 0.327,
+                "mkt": 1.91
               },
               {
-                "k": "Under 34.0",
-                "p": 0.498
+                "k": "Under 39.5",
+                "p": 0.673,
+                "mkt": 1.91
               }
             ]
           }
@@ -3294,11 +2270,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Green Bay Packers",
-                "p": 0.574
+                "p": 0.574,
+                "mkt": 1.57
               },
               {
                 "k": "Minnesota Vikings",
-                "p": 0.426
+                "p": 0.426,
+                "mkt": 2.47
               }
             ]
           }
@@ -3309,12 +2287,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Green Bay Packers -2.5",
-                "p": 0.493
+                "k": "Green Bay Packers -3.0",
+                "p": 0.476,
+                "mkt": 1.83
               },
               {
-                "k": "Minnesota Vikings +2.5",
-                "p": 0.507
+                "k": "Minnesota Vikings +3.0",
+                "p": 0.524,
+                "mkt": 2.0
               }
             ]
           },
@@ -3323,12 +2303,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 37.5",
-                "p": 0.498
+                "k": "Over 42.0",
+                "p": 0.354,
+                "mkt": 1.91
               },
               {
-                "k": "Under 37.5",
-                "p": 0.502
+                "k": "Under 42.0",
+                "p": 0.646,
+                "mkt": 1.91
               }
             ]
           }
@@ -3348,11 +2330,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Indianapolis Colts",
-                "p": 0.759
+                "p": 0.759,
+                "mkt": 1.75
               },
               {
                 "k": "Miami Dolphins",
-                "p": 0.241
+                "p": 0.241,
+                "mkt": 2.1
               }
             ]
           }
@@ -3363,12 +2347,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Indianapolis Colts -8.5",
-                "p": 0.5
+                "k": "Indianapolis Colts -1.5",
+                "p": 0.719,
+                "mkt": 1.91
               },
               {
-                "k": "Miami Dolphins +8.5",
-                "p": 0.5
+                "k": "Miami Dolphins +1.5",
+                "p": 0.281,
+                "mkt": 1.95
               }
             ]
           },
@@ -3377,12 +2363,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 49.0",
-                "p": 0.496
+                "k": "Over 40.5",
+                "p": 0.754,
+                "mkt": 1.91
               },
               {
-                "k": "Under 49.0",
-                "p": 0.504
+                "k": "Under 40.5",
+                "p": 0.246,
+                "mkt": 1.91
               }
             ]
           }
@@ -3402,11 +2390,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Tennessee Titans",
-                "p": 0.21
+                "p": 0.21,
+                "mkt": 4.75
               },
               {
                 "k": "Jacksonville Jaguars",
-                "p": 0.79
+                "p": 0.79,
+                "mkt": 1.2
               }
             ]
           }
@@ -3418,11 +2408,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Tennessee Titans +10.0",
-                "p": 0.507
+                "p": 0.507,
+                "mkt": 1.87
               },
               {
                 "k": "Jacksonville Jaguars -10.0",
-                "p": 0.493
+                "p": 0.493,
+                "mkt": 2.0
               }
             ]
           },
@@ -3431,12 +2423,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 46.0",
-                "p": 0.505
+                "k": "Over 46.5",
+                "p": 0.489,
+                "mkt": 1.91
               },
               {
-                "k": "Under 46.0",
-                "p": 0.495
+                "k": "Under 46.5",
+                "p": 0.511,
+                "mkt": 1.93
               }
             ]
           }
@@ -3456,11 +2450,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Arizona Cardinals",
-                "p": 0.192
+                "p": 0.192,
+                "mkt": 3.85
               },
               {
                 "k": "Los Angeles Rams",
-                "p": 0.808
+                "p": 0.808,
+                "mkt": 1.28
               }
             ]
           }
@@ -3471,12 +2467,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Arizona Cardinals +10.5",
-                "p": 0.499
+                "k": "Arizona Cardinals +7.5",
+                "p": 0.401,
+                "mkt": 1.87
               },
               {
-                "k": "Los Angeles Rams -10.5",
-                "p": 0.501
+                "k": "Los Angeles Rams -7.5",
+                "p": 0.599,
+                "mkt": 1.95
               }
             ]
           },
@@ -3485,12 +2483,74 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 51.0",
-                "p": 0.502
+                "k": "Over 44.5",
+                "p": 0.705,
+                "mkt": 1.95
               },
               {
-                "k": "Under 51.0",
-                "p": 0.498
+                "k": "Under 44.5",
+                "p": 0.295,
+                "mkt": 1.89
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Las Vegas Raiders",
+        "away": "Seattle Seahawks",
+        "league": "NFL",
+        "date": "Sun 11.15",
+        "kickoff": "2026-11-15T21:05:00Z",
+        "insight": "Expected 13-28 (margin -15.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Las Vegas Raiders",
+                "p": 0.107,
+                "mkt": 2.49
+              },
+              {
+                "k": "Seattle Seahawks",
+                "p": 0.893,
+                "mkt": 1.56
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Las Vegas Raiders +3.5",
+                "p": 0.17,
+                "mkt": 1.89
+              },
+              {
+                "k": "Seattle Seahawks -3.5",
+                "p": 0.83,
+                "mkt": 1.95
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 43.5",
+                "p": 0.421,
+                "mkt": 1.93
+              },
+              {
+                "k": "Under 43.5",
+                "p": 0.579,
+                "mkt": 1.91
               }
             ]
           }
@@ -3510,11 +2570,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Dallas Cowboys",
-                "p": 0.399
+                "p": 0.399,
+                "mkt": 2.8
               },
               {
                 "k": "San Francisco 49ers",
-                "p": 0.601
+                "p": 0.601,
+                "mkt": 1.47
               }
             ]
           }
@@ -3525,12 +2587,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Dallas Cowboys +3.0",
-                "p": 0.497
+                "k": "Dallas Cowboys +4.0",
+                "p": 0.529,
+                "mkt": 1.91
               },
               {
-                "k": "San Francisco 49ers -3.0",
-                "p": 0.503
+                "k": "San Francisco 49ers -4.0",
+                "p": 0.471,
+                "mkt": 1.91
               }
             ]
           },
@@ -3539,12 +2603,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 56.5",
-                "p": 0.507
+                "k": "Over 56.0",
+                "p": 0.523,
+                "mkt": 1.91
               },
               {
-                "k": "Under 56.5",
-                "p": 0.493
+                "k": "Under 56.0",
+                "p": 0.477,
+                "mkt": 1.91
               }
             ]
           }
@@ -3564,11 +2630,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Cincinnati Bengals",
-                "p": 0.419
+                "p": 0.419,
+                "mkt": 1.51
               },
               {
                 "k": "Pittsburgh Steelers",
-                "p": 0.581
+                "p": 0.581,
+                "mkt": 2.64
               }
             ]
           }
@@ -3579,12 +2647,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Cincinnati Bengals +2.5",
-                "p": 0.501
+                "k": "Cincinnati Bengals -3.5",
+                "p": 0.311,
+                "mkt": 1.91
               },
               {
-                "k": "Pittsburgh Steelers -2.5",
-                "p": 0.499
+                "k": "Pittsburgh Steelers +3.5",
+                "p": 0.689,
+                "mkt": 1.91
               }
             ]
           },
@@ -3593,12 +2663,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 52.0",
-                "p": 0.497
+                "k": "Over 48.5",
+                "p": 0.61,
+                "mkt": 1.91
               },
               {
-                "k": "Under 52.0",
-                "p": 0.503
+                "k": "Under 48.5",
+                "p": 0.39,
+                "mkt": 1.91
               }
             ]
           }
@@ -3618,11 +2690,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Baltimore Ravens",
-                "p": 0.592
+                "p": 0.592,
+                "mkt": 1.43
               },
               {
                 "k": "Los Angeles Chargers",
-                "p": 0.408
+                "p": 0.408,
+                "mkt": 2.95
               }
             ]
           }
@@ -3633,12 +2707,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Baltimore Ravens -3.0",
-                "p": 0.494
+                "k": "Baltimore Ravens -5.5",
+                "p": 0.413,
+                "mkt": 1.95
               },
               {
-                "k": "Los Angeles Chargers +3.0",
-                "p": 0.506
+                "k": "Los Angeles Chargers +5.5",
+                "p": 0.587,
+                "mkt": 1.91
               }
             ]
           },
@@ -3647,12 +2723,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 43.0",
-                "p": 0.505
+                "k": "Over 38.5",
+                "p": 0.649,
+                "mkt": 1.93
               },
               {
-                "k": "Under 43.0",
-                "p": 0.495
+                "k": "Under 38.5",
+                "p": 0.351,
+                "mkt": 1.91
               }
             ]
           }
@@ -3664,24 +2742,26 @@ window.SPORTS_DATA = {
     "label": "Ice hockey",
     "matches": [
       {
-        "home": "Boston Bruins",
-        "away": "Florida Panthers",
+        "home": "Edmonton Oilers",
+        "away": "New York Rangers",
         "league": "NHL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T18:10:00Z",
-        "insight": "Expected 3-3 (margin +0.5).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T01:10:00Z",
+        "insight": "Expected 3-3 (margin +0.2).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Boston Bruins",
-                "p": 0.579
+                "k": "Edmonton Oilers",
+                "p": 0.537,
+                "mkt": 1.63
               },
               {
-                "k": "Florida Panthers",
-                "p": 0.421
+                "k": "New York Rangers",
+                "p": 0.463,
+                "mkt": 2.36
               }
             ]
           }
@@ -3692,12 +2772,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Boston Bruins -0.5",
-                "p": 0.499
+                "k": "Edmonton Oilers -1.5",
+                "p": 0.304,
+                "mkt": 2.54
               },
               {
-                "k": "Florida Panthers +0.5",
-                "p": 0.501
+                "k": "New York Rangers +1.5",
+                "p": 0.696,
+                "mkt": 1.56
               }
             ]
           },
@@ -3707,35 +2789,39 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Over 6.5",
-                "p": 0.49
+                "p": 0.487,
+                "mkt": 1.91
               },
               {
                 "k": "Under 6.5",
-                "p": 0.51
+                "p": 0.513,
+                "mkt": 1.93
               }
             ]
           }
         ]
       },
       {
-        "home": "Buffalo Sabres",
-        "away": "Vegas Golden Knights",
+        "home": "Vancouver Canucks",
+        "away": "Philadelphia Flyers",
         "league": "NHL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T20:40:00Z",
-        "insight": "Expected 3-3 (margin +0.3).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T02:40:00Z",
+        "insight": "Expected 3-4 (margin -1.0).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Buffalo Sabres",
-                "p": 0.549
+                "k": "Vancouver Canucks",
+                "p": 0.344,
+                "mkt": 2.15
               },
               {
-                "k": "Vegas Golden Knights",
-                "p": 0.451
+                "k": "Philadelphia Flyers",
+                "p": 0.656,
+                "mkt": 1.73
               }
             ]
           }
@@ -3746,66 +2832,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Buffalo Sabres -0.5",
-                "p": 0.468
+                "k": "Vancouver Canucks +1.5",
+                "p": 0.581,
+                "mkt": 1.47
               },
               {
-                "k": "Vegas Golden Knights +0.5",
-                "p": 0.532
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 6.5",
-                "p": 0.488
-              },
-              {
-                "k": "Under 6.5",
-                "p": 0.512
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Winnipeg Jets",
-        "away": "Tampa Bay Lightning",
-        "league": "NHL",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T23:10:00Z",
-        "insight": "Expected 3-3 (margin -0.9).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Winnipeg Jets",
-                "p": 0.358
-              },
-              {
-                "k": "Tampa Bay Lightning",
-                "p": 0.642
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Winnipeg Jets +1.0",
-                "p": 0.517
-              },
-              {
-                "k": "Tampa Bay Lightning -1.0",
-                "p": 0.483
+                "k": "Philadelphia Flyers -1.5",
+                "p": 0.419,
+                "mkt": 2.8
               }
             ]
           },
@@ -3815,35 +2849,39 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Over 6.0",
-                "p": 0.502
+                "p": 0.52,
+                "mkt": 1.83
               },
               {
                 "k": "Under 6.0",
-                "p": 0.498
+                "p": 0.48,
+                "mkt": 2.0
               }
             ]
           }
         ]
       },
       {
-        "home": "Calgary Flames",
-        "away": "Philadelphia Flyers",
+        "home": "San Jose Sharks",
+        "away": "New York Islanders",
         "league": "NHL",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T00:10:00Z",
-        "insight": "Expected 2-3 (margin -0.7).",
+        "date": "Tue 11.10",
+        "kickoff": "2026-11-10T03:10:00Z",
+        "insight": "Expected 3-3 (margin -0.3).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Calgary Flames",
-                "p": 0.394
+                "k": "San Jose Sharks",
+                "p": 0.445,
+                "mkt": 2.18
               },
               {
-                "k": "Philadelphia Flyers",
-                "p": 0.606
+                "k": "New York Islanders",
+                "p": 0.555,
+                "mkt": 1.71
               }
             ]
           }
@@ -3854,66 +2892,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Calgary Flames +0.5",
-                "p": 0.473
+                "k": "San Jose Sharks +1.5",
+                "p": 0.68,
+                "mkt": 1.48
               },
               {
-                "k": "Philadelphia Flyers -0.5",
-                "p": 0.527
-              }
-            ]
-          },
-          {
-            "name": "Total",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Over 5.5",
-                "p": 0.485
-              },
-              {
-                "k": "Under 5.5",
-                "p": 0.515
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "home": "Toronto Maple Leafs",
-        "away": "New Jersey Devils",
-        "league": "NHL",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T00:10:00Z",
-        "insight": "Expected 3-3 (margin -0.1).",
-        "base": [
-          {
-            "name": "Moneyline",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Toronto Maple Leafs",
-                "p": 0.476
-              },
-              {
-                "k": "New Jersey Devils",
-                "p": 0.524
-              }
-            ]
-          }
-        ],
-        "extra": [
-          {
-            "name": "Spread",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Toronto Maple Leafs -0.0",
-                "p": 0.476
-              },
-              {
-                "k": "New Jersey Devils 0.0",
-                "p": 0.524
+                "k": "New York Islanders -1.5",
+                "p": 0.32,
+                "mkt": 2.8
               }
             ]
           },
@@ -3923,35 +2909,39 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Over 6.5",
-                "p": 0.482
+                "p": 0.449,
+                "mkt": 1.98
               },
               {
                 "k": "Under 6.5",
-                "p": 0.518
+                "p": 0.551,
+                "mkt": 1.85
               }
             ]
           }
         ]
       },
       {
-        "home": "Anaheim Ducks",
-        "away": "Pittsburgh Penguins",
+        "home": "Toronto Maple Leafs",
+        "away": "Colorado Avalanche",
         "league": "NHL",
-        "date": "Mon 11.09",
-        "kickoff": "2026-11-09T01:10:00Z",
-        "insight": "Expected 3-4 (margin -0.4).",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T00:10:00Z",
+        "insight": "Expected 3-4 (margin -1.4).",
         "base": [
           {
             "name": "Moneyline",
             "grid": "c2",
             "outs": [
               {
-                "k": "Anaheim Ducks",
-                "p": 0.436
+                "k": "Toronto Maple Leafs",
+                "p": 0.286,
+                "mkt": 2.37
               },
               {
-                "k": "Pittsburgh Penguins",
-                "p": 0.564
+                "k": "Colorado Avalanche",
+                "p": 0.714,
+                "mkt": 1.64
               }
             ]
           }
@@ -3962,12 +2952,14 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Anaheim Ducks +0.5",
-                "p": 0.516
+                "k": "Toronto Maple Leafs +1.5",
+                "p": 0.516,
+                "mkt": 1.54
               },
               {
-                "k": "Pittsburgh Penguins -0.5",
-                "p": 0.484
+                "k": "Colorado Avalanche -1.5",
+                "p": 0.484,
+                "mkt": 2.54
               }
             ]
           },
@@ -3976,12 +2968,374 @@ window.SPORTS_DATA = {
             "grid": "c2",
             "outs": [
               {
-                "k": "Over 7.0",
-                "p": 0.541
+                "k": "Over 6.5",
+                "p": 0.532,
+                "mkt": 1.91
               },
               {
-                "k": "Under 7.0",
-                "p": 0.459
+                "k": "Under 6.5",
+                "p": 0.468,
+                "mkt": 1.94
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Montréal Canadiens",
+        "away": "Minnesota Wild",
+        "league": "NHL",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T00:10:00Z",
+        "insight": "Expected 3-3 (margin +0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Montréal Canadiens",
+                "p": 0.52,
+                "mkt": 1.96
+              },
+              {
+                "k": "Minnesota Wild",
+                "p": 0.48,
+                "mkt": 1.91
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Montréal Canadiens +1.5",
+                "p": 0.744,
+                "mkt": 1.42
+              },
+              {
+                "k": "Minnesota Wild -1.5",
+                "p": 0.256,
+                "mkt": 2.95
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.5",
+                "p": 0.501,
+                "mkt": 2.04
+              },
+              {
+                "k": "Under 6.5",
+                "p": 0.499,
+                "mkt": 1.83
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Winnipeg Jets",
+        "away": "New Jersey Devils",
+        "league": "NHL",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T00:10:00Z",
+        "insight": "Expected 3-3 (margin -0.0).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Winnipeg Jets",
+                "p": 0.492,
+                "mkt": 2.25
+              },
+              {
+                "k": "New Jersey Devils",
+                "p": 0.508,
+                "mkt": 1.7
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Winnipeg Jets +1.5",
+                "p": 0.721,
+                "mkt": 1.46
+              },
+              {
+                "k": "New Jersey Devils -1.5",
+                "p": 0.279,
+                "mkt": 2.8
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.0",
+                "p": 0.437,
+                "mkt": 1.85
+              },
+              {
+                "k": "Under 6.0",
+                "p": 0.563,
+                "mkt": 2.02
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Ottawa Senators",
+        "away": "Washington Capitals",
+        "league": "NHL",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T00:10:00Z",
+        "insight": "Expected 3-3 (margin +0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ottawa Senators",
+                "p": 0.512,
+                "mkt": 1.77
+              },
+              {
+                "k": "Washington Capitals",
+                "p": 0.488,
+                "mkt": 2.15
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Ottawa Senators -1.5",
+                "p": 0.282,
+                "mkt": 2.85
+              },
+              {
+                "k": "Washington Capitals +1.5",
+                "p": 0.718,
+                "mkt": 1.44
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.0",
+                "p": 0.523,
+                "mkt": 1.83
+              },
+              {
+                "k": "Under 6.0",
+                "p": 0.477,
+                "mkt": 2.04
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Columbus Blue Jackets",
+        "away": "Florida Panthers",
+        "league": "NHL",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T00:40:00Z",
+        "insight": "Expected 3-3 (margin +0.3).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Columbus Blue Jackets",
+                "p": 0.541,
+                "mkt": 1.97
+              },
+              {
+                "k": "Florida Panthers",
+                "p": 0.459,
+                "mkt": 1.9
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Columbus Blue Jackets -1.5",
+                "p": 0.308,
+                "mkt": 3.0
+              },
+              {
+                "k": "Florida Panthers +1.5",
+                "p": 0.692,
+                "mkt": 1.41
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 6.0",
+                "p": 0.555,
+                "mkt": 1.94
+              },
+              {
+                "k": "Under 6.0",
+                "p": 0.445,
+                "mkt": 1.91
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "St Louis Blues",
+        "away": "Detroit Red Wings",
+        "league": "NHL",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T01:10:00Z",
+        "insight": "Expected 3-3 (margin -0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "St Louis Blues",
+                "p": 0.491,
+                "mkt": 1.71
+              },
+              {
+                "k": "Detroit Red Wings",
+                "p": 0.509,
+                "mkt": 2.23
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "St Louis Blues -1.5",
+                "p": 0.265,
+                "mkt": 2.8
+              },
+              {
+                "k": "Detroit Red Wings +1.5",
+                "p": 0.735,
+                "mkt": 1.46
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 5.5",
+                "p": 0.559,
+                "mkt": 1.81
+              },
+              {
+                "k": "Under 5.5",
+                "p": 0.441,
+                "mkt": 2.07
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "home": "Los Angeles Kings",
+        "away": "Nashville Predators",
+        "league": "NHL",
+        "date": "Wed 11.11",
+        "kickoff": "2026-11-11T03:10:00Z",
+        "insight": "Expected 3-3 (margin +0.1).",
+        "base": [
+          {
+            "name": "Moneyline",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Kings",
+                "p": 0.514,
+                "mkt": 1.74
+              },
+              {
+                "k": "Nashville Predators",
+                "p": 0.486,
+                "mkt": 2.2
+              }
+            ]
+          }
+        ],
+        "extra": [
+          {
+            "name": "Spread",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Los Angeles Kings -1.5",
+                "p": 0.284,
+                "mkt": 2.8
+              },
+              {
+                "k": "Nashville Predators +1.5",
+                "p": 0.716,
+                "mkt": 1.46
+              }
+            ]
+          },
+          {
+            "name": "Total",
+            "grid": "c2",
+            "outs": [
+              {
+                "k": "Over 5.5",
+                "p": 0.542,
+                "mkt": 1.8
+              },
+              {
+                "k": "Under 5.5",
+                "p": 0.458,
+                "mkt": 2.09
               }
             ]
           }
@@ -3992,31 +3346,6 @@ window.SPORTS_DATA = {
   "mma": {
     "label": "MMA",
     "matches": [
-      {
-        "home": "Justice Torres",
-        "away": "Jesse Butler",
-        "league": "UFC",
-        "date": "Sun 11.08",
-        "kickoff": "2026-11-08T22:30:00Z",
-        "insight": "Elo: 50% / 50%.",
-        "base": [
-          {
-            "name": "Match winner",
-            "grid": "c2",
-            "outs": [
-              {
-                "k": "Justice Torres",
-                "p": 0.5
-              },
-              {
-                "k": "Jesse Butler",
-                "p": 0.5
-              }
-            ]
-          }
-        ],
-        "extra": []
-      },
       {
         "home": "Donte Johnson",
         "away": "Cesar Almeida",
@@ -4032,12 +3361,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Donte Johnson",
                 "p": 0.506,
-                "mkt": 1.74
+                "mkt": 1.54
               },
               {
                 "k": "Cesar Almeida",
                 "p": 0.494,
-                "mkt": 2.16
+                "mkt": 2.6
               }
             ]
           }
@@ -4059,12 +3388,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Stephen Thompson",
                 "p": 0.472,
-                "mkt": 1.83
+                "mkt": 1.68
               },
               {
                 "k": "Charlie Radtke",
                 "p": 0.528,
-                "mkt": 2.03
+                "mkt": 2.24
               }
             ]
           }
@@ -4086,12 +3415,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Drew Dober",
                 "p": 0.474,
-                "mkt": 2.2
+                "mkt": 2.35
               },
               {
                 "k": "Chris Duncan",
                 "p": 0.526,
-                "mkt": 1.71
+                "mkt": 1.65
               }
             ]
           }
@@ -4113,12 +3442,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Evan Elder",
                 "p": 0.503,
-                "mkt": 1.89
+                "mkt": 1.93
               },
               {
                 "k": "Samuel Sanches",
                 "p": 0.497,
-                "mkt": 1.96
+                "mkt": 1.92
               }
             ]
           }
@@ -4145,7 +3474,7 @@ window.SPORTS_DATA = {
               {
                 "k": "Jared Gordon",
                 "p": 0.454,
-                "mkt": 4.02
+                "mkt": 3.95
               }
             ]
           }
@@ -4167,12 +3496,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Jim Miller",
                 "p": 0.491,
-                "mkt": 2.81
+                "mkt": 2.65
               },
               {
                 "k": "Terrance Mckinney",
                 "p": 0.509,
-                "mkt": 1.47
+                "mkt": 1.51
               }
             ]
           }
@@ -4194,12 +3523,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Caio Borralho",
                 "p": 0.505,
-                "mkt": 1.68
+                "mkt": 1.65
               },
               {
                 "k": "Yousri Belgaroui",
                 "p": 0.495,
-                "mkt": 2.24
+                "mkt": 2.33
               }
             ]
           }
@@ -4226,7 +3555,7 @@ window.SPORTS_DATA = {
               {
                 "k": "Kevin Holland",
                 "p": 0.459,
-                "mkt": 2.3
+                "mkt": 2.24
               }
             ]
           }
@@ -4248,12 +3577,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Kayla Harrison",
                 "p": 0.503,
-                "mkt": 1.5
+                "mkt": 1.53
               },
               {
                 "k": "Amanda Nunes",
                 "p": 0.497,
-                "mkt": 2.63
+                "mkt": 2.61
               }
             ]
           }
@@ -4275,12 +3604,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Ciryl Gane",
                 "p": 0.494,
-                "mkt": 1.38
+                "mkt": 1.43
               },
               {
                 "k": "Josh Hokit",
                 "p": 0.506,
-                "mkt": 3.1
+                "mkt": 2.86
               }
             ]
           }
@@ -4301,11 +3630,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Aljamain Sterling",
-                "p": 0.478
+                "p": 0.478,
+                "mkt": 1.95
               },
               {
                 "k": "Kevin Vallejos",
-                "p": 0.522
+                "p": 0.522,
+                "mkt": 1.9
               }
             ]
           }
@@ -4327,12 +3658,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Jiri Prochazka",
                 "p": 0.463,
-                "mkt": 2.32
+                "mkt": 2.2
               },
               {
                 "k": "Navajo Stirling",
                 "p": 0.537,
-                "mkt": 1.65
+                "mkt": 1.71
               }
             ]
           }
@@ -4353,11 +3684,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Ian Garry",
-                "p": 0.506
+                "p": 0.506,
+                "mkt": 1.6
               },
               {
                 "k": "Yaroslav Amosov",
-                "p": 0.494
+                "p": 0.494,
+                "mkt": 2.43
               }
             ]
           }
@@ -4378,11 +3711,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Israel Adesanya",
-                "p": 0.453
+                "p": 0.453,
+                "mkt": 1.67
               },
               {
                 "k": "Shara Magomedov",
-                "p": 0.547
+                "p": 0.547,
+                "mkt": 2.27
               }
             ]
           }
@@ -4394,7 +3729,7 @@ window.SPORTS_DATA = {
         "away": "Alex Pereira",
         "league": "UFC",
         "date": "Sun 12.13",
-        "kickoff": "2026-12-13T03:30:00Z",
+        "kickoff": "2026-12-13T02:30:00Z",
         "insight": "Elo: 47% / 53%.",
         "base": [
           {
@@ -4404,12 +3739,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Sergey Pavlovich",
                 "p": 0.473,
-                "mkt": 1.51
+                "mkt": 1.49
               },
               {
                 "k": "Alex Pereira",
                 "p": 0.527,
-                "mkt": 2.64
+                "mkt": 2.58
               }
             ]
           }
@@ -4511,12 +3846,12 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Khamzat Chimaev",
-                "p": 0.505,
+                "p": 0.512,
                 "mkt": 1.2
               },
               {
                 "k": "Paulo Henrique Costa",
-                "p": 0.495,
+                "p": 0.488,
                 "mkt": 4.75
               }
             ]
@@ -4647,12 +3982,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Sergey Pavlovich",
                 "p": 0.473,
-                "mkt": 1.44
+                "mkt": 1.51
               },
               {
                 "k": "Alex Pereira",
                 "p": 0.527,
-                "mkt": 2.89
+                "mkt": 2.65
               }
             ]
           }
@@ -4674,12 +4009,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Carlos Prates",
                 "p": 0.512,
-                "mkt": 1.59
+                "mkt": 1.6
               },
               {
                 "k": "Michael Morales",
                 "p": 0.488,
-                "mkt": 2.45
+                "mkt": 2.42
               }
             ]
           }
@@ -4701,12 +4036,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Joshua Van",
                 "p": 0.543,
-                "mkt": 1.83
+                "mkt": 1.77
               },
               {
                 "k": "Manel Kape",
                 "p": 0.457,
-                "mkt": 2.0
+                "mkt": 2.1
               }
             ]
           }
@@ -4728,12 +4063,12 @@ window.SPORTS_DATA = {
               {
                 "k": "Quillan Salkilld",
                 "p": 0.51,
-                "mkt": 1.42
+                "mkt": 1.38
               },
               {
                 "k": "Benoit Saint-Denis",
                 "p": 0.49,
-                "mkt": 3.01
+                "mkt": 3.16
               }
             ]
           }
@@ -4754,11 +4089,13 @@ window.SPORTS_DATA = {
             "outs": [
               {
                 "k": "Bogdan Guskov",
-                "p": 0.531
+                "p": 0.531,
+                "mkt": 2.2
               },
               {
                 "k": "Robert Whittaker",
-                "p": 0.469
+                "p": 0.469,
+                "mkt": 1.71
               }
             ]
           }
